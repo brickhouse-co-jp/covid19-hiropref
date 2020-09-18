@@ -91,7 +91,6 @@ import dayjs from 'dayjs'
 import Vue from 'vue'
 import { TranslateResult } from 'vue-i18n'
 import { ThisTypedComponentOptionsWithRecordProps } from 'vue/types/options'
-
 import DataView from '@/components/DataView.vue'
 import DataViewDataSetPanel from '@/components/DataViewDataSetPanel.vue'
 import DataViewTable, {
@@ -105,7 +104,6 @@ import { getGraphSeriesColor, SurfaceStyle } from '@/utils/colors'
 import { getComplementedDate } from '@/utils/formatDate'
 import { calcDayBeforeRatio } from '@/utils/formatDayBeforeRatio'
 import { getNumberToLocaleStringFunction } from '@/utils/monitoringStatusValueFormatters'
-
 type Data = {
   canvas: boolean
   displayLegends: boolean[]
@@ -115,7 +113,6 @@ type Methods = {
   makeLineData: (value: number) => number[]
   onClickLegend: (i: number) => void
 }
-
 type Computed = {
   displayInfo: [
     {
@@ -133,7 +130,6 @@ type Computed = {
   tableHeaders: TableHeader[]
   tableData: TableItem[]
 }
-
 type Props = {
   title: string
   titleId: string
@@ -148,7 +144,6 @@ type Props = {
   unit: string
   url: string
 }
-
 const options: ThisTypedComponentOptionsWithRecordProps<
   Vue,
   Data,
@@ -245,7 +240,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
           lText: lastDayData,
           sText: `${this.$t('{date} の数値', {
             date: lastDay,
-          })}（${this.$t('７日間移動平均')}）`,
+          })}（${this.$t('５日間移動平均')}）`,
           sTextUnder: `（${this.$t('前日比')}: ${dayBeforeRatio} ${
             this.unit
           }）`,
@@ -494,14 +489,12 @@ const options: ThisTypedComponentOptionsWithRecordProps<
     const barElement = barChart.$el
     const canvas = barElement.querySelector('canvas')
     const labelledbyId = `${this.titleId}-graph`
-
     if (canvas) {
       canvas.setAttribute('role', 'img')
       canvas.setAttribute('aria-labelledby', labelledbyId)
     }
   },
 }
-
 export default Vue.extend(options)
 </script>
 

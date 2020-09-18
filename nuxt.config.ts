@@ -88,7 +88,6 @@ const config: NuxtConfig = {
     '@nuxtjs/vuetify',
     '@nuxt/typescript-build',
     '@nuxtjs/google-analytics',
-    '@nuxtjs/gtm',
   ],
   /*
    ** Nuxt.js modules
@@ -114,15 +113,7 @@ const config: NuxtConfig = {
     },
   },
   googleAnalytics: {
-    id: process.env.GOOGLE_ANALYTICS_ID, // .env.production などに設定してください。
-  },
-  /*
-   ** @nuxtjs/gtm config
-   */
-  gtm: {
-    id: process.env.GTM_CONTAINER_ID,
-    pageTracking: true,
-    enabled: true,
+    // id: process.env.GOOGLE_ANALYTICS_ID, // .env.production などに設定してください。
   },
   /*
    * nuxt-i18n による自動リダイレクトを停止したためコメントアウト
@@ -164,7 +155,7 @@ const config: NuxtConfig = {
   },
   manifest: {
     name: '東京都 新型コロナウイルス感染症対策サイト',
-    theme_color: '#00a040',
+    theme_color: '#992F3B',
     background_color: '#ffffff',
     display: 'standalone',
     Scope: '/',
@@ -172,36 +163,36 @@ const config: NuxtConfig = {
     splash_pages: null,
   },
   generate: {
-    fallback: true,
-    routes() {
-      const locales = ['en', 'zh-cn', 'zh-tw', 'ko', 'ja-basic']
-      const pages = [
-        '/cards/details-of-confirmed-cases',
-        '/cards/number-of-confirmed-cases',
-        '/cards/number-of-confirmed-cases-by-municipalities',
-        '/cards/attributes-of-confirmed-cases',
-        '/cards/number-of-tested',
-        '/cards/number-of-reports-to-covid19-telephone-advisory-center',
-        '/cards/predicted-number-of-toei-subway-passengers',
-        '/cards/agency',
-        '/cards/positive-rate',
-        '/cards/positive-number-by-diagnosed-date',
-        '/cards/monitoring-number-of-confirmed-cases',
-        '/cards/untracked-rate',
-        '/cards/positive-status-severe-case',
-        '/cards/number-of-hospitalized',
-        '/cards/monitoring-number-of-reports-to-covid19-consultation-desk',
-        '/cards/monitoring-status-overview',
-        '/cards/number-of-reports-to-consultations-about-fever-in-7119',
-        '/cards/number-of-tokyo-rules-applied',
-        '/cards/monitoring-items-overview',
-        '/cards/positive-number-by-developed-date',
-      ]
-      const localizedPages = locales
-        .map((locale) => pages.map((page) => `/${locale}${page}`))
-        .reduce((a, b) => [...a, ...b], [])
-      return [...pages, ...localizedPages]
-    },
+    // fallback: true,
+    // routes() {
+    //   const locales = ['en', 'zh-cn', 'zh-tw', 'ko', 'ja-basic']
+    //   const pages = [
+    //     '/cards/details-of-confirmed-cases',
+    //     '/cards/number-of-confirmed-cases',
+    //     '/cards/number-of-confirmed-cases-by-municipalities',
+    //     '/cards/attributes-of-confirmed-cases',
+    //     '/cards/number-of-tested',
+    //     '/cards/number-of-reports-to-covid19-telephone-advisory-center',
+    //     '/cards/predicted-number-of-toei-subway-passengers',
+    //     '/cards/agency',
+    //     '/cards/positive-rate',
+    //     '/cards/positive-number-by-diagnosed-date',
+    //     '/cards/monitoring-number-of-confirmed-cases',
+    //     '/cards/untracked-rate',
+    //     '/cards/positive-status-severe-case',
+    //     '/cards/number-of-hospitalized',
+    //     '/cards/monitoring-number-of-reports-to-covid19-consultation-desk',
+    //     '/cards/monitoring-status-overview',
+    //     '/cards/number-of-reports-to-consultations-about-fever-in-7119',
+    //     '/cards/number-of-tokyo-rules-applied',
+    //     '/cards/monitoring-items-overview',
+    //     '/cards/positive-number-by-developed-date',
+    //   ]
+    //   const localizedPages = locales
+    //     .map((locale) => pages.map((page) => `/${locale}${page}`))
+    //     .reduce((a, b) => [...a, ...b], [])
+    //   return [...pages, ...localizedPages]
+    // },
   },
   // /*
   // ** hot read configuration for docker

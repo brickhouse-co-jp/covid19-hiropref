@@ -7,11 +7,11 @@
       <slot name="description" />
     </template>
     <template v-slot:button>
-      <data-selector
+      <!-- <data-selector
         v-model="dataKind"
         :target-id="chartId"
         :style="{ display: canvas ? 'inline-block' : 'none' }"
-      />
+      /> -->
     </template>
     <h4 :id="`${titleId}-graph`" class="visually-hidden">
       {{ $t(`{title}のグラフ`, { title }) }}
@@ -106,6 +106,7 @@ type Props = {
   titleId: string
   chartId: string
   chartData: GraphDataType[]
+  dataKind: string
   date: string
   unit: string
   url: string
@@ -122,10 +123,10 @@ const options: ThisTypedComponentOptionsWithRecordProps<
 > = {
   created() {
     this.canvas = process.browser
-    this.dataKind =
-      this.$route.query.embed && this.$route.query.dataKind === 'cumulative'
-        ? 'cumulative'
-        : 'transition'
+    // this.dataKind = 'cumulative'
+    //   this.$route.query.embed && this.$route.query.dataKind === 'cumulative'
+    //     ? 'cumulative'
+    //     : 'transition'
   },
   components: {
     DataView,
@@ -151,6 +152,10 @@ const options: ThisTypedComponentOptionsWithRecordProps<
     chartData: {
       type: Array,
       default: () => [],
+    },
+    dataKind: {
+      type: String,
+      default: '',
     },
     date: {
       type: String,

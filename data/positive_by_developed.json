@@ -1,6 +1,6 @@
 {
-    "date": "2020\/9\/17 19:00",
-    "unknown_count": 8378,
+    "date": "2020\/9\/9 19:30",
+    "unknown_count": 7766,
     "data": [
         {
             "developed_date": "2020-01-14",
@@ -740,11 +740,11 @@
         },
         {
             "developed_date": "2020-07-16",
-            "count": 169
+            "count": 168
         },
         {
             "developed_date": "2020-07-17",
-            "count": 151
+            "count": 150
         },
         {
             "developed_date": "2020-07-18",
@@ -756,11 +756,11 @@
         },
         {
             "developed_date": "2020-07-20",
-            "count": 211
+            "count": 209
         },
         {
             "developed_date": "2020-07-21",
-            "count": 184
+            "count": 182
         },
         {
             "developed_date": "2020-07-22",
@@ -776,7 +776,7 @@
         },
         {
             "developed_date": "2020-07-25",
-            "count": 180
+            "count": 179
         },
         {
             "developed_date": "2020-07-26",
@@ -784,7 +784,7 @@
         },
         {
             "developed_date": "2020-07-27",
-            "count": 218
+            "count": 217
         },
         {
             "developed_date": "2020-07-28",
@@ -792,7 +792,7 @@
         },
         {
             "developed_date": "2020-07-29",
-            "count": 200
+            "count": 198
         },
         {
             "developed_date": "2020-07-30",
@@ -804,7 +804,7 @@
         },
         {
             "developed_date": "2020-08-01",
-            "count": 231
+            "count": 230
         },
         {
             "developed_date": "2020-08-02",
@@ -872,31 +872,31 @@
         },
         {
             "developed_date": "2020-08-18",
-            "count": 126
+            "count": 125
         },
         {
             "developed_date": "2020-08-19",
-            "count": 113
+            "count": 112
         },
         {
             "developed_date": "2020-08-20",
-            "count": 106
+            "count": 105
         },
         {
             "developed_date": "2020-08-21",
-            "count": 88
+            "count": 87
         },
         {
             "developed_date": "2020-08-22",
-            "count": 118
+            "count": 117
         },
         {
             "developed_date": "2020-08-23",
-            "count": 90
+            "count": 89
         },
         {
             "developed_date": "2020-08-24",
-            "count": 123
+            "count": 121
         },
         {
             "developed_date": "2020-08-25",
@@ -904,91 +904,59 @@
         },
         {
             "developed_date": "2020-08-26",
-            "count": 93
-        },
-        {
-            "developed_date": "2020-08-27",
-            "count": 84
-        },
-        {
-            "developed_date": "2020-08-28",
-            "count": 85
-        },
-        {
-            "developed_date": "2020-08-29",
-            "count": 89
-        },
-        {
-            "developed_date": "2020-08-30",
-            "count": 68
-        },
-        {
-            "developed_date": "2020-08-31",
             "count": 90
         },
         {
+            "developed_date": "2020-08-27",
+            "count": 82
+        },
+        {
+            "developed_date": "2020-08-28",
+            "count": 84
+        },
+        {
+            "developed_date": "2020-08-29",
+            "count": 84
+        },
+        {
+            "developed_date": "2020-08-30",
+            "count": 65
+        },
+        {
+            "developed_date": "2020-08-31",
+            "count": 81
+        },
+        {
             "developed_date": "2020-09-01",
-            "count": 113
+            "count": 88
         },
         {
             "developed_date": "2020-09-02",
-            "count": 86
+            "count": 67
         },
         {
             "developed_date": "2020-09-03",
-            "count": 89
+            "count": 57
         },
         {
             "developed_date": "2020-09-04",
-            "count": 106
-        },
-        {
-            "developed_date": "2020-09-05",
-            "count": 101
-        },
-        {
-            "developed_date": "2020-09-06",
-            "count": 85
-        },
-        {
-            "developed_date": "2020-09-07",
-            "count": 94
-        },
-        {
-            "developed_date": "2020-09-08",
-            "count": 94
-        },
-        {
-            "developed_date": "2020-09-09",
-            "count": 93
-        },
-        {
-            "developed_date": "2020-09-10",
-            "count": 70
-        },
-        {
-            "developed_date": "2020-09-11",
-            "count": 46
-        },
-        {
-            "developed_date": "2020-09-12",
             "count": 52
         },
         {
-            "developed_date": "2020-09-13",
-            "count": 35
+            "developed_date": "2020-09-05",
+            "count": 43
         },
         {
-            "developed_date": "2020-09-14",
-            "count": 50
+            "developed_date": "2020-09-06",
+            "count": 21
         },
         {
-            "developed_date": "2020-09-15",
-            "count": 15
+            "developed_date": "2020-09-07",
+            "count": 12
         },
         {
-            "developed_date": "2020-09-16",
-            "count": 2
+            "developed_date": "2020-09-08",
+            "count": 5
         }
     ]
 }

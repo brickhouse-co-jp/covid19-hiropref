@@ -3,528 +3,171 @@
     <div :class="$style.title">
       <covid-icon aria-hidden="true" />
       <page-header :class="$style.text">
-        {{ $t('新型コロナウイルス感染症が心配なときに') }}
+        新型コロナウイルス感染症が心配なときに
       </page-header>
-      <printer-button :wrapper-class="$style.printerButton" to="/print/flow" />
     </div>
     <div :class="$style.container">
       <h3 :class="$style.conHeading">
-        {{ $t('新型コロナウイルス感染症にかかる相談窓口について') }}
+        新型コロナウイルス感染症にかかる相談窓口について
       </h3>
-      <p ref="upperTrigger" :class="$style.anchorLead">
-        {{ $t('相談方法は、症状や状況別で3つに分かれます') }}
-      </p>
-      <nav ref="nav" :class="$style.anchor">
-        <ul :class="$style.anchorList">
-          <li :class="$style.anchorItem">
-            <a
-              href="#sydr"
-              :class="$style.anchorLink"
-              @click.prevent="onClickAnchor"
-            >
-              <span>{{ $t('かかりつけ医がいて症状のある方') }}</span>
-              <fig-cond-sy-dr :class="$style.fig" aria-hidden="true" />
-            </a>
+      <div :class="$style.sectionNoBorder">
+        <h4 :class="$style.sxnHeading">
+          相談・受診の前に心がけていただきたいこと
+        </h4>
+        <ul :class="$style.list">
+          <li>
+            発熱等の風邪症状が見られるときは、学校や会社を休み外出を控える。
           </li>
-          <li :class="$style.anchorItem">
-            <a
-              href="#sy"
-              :class="$style.anchorLink"
-              @click.prevent="onClickAnchor"
-            >
-              <span>{{ $t('かかりつけ医がいない症状のある方') }}</span>
-              <fig-cond-sy :class="$style.fig" aria-hidden="true" />
-            </a>
+          <li>
+            発熱等の風邪症状が見られたら、毎日、体温を測定して記録しておく。
           </li>
-          <li :class="$style.anchorItem">
-            <a
-              href="#anx"
-              :class="$style.anchorLink"
-              @click.prevent="onClickAnchor"
-            >
-              <span>{{ $t('不安に思う方') }}</span>
-              <fig-cond-anx :class="$style.fig" aria-hidden="true" />
-            </a>
+          <li>
+            基礎疾患（持病）をお持ちの方で症状に変化がある方、新型コロナウイルス感染症以外の病気が心配な方は、まずは、かかりつけ医等に電話で御相談ください。
           </li>
         </ul>
-      </nav>
-      <div id="sydr" :class="$style.section">
+      </div>
+      <div :class="$style.sectionNoBorder">
         <h4 :class="$style.sxnHeading">
-          {{ $t('かかりつけ医がいて、次の症状がある方') }}
+          相談窓口に御相談いただく目安
         </h4>
-        <ul :class="$style.boxes">
-          <li :class="[$style.box, $style.border]">
-            <i18n
-              path="発熱や咳などの{minorSymptom}がある"
-              :class="$style.boxLead"
-            >
-              <template v-slot:minorSymptom>
-                <span :class="$style.underline">
-                  {{ $t('比較的軽い風邪の症状') }}
-                </span>
-              </template>
-            </i18n>
-            <span :class="$style.alignLeft">{{
-              $t(
-                '妊娠中の方、重症化しやすい方（高齢者、糖尿病、心不全、呼吸器疾患（COPD等）等の基礎疾患がある方や透析を受けている方、免疫抑制剤や抗がん剤等を用いている方）はすぐに、それ以外の方は症状が４日以上続いた場合は必ず、相談してください。'
-              )
-            }}</span>
+        <h5 :class="$style.fontSubtitle">
+          少なくとも以下のいずれかに該当する場合には、すぐに御相談ください。(これらに該当しない場合の相談も可能です。)
+        </h5>
+        <ul :class="$style.list">
+          <li>
+            息苦しさ(呼吸困難)、強いだるさ(倦怠感)、高熱等の強い症状のいずれかがある場合。
           </li>
-          <li :class="[$style.box, $style.border]">
-            <i18n
-              path="息苦しさ（呼吸困難）、強いだるさ（倦怠感）、高熱等の{majorSymptom}がある"
-              :class="$style.boxLead"
-            >
-              <template v-slot:majorSymptom>
-                <span :class="$style.underline">
-                  {{ $t('強い症状') }}
-                </span>
-              </template>
-            </i18n>
-            <span :class="$style.alignLeft">{{
-              $t(
-                '症状には個人差がありますので、強い症状と思う場合にはすぐに相談してください。解熱剤などを飲み続けなければならない方も同様です。'
-              )
-            }}</span>
+          <li>
+            重症化しやすい方(高齢者、糖尿病、心不全、呼吸器疾患(COPD等)の基礎疾患がある方や透析を受けている方、免疫抑制剤や抗がん剤等を用いている方)で、発熱や咳などの比較的軽い風邪の症状がある場合。
+          </li>
+          <li>
+            上記以外の方で発熱や咳など比較的軽い風邪の症状が続く場合(症状が4日以上続く場合、強い症状と思う場合、解熱剤などを飲み続けなければならない方は、すぐに相談)
           </li>
         </ul>
-        <p :class="[$style.box, $style.bgYellow]">
-          <span :class="$style.large">{{
-            $t('日ごろ受診されている医療機関に電話でご相談ください。')
-          }}</span>
-          <span :class="$style.small">{{
-            $t(
-              '（上記の症状がない場合も、不安に思う方は、日ごろ受診されている医療機関に電話でご相談ください。）'
-            )
-          }}</span>
-        </p>
       </div>
-      <div id="sy" :class="$style.section">
+      <div id="contact" :class="$style.sectionNoBorder">
+        <table width="100%" :class="$style.table">
+          <caption :class="$style.caption">
+            <p>電話相談窓口一覧</p>
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col" :class="$style.th">
+                お住まいの区域
+              </th>
+              <th scope="col" :class="$style.th">
+                連絡先(24時間対応)
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td :class="$style.td">
+                広島市、呉市、福山市以外の市町
+              </td>
+              <td :class="$style.td">
+                <p>広島県各保健所</p>
+                <a href="tel:0825132567">082-513-2567</a>
+              </td>
+            </tr>
+            <tr>
+              <td :class="$style.td">広島市</td>
+              <td :class="$style.td">
+                <p>広島市各保健センター</p>
+                <a href="tel:0822414566">082-241-4566</a>
+              </td>
+            </tr>
+            <tr>
+              <td :class="$style.td">呉市</td>
+              <td :class="$style.td">
+                <p>呉市保健所</p>
+                <a href="tel:0823225858">0823-22-5858</a>
+              </td>
+            </tr>
+            <tr>
+              <td :class="$style.td">福山市</td>
+              <td :class="$style.td">
+                <p>福山市保健所</p>
+                <a href="tel:0849281350">084-928-1350</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div :class="$style.sectionNoBorder">
         <h4 :class="$style.sxnHeading">
-          {{ $t('かかりつけ医がいない、次の症状がある方') }}
+          医療機関にかかるときのお願い
         </h4>
-        <ul :class="$style.boxes">
-          <li :class="[$style.box, $style.border]">
-            <i18n
-              path="発熱や咳などの{minorSymptom}がある"
-              :class="$style.boxLead"
-            >
-              <template v-slot:minorSymptom>
-                <span :class="$style.underline">
-                  {{ $t('比較的軽い風邪の症状') }}
-                </span>
-              </template>
-            </i18n>
-            <span :class="$style.alignLeft">{{
-              $t(
-                '妊娠中の方、重症化しやすい方（高齢者、糖尿病、心不全、呼吸器疾患（COPD等）等の基礎疾患がある方や透析を受けている方、免疫抑制剤や抗がん剤等を用いている方）はすぐに、それ以外の方は症状が４日以上続いた場合は必ず、相談してください。'
-              )
-            }}</span>
+        <ul :class="$style.list">
+          <li>
+            複数の医療機関を受診することにより感染を拡大した例がありますので、複数の医療機関を受診することはお控えください。
           </li>
-          <li :class="[$style.box, $style.border]">
-            <i18n
-              path="息苦しさ（呼吸困難）、強いだるさ（倦怠感）、高熱等の{majorSymptom}がある"
-              :class="$style.boxLead"
-            >
-              <template v-slot:majorSymptom>
-                <span :class="$style.underline">
-                  {{ $t('強い症状') }}
-                </span>
-              </template>
-            </i18n>
-            <span :class="$style.alignLeft">{{
-              $t(
-                '症状には個人差がありますので、強い症状と思う場合にはすぐに相談してください。解熱剤などを飲み続けなければならない方も同様です。'
-              )
-            }}</span>
+          <li>
+            医療機関を受診する際にはマスクを着用するほか、手洗いや咳エチケット(咳やくしゃみをする際に、マスクやティッシュ、ハンカチ、袖・肘の内側などを使って、口や鼻をおさえる)の徹底をお願いします。
           </li>
         </ul>
-        <div :class="[$style.box, $style.bgGray]">
-          <h5 :class="$style.boxHeading">
-            {{ $t('新型コロナ受診相談窓口は、24時間対応しています') }}
-          </h5>
-          <dl :class="$style.contact">
-            <div>
-              <dt>{{ $t('平日（日中）:') }}</dt>
-              <dd :class="$style.overrideExternalLink">
-                <i18n path="{publicHealthCenter}に掲載しています">
-                  <template v-slot:publicHealthCenter>
-                    <app-link
-                      to="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html"
-                    >
-                      {{ $t('各保健所の電話番号は福祉保健局HP') }}
-                    </app-link>
-                  </template>
-                </i18n>
-              </dd>
-            </div>
-            <div>
-              <dt>
-                {{ $t('平日（夜間）: 午後5時から翌朝午前9時/土日祝 終日') }}
-              </dt>
-              <dd>
-                <a :class="$style.tel" href="tel:03-5320-4592">
-                  <icon-phone :class="$style.icon" aria-hidden="true" />
-                  03-5320-4592</a
-                >
-              </dd>
-            </div>
-          </dl>
-        </div>
-        <p :class="[$style.sxnText, $style.hr]">
-          {{
-            $t(
-              '上記の症状に当てはまらない方は、新型コロナコールセンターにご相談ください。'
-            )
-          }}
-        </p>
-        <div :class="[$style.box, $style.bgGray]">
-          <h5 :class="$style.boxHeading">
-            {{
-              $t(
-                '新型コロナコールセンター（対応言語：日本語・英語・中国語・韓国語）'
-              )
-            }}
-          </h5>
-          <dl :class="$style.contact">
-            <dt>{{ $t('午前9時から午後10時（土日祝含む）') }}</dt>
-            <dd>
-              <a :class="$style.tel" href="tel:0570-550571">
-                <icon-phone :class="$style.icon" aria-hidden="true" />
-                0570-550571</a
-              >
-            </dd>
-          </dl>
-          <p :class="$style.notice">
-            {{
-              $t(
-                '電話のおかけ間違いが多くなっております。発信の際は今一度電話番号をお確かめの上、お間違えのないようお願いいたします。'
-              )
-            }}
-          </p>
-        </div>
       </div>
-      <div id="anx" ref="lowerTrigger" :class="$style.section">
-        <h4 :class="$style.sxnHeading">
-          {{ $t('不安に思う方') }}
+      <div :class="$style.sectionAttention">
+        <h4 :class="$style.fontAttention">
+          妊娠中の方へ
         </h4>
-        <p :class="$style.sxnText">
-          {{
-            $t(
-              '感染したかもしれないと不安に思う方、感染予防法を知りたい方などは、下記、新型コロナコールセンターにご相談ください。'
-            )
-          }}
+        <p :class="$style.pAt">
+          念のため、重症化しやすい方と同様に、早めに相談窓口に御相談ください。
         </p>
-        <div :class="[$style.box, $style.bgGray]">
-          <h5 :class="$style.boxHeading">
-            {{
-              $t(
-                '新型コロナコールセンター（対応言語：日本語・英語・中国語・韓国語）'
-              )
-            }}
-          </h5>
-          <dl :class="$style.contact">
-            <dt>{{ $t('午前9時から午後10時（土日祝含む）') }}</dt>
-            <dd>
-              <a :class="$style.tel" href="tel:0570-550571">
-                <icon-phone :class="$style.icon" aria-hidden="true" />
-                0570-550571</a
-              >
-            </dd>
-          </dl>
-          <p :class="$style.notice">
-            {{
-              $t(
-                '電話のおかけ間違いが多くなっております。発信の際は今一度電話番号をお確かめの上、お間違えのないようお願いいたします。'
-              )
-            }}
-          </p>
-        </div>
       </div>
-      <div :class="[$style.section, $style.yellow]">
-        <h4 :class="$style.sxnHeadingSmall">
-          {{
-            $t(
-              '新型コロナ受診相談窓口、またはかかりつけ医によって新型コロナ外来（帰国者・接触者外来）またはPCR検査センターの受診が必要だと判断された方'
-            )
-          }}
+      <div :class="$style.sectionAttention">
+        <h4 :class="$style.fontAttention">
+          お子様をお持ちの方へ
         </h4>
-        <p :class="[$style.box, $style.bgGray]">
-          <span :class="$style.large">{{
-            $t('医師が検査の必要性を判断いたします。')
-          }}</span>
-          <span>{{
-            $t(
-              'マスクをして公共交通機関をできるだけ使わずに受診をしてください。'
-            )
-          }}</span>
+        <p :class="$style.pAt">
+          小児については、小児科医による診察が望ましく、かかりつけ小児医療機関に電話で御相談ください。
         </p>
-        <h4 :class="[$style.sxnHeadingSmall]">
-          {{
-            $t(
-              '医師により検査が必要だと判断されPCR検査（東京都健康安全研究センター等）を受けた結果'
-            )
-          }}
-        </h4>
-        <div :class="$style.boxes">
-          <div :class="[$style.box, $style.border]">
-            <h5 :class="$style.boxLead">{{ $t('陽性の場合') }}</h5>
-            <p>
-              {{
-                $t(
-                  '感染症指定医療機関等への入院、又は宿泊施設等での療養となります'
-                )
-              }}
-            </p>
-            <div :class="$style.grow" aria-hidden="true">
-              <icon-bed :class="[$style.iconBed]" />
-            </div>
-          </div>
-          <div :class="[$style.box, $style.border]">
-            <h5 :class="$style.boxLead">{{ $t('陰性の場合') }}</h5>
-            <p>
-              {{
-                $t('自宅で安静に過ごし、必要に応じて医療機関を受診してください')
-              }}
-            </p>
-            <p :class="[$style.small, $style.grow]">
-              {{
-                $t(
-                  'ただし、症状が良くならない場合は再度受診相談窓口またはかかりつけ医に相談してください'
-                )
-              }}
-            </p>
-          </div>
-        </div>
       </div>
-    </div>
-    <div :class="$style.detail">
-      <app-link
-        to="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html"
-        :icon-size="20"
-        :icon-class="$style.icon"
-        :class="$style.detailButton"
-        >{{ $t('詳細を見る（東京都福祉保健局）') }}
-      </app-link>
+      <div :class="$style.sectionAttention">
+        <h4 :class="$style.fontAttention">
+          障害のある方へ
+        </h4>
+        <p :class="$style.pAt">
+          聴覚に障害のある方、失語症の方、音声機能障害の方など、電話での相談が難しい方に対して、<a
+            href="https://www.pref.hiroshima.lg.jp/soshiki/62/soudan-coronavirus.html"
+            target="_blank"
+            >FAXによる相談</a
+          >を受け付けています。
+        </p>
+      </div>
+      <div :class="$style.sectionAttention">
+        <h4 :class="$style.fontAttention">
+          がん患者及びご家族の皆さまへ
+        </h4>
+        <p :class="$style.pAt">
+          新型コロナウイルス感染症の拡大により、今後の治療に不安を抱えておられるがん患者さんやその家族の方も多いと思います。こうした状況の中で、今後の治療など分からないことや心配なことがあるときは、ご自身で判断なさらず、必ず主治医やがん相談支援センターにご相談ください。<a
+            href="新型コロナウイルス感染症の拡大により、今後の治療に不安を抱えておられるがん患者さんやその家族の方も多いと思います。
+こうした状況の中で、今後の治療など分からないことや心配なことがあるときは、ご自身で判断なさらず、必ず主治医やがん相談支援センターにご相談ください。問合せ先など詳しくはこちらをご覧ください。"
+            target="_blank"
+            >問合せ先など詳しくはこちら</a
+          >をご覧ください。
+        </p>
+      </div>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-import { TranslateResult } from 'vue-i18n'
-import VueScrollTo from 'vue-scrollto'
-
 import AppLink from '@/components/AppLink.vue'
 import PageHeader from '@/components/PageHeader.vue'
-import PrinterButton from '@/components/PrinterButton.vue'
 import CovidIcon from '@/static/covid.svg'
 import IconBed from '@/static/flow/bed.svg'
-import FigCondAnx from '@/static/flow/cond_anx.svg'
-import FigCondSy from '@/static/flow/cond_sy.svg'
-import FigCondSyDr from '@/static/flow/cond_sydr.svg'
 import IconPhone from '@/static/flow/phone.svg'
 
-type LocalData = {
-  nav: HTMLElement | null // アンカーリンクコンテナ（フローティング対象）
-  upperTrigger: HTMLElement | null // フローティング判定上側トリガ（代替余白付与対象）
-  lowerTrigger: HTMLElement | null // フローティング判定下側トリガ
-  buttons: HTMLElement[] | null // アンカーリンクボタン
-  sections: HTMLElement[] | null // アンカーリンクの飛び先
-  navW: number // アンカーリンクコンテナの幅（upperTriggerの幅を使用）
-  navH: number // アンカーリンクコンテナの高さ（navW指定後のnavの高さ）
-  navOffsetTop: number // アンカーリンクコンテナ上端の表示領域上端からのオフセット量
-  upperTriggerOffsetTop: number // upperTrigger要素下端の表示領域上端からのオフセット量
-  lowerTriggerOffsetTop: number // lowerTrigger要素下端の表示領域上端からのオフセット量
-  floatingOffset: number // フローティング時のオフセット量
-  forceFloating: boolean // ボタン押下時の強制フローティングフラグ
-  timerId: number // scrollイベントのdebounce用タイマーID
-}
-
-export default Vue.extend({
+export default {
   components: {
     CovidIcon,
-    PrinterButton,
     PageHeader,
     AppLink,
-    FigCondSyDr,
-    FigCondSy,
-    FigCondAnx,
     IconPhone,
     IconBed,
   },
-  data(): LocalData {
-    const nav = null
-    const upperTrigger = null
-    const lowerTrigger = null
-    const buttons = null
-    const sections = null
-    const navW = 0
-    const navH = 0
-    const navOffsetTop = 0
-    const upperTriggerOffsetTop = 0
-    const lowerTriggerOffsetTop = 0
-    const floatingOffset = 0
-    const forceFloating = false
-    const timerId = 0
-
-    return {
-      nav,
-      upperTrigger,
-      lowerTrigger,
-      buttons,
-      sections,
-      navW,
-      navH,
-      navOffsetTop,
-      upperTriggerOffsetTop,
-      lowerTriggerOffsetTop,
-      floatingOffset,
-      forceFloating,
-      timerId,
-    }
-  },
-  mounted() {
-    const self = this
-    this.nav = this.$refs.nav as HTMLElement
-    this.buttons = Array.prototype.slice.call(
-      document.getElementsByClassName(this.$style.anchorLink)
-    )
-    this.sections = Array.prototype.slice.call(
-      document.querySelectorAll(`.${this.$style.section}[id]`)
-    )
-    this.upperTrigger = this.$refs.upperTrigger as HTMLElement
-    this.lowerTrigger = this.$refs.lowerTrigger as HTMLElement
-    window.addEventListener('scroll', function () {
-      // debounce
-      if (self.timerId) {
-        window.clearTimeout(self.timerId)
-      }
-      self.timerId = window.setTimeout(self.onBrowserRender, 100)
-    })
-    window.addEventListener('resize', this.onBrowserRender)
-
-    // 初期化
-    this.onBrowserRender()
-
-    // ハッシュ付きアクセス処理
-    const hash = this.$route.hash
-    if (hash !== '') {
-      if (hash !== '#sydr') {
-        this.startFloating()
-      }
-      document // eslint-disable-line no-unused-expressions
-        .querySelector(`a.${this.$style.anchorLink}[href='${hash}']`)
-        ?.classList.add(this.$style.active)
-      VueScrollTo.scrollTo(hash, 300, {
-        offset: -(this.navH + this.floatingOffset + 1), // +1はIE11用サブピクセル対策
-      })
-    }
-  },
-  methods: {
-    onBrowserRender(): void {
-      const self = this
-      this.timerId = 0
-
-      if (this.forceFloating) {
-        return
-      }
-
-      // 整形
-      const navRect = this.nav!.getBoundingClientRect()
-      const upperTriggerRect = this.upperTrigger!.getBoundingClientRect()
-      const bottomTriggerRect = this.lowerTrigger!.getBoundingClientRect()
-      this.navOffsetTop = navRect!.top
-      this.navW = this.upperTrigger!.clientWidth
-      this.navH = this.nav!.offsetHeight
-      this.lowerTriggerOffsetTop = bottomTriggerRect.bottom
-      if (matchMedia('(max-width: 600px)').matches) {
-        this.floatingOffset = 64 // NOTE: nuxt.config.tsのoffsetから余白を抜いたもの
-      } else {
-        this.floatingOffset = 0
-      }
-      this.upperTriggerOffsetTop = upperTriggerRect.bottom - this.floatingOffset
-
-      // 表示切替
-      if (
-        this.upperTriggerOffsetTop <= 0 + 2 && // +2はサブピクセル対策
-        this.lowerTriggerOffsetTop >= this.navH + this.floatingOffset
-      ) {
-        this.startFloating()
-
-        // 表示位置追従カレント処理
-        this.sections!.forEach(function (ele: HTMLElement, idx: number) {
-          const rect = ele.getBoundingClientRect()
-          if (
-            rect.top <= self.navH + self.floatingOffset + 10 &&
-            rect.bottom >= self.navH + self.floatingOffset - 10
-          ) {
-            self.buttons![idx].classList.add(self.$style.active)
-          } else if (
-            self.buttons![idx].classList.contains(self.$style.active)
-          ) {
-            self.buttons![idx].classList.remove(self.$style.active)
-          }
-        })
-      } else {
-        this.stopFloating()
-        this.resetNavCurrent()
-      }
-    },
-    onClickAnchor(event: Event): void {
-      const self = this
-      const target = event.target as HTMLAnchorElement
-      const hash = target.hash
-      this.forceFloating = true
-      if (hash !== '#sydr') {
-        this.startFloating()
-      }
-      this.resetNavCurrent()
-      target.classList.add(this.$style.active)
-      VueScrollTo.scrollTo(hash, 1000, {
-        offset: -(this.navH + this.floatingOffset + 1), // +1はIE11用サブピクセル対策
-        onDone() {
-          self.forceFloating = false
-          self.onBrowserRender()
-        },
-        onCancel() {
-          self.forceFloating = false
-          self.onBrowserRender()
-        },
-      })
-    },
-    startFloating(): void {
-      if (!this.nav!.classList.contains(this.$style.floating)) {
-        this.nav!.classList.add(this.$style.floating) // eslint-disable-line no-unused-expressions
-      }
-      this.upperTrigger!.style.marginBottom = this.navH + 'px'
-      this.nav!.style.width = this.navW + 'px'
-    },
-    stopFloating(): void {
-      if (this.nav!.classList.contains(this.$style.floating)) {
-        this.nav!.classList.remove(this.$style.floating) // eslint-disable-line no-unused-expressions
-      }
-      this.upperTrigger!.style.marginBottom = ''
-      this.nav!.style.width = ''
-    },
-    resetNavCurrent(): void {
-      const self = this
-      this.buttons!.forEach(function (ele: HTMLElement) {
-        if (ele.classList.contains(self.$style.active)) {
-          ele.classList.remove(self.$style.active)
-        }
-      })
-    },
-  },
-  head(): any {
-    const title: TranslateResult = this.$t(
-      '新型コロナウイルス感染症が心配なときに'
-    )
-    return {
-      title,
-    }
-  },
-})
+}
 </script>
 
 <style lang="scss" module>
@@ -540,6 +183,42 @@ $fzHeadingL: 26;
 
 $padding: 20;
 $margin: 20;
+
+.fontAttention {
+  font-size: $fzRegular * 1px;
+}
+
+.list {
+  li {
+    margin-left: $margin * 1.2px;
+    margin-top: 3px;
+  }
+}
+.table {
+  border-collapse: collapse;
+  border: 1px solid #333;
+  .caption {
+    p {
+      font-size: $fzRegular * 1px;
+      font-weight: bold;
+      text-align: left;
+      margin-bottom: 5px;
+    }
+  }
+}
+.th {
+  border-collapse: collapse;
+  border: 1px solid #333;
+  padding: 5px;
+  font-size: $fzSmall * 1px;
+  background-color: #f5f5f5;
+}
+.td {
+  border-collapse: collapse;
+  border: 1px solid #333;
+  padding: 5px;
+  font-size: $fzSmall * 1px;
+}
 
 .title {
   display: flex;
@@ -720,6 +399,60 @@ $margin: 20;
     margin-top: $margin * 1px;
     padding-top: $margin * 1.5px;
     border-top: 1px solid $gray-2;
+  }
+}
+.sectionNoBorder {
+  margin-top: $margin * 1.5px;
+  padding-top: $padding * 1px;
+  padding-bottom: $padding * 1px;
+  background-color: $white;
+  &.yellow {
+    border-width: 4px;
+    border-color: $emergency;
+  }
+  > * {
+    line-height: 1.5;
+    &:not(.box):not(.boxes):not(:first-child) {
+      margin-top: $margin * 1px;
+    }
+  }
+  > .sxnHeading {
+    font-weight: bold;
+    @include font-size($fzHeadingL);
+  }
+  > .sxnHeadingSmall {
+    text-align: center;
+    font-weight: bold;
+    @include font-size($fzHuge);
+  }
+  > .sxnText {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    @include font-size($fzMedium);
+  }
+  > .hr {
+    margin-top: $margin * 1px;
+    padding-top: $margin * 1.5px;
+    border-top: 1px solid $gray-2;
+  }
+  .fontSubtitle {
+    font-weight: bold;
+    font-size: $fzSmall * 1px;
+  }
+  li {
+    font-size: $fzSmall * 1px;
+  }
+}
+.sectionAttention {
+  margin-top: $margin * 1.5px;
+  padding-top: $padding * 1px;
+  background-color: $white;
+  .pAt {
+    margin-top: 5px;
+  }
+  p {
+    font-size: $fzSmall * 1px;
   }
 }
 .anchor + .section {
@@ -981,6 +714,44 @@ $margin: 20;
     > .hr {
       margin-top: px2vw($margin);
       padding-top: px2vw($margin * 1.5);
+    }
+  }
+  .sectionNoBorder {
+    //margin-top: px2vw($margin * 1.5);
+    margin-top: 20px; // フローティングの都合で固定
+    padding: px2vw($padding);
+    &.yellow {
+      border-width: px2vw(3);
+    }
+    > * {
+      &:not(.box):not(.boxes):not(:first-child) {
+        margin-top: px2vw($margin);
+      }
+    }
+    > .sxnHeading {
+      font-size: px2vw($fzHeadingL);
+    }
+    > .sxnHeadingSmall {
+      font-size: px2vw($fzHuge);
+    }
+    > .sxnText {
+      font-size: px2vw($fzMedium);
+    }
+    > .hr {
+      margin-top: px2vw($margin);
+      padding-top: px2vw($margin * 1.5);
+    }
+  }
+  .sectionAttention {
+    margin-top: $margin * 1.5px;
+    padding-top: $padding * 1px;
+    padding-bottom: $padding * 1px;
+    background-color: $white;
+    .pAt {
+      margin-top: 5px;
+    }
+    p {
+      font-size: $fzSmall * 1px;
     }
   }
   .box {

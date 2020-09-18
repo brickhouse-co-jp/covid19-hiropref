@@ -33,10 +33,12 @@
         <slot name="description" />
       </div>
 
+      <!-- タブ -->
       <div>
         <slot name="button" />
       </div>
 
+      <!-- chart表示 -->
       <div class="DataView-Content">
         <slot />
       </div>
@@ -66,12 +68,12 @@
           </div>
         </div>
 
-        <data-view-share
+        <!-- <data-view-share
           v-if="this.$route.query.embed != 'true'"
           :title="title"
           :title-id="titleId"
           class="Footer-Right"
-        />
+        /> -->
       </div>
     </div>
   </v-card>

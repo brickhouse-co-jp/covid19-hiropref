@@ -1,13 +1,11 @@
 {
-    "date": "2020\/9\/17 19:00",
+    "date": "2020\/9\/9 19:30",
     "data": [
         {
             "diagnosed_date": "2020-01-20",
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": null,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -17,8 +15,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": null,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -28,8 +24,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": null,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -39,8 +33,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": null,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -50,8 +42,6 @@
             "count": 1,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": null,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -61,8 +51,6 @@
             "count": 1,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": null,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -72,8 +60,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 0.3,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -83,8 +69,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 0.3,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -94,8 +78,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 0.3,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -105,8 +87,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 0.3,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -116,8 +96,6 @@
             "count": 1,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 0.4,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -127,8 +105,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 0.3,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -138,8 +114,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 0.1,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -149,8 +123,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 0.1,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -160,8 +132,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 0.1,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -171,8 +141,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 0.1,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -182,8 +150,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 0.1,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -193,8 +159,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 0,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -204,8 +168,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 0,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -215,8 +177,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 0,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -226,8 +186,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 0,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -237,8 +195,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 0,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -248,8 +204,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 0,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -259,8 +213,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 0,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -270,8 +222,6 @@
             "count": 1,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 0.1,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -281,8 +231,6 @@
             "count": 2,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 0.4,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -292,8 +240,6 @@
             "count": 8,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 1.6,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -303,8 +249,6 @@
             "count": 5,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 2.3,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -314,8 +258,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 2.3,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -325,8 +267,6 @@
             "count": 3,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 2.7,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -336,8 +276,6 @@
             "count": 3,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 3.1,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -347,8 +285,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 3,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -358,8 +294,6 @@
             "count": 3,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": null,
-            "untracked_percent": null,
             "weekly_average_count": 3.1,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -369,8 +303,6 @@
             "count": 1,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 1.36,
-            "untracked_percent": null,
             "weekly_average_count": 2.1,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -380,8 +312,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 0.63,
-            "untracked_percent": null,
             "weekly_average_count": 1.4,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -391,8 +321,6 @@
             "count": 3,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 0.81,
-            "untracked_percent": null,
             "weekly_average_count": 1.9,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -402,8 +330,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 0.53,
-            "untracked_percent": null,
             "weekly_average_count": 1.4,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -413,8 +339,6 @@
             "count": 3,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 0.45,
-            "untracked_percent": null,
             "weekly_average_count": 1.4,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -424,8 +348,6 @@
             "count": 1,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 0.52,
-            "untracked_percent": null,
             "weekly_average_count": 1.6,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -435,8 +357,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 0.36,
-            "untracked_percent": null,
             "weekly_average_count": 1.1,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -446,8 +366,6 @@
             "count": 1,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 0.53,
-            "untracked_percent": null,
             "weekly_average_count": 1.1,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -457,8 +375,6 @@
             "count": 2,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 1,
-            "untracked_percent": null,
             "weekly_average_count": 1.4,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -468,8 +384,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 0.54,
-            "untracked_percent": null,
             "weekly_average_count": 1,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -479,8 +393,6 @@
             "count": 1,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 0.8,
-            "untracked_percent": null,
             "weekly_average_count": 1.1,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -490,8 +402,6 @@
             "count": 4,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 0.9,
-            "untracked_percent": null,
             "weekly_average_count": 1.3,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -501,8 +411,6 @@
             "count": 8,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 1.45,
-            "untracked_percent": null,
             "weekly_average_count": 2.3,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -512,8 +420,6 @@
             "count": 6,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 2.75,
-            "untracked_percent": null,
             "weekly_average_count": 3.1,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -523,8 +429,6 @@
             "count": 6,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 3.38,
-            "untracked_percent": null,
             "weekly_average_count": 3.9,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -534,8 +438,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 2.5,
-            "untracked_percent": null,
             "weekly_average_count": 3.6,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -545,8 +447,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 3.57,
-            "untracked_percent": null,
             "weekly_average_count": 3.6,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -556,8 +456,6 @@
             "count": 3,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 3.38,
-            "untracked_percent": null,
             "weekly_average_count": 3.9,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -567,8 +465,6 @@
             "count": 6,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 3.22,
-            "untracked_percent": null,
             "weekly_average_count": 4.1,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -578,8 +474,6 @@
             "count": 2,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 1.44,
-            "untracked_percent": null,
             "weekly_average_count": 3.3,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -589,8 +483,6 @@
             "count": 2,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 0.86,
-            "untracked_percent": null,
             "weekly_average_count": 2.7,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -600,8 +492,6 @@
             "count": 10,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 0.85,
-            "untracked_percent": null,
             "weekly_average_count": 3.3,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -611,8 +501,6 @@
             "count": 3,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 1.04,
-            "untracked_percent": null,
             "weekly_average_count": 3.7,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -622,8 +510,6 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 1.04,
-            "untracked_percent": null,
             "weekly_average_count": 3.7,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -633,8 +519,6 @@
             "count": 12,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 1.3,
-            "untracked_percent": null,
             "weekly_average_count": 5,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -644,8 +528,6 @@
             "count": 9,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 1.31,
-            "untracked_percent": null,
             "weekly_average_count": 5.4,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -655,8 +537,6 @@
             "count": 7,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 1.87,
-            "untracked_percent": null,
             "weekly_average_count": 6.1,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -666,8 +546,6 @@
             "count": 11,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 2.74,
-            "untracked_percent": null,
             "weekly_average_count": 7.4,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -677,8 +555,6 @@
             "count": 7,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 2.13,
-            "untracked_percent": null,
             "weekly_average_count": 7,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -688,8 +564,6 @@
             "count": 3,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 1.88,
-            "untracked_percent": null,
             "weekly_average_count": 7,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -699,8 +573,6 @@
             "count": 16,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 2.5,
-            "untracked_percent": null,
             "weekly_average_count": 9.3,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -710,8 +582,6 @@
             "count": 18,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 2.03,
-            "untracked_percent": null,
             "weekly_average_count": 10.1,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -721,8 +591,6 @@
             "count": 41,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 2.71,
-            "untracked_percent": null,
             "weekly_average_count": 14.7,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -732,8 +600,6 @@
             "count": 46,
             "missing_count": null,
             "reported_count": null,
-            "weekly_gain_ratio": 3.3,
-            "untracked_percent": null,
             "weekly_average_count": 20.3,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -743,8 +609,6 @@
             "count": 40,
             "missing_count": 18,
             "reported_count": 22,
-            "weekly_gain_ratio": 3.29,
-            "untracked_percent": null,
             "weekly_average_count": 24.4,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -754,8 +618,6 @@
             "count": 64,
             "missing_count": 27,
             "reported_count": 37,
-            "weekly_gain_ratio": 4.65,
-            "untracked_percent": null,
             "weekly_average_count": 32.6,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -765,8 +627,6 @@
             "count": 72,
             "missing_count": 36,
             "reported_count": 36,
-            "weekly_gain_ratio": 6.06,
-            "untracked_percent": null,
             "weekly_average_count": 42.4,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -776,8 +636,6 @@
             "count": 12,
             "missing_count": 9,
             "reported_count": 3,
-            "weekly_gain_ratio": 4.51,
-            "untracked_percent": null,
             "weekly_average_count": 41.9,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -787,8 +645,6 @@
             "count": 78,
             "missing_count": 50,
             "reported_count": 28,
-            "weekly_gain_ratio": 4.97,
-            "untracked_percent": null,
             "weekly_average_count": 50.4,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -798,8 +654,6 @@
             "count": 67,
             "missing_count": 44,
             "reported_count": 23,
-            "weekly_gain_ratio": 3.68,
-            "untracked_percent": null,
             "weekly_average_count": 54.1,
             "weekly_average_untracked_count": null,
             "weekly_average_untracked_increse_percent": null
@@ -809,8 +663,6 @@
             "count": 98,
             "missing_count": 35,
             "reported_count": 63,
-            "weekly_gain_ratio": 3.04,
-            "untracked_percent": 50.8,
             "weekly_average_count": 61.6,
             "weekly_average_untracked_count": 31.3,
             "weekly_average_untracked_increse_percent": null
@@ -820,8 +672,6 @@
             "count": 92,
             "missing_count": 61,
             "reported_count": 31,
-            "weekly_gain_ratio": 2.82,
-            "untracked_percent": 54.2,
             "weekly_average_count": 69,
             "weekly_average_untracked_count": 37.4,
             "weekly_average_untracked_increse_percent": null
@@ -831,8 +681,6 @@
             "count": 118,
             "missing_count": 82,
             "reported_count": 36,
-            "weekly_gain_ratio": 2.36,
-            "untracked_percent": 59,
             "weekly_average_count": 76.7,
             "weekly_average_untracked_count": 45.3,
             "weekly_average_untracked_increse_percent": null
@@ -842,8 +690,6 @@
             "count": 141,
             "missing_count": 96,
             "reported_count": 45,
-            "weekly_gain_ratio": 2.04,
-            "untracked_percent": 62.2,
             "weekly_average_count": 86.6,
             "weekly_average_untracked_count": 53.9,
             "weekly_average_untracked_increse_percent": null
@@ -853,8 +699,6 @@
             "count": 85,
             "missing_count": 76,
             "reported_count": 9,
-            "weekly_gain_ratio": 2.32,
-            "untracked_percent": 65.4,
             "weekly_average_count": 97,
             "weekly_average_untracked_count": 63.4,
             "weekly_average_untracked_increse_percent": null
@@ -864,8 +708,6 @@
             "count": 87,
             "missing_count": 64,
             "reported_count": 23,
-            "weekly_gain_ratio": 1.95,
-            "untracked_percent": 66.6,
             "weekly_average_count": 98.3,
             "weekly_average_untracked_count": 65.4,
             "weekly_average_untracked_increse_percent": null
@@ -875,8 +717,6 @@
             "count": 156,
             "missing_count": 110,
             "reported_count": 46,
-            "weekly_gain_ratio": 2.05,
-            "untracked_percent": 67.4,
             "weekly_average_count": 111,
             "weekly_average_untracked_count": 74.9,
             "weekly_average_untracked_increse_percent": null
@@ -886,8 +726,6 @@
             "count": 183,
             "missing_count": 128,
             "reported_count": 55,
-            "weekly_gain_ratio": 2,
-            "untracked_percent": 71.6,
             "weekly_average_count": 123.1,
             "weekly_average_untracked_count": 88.1,
             "weekly_average_untracked_increse_percent": 281.7
@@ -897,8 +735,6 @@
             "count": 199,
             "missing_count": 161,
             "reported_count": 38,
-            "weekly_gain_ratio": 2.01,
-            "untracked_percent": 74,
             "weekly_average_count": 138.4,
             "weekly_average_untracked_count": 102.4,
             "weekly_average_untracked_increse_percent": 273.7
@@ -908,8 +744,6 @@
             "count": 198,
             "missing_count": 156,
             "reported_count": 42,
-            "weekly_gain_ratio": 1.95,
-            "untracked_percent": 75.4,
             "weekly_average_count": 149.9,
             "weekly_average_untracked_count": 113,
             "weekly_average_untracked_increse_percent": 249.5
@@ -919,8 +753,6 @@
             "count": 174,
             "missing_count": 71,
             "reported_count": 103,
-            "weekly_gain_ratio": 1.79,
-            "untracked_percent": 70.8,
             "weekly_average_count": 154.6,
             "weekly_average_untracked_count": 109.4,
             "weekly_average_untracked_increse_percent": 203.2
@@ -930,8 +762,6 @@
             "count": 100,
             "missing_count": 85,
             "reported_count": 15,
-            "weekly_gain_ratio": 1.62,
-            "untracked_percent": 70.6,
             "weekly_average_count": 156.7,
             "weekly_average_untracked_count": 110.7,
             "weekly_average_untracked_increse_percent": 174.5
@@ -941,8 +771,6 @@
             "count": 159,
             "missing_count": 107,
             "reported_count": 52,
-            "weekly_gain_ratio": 1.7,
-            "untracked_percent": 70,
             "weekly_average_count": 167,
             "weekly_average_untracked_count": 116.9,
             "weekly_average_untracked_increse_percent": 178.6
@@ -952,8 +780,6 @@
             "count": 127,
             "missing_count": 83,
             "reported_count": 44,
-            "weekly_gain_ratio": 1.47,
-            "untracked_percent": 69.4,
             "weekly_average_count": 162.9,
             "weekly_average_untracked_count": 113,
             "weekly_average_untracked_increse_percent": 151
@@ -963,8 +789,6 @@
             "count": 151,
             "missing_count": 105,
             "reported_count": 46,
-            "weekly_gain_ratio": 1.29,
-            "untracked_percent": 69.3,
             "weekly_average_count": 158.3,
             "weekly_average_untracked_count": 109.7,
             "weekly_average_untracked_increse_percent": 124.5
@@ -974,8 +798,6 @@
             "count": 206,
             "missing_count": 138,
             "reported_count": 68,
-            "weekly_gain_ratio": 1.15,
-            "untracked_percent": 66.8,
             "weekly_average_count": 159.3,
             "weekly_average_untracked_count": 106.4,
             "weekly_average_untracked_increse_percent": 103.9
@@ -985,8 +807,6 @@
             "count": 186,
             "missing_count": 130,
             "reported_count": 56,
-            "weekly_gain_ratio": 1.05,
-            "untracked_percent": 65.2,
             "weekly_average_count": 157.6,
             "weekly_average_untracked_count": 102.7,
             "weekly_average_untracked_increse_percent": 90.9
@@ -996,8 +816,6 @@
             "count": 109,
             "missing_count": 67,
             "reported_count": 42,
-            "weekly_gain_ratio": 0.96,
-            "untracked_percent": 68.9,
             "weekly_average_count": 148.3,
             "weekly_average_untracked_count": 102.1,
             "weekly_average_untracked_increse_percent": 93.3
@@ -1007,8 +825,6 @@
             "count": 101,
             "missing_count": 77,
             "reported_count": 24,
-            "weekly_gain_ratio": 0.95,
-            "untracked_percent": 68,
             "weekly_average_count": 148.4,
             "weekly_average_untracked_count": 101,
             "weekly_average_untracked_increse_percent": 91.2
@@ -1018,8 +834,6 @@
             "count": 123,
             "missing_count": 81,
             "reported_count": 42,
-            "weekly_gain_ratio": 0.86,
-            "untracked_percent": 67.9,
             "weekly_average_count": 143.3,
             "weekly_average_untracked_count": 97.3,
             "weekly_average_untracked_increse_percent": 83.3
@@ -1029,8 +843,6 @@
             "count": 123,
             "missing_count": 74,
             "reported_count": 49,
-            "weekly_gain_ratio": 0.88,
-            "untracked_percent": 67.3,
             "weekly_average_count": 142.7,
             "weekly_average_untracked_count": 96,
             "weekly_average_untracked_increse_percent": 85
@@ -1040,8 +852,6 @@
             "count": 134,
             "missing_count": 85,
             "reported_count": 49,
-            "weekly_gain_ratio": 0.89,
-            "untracked_percent": 66.4,
             "weekly_average_count": 140.3,
             "weekly_average_untracked_count": 93.1,
             "weekly_average_untracked_increse_percent": 84.9
@@ -1051,8 +861,6 @@
             "count": 170,
             "missing_count": 81,
             "reported_count": 89,
-            "weekly_gain_ratio": 0.85,
-            "untracked_percent": 62.9,
             "weekly_average_count": 135.1,
             "weekly_average_untracked_count": 85,
             "weekly_average_untracked_increse_percent": 79.9
@@ -1062,8 +870,6 @@
             "count": 119,
             "missing_count": 68,
             "reported_count": 51,
-            "weekly_gain_ratio": 0.8,
-            "untracked_percent": 60.6,
             "weekly_average_count": 125.6,
             "weekly_average_untracked_count": 76.1,
             "weekly_average_untracked_increse_percent": 74.1
@@ -1073,8 +879,6 @@
             "count": 82,
             "missing_count": 56,
             "reported_count": 26,
-            "weekly_gain_ratio": 0.82,
-            "untracked_percent": 61.3,
             "weekly_average_count": 121.7,
             "weekly_average_untracked_count": 74.6,
             "weekly_average_untracked_increse_percent": 73
@@ -1084,8 +888,6 @@
             "count": 41,
             "missing_count": 17,
             "reported_count": 24,
-            "weekly_gain_ratio": 0.76,
-            "untracked_percent": 58.3,
             "weekly_average_count": 113.1,
             "weekly_average_untracked_count": 66,
             "weekly_average_untracked_increse_percent": 65.3
@@ -1095,8 +897,6 @@
             "count": 113,
             "missing_count": 43,
             "reported_count": 70,
-            "weekly_gain_ratio": 0.78,
-            "untracked_percent": 54.2,
             "weekly_average_count": 111.7,
             "weekly_average_untracked_count": 60.6,
             "weekly_average_untracked_increse_percent": 62.3
@@ -1106,8 +906,6 @@
             "count": 47,
             "missing_count": 30,
             "reported_count": 17,
-            "weekly_gain_ratio": 0.71,
-            "untracked_percent": 53.8,
             "weekly_average_count": 100.9,
             "weekly_average_untracked_count": 54.3,
             "weekly_average_untracked_increse_percent": 56.5
@@ -1117,8 +915,6 @@
             "count": 59,
             "missing_count": 16,
             "reported_count": 43,
-            "weekly_gain_ratio": 0.64,
-            "untracked_percent": 49.3,
             "weekly_average_count": 90.1,
             "weekly_average_untracked_count": 44.4,
             "weekly_average_untracked_increse_percent": 47.7
@@ -1128,8 +924,6 @@
             "count": 165,
             "missing_count": 50,
             "reported_count": 115,
-            "weekly_gain_ratio": 0.66,
-            "untracked_percent": 44.7,
             "weekly_average_count": 89.4,
             "weekly_average_untracked_count": 40,
             "weekly_average_untracked_increse_percent": 47.1
@@ -1139,8 +933,6 @@
             "count": 154,
             "missing_count": 73,
             "reported_count": 81,
-            "weekly_gain_ratio": 0.75,
-            "untracked_percent": 43.1,
             "weekly_average_count": 94.4,
             "weekly_average_untracked_count": 40.7,
             "weekly_average_untracked_increse_percent": 53.5
@@ -1150,8 +942,6 @@
             "count": 93,
             "missing_count": 64,
             "reported_count": 29,
-            "weekly_gain_ratio": 0.79,
-            "untracked_percent": 43.6,
             "weekly_average_count": 96,
             "weekly_average_untracked_count": 41.9,
             "weekly_average_untracked_increse_percent": 56.1
@@ -1161,8 +951,6 @@
             "count": 87,
             "missing_count": 22,
             "reported_count": 65,
-            "weekly_gain_ratio": 0.91,
-            "untracked_percent": 41.5,
             "weekly_average_count": 102.6,
             "weekly_average_untracked_count": 42.6,
             "weekly_average_untracked_increse_percent": 64.5
@@ -1172,8 +960,6 @@
             "count": 57,
             "missing_count": 28,
             "reported_count": 29,
-            "weekly_gain_ratio": 0.85,
-            "untracked_percent": 42.7,
             "weekly_average_count": 94.6,
             "weekly_average_untracked_count": 40.4,
             "weekly_average_untracked_increse_percent": 66.7
@@ -1183,8 +969,6 @@
             "count": 37,
             "missing_count": 11,
             "reported_count": 26,
-            "weekly_gain_ratio": 0.92,
-            "untracked_percent": 40.5,
             "weekly_average_count": 93.1,
             "weekly_average_untracked_count": 37.7,
             "weekly_average_untracked_increse_percent": 69.5
@@ -1194,8 +978,6 @@
             "count": 23,
             "missing_count": 15,
             "reported_count": 8,
-            "weekly_gain_ratio": 0.98,
-            "untracked_percent": 42.7,
             "weekly_average_count": 88,
             "weekly_average_untracked_count": 37.6,
             "weekly_average_untracked_increse_percent": 84.6
@@ -1205,8 +987,6 @@
             "count": 39,
             "missing_count": 16,
             "reported_count": 23,
-            "weekly_gain_ratio": 0.78,
-            "untracked_percent": 46.7,
             "weekly_average_count": 70,
             "weekly_average_untracked_count": 32.7,
             "weekly_average_untracked_increse_percent": 81.8
@@ -1216,8 +996,6 @@
             "count": 36,
             "missing_count": 20,
             "reported_count": 16,
-            "weekly_gain_ratio": 0.56,
-            "untracked_percent": 47.3,
             "weekly_average_count": 53.1,
             "weekly_average_untracked_count": 25.1,
             "weekly_average_untracked_increse_percent": 61.8
@@ -1227,8 +1005,6 @@
             "count": 22,
             "missing_count": 12,
             "reported_count": 10,
-            "weekly_gain_ratio": 0.45,
-            "untracked_percent": 41.2,
             "weekly_average_count": 43,
             "weekly_average_untracked_count": 17.7,
             "weekly_average_untracked_increse_percent": 42.3
@@ -1238,8 +1014,6 @@
             "count": 15,
             "missing_count": 3,
             "reported_count": 12,
-            "weekly_gain_ratio": 0.32,
-            "untracked_percent": 45.9,
             "weekly_average_count": 32.7,
             "weekly_average_untracked_count": 15,
             "weekly_average_untracked_increse_percent": 35.2
@@ -1249,8 +1023,6 @@
             "count": 27,
             "missing_count": 7,
             "reported_count": 20,
-            "weekly_gain_ratio": 0.3,
-            "untracked_percent": 42.2,
             "weekly_average_count": 28.4,
             "weekly_average_untracked_count": 12,
             "weekly_average_untracked_increse_percent": 29.7
@@ -1260,8 +1032,6 @@
             "count": 10,
             "missing_count": 3,
             "reported_count": 7,
-            "weekly_gain_ratio": 0.26,
-            "untracked_percent": 44.2,
             "weekly_average_count": 24.6,
             "weekly_average_untracked_count": 10.9,
             "weekly_average_untracked_increse_percent": 28.8
@@ -1271,8 +1041,6 @@
             "count": 30,
             "missing_count": 9,
             "reported_count": 21,
-            "weekly_gain_ratio": 0.29,
-            "untracked_percent": 39.1,
             "weekly_average_count": 25.6,
             "weekly_average_untracked_count": 10,
             "weekly_average_untracked_increse_percent": 26.6
@@ -1282,8 +1050,6 @@
             "count": 9,
             "missing_count": 4,
             "reported_count": 5,
-            "weekly_gain_ratio": 0.3,
-            "untracked_percent": 38.9,
             "weekly_average_count": 21.3,
             "weekly_average_untracked_count": 8.3,
             "weekly_average_untracked_increse_percent": 25.3
@@ -1293,8 +1059,6 @@
             "count": 14,
             "missing_count": 6,
             "reported_count": 8,
-            "weekly_gain_ratio": 0.34,
-            "untracked_percent": 34.6,
             "weekly_average_count": 18.1,
             "weekly_average_untracked_count": 6.3,
             "weekly_average_untracked_increse_percent": 25
@@ -1304,8 +1068,6 @@
             "count": 5,
             "missing_count": 1,
             "reported_count": 4,
-            "weekly_gain_ratio": 0.37,
-            "untracked_percent": 30,
             "weekly_average_count": 15.7,
             "weekly_average_untracked_count": 4.7,
             "weekly_average_untracked_increse_percent": 26.6
@@ -1315,8 +1077,6 @@
             "count": 10,
             "missing_count": 4,
             "reported_count": 6,
-            "weekly_gain_ratio": 0.46,
-            "untracked_percent": 32.4,
             "weekly_average_count": 15,
             "weekly_average_untracked_count": 4.9,
             "weekly_average_untracked_increse_percent": 32.4
@@ -1326,8 +1086,6 @@
             "count": 5,
             "missing_count": 3,
             "reported_count": 2,
-            "weekly_gain_ratio": 0.42,
-            "untracked_percent": 36.1,
             "weekly_average_count": 11.9,
             "weekly_average_untracked_count": 4.3,
             "weekly_average_untracked_increse_percent": 35.7
@@ -1337,8 +1095,6 @@
             "count": 5,
             "missing_count": 0,
             "reported_count": 5,
-            "weekly_gain_ratio": 0.45,
-            "untracked_percent": 34.6,
             "weekly_average_count": 11.1,
             "weekly_average_untracked_count": 3.9,
             "weekly_average_untracked_increse_percent": 35.5
@@ -1348,8 +1104,6 @@
             "count": 11,
             "missing_count": 8,
             "reported_count": 3,
-            "weekly_gain_ratio": 0.33,
-            "untracked_percent": 44.1,
             "weekly_average_count": 8.4,
             "weekly_average_untracked_count": 3.7,
             "weekly_average_untracked_increse_percent": 37.1
@@ -1359,8 +1113,6 @@
             "count": 3,
             "missing_count": 2,
             "reported_count": 1,
-            "weekly_gain_ratio": 0.36,
-            "untracked_percent": 45.3,
             "weekly_average_count": 7.6,
             "weekly_average_untracked_count": 3.4,
             "weekly_average_untracked_increse_percent": 41.4
@@ -1370,8 +1122,6 @@
             "count": 2,
             "missing_count": 1,
             "reported_count": 1,
-            "weekly_gain_ratio": 0.32,
-            "untracked_percent": 46.3,
             "weekly_average_count": 5.9,
             "weekly_average_untracked_count": 2.7,
             "weekly_average_untracked_increse_percent": 43.2
@@ -1381,8 +1131,6 @@
             "count": 14,
             "missing_count": 9,
             "reported_count": 5,
-            "weekly_gain_ratio": 0.45,
-            "untracked_percent": 54,
             "weekly_average_count": 7.1,
             "weekly_average_untracked_count": 3.9,
             "weekly_average_untracked_increse_percent": 81.8
@@ -1392,8 +1140,6 @@
             "count": 8,
             "missing_count": 0,
             "reported_count": 8,
-            "weekly_gain_ratio": 0.46,
-            "untracked_percent": 47.9,
             "weekly_average_count": 6.9,
             "weekly_average_untracked_count": 3.3,
             "weekly_average_untracked_increse_percent": 67.6
@@ -1403,8 +1149,6 @@
             "count": 10,
             "missing_count": 6,
             "reported_count": 4,
-            "weekly_gain_ratio": 0.64,
-            "untracked_percent": 49.1,
             "weekly_average_count": 7.6,
             "weekly_average_untracked_count": 3.7,
             "weekly_average_untracked_increse_percent": 86.7
@@ -1414,8 +1158,6 @@
             "count": 11,
             "missing_count": 8,
             "reported_count": 3,
-            "weekly_gain_ratio": 0.76,
-            "untracked_percent": 57.6,
             "weekly_average_count": 8.4,
             "weekly_average_untracked_count": 4.9,
             "weekly_average_untracked_increse_percent": 125.9
@@ -1425,8 +1167,6 @@
             "count": 15,
             "missing_count": 5,
             "reported_count": 10,
-            "weekly_gain_ratio": 1.07,
-            "untracked_percent": 49.2,
             "weekly_average_count": 9,
             "weekly_average_untracked_count": 4.4,
             "weekly_average_untracked_increse_percent": 119.2
@@ -1436,8 +1176,6 @@
             "count": 21,
             "missing_count": 12,
             "reported_count": 9,
-            "weekly_gain_ratio": 1.53,
-            "untracked_percent": 50.6,
             "weekly_average_count": 11.6,
             "weekly_average_untracked_count": 5.9,
             "weekly_average_untracked_increse_percent": 170.8
@@ -1447,8 +1185,6 @@
             "count": 14,
             "missing_count": 6,
             "reported_count": 8,
-            "weekly_gain_ratio": 2.27,
-            "untracked_percent": 49.5,
             "weekly_average_count": 13.3,
             "weekly_average_untracked_count": 6.6,
             "weekly_average_untracked_increse_percent": 242.1
@@ -1458,8 +1194,6 @@
             "count": 5,
             "missing_count": 3,
             "reported_count": 2,
-            "weekly_gain_ratio": 1.68,
-            "untracked_percent": 47.6,
             "weekly_average_count": 12,
             "weekly_average_untracked_count": 5.7,
             "weekly_average_untracked_increse_percent": 148.1
@@ -1469,8 +1203,6 @@
             "count": 13,
             "missing_count": 7,
             "reported_count": 6,
-            "weekly_gain_ratio": 1.85,
-            "untracked_percent": 52.8,
             "weekly_average_count": 12.7,
             "weekly_average_untracked_count": 6.7,
             "weekly_average_untracked_increse_percent": 204.3
@@ -1480,8 +1212,6 @@
             "count": 34,
             "missing_count": 11,
             "reported_count": 23,
-            "weekly_gain_ratio": 2.13,
-            "untracked_percent": 46,
             "weekly_average_count": 16.1,
             "weekly_average_untracked_count": 7.4,
             "weekly_average_untracked_increse_percent": 200
@@ -1491,8 +1221,6 @@
             "count": 12,
             "missing_count": 5,
             "reported_count": 7,
-            "weekly_gain_ratio": 1.93,
-            "untracked_percent": 43,
             "weekly_average_count": 16.3,
             "weekly_average_untracked_count": 7,
             "weekly_average_untracked_increse_percent": 144.1
@@ -1502,8 +1230,6 @@
             "count": 28,
             "missing_count": 14,
             "reported_count": 14,
-            "weekly_gain_ratio": 2.02,
-            "untracked_percent": 45.7,
             "weekly_average_count": 18.1,
             "weekly_average_untracked_count": 8.3,
             "weekly_average_untracked_increse_percent": 187.1
@@ -1513,8 +1239,6 @@
             "count": 20,
             "missing_count": 12,
             "reported_count": 8,
-            "weekly_gain_ratio": 1.56,
-            "untracked_percent": 46,
             "weekly_average_count": 18,
             "weekly_average_untracked_count": 8.3,
             "weekly_average_untracked_increse_percent": 141.5
@@ -1524,8 +1248,6 @@
             "count": 26,
             "missing_count": 9,
             "reported_count": 17,
-            "weekly_gain_ratio": 1.48,
-            "untracked_percent": 44.2,
             "weekly_average_count": 19.7,
             "weekly_average_untracked_count": 8.7,
             "weekly_average_untracked_increse_percent": 132.6
@@ -1535,8 +1257,6 @@
             "count": 14,
             "missing_count": 8,
             "reported_count": 6,
-            "weekly_gain_ratio": 1.75,
-            "untracked_percent": 44.9,
             "weekly_average_count": 21,
             "weekly_average_untracked_count": 9.4,
             "weekly_average_untracked_increse_percent": 165
@@ -1546,8 +1266,6 @@
             "count": 13,
             "missing_count": 6,
             "reported_count": 7,
-            "weekly_gain_ratio": 1.65,
-            "untracked_percent": 44.2,
             "weekly_average_count": 21,
             "weekly_average_untracked_count": 9.3,
             "weekly_average_untracked_increse_percent": 138.3
@@ -1557,8 +1275,6 @@
             "count": 12,
             "missing_count": 7,
             "reported_count": 5,
-            "weekly_gain_ratio": 1.11,
-            "untracked_percent": 48.8,
             "weekly_average_count": 17.9,
             "weekly_average_untracked_count": 8.7,
             "weekly_average_untracked_increse_percent": 117.3
@@ -1568,8 +1284,6 @@
             "count": 18,
             "missing_count": 8,
             "reported_count": 10,
-            "weekly_gain_ratio": 1.15,
-            "untracked_percent": 48.9,
             "weekly_average_count": 18.7,
             "weekly_average_untracked_count": 9.1,
             "weekly_average_untracked_increse_percent": 130.6
@@ -1579,8 +1293,6 @@
             "count": 22,
             "missing_count": 9,
             "reported_count": 13,
-            "weekly_gain_ratio": 0.98,
-            "untracked_percent": 47.2,
             "weekly_average_count": 17.9,
             "weekly_average_untracked_count": 8.4,
             "weekly_average_untracked_increse_percent": 101.7
@@ -1590,8 +1302,6 @@
             "count": 25,
             "missing_count": 6,
             "reported_count": 19,
-            "weekly_gain_ratio": 1.03,
-            "untracked_percent": 40.8,
             "weekly_average_count": 18.6,
             "weekly_average_untracked_count": 7.6,
             "weekly_average_untracked_increse_percent": 91.4
@@ -1601,8 +1311,6 @@
             "count": 24,
             "missing_count": 13,
             "reported_count": 11,
-            "weekly_gain_ratio": 0.93,
-            "untracked_percent": 44.5,
             "weekly_average_count": 18.3,
             "weekly_average_untracked_count": 8.1,
             "weekly_average_untracked_increse_percent": 93.4
@@ -1612,8 +1320,6 @@
             "count": 47,
             "missing_count": 9,
             "reported_count": 38,
-            "weekly_gain_ratio": 1.1,
-            "untracked_percent": 36,
             "weekly_average_count": 23,
             "weekly_average_untracked_count": 8.3,
             "weekly_average_untracked_increse_percent": 87.9
@@ -1623,8 +1329,6 @@
             "count": 48,
             "missing_count": 13,
             "reported_count": 35,
-            "weekly_gain_ratio": 1.33,
-            "untracked_percent": 33.2,
             "weekly_average_count": 28,
             "weekly_average_untracked_count": 9.3,
             "weekly_average_untracked_increse_percent": 100
@@ -1634,8 +1338,6 @@
             "count": 27,
             "missing_count": 16,
             "reported_count": 11,
-            "weekly_gain_ratio": 1.69,
-            "untracked_percent": 35.1,
             "weekly_average_count": 30.1,
             "weekly_average_untracked_count": 10.6,
             "weekly_average_untracked_increse_percent": 121.3
@@ -1645,8 +1347,6 @@
             "count": 16,
             "missing_count": 10,
             "reported_count": 6,
-            "weekly_gain_ratio": 1.6,
-            "untracked_percent": 36.4,
             "weekly_average_count": 29.9,
             "weekly_average_untracked_count": 10.9,
             "weekly_average_untracked_increse_percent": 118.8
@@ -1656,8 +1356,6 @@
             "count": 41,
             "missing_count": 22,
             "reported_count": 19,
-            "weekly_gain_ratio": 1.82,
-            "untracked_percent": 39,
             "weekly_average_count": 32.6,
             "weekly_average_untracked_count": 12.7,
             "weekly_average_untracked_increse_percent": 150.8
@@ -1667,8 +1365,6 @@
             "count": 35,
             "missing_count": 18,
             "reported_count": 17,
-            "weekly_gain_ratio": 1.83,
-            "untracked_percent": 42.4,
             "weekly_average_count": 34,
             "weekly_average_untracked_count": 14.4,
             "weekly_average_untracked_increse_percent": 190.6
@@ -1678,8 +1374,6 @@
             "count": 39,
             "missing_count": 14,
             "reported_count": 25,
-            "weekly_gain_ratio": 1.98,
-            "untracked_percent": 40.3,
             "weekly_average_count": 36.1,
             "weekly_average_untracked_count": 14.6,
             "weekly_average_untracked_increse_percent": 178.9
@@ -1689,8 +1383,6 @@
             "count": 34,
             "missing_count": 11,
             "reported_count": 23,
-            "weekly_gain_ratio": 1.49,
-            "untracked_percent": 43.3,
             "weekly_average_count": 34.3,
             "weekly_average_untracked_count": 14.9,
             "weekly_average_untracked_increse_percent": 179.3
@@ -1700,8 +1392,6 @@
             "count": 29,
             "missing_count": 13,
             "reported_count": 16,
-            "weekly_gain_ratio": 1.13,
-            "untracked_percent": 47.1,
             "weekly_average_count": 31.6,
             "weekly_average_untracked_count": 14.9,
             "weekly_average_untracked_increse_percent": 160
@@ -1711,8 +1401,6 @@
             "count": 31,
             "missing_count": 19,
             "reported_count": 12,
-            "weekly_gain_ratio": 1.07,
-            "untracked_percent": 47.6,
             "weekly_average_count": 32.1,
             "weekly_average_untracked_count": 15.3,
             "weekly_average_untracked_increse_percent": 144.6
@@ -1722,8 +1410,6 @@
             "count": 55,
             "missing_count": 23,
             "reported_count": 32,
-            "weekly_gain_ratio": 1.26,
-            "untracked_percent": 45.5,
             "weekly_average_count": 37.7,
             "weekly_average_untracked_count": 17.1,
             "weekly_average_untracked_increse_percent": 157.9
@@ -1733,8 +1419,6 @@
             "count": 48,
             "missing_count": 18,
             "reported_count": 30,
-            "weekly_gain_ratio": 1.19,
-            "untracked_percent": 42.8,
             "weekly_average_count": 38.7,
             "weekly_average_untracked_count": 16.6,
             "weekly_average_untracked_increse_percent": 130.3
@@ -1744,8 +1428,6 @@
             "count": 54,
             "missing_count": 27,
             "reported_count": 27,
-            "weekly_gain_ratio": 1.22,
-            "untracked_percent": 43.1,
             "weekly_average_count": 41.4,
             "weekly_average_untracked_count": 17.9,
             "weekly_average_untracked_increse_percent": 123.8
@@ -1755,8 +1437,6 @@
             "count": 57,
             "missing_count": 34,
             "reported_count": 23,
-            "weekly_gain_ratio": 1.22,
-            "untracked_percent": 47.1,
             "weekly_average_count": 44,
             "weekly_average_untracked_count": 20.7,
             "weekly_average_untracked_increse_percent": 142.2
@@ -1766,8 +1446,6 @@
             "count": 60,
             "missing_count": 39,
             "reported_count": 21,
-            "weekly_gain_ratio": 1.39,
-            "untracked_percent": 51.8,
             "weekly_average_count": 47.7,
             "weekly_average_untracked_count": 24.7,
             "weekly_average_untracked_increse_percent": 166.3
@@ -1777,8 +1455,6 @@
             "count": 58,
             "missing_count": 24,
             "reported_count": 34,
-            "weekly_gain_ratio": 1.64,
-            "untracked_percent": 50.7,
             "weekly_average_count": 51.9,
             "weekly_average_untracked_count": 26.3,
             "weekly_average_untracked_increse_percent": 176.9
@@ -1788,8 +1464,6 @@
             "count": 54,
             "missing_count": 28,
             "reported_count": 26,
-            "weekly_gain_ratio": 1.72,
-            "untracked_percent": 50,
             "weekly_average_count": 55.1,
             "weekly_average_untracked_count": 27.6,
             "weekly_average_untracked_increse_percent": 180.4
@@ -1799,8 +1473,6 @@
             "count": 67,
             "missing_count": 19,
             "reported_count": 48,
-            "weekly_gain_ratio": 1.51,
-            "untracked_percent": 47.5,
             "weekly_average_count": 56.9,
             "weekly_average_untracked_count": 27,
             "weekly_average_untracked_increse_percent": 157.5
@@ -1810,8 +1482,6 @@
             "count": 107,
             "missing_count": 45,
             "reported_count": 62,
-            "weekly_gain_ratio": 1.69,
-            "untracked_percent": 47.3,
             "weekly_average_count": 65.3,
             "weekly_average_untracked_count": 30.9,
             "weekly_average_untracked_increse_percent": 186.2
@@ -1821,8 +1491,6 @@
             "count": 124,
             "missing_count": 40,
             "reported_count": 84,
-            "weekly_gain_ratio": 1.82,
-            "untracked_percent": 43.5,
             "weekly_average_count": 75.3,
             "weekly_average_untracked_count": 32.7,
             "weekly_average_untracked_increse_percent": 183.2
@@ -1832,8 +1500,6 @@
             "count": 131,
             "missing_count": 46,
             "reported_count": 85,
-            "weekly_gain_ratio": 1.95,
-            "untracked_percent": 40.1,
             "weekly_average_count": 85.9,
             "weekly_average_untracked_count": 34.4,
             "weekly_average_untracked_increse_percent": 166.2
@@ -1843,8 +1509,6 @@
             "count": 111,
             "missing_count": 53,
             "reported_count": 58,
-            "weekly_gain_ratio": 1.95,
-            "untracked_percent": 39.1,
             "weekly_average_count": 93.1,
             "weekly_average_untracked_count": 36.4,
             "weekly_average_untracked_increse_percent": 147.4
@@ -1854,8 +1518,6 @@
             "count": 102,
             "missing_count": 42,
             "reported_count": 60,
-            "weekly_gain_ratio": 1.92,
-            "untracked_percent": 39.2,
             "weekly_average_count": 99.4,
             "weekly_average_untracked_count": 39,
             "weekly_average_untracked_increse_percent": 148.4
@@ -1865,8 +1527,6 @@
             "count": 106,
             "missing_count": 46,
             "reported_count": 60,
-            "weekly_gain_ratio": 1.94,
-            "untracked_percent": 38.9,
             "weekly_average_count": 106.9,
             "weekly_average_untracked_count": 41.6,
             "weekly_average_untracked_increse_percent": 150.8
@@ -1876,8 +1536,6 @@
             "count": 75,
             "missing_count": 34,
             "reported_count": 41,
-            "weekly_gain_ratio": 1.9,
-            "untracked_percent": 40.5,
             "weekly_average_count": 108,
             "weekly_average_untracked_count": 43.7,
             "weekly_average_untracked_increse_percent": 161.9
@@ -1887,8 +1545,6 @@
             "count": 224,
             "missing_count": 103,
             "reported_count": 121,
-            "weekly_gain_ratio": 1.91,
-            "untracked_percent": 41.7,
             "weekly_average_count": 124.7,
             "weekly_average_untracked_count": 52,
             "weekly_average_untracked_increse_percent": 168.5
@@ -1898,8 +1554,6 @@
             "count": 243,
             "missing_count": 101,
             "reported_count": 142,
-            "weekly_gain_ratio": 1.88,
-            "untracked_percent": 42.8,
             "weekly_average_count": 141.7,
             "weekly_average_untracked_count": 60.7,
             "weekly_average_untracked_increse_percent": 185.6
@@ -1909,8 +1563,6 @@
             "count": 206,
             "missing_count": 101,
             "reported_count": 105,
-            "weekly_gain_ratio": 1.78,
-            "untracked_percent": 45,
             "weekly_average_count": 152.4,
             "weekly_average_untracked_count": 68.6,
             "weekly_average_untracked_increse_percent": 199.2
@@ -1920,8 +1572,6 @@
             "count": 206,
             "missing_count": 92,
             "reported_count": 114,
-            "weekly_gain_ratio": 1.78,
-            "untracked_percent": 44.7,
             "weekly_average_count": 166,
             "weekly_average_untracked_count": 74.1,
             "weekly_average_untracked_increse_percent": 203.5
@@ -1931,8 +1581,6 @@
             "count": 119,
             "missing_count": 64,
             "reported_count": 55,
-            "weekly_gain_ratio": 1.69,
-            "untracked_percent": 45.9,
             "weekly_average_count": 168.4,
             "weekly_average_untracked_count": 77.3,
             "weekly_average_untracked_increse_percent": 198.2
@@ -1942,8 +1590,6 @@
             "count": 143,
             "missing_count": 64,
             "reported_count": 79,
-            "weekly_gain_ratio": 1.63,
-            "untracked_percent": 46,
             "weekly_average_count": 173.7,
             "weekly_average_untracked_count": 79.9,
             "weekly_average_untracked_increse_percent": 192.1
@@ -1953,8 +1599,6 @@
             "count": 165,
             "missing_count": 87,
             "reported_count": 78,
-            "weekly_gain_ratio": 1.73,
-            "untracked_percent": 46.9,
             "weekly_average_count": 186.6,
             "weekly_average_untracked_count": 87.4,
             "weekly_average_untracked_increse_percent": 200
@@ -1964,8 +1608,6 @@
             "count": 286,
             "missing_count": 137,
             "reported_count": 149,
-            "weekly_gain_ratio": 1.57,
-            "untracked_percent": 47.2,
             "weekly_average_count": 195.4,
             "weekly_average_untracked_count": 92.3,
             "weekly_average_untracked_increse_percent": 177.5
@@ -1975,8 +1617,6 @@
             "count": 293,
             "missing_count": 142,
             "reported_count": 151,
-            "weekly_gain_ratio": 1.43,
-            "untracked_percent": 48.4,
             "weekly_average_count": 202.6,
             "weekly_average_untracked_count": 98.1,
             "weekly_average_untracked_increse_percent": 161.6
@@ -1986,8 +1626,6 @@
             "count": 290,
             "missing_count": 158,
             "reported_count": 132,
-            "weekly_gain_ratio": 1.41,
-            "untracked_percent": 49.5,
             "weekly_average_count": 214.6,
             "weekly_average_untracked_count": 106.3,
             "weekly_average_untracked_increse_percent": 155
@@ -1997,8 +1635,6 @@
             "count": 188,
             "missing_count": 118,
             "reported_count": 70,
-            "weekly_gain_ratio": 1.28,
-            "untracked_percent": 51.9,
             "weekly_average_count": 212,
             "weekly_average_untracked_count": 110,
             "weekly_average_untracked_increse_percent": 148.4
@@ -2008,8 +1644,6 @@
             "count": 168,
             "missing_count": 94,
             "reported_count": 74,
-            "weekly_gain_ratio": 1.3,
-            "untracked_percent": 52.2,
             "weekly_average_count": 219,
             "weekly_average_untracked_count": 114.3,
             "weekly_average_untracked_increse_percent": 147.9
@@ -2019,8 +1653,6 @@
             "count": 237,
             "missing_count": 120,
             "reported_count": 117,
-            "weekly_gain_ratio": 1.34,
-            "untracked_percent": 52.6,
             "weekly_average_count": 232.4,
             "weekly_average_untracked_count": 122.3,
             "weekly_average_untracked_increse_percent": 153.1
@@ -2030,8 +1662,6 @@
             "count": 238,
             "missing_count": 138,
             "reported_count": 100,
-            "weekly_gain_ratio": 1.3,
-            "untracked_percent": 53.4,
             "weekly_average_count": 242.9,
             "weekly_average_untracked_count": 129.6,
             "weekly_average_untracked_increse_percent": 148.2
@@ -2041,8 +1671,6 @@
             "count": 366,
             "missing_count": 225,
             "reported_count": 141,
-            "weekly_gain_ratio": 1.3,
-            "untracked_percent": 55.9,
             "weekly_average_count": 254.3,
             "weekly_average_untracked_count": 142.1,
             "weekly_average_untracked_increse_percent": 154
@@ -2052,8 +1680,6 @@
             "count": 260,
             "missing_count": 156,
             "reported_count": 104,
-            "weekly_gain_ratio": 1.23,
-            "untracked_percent": 57.8,
             "weekly_average_count": 249.6,
             "weekly_average_untracked_count": 144.1,
             "weekly_average_untracked_increse_percent": 146.9
@@ -2063,8 +1689,6 @@
             "count": 295,
             "missing_count": 165,
             "reported_count": 130,
-            "weekly_gain_ratio": 1.17,
-            "untracked_percent": 58,
             "weekly_average_count": 250.3,
             "weekly_average_untracked_count": 145.1,
             "weekly_average_untracked_increse_percent": 136.6
@@ -2074,8 +1698,6 @@
             "count": 239,
             "missing_count": 144,
             "reported_count": 95,
-            "weekly_gain_ratio": 1.21,
-            "untracked_percent": 57.8,
             "weekly_average_count": 257.6,
             "weekly_average_untracked_count": 148.9,
             "weekly_average_untracked_increse_percent": 135.3
@@ -2085,8 +1707,6 @@
             "count": 131,
             "missing_count": 79,
             "reported_count": 52,
-            "weekly_gain_ratio": 1.15,
-            "untracked_percent": 58.2,
             "weekly_average_count": 252.3,
             "weekly_average_untracked_count": 146.7,
             "weekly_average_untracked_increse_percent": 128.4
@@ -2096,8 +1716,6 @@
             "count": 266,
             "missing_count": 147,
             "reported_count": 119,
-            "weekly_gain_ratio": 1.1,
-            "untracked_percent": 58.7,
             "weekly_average_count": 256.4,
             "weekly_average_untracked_count": 150.6,
             "weekly_average_untracked_increse_percent": 123.1
@@ -2107,8 +1725,6 @@
             "count": 250,
             "missing_count": 162,
             "reported_count": 88,
-            "weekly_gain_ratio": 1.06,
-            "untracked_percent": 59.7,
             "weekly_average_count": 258.1,
             "weekly_average_untracked_count": 154,
             "weekly_average_untracked_increse_percent": 118.9
@@ -2118,8 +1734,6 @@
             "count": 367,
             "missing_count": 204,
             "reported_count": 163,
-            "weekly_gain_ratio": 1.02,
-            "untracked_percent": 58.5,
             "weekly_average_count": 258.3,
             "weekly_average_untracked_count": 151,
             "weekly_average_untracked_increse_percent": 106.2
@@ -2129,8 +1743,6 @@
             "count": 463,
             "missing_count": 289,
             "reported_count": 174,
-            "weekly_gain_ratio": 1.15,
-            "untracked_percent": 59.2,
             "weekly_average_count": 287.3,
             "weekly_average_untracked_count": 170,
             "weekly_average_untracked_increse_percent": 117.9
@@ -2140,8 +1752,6 @@
             "count": 472,
             "missing_count": 305,
             "reported_count": 167,
-            "weekly_gain_ratio": 1.25,
-            "untracked_percent": 60.8,
             "weekly_average_count": 312.6,
             "weekly_average_untracked_count": 190,
             "weekly_average_untracked_increse_percent": 130.9
@@ -2151,8 +1761,6 @@
             "count": 292,
             "missing_count": 179,
             "reported_count": 113,
-            "weekly_gain_ratio": 1.24,
-            "untracked_percent": 60.9,
             "weekly_average_count": 320.1,
             "weekly_average_untracked_count": 195,
             "weekly_average_untracked_increse_percent": 131
@@ -2162,8 +1770,6 @@
             "count": 258,
             "missing_count": 137,
             "reported_count": 121,
-            "weekly_gain_ratio": 1.34,
-            "untracked_percent": 60.1,
             "weekly_average_count": 338.3,
             "weekly_average_untracked_count": 203.3,
             "weekly_average_untracked_increse_percent": 138.6
@@ -2173,8 +1779,6 @@
             "count": 309,
             "missing_count": 194,
             "reported_count": 115,
-            "weekly_gain_ratio": 1.34,
-            "untracked_percent": 61,
             "weekly_average_count": 344.4,
             "weekly_average_untracked_count": 210,
             "weekly_average_untracked_increse_percent": 139.5
@@ -2184,8 +1788,6 @@
             "count": 263,
             "missing_count": 162,
             "reported_count": 101,
-            "weekly_gain_ratio": 1.34,
-            "untracked_percent": 60.6,
             "weekly_average_count": 346.3,
             "weekly_average_untracked_count": 210,
             "weekly_average_untracked_increse_percent": 136.4
@@ -2195,8 +1797,6 @@
             "count": 360,
             "missing_count": 224,
             "reported_count": 136,
-            "weekly_gain_ratio": 1.34,
-            "untracked_percent": 61.6,
             "weekly_average_count": 345.3,
             "weekly_average_untracked_count": 212.9,
             "weekly_average_untracked_increse_percent": 141
@@ -2206,8 +1806,6 @@
             "count": 462,
             "missing_count": 309,
             "reported_count": 153,
-            "weekly_gain_ratio": 1.2,
-            "untracked_percent": 62.5,
             "weekly_average_count": 345.1,
             "weekly_average_untracked_count": 215.7,
             "weekly_average_untracked_increse_percent": 126.9
@@ -2217,8 +1815,6 @@
             "count": 429,
             "missing_count": 273,
             "reported_count": 156,
-            "weekly_gain_ratio": 1.08,
-            "untracked_percent": 62.3,
             "weekly_average_count": 339,
             "weekly_average_untracked_count": 211.1,
             "weekly_average_untracked_increse_percent": 111.1
@@ -2228,8 +1824,6 @@
             "count": 331,
             "missing_count": 216,
             "reported_count": 115,
-            "weekly_gain_ratio": 1.08,
-            "untracked_percent": 62.8,
             "weekly_average_count": 344.6,
             "weekly_average_untracked_count": 216.4,
             "weekly_average_untracked_increse_percent": 111
@@ -2239,8 +1833,6 @@
             "count": 197,
             "missing_count": 118,
             "reported_count": 79,
-            "weekly_gain_ratio": 0.99,
-            "untracked_percent": 63.6,
             "weekly_average_count": 335.9,
             "weekly_average_untracked_count": 213.7,
             "weekly_average_untracked_increse_percent": 105.1
@@ -2250,8 +1842,6 @@
             "count": 188,
             "missing_count": 117,
             "reported_count": 71,
-            "weekly_gain_ratio": 0.92,
-            "untracked_percent": 63.6,
             "weekly_average_count": 318.6,
             "weekly_average_untracked_count": 202.7,
             "weekly_average_untracked_increse_percent": 96.5
@@ -2261,8 +1851,6 @@
             "count": 222,
             "missing_count": 149,
             "reported_count": 73,
-            "weekly_gain_ratio": 0.9,
-            "untracked_percent": 64.2,
             "weekly_average_count": 312.7,
             "weekly_average_untracked_count": 200.9,
             "weekly_average_untracked_increse_percent": 95.6
@@ -2272,8 +1860,6 @@
             "count": 206,
             "missing_count": 128,
             "reported_count": 78,
-            "weekly_gain_ratio": 0.84,
-            "untracked_percent": 64.4,
             "weekly_average_count": 290.7,
             "weekly_average_untracked_count": 187.1,
             "weekly_average_untracked_increse_percent": 87.9
@@ -2283,8 +1869,6 @@
             "count": 389,
             "missing_count": 242,
             "reported_count": 147,
-            "weekly_gain_ratio": 0.81,
-            "untracked_percent": 63.4,
             "weekly_average_count": 280.3,
             "weekly_average_untracked_count": 177.6,
             "weekly_average_untracked_increse_percent": 82.3
@@ -2294,8 +1878,6 @@
             "count": 385,
             "missing_count": 249,
             "reported_count": 136,
-            "weekly_gain_ratio": 0.81,
-            "untracked_percent": 63.5,
             "weekly_average_count": 274,
             "weekly_average_untracked_count": 174.1,
             "weekly_average_untracked_increse_percent": 82.5
@@ -2305,8 +1887,6 @@
             "count": 260,
             "missing_count": 142,
             "reported_count": 118,
-            "weekly_gain_ratio": 0.77,
-            "untracked_percent": 62,
             "weekly_average_count": 263.9,
             "weekly_average_untracked_count": 163.6,
             "weekly_average_untracked_increse_percent": 75.6
@@ -2316,8 +1896,6 @@
             "count": 161,
             "missing_count": 92,
             "reported_count": 69,
-            "weekly_gain_ratio": 0.77,
-            "untracked_percent": 61.8,
             "weekly_average_count": 258.7,
             "weekly_average_untracked_count": 159.9,
             "weekly_average_untracked_increse_percent": 74.8
@@ -2327,8 +1905,6 @@
             "count": 207,
             "missing_count": 132,
             "reported_count": 75,
-            "weekly_gain_ratio": 0.82,
-            "untracked_percent": 62,
             "weekly_average_count": 261.4,
             "weekly_average_untracked_count": 162,
             "weekly_average_untracked_increse_percent": 79.9
@@ -2338,8 +1914,6 @@
             "count": 186,
             "missing_count": 118,
             "reported_count": 68,
-            "weekly_gain_ratio": 0.82,
-            "untracked_percent": 61.5,
             "weekly_average_count": 256.3,
             "weekly_average_untracked_count": 157.6,
             "weekly_average_untracked_increse_percent": 78.4
@@ -2349,8 +1923,6 @@
             "count": 339,
             "missing_count": 218,
             "reported_count": 121,
-            "weekly_gain_ratio": 0.95,
-            "untracked_percent": 61.9,
             "weekly_average_count": 275.3,
             "weekly_average_untracked_count": 170.4,
             "weekly_average_untracked_increse_percent": 91.1
@@ -2360,8 +1932,6 @@
             "count": 258,
             "missing_count": 159,
             "reported_count": 99,
-            "weekly_gain_ratio": 0.92,
-            "untracked_percent": 61.8,
             "weekly_average_count": 256.6,
             "weekly_average_untracked_count": 158.6,
             "weekly_average_untracked_increse_percent": 89.3
@@ -2371,8 +1941,6 @@
             "count": 256,
             "missing_count": 160,
             "reported_count": 96,
-            "weekly_gain_ratio": 0.87,
-            "untracked_percent": 61.3,
             "weekly_average_count": 238.1,
             "weekly_average_untracked_count": 145.9,
             "weekly_average_untracked_increse_percent": 83.8
@@ -2382,8 +1950,6 @@
             "count": 212,
             "missing_count": 119,
             "reported_count": 93,
-            "weekly_gain_ratio": 0.88,
-            "untracked_percent": 61.7,
             "weekly_average_count": 231.3,
             "weekly_average_untracked_count": 142.6,
             "weekly_average_untracked_increse_percent": 87.2
@@ -2393,8 +1959,6 @@
             "count": 95,
             "missing_count": 41,
             "reported_count": 54,
-            "weekly_gain_ratio": 0.86,
-            "untracked_percent": 61,
             "weekly_average_count": 221.9,
             "weekly_average_untracked_count": 135.3,
             "weekly_average_untracked_increse_percent": 84.6
@@ -2404,8 +1968,6 @@
             "count": 182,
             "missing_count": 115,
             "reported_count": 67,
-            "weekly_gain_ratio": 0.83,
-            "untracked_percent": 60.9,
             "weekly_average_count": 218.3,
             "weekly_average_untracked_count": 132.9,
             "weekly_average_untracked_increse_percent": 82
@@ -2415,8 +1977,6 @@
             "count": 236,
             "missing_count": 144,
             "reported_count": 92,
-            "weekly_gain_ratio": 0.88,
-            "untracked_percent": 60.6,
             "weekly_average_count": 225.4,
             "weekly_average_untracked_count": 136.6,
             "weekly_average_untracked_increse_percent": 86.7
@@ -2426,8 +1986,6 @@
             "count": 250,
             "missing_count": 149,
             "reported_count": 101,
-            "weekly_gain_ratio": 0.77,
-            "untracked_percent": 59.6,
             "weekly_average_count": 212.7,
             "weekly_average_untracked_count": 126.7,
             "weekly_average_untracked_increse_percent": 74.4
@@ -2437,8 +1995,6 @@
             "count": 226,
             "missing_count": 138,
             "reported_count": 88,
-            "weekly_gain_ratio": 0.81,
-            "untracked_percent": 59.4,
             "weekly_average_count": 208.1,
             "weekly_average_untracked_count": 123.7,
             "weekly_average_untracked_increse_percent": 78
@@ -2448,8 +2004,6 @@
             "count": 247,
             "missing_count": 158,
             "reported_count": 89,
-            "weekly_gain_ratio": 0.87,
-            "untracked_percent": 59.6,
             "weekly_average_count": 206.9,
             "weekly_average_untracked_count": 123.4,
             "weekly_average_untracked_increse_percent": 84.6
@@ -2459,8 +2013,6 @@
             "count": 148,
             "missing_count": 88,
             "reported_count": 60,
-            "weekly_gain_ratio": 0.85,
-            "untracked_percent": 60.2,
             "weekly_average_count": 197.7,
             "weekly_average_untracked_count": 119,
             "weekly_average_untracked_increse_percent": 83.5
@@ -2470,8 +2022,6 @@
             "count": 100,
             "missing_count": 49,
             "reported_count": 51,
-            "weekly_gain_ratio": 0.89,
-            "untracked_percent": 60.5,
             "weekly_average_count": 198.4,
             "weekly_average_untracked_count": 120.1,
             "weekly_average_untracked_increse_percent": 88.8
@@ -2481,8 +2031,6 @@
             "count": 170,
             "missing_count": 94,
             "reported_count": 76,
-            "weekly_gain_ratio": 0.9,
-            "untracked_percent": 59.5,
             "weekly_average_count": 196.7,
             "weekly_average_untracked_count": 117.1,
             "weekly_average_untracked_increse_percent": 88.2
@@ -2492,8 +2040,6 @@
             "count": 141,
             "missing_count": 83,
             "reported_count": 58,
-            "weekly_gain_ratio": 0.81,
-            "untracked_percent": 59.2,
             "weekly_average_count": 183.1,
             "weekly_average_untracked_count": 108.4,
             "weekly_average_untracked_increse_percent": 79.4
@@ -2503,8 +2049,6 @@
             "count": 211,
             "missing_count": 120,
             "reported_count": 91,
-            "weekly_gain_ratio": 0.83,
-            "untracked_percent": 58.7,
             "weekly_average_count": 177.6,
             "weekly_average_untracked_count": 104.3,
             "weekly_average_untracked_increse_percent": 82.3
@@ -2514,8 +2058,6 @@
             "count": 136,
             "missing_count": 81,
             "reported_count": 55,
-            "weekly_gain_ratio": 0.79,
-            "untracked_percent": 58.3,
             "weekly_average_count": 164.7,
             "weekly_average_untracked_count": 96.1,
             "weekly_average_untracked_increse_percent": 77.7
@@ -2525,8 +2067,6 @@
             "count": 181,
             "missing_count": 104,
             "reported_count": 77,
-            "weekly_gain_ratio": 0.75,
-            "untracked_percent": 56.9,
             "weekly_average_count": 155.3,
             "weekly_average_untracked_count": 88.4,
             "weekly_average_untracked_increse_percent": 71.6
@@ -2536,8 +2076,6 @@
             "count": 116,
             "missing_count": 55,
             "reported_count": 61,
-            "weekly_gain_ratio": 0.76,
-            "untracked_percent": 55.5,
             "weekly_average_count": 150.7,
             "weekly_average_untracked_count": 83.7,
             "weekly_average_untracked_increse_percent": 70.3
@@ -2547,8 +2085,6 @@
             "count": 77,
             "missing_count": 38,
             "reported_count": 39,
-            "weekly_gain_ratio": 0.74,
-            "untracked_percent": 55.7,
             "weekly_average_count": 147.4,
             "weekly_average_untracked_count": 82.1,
             "weekly_average_untracked_increse_percent": 68.4
@@ -2558,8 +2094,6 @@
             "count": 170,
             "missing_count": 97,
             "reported_count": 73,
-            "weekly_gain_ratio": 0.75,
-            "untracked_percent": 56,
             "weekly_average_count": 147.4,
             "weekly_average_untracked_count": 82.6,
             "weekly_average_untracked_increse_percent": 70.5
@@ -2567,101 +2101,11 @@
         {
             "diagnosed_date": "2020-09-09",
             "count": 149,
-            "missing_count": 79,
-            "reported_count": 70,
-            "weekly_gain_ratio": 0.81,
-            "untracked_percent": 55.2,
+            "missing_count": 80,
+            "reported_count": 69,
             "weekly_average_count": 148.6,
-            "weekly_average_untracked_count": 82,
-            "weekly_average_untracked_increse_percent": 75.6
-        },
-        {
-            "diagnosed_date": "2020-09-10",
-            "count": 276,
-            "missing_count": 160,
-            "reported_count": 116,
-            "weekly_gain_ratio": 0.89,
-            "untracked_percent": 55.5,
-            "weekly_average_count": 157.9,
-            "weekly_average_untracked_count": 87.7,
-            "weekly_average_untracked_increse_percent": 84.1
-        },
-        {
-            "diagnosed_date": "2020-09-11",
-            "count": 187,
-            "missing_count": 91,
-            "reported_count": 96,
-            "weekly_gain_ratio": 1,
-            "untracked_percent": 54,
-            "weekly_average_count": 165.1,
-            "weekly_average_untracked_count": 89.1,
-            "weekly_average_untracked_increse_percent": 92.7
-        },
-        {
-            "diagnosed_date": "2020-09-12",
-            "count": 226,
-            "missing_count": 111,
-            "reported_count": 115,
-            "weekly_gain_ratio": 1.1,
-            "untracked_percent": 52.5,
-            "weekly_average_count": 171.6,
-            "weekly_average_untracked_count": 90.1,
-            "weekly_average_untracked_increse_percent": 101.9
-        },
-        {
-            "diagnosed_date": "2020-09-13",
-            "count": 146,
-            "missing_count": 84,
-            "reported_count": 62,
-            "weekly_gain_ratio": 1.17,
-            "untracked_percent": 53.6,
-            "weekly_average_count": 175.9,
-            "weekly_average_untracked_count": 94.3,
-            "weekly_average_untracked_increse_percent": 112.6
-        },
-        {
-            "diagnosed_date": "2020-09-14",
-            "count": 80,
-            "missing_count": 35,
-            "reported_count": 45,
-            "weekly_gain_ratio": 1.2,
-            "untracked_percent": 53.3,
-            "weekly_average_count": 176.3,
-            "weekly_average_untracked_count": 93.9,
-            "weekly_average_untracked_increse_percent": 114.3
-        },
-        {
-            "diagnosed_date": "2020-09-15",
-            "count": 191,
-            "missing_count": 94,
-            "reported_count": 97,
-            "weekly_gain_ratio": 1.22,
-            "untracked_percent": 52.1,
-            "weekly_average_count": 179.3,
-            "weekly_average_untracked_count": 93.4,
-            "weekly_average_untracked_increse_percent": 113.1
-        },
-        {
-            "diagnosed_date": "2020-09-16",
-            "count": 163,
-            "missing_count": 83,
-            "reported_count": 80,
-            "weekly_gain_ratio": 1.22,
-            "untracked_percent": 51.8,
-            "weekly_average_count": 181.3,
-            "weekly_average_untracked_count": 94,
-            "weekly_average_untracked_increse_percent": 114.6
-        },
-        {
-            "diagnosed_date": "2020-09-17",
-            "count": 171,
-            "missing_count": 79,
-            "reported_count": 92,
-            "weekly_gain_ratio": 1.05,
-            "untracked_percent": 49.5,
-            "weekly_average_count": 166.3,
-            "weekly_average_untracked_count": 82.4,
-            "weekly_average_untracked_increse_percent": 94
+            "weekly_average_untracked_count": 82.1,
+            "weekly_average_untracked_increse_percent": 75.8
         }
     ]
 }

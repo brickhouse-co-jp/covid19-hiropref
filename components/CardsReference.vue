@@ -6,23 +6,23 @@
       <!-- 陽性者数（区市町村別） -->
       <confirmed-cases-by-municipalities-card />
       <!-- 発症日別による陽性者数の推移 -->
-      <positive-number-by-developed-date-card />
+      <!-- <positive-number-by-developed-date-card /> -->
       <!-- 確定日別による陽性者数の推移 -->
-      <positive-number-by-diagnosed-date-card />
+      <!-- <positive-number-by-diagnosed-date-card /> -->
       <!-- 検査実施件数 -->
-      <tested-number-card />
+      <!-- <tested-number-card /> -->
     </card-row>
     <card-row class="DataBlock">
       <!-- 受診相談窓口における相談件数 -->
-      <monitoring-consultation-desk-reports-number-card />
+      <!-- <monitoring-consultation-desk-reports-number-card /> -->
       <!-- 新型コロナコールセンター相談件数 -->
       <telephone-advisory-reports-number-card />
     </card-row>
     <card-row class="DataBlock">
       <!-- 都営地下鉄の利用者数の推移 -->
-      <metro-card />
+      <!-- <metro-card /> -->
       <!-- 都庁来庁者数の推移 -->
-      <agency-card />
+      <!-- <agency-card /> -->
     </card-row>
   </div>
 </template>
@@ -37,19 +37,19 @@ import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttri
 // 陽性者数（区市町村別）
 import ConfirmedCasesByMunicipalitiesCard from '@/components/cards/ConfirmedCasesByMunicipalitiesCard.vue'
 // 発症日別による陽性者数の推移
-import PositiveNumberByDevelopedDateCard from '@/components/cards/PositiveNumberByDevelopedDateCard.vue'
+// import PositiveNumberByDevelopedDateCard from '@/components/cards/PositiveNumberByDevelopedDateCard.vue'
 // 確定日別による陽性者数の推移
-import PositiveNumberByDiagnosedDateCard from '@/components/cards/PositiveNumberByDiagnosedDateCard.vue'
+// import PositiveNumberByDiagnosedDateCard from '@/components/cards/PositiveNumberByDiagnosedDateCard.vue'
 // 検査実施件数
-import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
+// import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
 // 受診相談窓口における相談件数
-import MonitoringConsultationDeskReportsNumberCard from '@/components/cards/MonitoringConsultationDeskReportsNumberCard.vue'
+// import MonitoringConsultationDeskReportsNumberCard from '@/components/cards/MonitoringConsultationDeskReportsNumberCard.vue'
 // 新型コロナコールセンター相談件数
 import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
 // 都営地下鉄の利用者数の推移
-import MetroCard from '@/components/cards/MetroCard.vue'
+// import MetroCard from '@/components/cards/MetroCard.vue'
 // 都庁来庁者数の推移
-import AgencyCard from '@/components/cards/AgencyCard.vue'
+// import AgencyCard from '@/components/cards/AgencyCard.vue'
 /* eslint-enable simple-import-sort/sort */
 
 export default Vue.extend({
@@ -57,13 +57,13 @@ export default Vue.extend({
     CardRow,
     ConfirmedCasesAttributesCard,
     ConfirmedCasesByMunicipalitiesCard,
-    PositiveNumberByDevelopedDateCard,
-    PositiveNumberByDiagnosedDateCard,
-    TestedNumberCard,
-    MonitoringConsultationDeskReportsNumberCard,
+    // PositiveNumberByDevelopedDateCard,
+    // PositiveNumberByDiagnosedDateCard,
+    // TestedNumberCard,
+    // MonitoringConsultationDeskReportsNumberCard,
     TelephoneAdvisoryReportsNumberCard,
-    MetroCard,
-    AgencyCard,
+    // MetroCard,
+    // AgencyCard,
   },
 })
 </script>

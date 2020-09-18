@@ -1,17 +1,12 @@
 <template>
   <ul :class="$style.container">
-    <li :class="[$style.box]">
-      <div :class="$style.content">
-        <span>{{ $t('(1)新規陽性者数') }}</span>
-        <monitoring-items-overview-table-value-with-translatable-unit
-          :value="items['(1)新規陽性者数'].value"
-          :unit="items['(1)新規陽性者数'].unit"
-        />
-      </div>
-    </li>
     <li :class="[$style.box, $style.parent]">
       <div :class="$style.content">
-        <span>{{ $t('潜在・市中感染') }}</span>
+        <span>{{ $t('新規陽性者数') }}</span>
+        <monitoring-items-overview-table-value-with-translatable-unit
+          :value="items['新規陽性者数'].value"
+          :unit="items['新規陽性者数'].unit"
+        />
       </div>
       <ul :class="$style.group">
         <li :class="[$style.box]">
@@ -19,56 +14,15 @@
             <span>
               {{
                 $t(
-                  '(2)#7119（東京消防庁救急相談センター）における発熱等相談件数 '
+                  '感染経路不明(公表時点)'
                 )
               }}
             </span>
             <monitoring-items-overview-table-value-with-translatable-unit
-              :value="
-                items[
-                  '(2)#7119（東京消防庁救急相談センター）における発熱等相談件数 '
-                ].value
-              "
-              :unit="
-                items[
-                  '(2)#7119（東京消防庁救急相談センター）における発熱等相談件数 '
-                ].unit
-              "
+              :value="items['感染経路不明(公表時点)'].value"
+              :unit="items['感染経路不明(公表時点)'].unit"
             />
           </div>
-        </li>
-        <li :class="[$style.box, $style.parent]">
-          <div :class="$style.content">
-            <span>{{ $t('(3)新規陽性者における接触歴等不明者') }}</span>
-          </div>
-          <ul :class="$style.group">
-            <li :class="[$style.box]">
-              <div :class="$style.content">
-                <span>{{ $t('人数') }}</span>
-                <monitoring-items-overview-table-value-with-translatable-unit
-                  :value="
-                    items['(3)新規陽性者における接触歴等不明者（人数）'].value
-                  "
-                  :unit="
-                    items['(3)新規陽性者における接触歴等不明者（人数）'].unit
-                  "
-                />
-              </div>
-            </li>
-            <li :class="[$style.box]">
-              <div :class="$style.content">
-                <span>{{ $t('増加比') }}</span>
-                <monitoring-items-overview-table-value-with-translatable-unit
-                  :value="
-                    items['(3)新規陽性者における接触歴等不明者（増加比）'].value
-                  "
-                  :unit="
-                    items['(3)新規陽性者における接触歴等不明者（増加比）'].unit
-                  "
-                />
-              </div>
-            </li>
-          </ul>
         </li>
       </ul>
     </li>
