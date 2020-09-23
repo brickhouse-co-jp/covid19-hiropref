@@ -2,7 +2,7 @@
   <v-app class="app">
     <v-overlay :value="loading" color="#F8F9FA" opacity="1" z-index="9999">
       <div class="loader">
-        <img src="/logo.svg" alt="東京都" />
+        <img src="/logo.svg" alt="広島県" />
         <scale-loader color="#992f3b" />
       </div>
     </v-overlay>
@@ -118,18 +118,18 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://stopcovid19.metro.tokyo.lg.jp${this.$route.path}`,
+          href: `https://zealous-jackson-54e21f.netlify.app${this.$route.path}`,
         },
         ...linksAlternate,
       ],
       // Disable prettier for readability purposes
       // eslint-disable-next-line prettier/prettier
-      titleTemplate: `%s | ${this.$t('東京都')} ${this.$t('新型コロナウイルス感染症')}${this.$t('対策サイト')}`,
+      titleTemplate: `%s | ${this.$t('広島県')} ${this.$t('新型コロナウイルス感染症')}${this.$t('対策サイト')}`,
       meta: [
         {
           hid: 'author',
           name: 'author',
-          content: this.$tc('東京都'),
+          content: this.$tc('広島県'),
         },
         {
           hid: 'description',
@@ -137,26 +137,26 @@ export default Vue.extend({
           content: `${this.$t('{date} 更新', {
             date: convertDateToSimpleFormat(lastUpdate),
           })}: ${this.$tc(
-            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものです。'
+            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、広島県が開設したものです。'
           )}`,
         },
         {
           hid: 'og:site_name',
           property: 'og:site_name',
-          content: `${this.$t('東京都')} ${this.$t(
+          content: `${this.$t('広島県')} ${this.$t(
             '新型コロナウイルス感染症'
           )} ${this.$t('対策サイト')}`,
         },
         {
           hid: 'og:url',
           property: 'og:url',
-          content: `https://stopcovid19.metro.tokyo.lg.jp${this.$route.path}`,
+          content: `https://zealous-jackson-54e21f.netlify.app${this.$route.path}`,
         },
         ogLocale,
         {
           hid: 'og:title',
           property: 'og:title',
-          content: `${this.$t('東京都')} ${this.$t(
+          content: `${this.$t('広島県')} ${this.$t(
             '新型コロナウイルス感染症'
           )} ${this.$t('対策サイト')}`,
         },
@@ -166,7 +166,7 @@ export default Vue.extend({
           content: `${this.$t('{date} 更新', {
             date: convertDateToSimpleFormat(lastUpdate),
           })}: ${this.$tc(
-            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものです。'
+            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、広島県が開設したものです。'
           )}`,
         },
         {
@@ -177,7 +177,7 @@ export default Vue.extend({
         {
           hid: 'apple-mobile-web-app-title',
           name: 'apple-mobile-web-app-title',
-          content: `${this.$t('東京都')} ${this.$t(
+          content: `${this.$t('広島県')} ${this.$t(
             '新型コロナウイルス感染症'
           )} ${this.$t('対策サイト')}`,
         },

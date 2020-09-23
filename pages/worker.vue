@@ -8,13 +8,13 @@
         <app-link
           to="https://covid19.supportnavi.metro.tokyo.lg.jp/"
           :icon-size="24"
-          >{{ $t('東京都 新型コロナウイルス感染症 支援情報ナビ') }}
+          >{{ $t('広島県 新型コロナウイルス感染症 支援情報ナビ') }}
         </app-link>
       </h3>
       <p>
         {{
           $t(
-            '東京都及び国の新型コロナウイルス感染症に関する支援策の情報をまとめています。'
+            '広島県及び国の新型コロナウイルス感染症に関する支援策の情報をまとめています。'
           )
         }}
       </p>
@@ -38,7 +38,7 @@
     <static-card>
       <h3>
         <app-link to="https://tokyoyachin.metro.tokyo.lg.jp" :icon-size="24"
-          >{{ $t('東京都家賃等支援給付金') }}
+          >{{ $t('広島県家賃等支援給付金') }}
         </app-link>
       </h3>
       <p>

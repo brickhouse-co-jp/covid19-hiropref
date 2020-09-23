@@ -18,32 +18,33 @@ const config: NuxtConfig = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'robots', content: 'noindex,nofollow' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://stopcovid19.metro.tokyo.lg.jp',
+        content: 'https://zealous-jackson-54e21f.netlify.app',
       },
       {
         hid: 'twitter:card',
         name: 'twitter:card',
         content: 'summary_large_image',
       },
-      {
-        hid: 'twitter:site',
-        name: 'twitter:site',
-        content: '@tokyo_bousai',
-      },
-      {
-        hid: 'twitter:creator',
-        name: 'twitter:creator',
-        content: '@tokyo_bousai',
-      },
-      {
-        hid: 'fb:app_id',
-        property: 'fb:app_id',
-        content: '2879625188795443',
-      },
+      // {
+      //   hid: 'twitter:site',
+      //   name: 'twitter:site',
+      //   content: '@tokyo_bousai',
+      // },
+      // {
+      //   hid: 'twitter:creator',
+      //   name: 'twitter:creator',
+      //   content: '@tokyo_bousai',
+      // },
+      // {
+      //   hid: 'fb:app_id',
+      //   property: 'fb:app_id',
+      //   content: '2879625188795443',
+      // },
       {
         hid: 'note:card',
         property: 'note:card',
@@ -154,7 +155,7 @@ const config: NuxtConfig = {
     // hardSource: process.env.NODE_ENV === 'development'
   },
   manifest: {
-    name: '東京都 新型コロナウイルス感染症対策サイト',
+    name: '広島県 新型コロナウイルス感染症対策サイト',
     theme_color: '#992F3B',
     background_color: '#ffffff',
     display: 'standalone',

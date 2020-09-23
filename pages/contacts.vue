@@ -55,7 +55,7 @@
               }}
             </td>
             <td class="bureau importantContact">
-              {{ $t('東京都ステッカー申請・感染拡大防止協力金相談センター') }}
+              {{ $t('広島県ステッカー申請・感染拡大防止協力金相談センター') }}
             </td>
             <td class="tel">
               <a href="tel:03-5388-0567" class="importantContact"

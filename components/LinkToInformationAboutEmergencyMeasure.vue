@@ -7,7 +7,7 @@
       >
         mdi-bullhorn
       </v-icon>
-      {{ $t('東京都緊急事態措置について') }}
+      {{ $t('広島県緊急事態措置について') }}
     </app-link>
   </span>
 </template>

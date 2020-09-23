@@ -21,7 +21,7 @@ jobs:
         uses: treosh/lighthouse-ci-action@v2
         with:
           urls: |
-            https://stopcovid19.metro.tokyo.lg.jp/
+            https://zealous-jackson-54e21f.netlify.app/
             https://stg-covid19-tokyo.netlify.app/
           uploadArtifacts: true
 
