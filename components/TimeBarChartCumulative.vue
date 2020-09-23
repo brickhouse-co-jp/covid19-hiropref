@@ -82,7 +82,7 @@ import { calcDayBeforeRatio } from '@/utils/formatDayBeforeRatio'
 import { GraphDataType } from '@/utils/formatGraph'
 
 type Data = {
-  dataKind: string // 'transition' | 'cumulative'
+  // dataKind: string // 'transition' | 'cumulative'
   canvas: boolean
 }
 type Methods = {}
@@ -179,7 +179,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
     },
   },
   data: () => ({
-    dataKind: '',
+    // dataKind: '',
     canvas: true,
   }),
   computed: {
@@ -188,23 +188,23 @@ const options: ThisTypedComponentOptionsWithRecordProps<
         displayData: this.displayData,
         dataIndex: 1,
       })
-      if (this.dataKind === 'transition' && this.byDate) {
-        return {
-          lText: lastDayData,
-          sText: `${lastDay} ${this.$t('日別値')}（${this.$t(
-            '前日比'
-          )}: ${dayBeforeRatio} ${this.unit}）`,
-          unit: this.unit,
-        }
-      } else if (this.dataKind === 'transition') {
-        return {
-          lText: lastDayData,
-          sText: `${lastDay} ${this.$t('実績値')}（${this.$t(
-            '前日比'
-          )}: ${dayBeforeRatio} ${this.unit}）`,
-          unit: this.unit,
-        }
-      }
+      // if (this.dataKind === 'transition' && this.byDate) {
+      //   return {
+      //     lText: lastDayData,
+      //     sText: `${lastDay} ${this.$t('日別値')}（${this.$t(
+      //       '前日比'
+      //     )}: ${dayBeforeRatio} ${this.unit}）`,
+      //     unit: this.unit,
+      //   }
+      // } else if (this.dataKind === 'transition') {
+      //   return {
+      //     lText: lastDayData,
+      //     sText: `${lastDay} ${this.$t('実績値')}（${this.$t(
+      //       '前日比'
+      //     )}: ${dayBeforeRatio} ${this.unit}）`,
+      //     unit: this.unit,
+      //   }
+      // }
       return {
         lText: lastDayData,
         sText: `${lastDay} ${this.$t('累計値')}（${this.$t(
@@ -218,39 +218,39 @@ const options: ThisTypedComponentOptionsWithRecordProps<
       const zeroMouseOverHeight = 5
       const transparentWhite = 'rgba(255,255,255,0)'
 
-      if (this.dataKind === 'transition') {
-        return {
-          labels: this.chartData.map((d) => {
-            return d.label
-          }),
-          datasets: [
-            {
-              label: this.dataKind,
-              data: this.chartData.map((_d) => {
-                return 0
-              }),
-              backgroundColor: transparentWhite,
-              borderColor: transparentWhite,
-              borderWidth: 0,
-              minBarLength: this.chartData.map((d) => {
-                if (d.transition <= 0) {
-                  return zeroMouseOverHeight
-                }
-                return 0
-              }),
-            },
-            {
-              label: this.dataKind,
-              data: this.chartData.map((d) => {
-                return d.transition
-              }),
-              backgroundColor: style.fillColor,
-              borderColor: style.strokeColor,
-              borderWidth: 1,
-            },
-          ],
-        }
-      }
+      // if (this.dataKind === 'transition') {
+      //   return {
+      //     labels: this.chartData.map((d) => {
+      //       return d.label
+      //     }),
+      //     datasets: [
+      //       {
+      //         label: this.dataKind,
+      //         data: this.chartData.map((_d) => {
+      //           return 0
+      //         }),
+      //         backgroundColor: transparentWhite,
+      //         borderColor: transparentWhite,
+      //         borderWidth: 0,
+      //         minBarLength: this.chartData.map((d) => {
+      //           if (d.transition <= 0) {
+      //             return zeroMouseOverHeight
+      //           }
+      //           return 0
+      //         }),
+      //       },
+      //       {
+      //         label: this.dataKind,
+      //         data: this.chartData.map((d) => {
+      //           return d.transition
+      //         }),
+      //         backgroundColor: style.fillColor,
+      //         borderColor: style.strokeColor,
+      //         borderWidth: 1,
+      //       },
+      //     ],
+      //   }
+      // }
       return {
         labels: this.chartData.map((d) => d.label),
         datasets: [
@@ -372,18 +372,18 @@ const options: ThisTypedComponentOptionsWithRecordProps<
       return options
     },
     displayDataHeader() {
-      if (this.dataKind === 'transition') {
-        return {
-          labels: ['2020-01-01'],
-          datasets: [
-            {
-              data: [Math.max(...this.chartData.map((d) => d.transition))],
-              backgroundColor: 'transparent',
-              borderWidth: 0,
-            },
-          ],
-        }
-      }
+      // if (this.dataKind === 'transition') {
+      //   return {
+      //     labels: ['2020-01-01'],
+      //     datasets: [
+      //       {
+      //         data: [Math.max(...this.chartData.map((d) => d.transition))],
+      //         backgroundColor: 'transparent',
+      //         borderWidth: 0,
+      //       },
+      //     ],
+      //   }
+      // }
       return {
         labels: ['2020-01-01'],
         datasets: [
