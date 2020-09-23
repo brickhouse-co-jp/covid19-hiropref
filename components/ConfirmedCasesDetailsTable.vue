@@ -17,8 +17,7 @@
               <span :class="$style.unit">{{ $t('人') }}</span>
             </span>
           </div>
-          <!--
-          <ul :class="$style.group">
+          <!-- <ul :class="$style.group">
             <li :class="[$style.box]">
               <div :class="$style.content">
                 <span v-html="$t('軽症・中等症')" />
@@ -37,8 +36,7 @@
                 </span>
               </div>
             </li>
-          </ul>
-          -->
+          </ul> -->
         </li>
         <li :class="[$style.box]">
           <div :class="$style.content">
@@ -113,14 +111,14 @@ export default Vue.extend({
       type: Number,
       required: true,
     },
-    軽症中等症: {
-      type: Number,
-      required: true,
-    },
-    重症: {
-      type: Number,
-      required: true,
-    },
+    // 軽症中等症: {
+    //   type: Number,
+    //   required: true,
+    // },
+    // 重症: {
+    //   type: Number,
+    //   required: true,
+    // },
     宿泊療養: {
       type: Number,
       required: true,

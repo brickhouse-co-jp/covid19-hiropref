@@ -2,31 +2,27 @@
   <v-col cols="12" md="6" class="DataCard">
     <client-only>
       <dashed-rectangle-time-bar-chart
-        :title="$t('モニタリング項目(6)')"
+        :title="'モニタリング項目(6)'"
         :title-id="'number-of-hospitalized'"
-        :info-titles="[$t('入院患者数')]"
+        :info-titles="['入院患者数']"
         :chart-id="'dashed-rectangle-time-bar-chart-hospitalized'"
         :chart-data="patientsGraph"
         :date="positiveStatus.date"
-        :unit="$t('人')"
+        :unit="'人'"
         :dashed-rectangle-range="'2020-05-11'"
         :added-value="200"
         :table-labels="tableLabels"
       >
         <template v-slot:additionalDescription>
-          <span>{{ $t('（注）') }}</span>
+          <span>{{ '（注）' }}</span>
           <ul>
             <li>
               {{
-                $t(
-                  '5月11日までの入院患者数には宿泊療養者・自宅療養者等を含んでいるため、参考値である'
-                )
+                '5月11日までの入院患者数には宿泊療養者・自宅療養者等を含んでいるため、参考値である'
               }}
             </li>
             <li>
-              {{
-                $t('当サイトにおいて入院患者数の公表を開始した3月6日から作成')
-              }}
+              {{ '当サイトにおいて入院患者数の公表を開始した3月6日から作成' }}
             </li>
           </ul>
         </template>
@@ -53,7 +49,7 @@ export default {
       }))
     // 入院患者数グラフ
     const patientsGraph = formatGraph(formatData)
-    const tableLabels = [this.$t('入院患者数')]
+    const tableLabels = ['入院患者数']
 
     return {
       positiveStatus,

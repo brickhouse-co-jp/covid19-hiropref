@@ -1,17 +1,18 @@
 <template>
   <v-col cols="12" md="6" class="DataCard">
     <client-only>
-      <time-bar-chart
-        :title="$t('報告日別による陽性者数の推移')"
+      <time-bar-chart-cumulative
+        :title="'報告日別による陽性者数の累積'"
         :title-id="'number-of-confirmed-cases'"
         :chart-id="'time-bar-chart-patients'"
         :chart-data="patientsGraph"
+        :data-kind="'cumulative'"
         :date="date"
-        :unit="$t('人')"
+        :unit="'人'"
         :by-date="true"
         :url="'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068'"
       >
-        <template v-slot:description>
+        <!-- <template v-slot:description>
           <app-link
             :to="`${
               $i18n.locale !== 'ja' ? $i18n.locale : ''
@@ -20,42 +21,42 @@
           >
             {{ $t('発症日別による陽性者数の推移はこちら') }}
           </app-link>
-        </template>
+        </template> -->
         <template v-slot:additionalDescription>
           <div class="Description-ExternalLink">
             <app-link
               to="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/todokedehcyouseisya.html"
             >
-              {{ $t('届出保健所別の内訳') }}
+              {{ '届出保健所別の内訳' }}
             </app-link>
           </div>
-          <span>{{ $t('（注）') }}</span>
+          <span>{{ '（注）' }}</span>
           <ul>
             <li>
-              {{ $t('保健所から発生届が提出された日を基準とする') }}
+              {{ '保健所から発生届が提出された日を基準とする' }}
             </li>
             <li>
-              {{ $t('医療機関等が行った検査も含む') }}
+              {{ '医療機関等が行った検査も含む' }}
             </li>
             <li>
-              {{ $t('チャーター機帰国者、クルーズ船乗客等は含まれていない') }}
+              {{ 'チャーター機帰国者、クルーズ船乗客等は含まれていない' }}
             </li>
           </ul>
         </template>
-      </time-bar-chart>
+      </time-bar-chart-cumulative>
     </client-only>
   </v-col>
 </template>
 
 <script>
 import AppLink from '@/components/AppLink.vue'
-import TimeBarChart from '@/components/TimeBarChart.vue'
+import TimeBarChartCumulative from '@/components/TimeBarChartCumulative.vue'
 import Data from '@/data/data.json'
 import formatGraph from '@/utils/formatGraph'
 
 export default {
   components: {
-    TimeBarChart,
+    TimeBarChartCumulative,
     AppLink,
   },
   data() {

@@ -2,14 +2,14 @@
   <v-col cols="12" md="6" class="DataCard">
     <client-only>
       <data-table
-        :title="$t('陽性者の属性')"
+        :title="'陽性者の属性'"
         :title-id="'attributes-of-confirmed-cases'"
         :chart-data="patientsTable"
         :chart-option="{}"
         :date="date"
         :info="sumInfoOfPatients"
         :url="'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068'"
-        :source="$t('オープンデータを入手')"
+        :source="'オープンデータを入手'"
         :custom-sort="customSort"
       />
     </client-only>
@@ -48,7 +48,7 @@ export default {
         patientsGraph.length - 1
       ].cumulative.toLocaleString(),
       sText: this.$t('{date}の累計', { date: dateAsOf }),
-      unit: this.$t('人'),
+      unit: '人',
     }
 
     // 陽性者の属性 ヘッダー翻訳

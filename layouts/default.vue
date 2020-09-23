@@ -3,7 +3,7 @@
     <v-overlay :value="loading" color="#F8F9FA" opacity="1" z-index="9999">
       <div class="loader">
         <img src="/logo.svg" alt="東京都" />
-        <scale-loader color="#00A040" />
+        <scale-loader color="#992f3b" />
       </div>
     </v-overlay>
     <div v-if="hasNavigation" class="appContainer">

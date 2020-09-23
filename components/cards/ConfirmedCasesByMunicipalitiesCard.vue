@@ -51,21 +51,21 @@ export default {
     // ヘッダーを設定
     if (this.$i18n.locale === 'ja') {
       municipalitiesTable.headers = [
-        { text: this.$t('地域'), value: 'area' },
+        { text: this.$t('管轄'), value: 'area' },
         { text: this.$t('ふりがな'), value: 'ruby' },
         { text: this.$t('区市町村'), value: 'label' },
         { text: this.$t('陽性者数'), value: 'count', align: 'end' },
       ]
     } else {
       municipalitiesTable.headers = [
-        { text: this.$t('地域'), value: 'area' },
+        { text: this.$t('管轄'), value: 'area' },
         { text: this.$t('区市町村'), value: 'label' },
         { text: this.$t('陽性者数'), value: 'count', align: 'end' },
       ]
     }
 
     // データをソート
-    const areaOrder = ['特別区', '多摩地域', '島しょ地域', null]
+    const areaOrder = ['県管轄', '広島市', '呉市', '福山市', '安芸郡', null]
     datasets.data
       .sort((a, b) => {
         // 全体をふりがなでソート
@@ -78,7 +78,7 @@ export default {
         }
       })
       .sort((a, b) => {
-        // '特別区' -> '多摩地域' -> '島しょ地域' -> その他 の順にソート
+        // '県管轄' -> '広島市' -> '呉市' -> 福山市 -> 安芸郡 -> の順にソート
         return areaOrder.indexOf(a.area) - areaOrder.indexOf(b.area)
       })
 
