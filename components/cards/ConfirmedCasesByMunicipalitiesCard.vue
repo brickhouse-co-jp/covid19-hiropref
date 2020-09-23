@@ -2,20 +2,20 @@
   <v-col cols="12" md="6" class="DataCard">
     <client-only>
       <confirmed-cases-by-municipalities-table
-        :title="$t('陽性者数（区市町村別）')"
+        :title="'陽性者数（区市町村別）'"
         :title-id="'number-of-confirmed-cases-by-municipalities'"
         :chart-data="municipalitiesTable"
         :date="date"
         :info="info"
       >
         <template v-slot:additionalDescription>
-          <span>{{ $t('（注）') }}</span>
+          <span>{{ '（注）' }}</span>
           <ul>
             <li>
-              {{ $t('前日までに報告された陽性者数の累計値') }}
+              {{ '前日までに報告された陽性者数の累計値' }}
             </li>
             <li>
-              {{ $t('チャーター機帰国者、クルーズ船乗客等は含まれていない') }}
+              {{ 'チャーター機帰国者、クルーズ船乗客等は含まれていない' }}
             </li>
           </ul>
         </template>
@@ -51,16 +51,16 @@ export default {
     // ヘッダーを設定
     if (this.$i18n.locale === 'ja') {
       municipalitiesTable.headers = [
-        { text: this.$t('管轄'), value: 'area' },
-        { text: this.$t('ふりがな'), value: 'ruby' },
-        { text: this.$t('区市町村'), value: 'label' },
-        { text: this.$t('陽性者数'), value: 'count', align: 'end' },
+        { text: '管轄', value: 'area' },
+        { text: 'ふりがな', value: 'ruby' },
+        { text: '区市町村', value: 'label' },
+        { text: '陽性者数', value: 'count', align: 'end' },
       ]
     } else {
       municipalitiesTable.headers = [
-        { text: this.$t('管轄'), value: 'area' },
-        { text: this.$t('区市町村'), value: 'label' },
-        { text: this.$t('陽性者数'), value: 'count', align: 'end' },
+        { text: '管轄', value: 'area' },
+        { text: '区市町村', value: 'label' },
+        { text: '陽性者数', value: 'count', align: 'end' },
       ]
     }
 
@@ -86,12 +86,12 @@ export default {
     municipalitiesTable.datasets = datasets.data
       .filter((d) => d.label !== '小計')
       .map((d) => {
-        const area = this.$t(d.area)
-        const label = this.$t(d.label)
+        const area = d.area
+        const label = d.label
         const count = countFormatter(d.count)
 
         if (this.$i18n.locale === 'ja') {
-          const ruby = this.$t(d.ruby)
+          const ruby = d.ruby
           return { area, ruby, label, count }
         } else {
           return { area, label, count }

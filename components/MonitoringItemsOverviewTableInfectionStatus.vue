@@ -2,7 +2,7 @@
   <ul :class="$style.container">
     <li :class="[$style.box, $style.parent]">
       <div :class="$style.content">
-        <span>{{ $t('新規陽性者数') }}</span>
+        <span>{{ '新規陽性者数' }}</span>
         <monitoring-items-overview-table-value-with-translatable-unit
           :value="items['新規陽性者数'].value"
           :unit="items['新規陽性者数'].unit"
@@ -12,11 +12,7 @@
         <li :class="[$style.box]">
           <div :class="$style.content">
             <span>
-              {{
-                $t(
-                  '感染経路不明(公表時点)'
-                )
-              }}
+              {{ '感染経路不明(公表時点)' }}
             </span>
             <monitoring-items-overview-table-value-with-translatable-unit
               :value="items['感染経路不明(公表時点)'].value"

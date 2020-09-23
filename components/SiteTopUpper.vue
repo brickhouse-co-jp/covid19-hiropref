@@ -3,14 +3,14 @@
     <div class="Header mb-3">
       <page-header :icon="headerItem.icon">{{ headerItem.title }}</page-header>
       <div class="UpdatedAt">
-        <span>{{ $t('最終更新') }}</span>
+        <span>{{ '最終更新' }}</span>
         <time :datetime="updatedAt">{{ formattedDateForDisplay }}</time>
       </div>
       <div
         v-show="!['ja', 'ja-basic'].includes($i18n.locale)"
         class="Annotation"
       >
-        <span>{{ $t('注釈') }}</span>
+        <span>{{ '注釈' }}</span>
       </div>
     </div>
     <whats-new class="mb-4" :items="newsItems" :is-emergency="false" />
@@ -19,8 +19,8 @@
     <static-info
       class="mb-4"
       :url="localePath('/flow')"
-      :text="$t('自分や家族の症状に不安や心配があればまずは電話相談をどうぞ')"
-      :btn-text="$t('相談の手順を見る')"
+      :text="'自分や家族の症状に不安や心配があればまずは電話相談をどうぞ'"
+      :btn-text="'相談の手順を見る'"
     />
   </div>
 </template>
@@ -54,7 +54,7 @@ export default Vue.extend({
       TokyoAlert,
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
-        title: this.$t('県内の最新感染動向'),
+        title: '県内の最新感染動向',
       },
       lastUpdate,
       newsItems: News.newsItems,
@@ -70,7 +70,7 @@ export default Vue.extend({
   },
   head(): MetaInfo {
     return {
-      title: this.$t('県内の最新感染動向') as string,
+      title: '県内の最新感染動向' as string,
     }
   },
 })

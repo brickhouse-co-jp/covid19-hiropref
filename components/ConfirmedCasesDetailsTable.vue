@@ -2,19 +2,19 @@
   <ul :class="$style.container">
     <li :class="[$style.box, $style.parent]">
       <div :class="$style.content">
-        <span> {{ $t('陽性者数') }} ({{ $t('累計') }}) </span>
+        <span> {{ '陽性者数' }} ({{ '累計' }}) </span>
         <span>
           <strong>{{ 陽性者数.toLocaleString() }}</strong>
-          <span :class="$style.unit">{{ $t('人') }}</span>
+          <span :class="$style.unit">{{ '人' }}</span>
         </span>
       </div>
       <ul :class="$style.group">
         <li :class="[$style.box]">
           <div :class="$style.content">
-            <span>{{ $t('入院') }}</span>
+            <span>{{ '入院' }}</span>
             <span>
               <strong>{{ 入院中.toLocaleString() }}</strong>
-              <span :class="$style.unit">{{ $t('人') }}</span>
+              <span :class="$style.unit">{{ '人' }}</span>
             </span>
           </div>
           <!-- <ul :class="$style.group">
@@ -40,28 +40,28 @@
         </li>
         <li :class="[$style.box]">
           <div :class="$style.content">
-            <span>{{ $t('宿泊療養') }}</span>
+            <span>{{ '宿泊療養' }}</span>
             <span>
               <strong>{{ 宿泊療養.toLocaleString() }}</strong>
-              <span :class="$style.unit">{{ $t('人') }}</span>
+              <span :class="$style.unit">{{ '人' }}</span>
             </span>
           </div>
         </li>
         <li :class="[$style.box]">
           <div :class="$style.content">
-            <span>{{ $t('施設療養') }}</span>
+            <span>{{ '施設療養' }}</span>
             <span>
               <strong>{{ 施設療養.toLocaleString() }}</strong>
-              <span :class="$style.unit">{{ $t('人') }}</span>
+              <span :class="$style.unit">{{ '人' }}</span>
             </span>
           </div>
         </li>
         <li :class="[$style.box]">
           <div :class="$style.content">
-            <span>{{ $t('その他') }}</span>
+            <span>{{ 'その他' }}</span>
             <span>
               <strong>{{ その他.toLocaleString() }}</strong>
-              <span :class="$style.unit">{{ $t('人') }}</span>
+              <span :class="$style.unit">{{ '人' }}</span>
             </span>
           </div>
         </li>
@@ -76,19 +76,19 @@
         </li> -->
         <li :class="[$style.box]">
           <div :class="$style.content">
-            <span>{{ $t('死亡') }}</span>
+            <span>{{ '死亡' }}</span>
             <span>
               <strong>{{ 死亡.toLocaleString() }}</strong>
-              <span :class="$style.unit">{{ $t('人') }}</span>
+              <span :class="$style.unit">{{ '人' }}</span>
             </span>
           </div>
         </li>
         <li :class="[$style.box]">
           <div :class="$style.content">
-            <span>{{ $t('退院等（新基準含む）') }}</span>
+            <span>{{ '退院等（新基準含む）' }}</span>
             <span>
               <strong>{{ 退院.toLocaleString() }}</strong>
-              <span :class="$style.unit">{{ $t('人') }}</span>
+              <span :class="$style.unit">{{ '人' }}</span>
             </span>
           </div>
         </li>

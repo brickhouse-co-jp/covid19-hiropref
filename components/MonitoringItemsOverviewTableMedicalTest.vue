@@ -4,12 +4,12 @@
       <ul :class="$style.container">
         <li :class="[$style.box, $style.parent]">
           <div :class="$style.content">
-            <span>{{ $t('保健所設置市分') }}</span>
+            <span>{{ '保健所設置市分' }}</span>
           </div>
           <ul :class="$style.group">
             <li :class="[$style.box]">
               <div :class="$style.content">
-                <span>{{ $t('検査件数(広島市)') }}</span>
+                <span>{{ '検査件数(広島市)' }}</span>
                 <monitoring-items-overview-table-value-with-translatable-unit
                   :value="items['検査件数(広島市)'].value"
                   :unit="items['検査件数(広島市)'].unit"
@@ -18,7 +18,7 @@
             </li>
             <li :class="[$style.box]">
               <div :class="$style.content">
-                <span>{{ $t('陽性率(広島市)') }}</span>
+                <span>{{ '陽性率(広島市)' }}</span>
                 <monitoring-items-overview-table-value-with-translatable-unit
                   :value="items['陽性率(広島市)'].value"
                   :unit="items['陽性率(広島市)'].unit"
@@ -27,7 +27,7 @@
             </li>
             <li :class="[$style.box]">
               <div :class="$style.content">
-                <span>{{ $t('検査件数(呉市)') }}</span>
+                <span>{{ '検査件数(呉市)' }}</span>
                 <monitoring-items-overview-table-value-with-translatable-unit
                   :value="items['検査件数(呉市)'].value"
                   :unit="items['検査件数(呉市)'].unit"
@@ -36,7 +36,7 @@
             </li>
             <li :class="[$style.box]">
               <div :class="$style.content">
-                <span>{{ $t('陽性率(呉市)') }}</span>
+                <span>{{ '陽性率(呉市)' }}</span>
                 <monitoring-items-overview-table-value-with-translatable-unit
                   :value="items['陽性率(呉市)'].value"
                   :unit="items['陽性率(呉市)'].unit"
@@ -45,7 +45,7 @@
             </li>
             <li :class="[$style.box]">
               <div :class="$style.content">
-                <span>{{ $t('検査件数(福山市)') }}</span>
+                <span>{{ '検査件数(福山市)' }}</span>
                 <monitoring-items-overview-table-value-with-translatable-unit
                   :value="items['検査件数(福山市)'].value"
                   :unit="items['検査件数(福山市)'].unit"
@@ -54,7 +54,7 @@
             </li>
             <li :class="[$style.box]">
               <div :class="$style.content">
-                <span>{{ $t('陽性率(福山市)') }}</span>
+                <span>{{ '陽性率(福山市)' }}</span>
                 <monitoring-items-overview-table-value-with-translatable-unit
                   :value="items['陽性率(福山市)'].value"
                   :unit="items['陽性率(福山市)'].unit"
@@ -65,12 +65,12 @@
         </li>
         <li :class="[$style.box, $style.parent]">
           <div :class="$style.content">
-            <span>{{ $t('県保健所管轄分') }}</span>
+            <span>{{ '県保健所管轄分' }}</span>
           </div>
           <ul :class="$style.group">
             <li :class="[$style.box]">
               <div :class="$style.content">
-                <span>{{ $t('検査件数(県管轄)') }}</span>
+                <span>{{ '検査件数(県管轄)' }}</span>
                 <monitoring-items-overview-table-value-with-translatable-unit
                   :value="items['検査件数(県管轄)'].value"
                   :unit="items['検査件数(県管轄)'].unit"
@@ -79,7 +79,7 @@
             </li>
             <li :class="[$style.box]">
               <div :class="$style.content">
-                <span>{{ $t('陽性率(県管轄)') }}</span>
+                <span>{{ '陽性率(県管轄)' }}</span>
                 <monitoring-items-overview-table-value-with-translatable-unit
                   :value="items['陽性率(県管轄)'].value"
                   :unit="items['陽性率(県管轄)'].unit"
@@ -94,7 +94,7 @@
       <ul :class="$style.container">
         <li :class="[$style.box]">
           <div :class="$style.content">
-            <span>{{ $t('検査件数(合計)') }}</span>
+            <span>{{ '検査件数(合計)' }}</span>
             <monitoring-items-overview-table-value-with-translatable-unit
               :value="items['検査件数(合計)'].value"
               :unit="items['検査件数(合計)'].unit"
@@ -103,7 +103,7 @@
         </li>
         <li :class="[$style.box]">
           <div :class="$style.content">
-            <span>{{ $t('陽性率(合計)') }}</span>
+            <span>{{ '陽性率(合計)' }}</span>
             <monitoring-items-overview-table-value-with-translatable-unit
               :value="items['陽性率(合計)'].value"
               :unit="items['陽性率(合計)'].unit"
@@ -139,5 +139,7 @@ export default Vue.extend({
 </style>
 
 <style scoped>
-  .list-style-none{list-style: none;}
+.list-style-none {
+  list-style: none;
+}
 </style>

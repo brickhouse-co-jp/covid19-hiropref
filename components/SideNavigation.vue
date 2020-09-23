@@ -3,7 +3,7 @@
     <header class="SideNavigation-Header">
       <v-icon
         class="SideNavigation-OpenIcon"
-        :aria-label="$t('サイドメニュー項目を開く')"
+        :aria-label="'サイドメニュー項目を開く'"
         @click="$emit('openNavi', $event)"
       >
         mdi-menu
@@ -13,7 +13,7 @@
           <img
             class="SideNavigation-HeaderLogo"
             src="/logo.svg"
-            :alt="$t('東京都')"
+            :alt="'広島県'"
           />
           <div class="SideNavigation-HeaderText">
             {{ '新型コロナウイルス感染症' }}<br />
@@ -26,7 +26,7 @@
     <div :class="['SideNavigation-Body', { '-opened': isNaviOpen }]">
       <v-icon
         class="SideNavigation-CloseIcon"
-        :aria-label="$t('サイドメニュー項目を閉じる')"
+        :aria-label="'サイドメニュー項目を閉じる'"
         @click="$emit('closeNavi', $event)"
       >
         mdi-close
@@ -103,7 +103,7 @@ import Vue from 'vue'
 import { TranslateResult } from 'vue-i18n'
 
 import AppLink from '@/components/AppLink.vue'
-import LanguageSelector from '@/components/LanguageSelector.vue'
+// import LanguageSelector from '@/components/LanguageSelector.vue'
 import MenuList from '@/components/MenuList.vue'
 
 type Item = {
