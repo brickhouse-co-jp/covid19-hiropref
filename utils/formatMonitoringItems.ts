@@ -31,9 +31,9 @@ type RawData = {
   '陽性率(県管轄)': number
   '検査件数(県管轄)': number
   入院患者数: number
-  入院患者確保病床数: string
+  入院患者確保病床数: number
   宿泊療養施設療養者数: number
-  宿泊療養施設確保室数: string
+  宿泊療養施設確保室数: number
   '感染経路不明(公表時点)': number
   '検査件数(合計)': number
   '陽性率(合計)': number
@@ -66,6 +66,8 @@ export default (rawDataObj: RawData): MonitoringItems => {
     translatable: true,
   }
   const unitPercentage: Unit = { text: '%', translatable: false }
+  const unitRoom: Unit = { text: '室', translatable: false }
+  const unitBed: Unit = { text: '床', translatable: false }
 
   const toInteger = getCommaSeparatedNumberToFixedFunction(0)
   const toNumberIn10thPlace = getCommaSeparatedNumberToFixedFunction(1)
@@ -112,16 +114,16 @@ export default (rawDataObj: RawData): MonitoringItems => {
       unit: unitPerson,
     },
     入院患者確保病床数: {
-      value: rawDataObj['入院患者確保病床数'],
-      unit: null,
+      value: toInteger(rawDataObj['入院患者確保病床数']),
+      unit: unitBed,
     },
     宿泊療養施設療養者数: {
       value: toInteger(rawDataObj['宿泊療養施設療養者数']),
       unit: unitPerson,
     },
     宿泊療養施設確保室数: {
-      value: rawDataObj['宿泊療養施設確保室数'],
-      unit: null,
+      value: toInteger(rawDataObj['宿泊療養施設確保室数']),
+      unit: unitRoom,
     },
     '感染経路不明(公表時点)': {
       value: toInteger(rawDataObj['感染経路不明(公表時点)']),

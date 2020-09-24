@@ -90,8 +90,8 @@ export default {
   components: {
     DataView,
     MonitoringItemsOverviewTableInfectionStatus,
-    MonitoringItemsOverviewTableMedicalTest,
     MonitoringItemsOverviewTableMedicalSystem,
+    MonitoringItemsOverviewTableMedicalTest,
     // AppLink,
   },
   data() {
