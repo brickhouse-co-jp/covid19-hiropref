@@ -65,7 +65,7 @@ export default {
     }
 
     // データをソート
-    const areaOrder = ['県管轄', '広島市', '呉市', '福山市', '安芸郡', null]
+    const areaOrder = ['県管轄', '広島市', '呉市', '福山市', null]
     datasets.data
       .sort((a, b) => {
         // 全体をふりがなでソート
@@ -78,7 +78,7 @@ export default {
         }
       })
       .sort((a, b) => {
-        // '県管轄' -> '広島市' -> '呉市' -> 福山市 -> 安芸郡 -> の順にソート
+        // '県管轄' -> '広島市' -> '呉市' -> 福山市 -> の順にソート
         return areaOrder.indexOf(a.area) - areaOrder.indexOf(b.area)
       })
 
