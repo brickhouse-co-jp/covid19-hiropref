@@ -193,13 +193,16 @@
         path="本サイトで公表しているデータは、{catalogWebsite}より誰でも自由にダウンロードが可能です。（データは順次追加予定です）"
       >
         <template v-slot:catalogWebsite>
-          <app-link to="https://portal.data.metro.tokyo.lg.jp/" :icon-size="16">
-            {{ $t('広島県オープンデータカタログサイト') }}
+          <app-link
+            to="https://www.pref.hiroshima.lg.jp/soshiki/9/opendata.html"
+            :icon-size="16"
+          >
+            {{ $t('広島県オープンデータライブラリ') }}
           </app-link>
         </template>
       </i18n>
     </static-card>
-    <static-card>
+    <!-- <static-card>
       <h3>{{ $t('ソースコードについて') }}</h3>
       <p>
         {{
@@ -218,7 +221,7 @@
           </template>
         </i18n>
       </p>
-    </static-card>
+    </static-card> -->
   </div>
 </template>
 

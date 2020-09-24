@@ -17,25 +17,27 @@
         <thead>
           <tr>
             <th class="text-center" scope="col">
-              {{ $t('お問い合わせ内容') }}
+              {{ $t('新型コロナウイルス感染症に関する相談窓口') }}
             </th>
-            <th class="text-center" scope="col">{{ $t('局名') }}</th>
+            <th class="text-center" scope="col">
+              {{ $t('新型コロナウイルスコールセンター') }}
+            </th>
             <th class="text-center tel" scope="col">{{ $t('電話番号') }}</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td class="content importantContact" v-bind="headingAttrs">
-              {{ $t('新型コロナウイルス感染症の予防・検査・医療に関すること') }}
+              {{ $t('広島市･呉市･福山市以外の市町') }}
             </td>
             <td class="bureau importantContact">
-              {{ $t('新型コロナコールセンター') }}
+              {{ $t('広島県各保健所') }}
             </td>
             <td class="tel">
-              <a href="tel:0570-550571" class="importantContact">0570-550571</a
+              <a href="tel:0825132567" class="importantContact">082-513-2567</a
               ><br />
               <p class="caution">
-                {{ $t(`午前9時00分から午後10時00分（土日祝含む）`) }}
+                {{ $t(`24時間対応`) }}
               </p>
               <p class="caution">
                 {{
@@ -48,137 +50,95 @@
           </tr>
           <tr>
             <td class="content importantContact" v-bind="headingAttrs">
-              {{
-                $t(
-                  '感染防止徹底宣言ステッカー、感染拡大防止協力金等に関すること'
-                )
-              }}
+              {{ $t('広島市') }}
             </td>
             <td class="bureau importantContact">
-              {{ $t('広島県ステッカー申請・感染拡大防止協力金相談センター') }}
+              {{ $t('広島市各保健センター') }}
             </td>
             <td class="tel">
-              <a href="tel:03-5388-0567" class="importantContact"
-                >03-5388-0567</a
+              <a href="tel:0822414566" class="importantContact">082-241-4566</a
               ><br />
               <p class="caution">
-                {{ $t('午前9時00分から午後7時00分（土日祝含む）') }}
+                {{ $t('24時間対応') }}
               </p>
             </td>
           </tr>
           <tr>
+            <td class="content importantContact" v-bind="headingAttrs">
+              {{ $t('呉市') }}
+            </td>
+            <td class="bureau importantContact">
+              {{ $t('呉市保健所') }}
+            </td>
+            <td class="tel">
+              <a href="tel:0823225858" class="importantContact">0823-22-5858</a
+              ><br />
+              <p class="caution">
+                {{ $t('24時間対応') }}
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="Contacts-Card mtSec">
+      <table
+        id="contactsCardTable"
+        class="Contacts-Card-Table"
+        v-bind="tableAttrs"
+        aria-describedby="pageHeader"
+      >
+        <thead>
+          <tr>
+            <th class="text-center" scope="col">
+              {{ $t('お問い合わせ内容') }}
+            </th>
+            <th class="text-center" scope="col">
+              {{ $t('名前') }}
+            </th>
+            <th class="text-center tel" scope="col">{{ $t('電話番号') }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
             <td class="content" v-bind="headingAttrs">
               {{ $t('本サイトの管理・運営に関すること') }}
             </td>
-            <td class="bureau">{{ $t('政策企画局') }}</td>
-            <td class="tel"><a href="tel:03-5388-2171">03-5388-2171</a></td>
+            <td class="bureau">
+              {{ $t('ブランド・コミュニケーション戦略チーム') }}
+            </td>
+            <td class="tel"><a href="tel:0825132378">082-513-2378</a></td>
           </tr>
           <tr>
             <td class="content" v-bind="headingAttrs">
-              {{ $t('新型コロナウイルス感染症対策本部会議に関すること')
-              }}<br />{{ $t('都庁来庁者データに関すること') }}
+              {{ $t('新型コロナウイルス感染症対応資金') }}
             </td>
-            <td class="bureau">{{ $t('総務局') }}</td>
+            <td class="bureau">{{ $t('経営革新課') }}</td>
             <td class="tel">
-              <ul>
-                <li>
-                  {{ $t('新型コロナウイルス感染症対策本部会議に関すること') }}
-                  <br />
-                  <a href="tel:03-5388-2453">
-                    03-5388-2453
-                  </a>
-                </li>
-                <li>
-                  {{ $t('都庁来庁者データに関すること') }}
-                  <br />
-                  <a href="tel:03-5388-2319">
-                    03-5388-2319
-                  </a>
-                </li>
-              </ul>
+              <a href="tel:082-513-3321">
+                082-513-3321
+              </a>
             </td>
           </tr>
           <tr>
             <td class="content" v-bind="headingAttrs">
-              {{ $t('都公式ホームページに関すること') }}<br />{{
-                $t('都公式SNSアカウントに関すること')
-              }}
+              {{ $t('広島コロナお知らせQR') }}
             </td>
-            <td class="bureau">{{ $t('生活文化局') }}</td>
+            <td class="bureau">
+              {{ $t('広島コロナお知らせQRサポートセンター') }}
+            </td>
             <td class="tel">
-              <ul>
-                <li>
-                  {{ $t('都公式ホームページに関すること') }}<br /><a
-                    href="tel:03-5388-3061"
-                    >03-5388-3061</a
-                  >
-                </li>
-                <li>
-                  {{ $t('都公式SNSアカウントに関すること') }}<br /><a
-                    href="tel:03-5388-3094"
-                    >03-5388-3094</a
-                  >
-                </li>
-              </ul>
+              <a href="tel:082-513-2845">082-513-2845</a>
             </td>
           </tr>
           <tr>
             <td class="content" v-bind="headingAttrs">
-              {{ $t('中小企業支援、テレワークに関すること') }}
+              {{ $t('新型コロナウイルス感染症対策取組宣言店') }}
             </td>
-            <td class="bureau">{{ $t('産業労働局') }}</td>
+            <td class="bureau">{{ $t('サポートセンター') }}</td>
             <td class="tel">
-              <ul>
-                <li>
-                  {{ $t('資金繰りに関すること') }}<br /><a
-                    href="tel:03-5320-4877"
-                    >03-5320-4877</a
-                  >
-                </li>
-                <li>
-                  {{ $t('経営に関すること') }}<br /><a href="tel:03-3251-7881"
-                    >03-3251-7881</a
-                  >
-                </li>
-                <li>
-                  {{ $t('労働関係に関すること') }}<br /><a
-                    href="tel:0570-00-6110"
-                    >0570-00-6110</a
-                  >
-                </li>
-              </ul>
+              <a href="tel:082-513-2845">082-513-2845</a>
             </td>
-          </tr>
-          <tr>
-            <td class="content" v-bind="headingAttrs">
-              {{ $t('都立学校に関すること') }}
-            </td>
-            <td class="bureau">{{ $t('教育庁') }}</td>
-            <td class="tel"><a href="tel:03-5320-6705">03-5320-6705</a></td>
-          </tr>
-          <tr>
-            <td class="content" v-bind="headingAttrs">
-              {{ $t('スムーズビズに関すること') }}
-            </td>
-            <td class="bureau">{{ $t('都市整備局') }}</td>
-            <td class="tel"><a href="tel:03-5388-3317">03-5388-3317</a></td>
-          </tr>
-          <tr>
-            <td class="content" v-bind="headingAttrs">
-              {{ $t('都営交通に関すること') }}
-            </td>
-            <td class="bureau">{{ $t('交通局') }}</td>
-            <td class="tel">
-              <a href="tel:03-3816-5700">03-3816-5700</a><br />
-              {{ $t('（都営交通お客様センター）') }}
-            </td>
-          </tr>
-          <tr>
-            <td class="content" v-bind="headingAttrs">
-              {{ $t('ご家庭でのマスク等の捨て方に関すること') }}
-            </td>
-            <td class="bureau">{{ $t('環境局') }}</td>
-            <td class="tel"><a href="tel:03-5388-3581">03-5388-3581</a></td>
           </tr>
         </tbody>
       </table>
@@ -234,6 +194,14 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
+.mtSec {
+  margin-top: 20px;
+}
+@include largerThan($medium) {
+  .mtSec {
+    margin-top: 30px;
+  }
+}
 .Contacts {
   &-Card {
     @include card-container();
