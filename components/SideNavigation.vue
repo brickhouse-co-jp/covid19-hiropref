@@ -160,6 +160,21 @@ export default Vue.extend({
           link: 'https://www.pref.hiroshima.lg.jp/site/2019-ncov/message.html',
         },
         {
+          title: 'よくあるご質問(厚生労働省HPへ)',
+          link:
+            'https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/dengue_fever_qa_00001.html',
+        },
+        {
+          title: '広島コロナお知らせQR',
+          link: 'https://www.pref.hiroshima.lg.jp/site/2019-ncov/ncov-qr.html',
+        },
+        {
+          title: '新型コロナウイルス感染症対策取組宣言店',
+          link:
+            'https://www.pref.hiroshima.lg.jp/soshiki/58/inshokusengenten.html',
+          divider: true,
+        },
+        {
           title: '当サイトについて',
           link: this.localePath('/about'),
         },
