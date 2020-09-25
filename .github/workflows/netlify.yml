@@ -1,0 +1,39 @@
+name: deploy to netlify
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v2
+
+      - name: Cache node_modules
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-build-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-build-
+            ${{ runner.OS }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: yarn install and build
+        run: |
+					yarn install
+					yarn run build
+
+      - name: Deploy to netlify
+        run: yarn netlify-cli deploy --dir=./dist
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.l0BcTuD4rc-kCc0jUThQXV04xHAGROT0EzW9I4UdBh0 }}
+          NETLIFY_SITE_ID: ${{ secrets.6c730879-950a-44d6-9c08-3f4526e77f4a }}

@@ -19,6 +19,14 @@ type DataKey =
   | '感染経路不明(公表時点)'
   | '検査件数(合計)'
   | '陽性率(合計)'
+  | '病床逼迫具合'
+  | '療養者数'
+  | 'PCR陽性率'
+  | '新規報告者数'
+  | '直近1週間の先週比較(今週)'
+  | '直近1週間の先週比較(先週)'
+  | '感染経路不明割合(5日)'
+  | '感染経路不明割合(累計)'
 
 type RawData = {
   新規陽性者数: number
@@ -37,6 +45,14 @@ type RawData = {
   '感染経路不明(公表時点)': number
   '検査件数(合計)': number
   '陽性率(合計)': number
+  病床逼迫具合: number
+  療養者数: number
+  PCR陽性率: number
+  新規報告者数: number
+  '直近1週間の先週比較(今週)': number
+  '直近1週間の先週比較(先週)': number
+  '感染経路不明割合(5日)': number
+  '感染経路不明割合(累計)': number
 }
 
 // -----------------------------------------
@@ -135,6 +151,38 @@ export default (rawDataObj: RawData): MonitoringItems => {
     },
     '陽性率(合計)': {
       value: toNumberIn10thPlace(rawDataObj['陽性率(合計)']),
+      unit: unitPercentage,
+    },
+    病床逼迫具合: {
+      value: toNumberIn10thPlace(rawDataObj['病床逼迫具合']),
+      unit: unitPercentage,
+    },
+    療養者数: {
+      value: toNumberIn10thPlace(rawDataObj['療養者数']),
+      unit: unitPerson,
+    },
+    PCR陽性率: {
+      value: toNumberIn10thPlace(rawDataObj['PCR陽性率']),
+      unit: unitPercentage,
+    },
+    新規報告者数: {
+      value: toNumberIn10thPlace(rawDataObj['新規報告者数']),
+      unit: unitPerson,
+    },
+    '直近1週間の先週比較(今週)': {
+      value: toInteger(rawDataObj['直近1週間の先週比較(今週)']),
+      unit: unitPerson,
+    },
+    '直近1週間の先週比較(先週)': {
+      value: toInteger(rawDataObj['直近1週間の先週比較(先週)']),
+      unit: unitPerson,
+    },
+    '感染経路不明割合(5日)': {
+      value: toInteger(rawDataObj['感染経路不明割合(5日)']),
+      unit: unitPercentage,
+    },
+    '感染経路不明割合(累計)': {
+      value: toInteger(rawDataObj['感染経路不明割合(累計)']),
       unit: unitPercentage,
     },
   }

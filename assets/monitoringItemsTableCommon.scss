@@ -1,5 +1,6 @@
 $default-bdw: 3px;
 $default-boxdiff: 35px;
+$bigger-boxdiff: 60px;
 
 // .container > .box > (.group > .box > ...) .pillar > .content
 
@@ -90,6 +91,36 @@ $default-boxdiff: 35px;
   }
 }
 
+.boxBigger {
+  display: block;
+  margin-top: $default-bdw;
+
+  &.parent {
+    border-top: $default-bdw solid $green-1;
+    border-left: $default-bdw solid $green-1;
+    position: relative;
+    padding-left: $bigger-boxdiff - $default-bdw * 2;
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: -1px;
+      bottom: 0;
+      width: $bigger-boxdiff - $default-bdw - 2;
+      border-bottom: $default-bdw solid $green-1;
+    }
+
+    > .content {
+      margin-left: -($bigger-boxdiff - $default-bdw * 2);
+      width: calc(100% + #{($bigger-boxdiff - $default-bdw * 2)});
+      border-top: none;
+      border-left: none;
+      border-bottom: none;
+    }
+  }
+}
+
 @function px2vw($px, $vw: 0) {
   @if $vw > 0 {
     @return ceil($px / $vw * 100000vw) / 1000;
@@ -127,6 +158,26 @@ $default-boxdiff: 35px;
   }
 
   .box {
+    margin-top: px2vw($bdw, $vw);
+
+    &.parent {
+      border-top: px2vw($bdw, $vw) solid $green-1;
+      border-left: px2vw($bdw, $vw) solid $green-1;
+      padding-left: px2vw($boxdiff, $vw) - px2vw($bdw, $vw) * 2;
+
+      &::after {
+        width: px2vw($boxdiff - $bdw, $vw);
+        border-bottom: px2vw($bdw, $vw) solid $green-1;
+      }
+
+      > .content {
+        margin-left: -(px2vw($boxdiff, $vw) - px2vw($bdw, $vw) * 2);
+        width: calc(100% + #{(px2vw($boxdiff, $vw) - px2vw($bdw, $vw) * 2)});
+      }
+    }
+  }
+
+  .boxBigger {
     margin-top: px2vw($bdw, $vw);
 
     &.parent {

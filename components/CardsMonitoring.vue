@@ -1,6 +1,8 @@
 <template>
   <div>
     <card-row class="DataBlock">
+      <!-- 6指標 -->
+      <monitoring-reference-indicator />
       <!-- 検査陽性者の状況 -->
       <confirmed-cases-details-card />
       <!-- 報告日別による陽性者数の推移 -->
@@ -30,6 +32,8 @@
 import Vue from 'vue'
 import CardRow from '@/components/cards/CardRow.vue'
 
+// 6指標
+import MonitoringReferenceIndicator from '@/components/cards/MonitoringReferenceIndicator.vue'
 // 検査陽性者の状況
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 // 報告日別による陽性者数の推移
@@ -55,6 +59,7 @@ import HospitalizedNumberCard from '@/components/cards/HospitalizedNumberCard.vu
 export default Vue.extend({
   components: {
     CardRow,
+    MonitoringReferenceIndicator,
     ConfirmedCasesDetailsCard,
     ConfirmedCasesNumberCard,
     MonitoringItemsOverviewCard,
