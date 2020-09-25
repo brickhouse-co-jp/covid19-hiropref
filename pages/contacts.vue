@@ -78,6 +78,21 @@
               </p>
             </td>
           </tr>
+          <tr>
+            <td class="content importantContact" v-bind="headingAttrs">
+              {{ $t('福山市') }}
+            </td>
+            <td class="bureau importantContact">
+              {{ $t('福山市保健所') }}
+            </td>
+            <td class="tel">
+              <a href="tel:0849281350" class="importantContact">084-928-1350</a
+              ><br />
+              <p class="caution">
+                {{ $t('24時間対応') }}
+              </p>
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
