@@ -36,18 +36,12 @@ jobs:
       - run: yarn run test
       - name: generate
         run: |
-          echo "GOOGLE_ANALYTICS_ID=${GOOGLE_ANALYTICS_ID}" >> .env.production
-          echo "GTM_CONTAINER_ID=${GTM_CONTAINER_ID}" >> .env.production
-          cat .env.production
           yarn run generate:deploy --fail-on-page-error
-        env:
-          GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
-          GTM_CONTAINER_ID: ${{ secrets.GTM_CONTAINER_ID }}
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GIT_TOKEN_COVID19 }}
           publish_dir: ./dist
-          publish_branch: production
+          publish_branch: master
 
