@@ -16,12 +16,12 @@
     <whats-new class="mb-4" :items="newsItems" :is-emergency="false" />
     <monitoring-comment-card />
     <tokyo-alert-card v-if="TokyoAlert.alert" />
-    <static-info
+    <!-- <static-info
       class="mb-4"
       :url="localePath('/flow')"
       :text="'自分や家族の症状に不安や心配があればまずは電話相談をどうぞ'"
       :btn-text="'相談の手順を見る'"
-    />
+    /> -->
   </div>
 </template>
 
@@ -31,7 +31,7 @@ import { MetaInfo } from 'vue-meta'
 
 import MonitoringCommentCard from '@/components/MonitoringCommentCard.vue'
 import PageHeader from '@/components/PageHeader.vue'
-import StaticInfo from '@/components/StaticInfo.vue'
+// import StaticInfo from '@/components/StaticInfo.vue'
 import TokyoAlertCard from '@/components/TokyoAlertCard.vue'
 import WhatsNew from '@/components/WhatsNew.vue'
 import Data from '@/data/data.json'
@@ -43,7 +43,7 @@ export default Vue.extend({
   components: {
     PageHeader,
     WhatsNew,
-    StaticInfo,
+    // StaticInfo,
     TokyoAlertCard,
     MonitoringCommentCard,
   },
