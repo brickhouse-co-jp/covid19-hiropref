@@ -153,19 +153,19 @@
 </template>
 
 <script lang="ts">
-import AppLink from '@/components/AppLink.vue'
+// import AppLink from '@/components/AppLink.vue'
 import PageHeader from '@/components/PageHeader.vue'
 import CovidIcon from '@/static/covid.svg'
-import IconBed from '@/static/flow/bed.svg'
-import IconPhone from '@/static/flow/phone.svg'
+// import IconBed from '@/static/flow/bed.svg'
+// import IconPhone from '@/static/flow/phone.svg'
 
 export default {
   components: {
     CovidIcon,
     PageHeader,
-    AppLink,
-    IconPhone,
-    IconBed,
+    // AppLink,
+    // IconPhone,
+    // IconBed,
   },
 }
 </script>
@@ -402,8 +402,8 @@ $margin: 20;
   }
 }
 .sectionNoBorder {
-  margin-top: $margin * 1.5px;
-  padding-top: $padding * 1px;
+  margin-top: $margin * 0.8px;
+  padding-top: $padding * 0.8px;
   padding-bottom: $padding * 1px;
   background-color: $white;
   &.yellow {
@@ -445,8 +445,8 @@ $margin: 20;
   }
 }
 .sectionAttention {
-  margin-top: $margin * 1.5px;
-  padding-top: $padding * 1px;
+  margin-top: $margin * 0.5px;
+  padding-top: $padding * 0.7px;
   background-color: $white;
   .pAt {
     margin-top: 5px;
@@ -718,8 +718,7 @@ $margin: 20;
   }
   .sectionNoBorder {
     //margin-top: px2vw($margin * 1.5);
-    margin-top: 20px; // フローティングの都合で固定
-    padding: px2vw($padding);
+    margin-top: 15px; // フローティングの都合で固定
     &.yellow {
       border-width: px2vw(3);
     }
@@ -743,8 +742,8 @@ $margin: 20;
     }
   }
   .sectionAttention {
-    margin-top: $margin * 1.5px;
-    padding-top: $padding * 1px;
+    margin-top: $margin * 0.5px;
+    padding-top: $padding * 0.5px;
     padding-bottom: $padding * 1px;
     background-color: $white;
     .pAt {
