@@ -155,7 +155,7 @@ const config: NuxtConfig = {
     // hardSource: process.env.NODE_ENV === 'development'
   },
   manifest: {
-    name: '広島県 新型コロナウイルス感染症対策サイト',
+    name: '広島県 新型コロナウイルス感染症データまとめサイト',
     theme_color: '#992F3B',
     background_color: '#ffffff',
     display: 'standalone',

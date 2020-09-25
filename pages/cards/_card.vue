@@ -173,7 +173,7 @@ export default {
     )}`
     const defaultTitle = `${this.$t('広島県')} ${this.$t(
       '新型コロナウイルス感染症'
-    )}${this.$t('対策サイト')}`
+    )}${this.$t('データまとめサイト')}`
 
     return {
       titleTemplate: (title) => `${this.title || title} | ${defaultTitle}`,
