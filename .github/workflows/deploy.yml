@@ -9,7 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.l0BcTuD4rc-kCc0jUThQXV04xHAGROT0EzW9I4UdBh0 }}
     steps:
       - uses: actions/checkout@v2
         with:
@@ -47,7 +47,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.l0BcTuD4rc-kCc0jUThQXV04xHAGROT0EzW9I4UdBh0 }}
           publish_dir: ./dist
           publish_branch: production
 
