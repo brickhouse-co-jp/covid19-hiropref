@@ -131,10 +131,10 @@ export default Vue.extend({
       type: Number,
       required: true,
     },
-    調査中: {
-      type: Number,
-      required: true,
-    },
+    // 調査中: {
+    //   type: Number,
+    //   required: true,
+    // },
     死亡: {
       type: Number,
       required: true,
