@@ -15,7 +15,7 @@
     </div>
     <whats-new class="mb-4" :items="newsItems" :is-emergency="false" />
     <monitoring-comment-card />
-    <tokyo-alert-card v-if="TokyoAlert.alert" />
+    <!-- <tokyo-alert-card v-if="TokyoAlert.alert" /> -->
     <!-- <static-info
       class="mb-4"
       :url="localePath('/flow')"
@@ -32,7 +32,7 @@ import { MetaInfo } from 'vue-meta'
 import MonitoringCommentCard from '@/components/MonitoringCommentCard.vue'
 import PageHeader from '@/components/PageHeader.vue'
 // import StaticInfo from '@/components/StaticInfo.vue'
-import TokyoAlertCard from '@/components/TokyoAlertCard.vue'
+// import TokyoAlertCard from '@/components/TokyoAlertCard.vue'
 import WhatsNew from '@/components/WhatsNew.vue'
 import Data from '@/data/data.json'
 import News from '@/data/news.json'
@@ -44,7 +44,7 @@ export default Vue.extend({
     PageHeader,
     WhatsNew,
     // StaticInfo,
-    TokyoAlertCard,
+    // TokyoAlertCard,
     MonitoringCommentCard,
   },
   data() {
