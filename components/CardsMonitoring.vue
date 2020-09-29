@@ -5,7 +5,7 @@
       <monitoring-reference-indicator />
       <!-- 検査陽性者の状況 -->
       <confirmed-cases-details-card />
-      <!-- 報告日別による陽性者数の推移 -->
+      <!-- 報告日別による陽性者数の累計 -->
       <confirmed-cases-number-card />
       <!-- モニタリング項目 -->
       <monitoring-items-overview-card />
@@ -36,7 +36,7 @@ import CardRow from '@/components/cards/CardRow.vue'
 import MonitoringReferenceIndicator from '@/components/cards/MonitoringReferenceIndicator.vue'
 // 検査陽性者の状況
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
-// 報告日別による陽性者数の推移
+// 報告日別による陽性者数の累計
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
 // モニタリング項目
 import MonitoringItemsOverviewCard from '@/components/cards/MonitoringItemsOverviewCard.vue'
