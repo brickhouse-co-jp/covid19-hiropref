@@ -37,7 +37,6 @@ jobs:
       - name: generate
         run: |
         echo "GOOGLE_ANALYTICS_ID=${GOOGLE_ANALYTICS_ID}" >> .env.production
-        # echo "GTM_CONTAINER_ID=${GTM_CONTAINER_ID}" >> .env.production
         cat .env.production
           yarn run generate:deploy --fail-on-page-error
 
