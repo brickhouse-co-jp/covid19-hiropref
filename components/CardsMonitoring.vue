@@ -3,8 +3,6 @@
     <card-row class="DataBlock">
       <!-- 6指標 -->
       <monitoring-reference-indicator />
-    </card-row>
-    <card-row class="DataBlock">
       <!-- 検査陽性者の状況 -->
       <confirmed-cases-details-card />
       <!-- 報告日別による陽性者数の推移 -->
