@@ -5,6 +5,8 @@
 <script>
 /* eslint-disable simple-import-sort/sort -- ブラウザでの表示順に合わせて各 card の component を import する */
 // ---- モニタリング項目
+// 6指標
+import MonitoringReferenceIndicator from '@/components/cards/MonitoringReferenceIndicator.vue'
 // 検査陽性者の状況
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 // 報告日別による陽性者数の推移
@@ -51,6 +53,7 @@ import { getLinksLanguageAlternative } from '@/utils/i18nUtils'
 export default {
   components: {
     // ---- モニタリング項目
+    MonitoringReferenceIndicator,
     ConfirmedCasesDetailsCard,
     ConfirmedCasesNumberCard,
     MonitoringItemsOverviewCard,
@@ -77,6 +80,10 @@ export default {
     switch (this.$route.params.card) {
       // NOTE: 以下，ブラウザでの表示順に合わせて条件分岐を行う
       // ---- モニタリング項目
+      // 6指標
+      case 'monitoring-reference-indicator':
+        cardComponent = 'monitoring-reference-indicator'
+        break
       // 検査陽性者の状況
       case 'details-of-confirmed-cases':
         cardComponent = 'confirmed-cases-details-card'

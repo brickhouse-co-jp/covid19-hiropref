@@ -60,11 +60,11 @@
         <div>
           <slot name="footer" />
           <div>
-            <app-link class="Permalink" :to="permalink">
-              <time :datetime="formattedDate">
-                {{ $t('{date} 更新', { date: formattedDateForDisplay }) }}
-              </time>
-            </app-link>
+            <!-- <app-link class="Permalink" :to="permalink"> -->
+            <time :datetime="formattedDate">
+              {{ $t('{date} 更新', { date: formattedDateForDisplay }) }}
+            </time>
+            <!-- </app-link> -->
           </div>
         </div>
 
@@ -83,13 +83,17 @@
 import Vue from 'vue'
 import { MetaInfo } from 'vue-meta'
 
-import AppLink from '@/components/AppLink.vue'
+// import AppLink from '@/components/AppLink.vue'
 import DataViewExpantionPanel from '@/components/DataViewExpantionPanel.vue'
-import DataViewShare from '@/components/DataViewShare.vue'
+// import DataViewShare from '@/components/DataViewShare.vue'
 import { convertDatetimeToISO8601Format } from '@/utils/formatDate'
 
 export default Vue.extend({
-  components: { DataViewExpantionPanel, DataViewShare, AppLink },
+  components: {
+    DataViewExpantionPanel,
+    // DataViewShare,
+    // AppLink
+  },
   props: {
     title: {
       type: String,
