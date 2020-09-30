@@ -91,11 +91,11 @@ export default (rawDataObj: RawData): MonitoringItems => {
 
   return {
     新規陽性者数: {
-      value: toNumberIn10thPlace(rawDataObj['新規陽性者数']),
+      value: toInteger(rawDataObj['新規陽性者数']),
       unit: unitPerson,
     },
     '検査件数(広島市)': {
-      value: toNumberIn10thPlace(rawDataObj['検査件数(広島市)']),
+      value: toInteger(rawDataObj['検査件数(広島市)']),
       unit: unitReports,
     },
     '陽性率(広島市)': {
@@ -103,7 +103,7 @@ export default (rawDataObj: RawData): MonitoringItems => {
       unit: unitPercentage,
     },
     '検査件数(呉市)': {
-      value: toNumberIn10thPlace(rawDataObj['検査件数(呉市)']),
+      value: toInteger(rawDataObj['検査件数(呉市)']),
       unit: unitReports,
     },
     '陽性率(呉市)': {
@@ -111,7 +111,7 @@ export default (rawDataObj: RawData): MonitoringItems => {
       unit: unitPercentage,
     },
     '検査件数(福山市)': {
-      value: toNumberIn10thPlace(rawDataObj['検査件数(福山市)']),
+      value: toInteger(rawDataObj['検査件数(福山市)']),
       unit: unitReports,
     },
     '陽性率(福山市)': {
