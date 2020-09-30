@@ -13,7 +13,7 @@
           <h1 class="PrintMeta-Heading">
             {{ $t('新型コロナウイルス感染症') }}
             <br />
-            {{ $t('データまとめサイト') }}
+            {{ $t('データまとめサイト[公式]') }}
           </h1>
         </div>
         <div class="PrintMeta-QRWrapper">
@@ -24,7 +24,9 @@
             <p class="PrintMeta-Text">
               {{ $t('※最新の情報はWebページをご覧ください') }}
             </p>
-            <p class="PrintMeta-Link">https://zealous-jackson-54e21f.netlify.app/</p>
+            <p class="PrintMeta-Link">
+              https://zealous-jackson-54e21f.netlify.app/
+            </p>
           </div>
         </div>
       </div>

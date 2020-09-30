@@ -119,7 +119,7 @@ export default (rawDataObj: RawData): MonitoringItems => {
       unit: unitPercentage,
     },
     '検査件数(県管轄)': {
-      value: toNumberIn10thPlace(rawDataObj['検査件数(県管轄)']),
+      value: toInteger(rawDataObj['検査件数(県管轄)']),
       unit: unitReports,
     },
     '陽性率(県管轄)': {

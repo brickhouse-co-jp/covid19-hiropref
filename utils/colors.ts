@@ -6,7 +6,7 @@ export type SurfaceStyle = {
 type Series = 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G'
 
 const surfaceStyleA: SurfaceStyle = {
-  strokeColor: '#d13434',
+  strokeColor: '#b52b2b',
   fillColor: '#e67373',
 }
 
