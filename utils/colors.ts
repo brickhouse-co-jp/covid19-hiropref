@@ -6,8 +6,8 @@ export type SurfaceStyle = {
 type Series = 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G'
 
 const surfaceStyleA: SurfaceStyle = {
-  strokeColor: '#ff69aa',
-  fillColor: '#a14d54',
+  strokeColor: '#d13434',
+  fillColor: '#e67373',
 }
 
 const surfaceStyleB: SurfaceStyle = {
