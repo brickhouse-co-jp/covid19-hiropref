@@ -36,7 +36,7 @@ import PageHeader from '@/components/PageHeader.vue'
 import WhatsNew from '@/components/WhatsNew.vue'
 import Data from '@/data/data.json'
 import News from '@/data/news.json'
-import TokyoAlert from '@/data/tokyo_alert.json'
+// import TokyoAlert from '@/data/tokyo_alert.json'
 import { convertDatetimeToISO8601Format } from '@/utils/formatDate'
 
 export default Vue.extend({
@@ -51,7 +51,7 @@ export default Vue.extend({
     const { lastUpdate } = Data
 
     return {
-      TokyoAlert,
+      // TokyoAlert,
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
         title: '県内の最新感染動向',
