@@ -2,7 +2,7 @@
   <v-col cols="12" md="6" class="DataCard">
     <client-only>
       <confirmed-cases-by-municipalities-table
-        :title="'陽性者数（区市町村別）'"
+        :title="'陽性者数（市町別）'"
         :title-id="'number-of-confirmed-cases-by-municipalities'"
         :chart-data="municipalitiesTable"
         :date="date"
