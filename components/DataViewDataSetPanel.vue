@@ -1,6 +1,7 @@
 <template>
   <div class="DataView-DataSet">
-    <span class="DataView-DataSet-title">{{ title }}</span>
+    <!-- <span class="DataView-DataSet-title">{{ title }}</span> -->
+    <h3 class="DataView-Title">{{ title }}</h3>
     <div class="DataView-DataSet-DataInfo">
       <span v-if="lText !== ''" class="DataView-DataSet-DataInfo-summary">
         {{ lText }}

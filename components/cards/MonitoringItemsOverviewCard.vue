@@ -2,7 +2,7 @@
   <v-col cols="12" md="6" class="DataCard">
     <client-only>
       <data-view
-        :title="'モニタリング項目'"
+        :title="'感染･検査･医療提供の最新情報'"
         title-id="monitoring-items-overview"
         :date="monitoringItemsData.date"
       >

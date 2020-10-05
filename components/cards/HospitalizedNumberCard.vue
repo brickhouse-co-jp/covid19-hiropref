@@ -2,7 +2,6 @@
   <v-col cols="12" md="6" class="DataCard">
     <client-only>
       <dashed-rectangle-time-bar-chart
-        :title="'モニタリング項目(6)'"
         :title-id="'number-of-hospitalized'"
         :info-titles="['入院患者数']"
         :chart-id="'dashed-rectangle-time-bar-chart-hospitalized'"

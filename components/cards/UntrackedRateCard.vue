@@ -2,7 +2,6 @@
   <v-col cols="12" md="6" class="DataCard">
     <client-only>
       <untracked-rate-mixed-chart
-        :title="'モニタリング項目(3)'"
         :title-id="'untracked-rate'"
         :info-titles="['新規陽性者における接触歴等不明者数', '増加比']"
         :chart-id="'untracked-rate-chart'"
