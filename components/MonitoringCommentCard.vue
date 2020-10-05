@@ -9,25 +9,20 @@
       <p>
         {{
           $t(
-            '広島県では、都内の「感染状況」と「医療提供体制」を2つの柱として7つのモニタリング項目を設定しています。'
+            '広島県では、専門家による状況分析を項目ごとに行い、県内の感染状況・医療提供体制について、国の示したステージという指標に照らし合わせて評価しています。'
           )
         }}
-        {{
-          $t(
-            '毎週、専門家による状況分析を項目ごとに行い、都内の感染状況と医療提供体制それぞれについて「総括コメント」として4段階で評価します。'
-          )
-        }}
-        {{
+        <!-- {{
           $t('{date}付の総括コメントは以下のとおりです。', {
             date: commentDate(),
           })
-        }}
+        }} -->
       </p>
       <v-icon color="#D9D9D9">mdi-chevron-right</v-icon>
       <app-link
-        to="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/monitoring.html"
+        to="https://www.pref.hiroshima.lg.jp/soshiki/19/covid19-stage.html"
       >
-        {{ $t('最新のモニタリング項目の分析・総括コメントについて') }}
+        {{ $t('新型コロナウイルス感染状況のステージについて') }}
       </app-link>
     </div>
     <div class="MonitoringComment-comments">
