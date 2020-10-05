@@ -54,9 +54,9 @@
       />
       <slot v-if="dataKind === 'cumulative'" name="additionalInfoPanel" />
     </template>
-    <template v-slot:footer>
+    <!-- <template v-slot:footer>
       <open-data-link v-show="url" :url="url" />
-    </template>
+    </template> -->
   </data-view>
 </template>
 
