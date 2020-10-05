@@ -157,7 +157,7 @@ export default Vue.extend({
     display: flex;
     align-items: flex-start;
     flex-flow: column;
-    padding: 0 10px;
+    // padding: 0 10px;
 
     @include largerThan($medium) {
       padding: 0 5px;
