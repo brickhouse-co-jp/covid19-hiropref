@@ -160,7 +160,7 @@ export default Vue.extend({
     // padding: 0 10px;
 
     @include largerThan($medium) {
-      padding: 0 5px;
+      // padding: 0 5px;
     }
 
     @include largerThan($large) {
