@@ -53,13 +53,13 @@ export default {
       municipalitiesTable.headers = [
         { text: '管轄', value: 'area' },
         { text: 'ふりがな', value: 'ruby' },
-        { text: '区市町村', value: 'label' },
+        { text: '市町', value: 'label' },
         { text: '陽性者数', value: 'count', align: 'end' },
       ]
     } else {
       municipalitiesTable.headers = [
         { text: '管轄', value: 'area' },
-        { text: '区市町村', value: 'label' },
+        { text: '市町', value: 'label' },
         { text: '陽性者数', value: 'count', align: 'end' },
       ]
     }
