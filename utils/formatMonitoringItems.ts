@@ -87,7 +87,7 @@ export default (rawDataObj: RawData): MonitoringItems => {
 
   const toInteger = getCommaSeparatedNumberToFixedFunction(0)
   const toNumberIn10thPlace = getCommaSeparatedNumberToFixedFunction(1)
-  const toNumberIn10thPlace2 = getCommaSeparatedNumberToFixedFunction(2)
+  const toNumberInHundredthsPlace = getCommaSeparatedNumberToFixedFunction(2)
 
   return {
     新規陽性者数: {
@@ -159,7 +159,7 @@ export default (rawDataObj: RawData): MonitoringItems => {
       unit: unitPercentage,
     },
     療養者数: {
-      value: toNumberIn10thPlace2(rawDataObj['療養者数']),
+      value: toNumberInHundredthsPlace(rawDataObj['療養者数']),
       unit: unitPerson,
     },
     PCR陽性率: {
@@ -167,7 +167,7 @@ export default (rawDataObj: RawData): MonitoringItems => {
       unit: unitPercentage,
     },
     新規報告者数: {
-      value: toNumberIn10thPlace2(rawDataObj['新規報告者数']),
+      value: toNumberInHundredthsPlace(rawDataObj['新規報告者数']),
       unit: unitPerson,
     },
     '直近1週間の先週比較(今週)': {
