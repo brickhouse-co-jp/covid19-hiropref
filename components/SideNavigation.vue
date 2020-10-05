@@ -17,7 +17,7 @@
           />
           <div class="SideNavigation-HeaderText">
             {{ '新型コロナウイルス感染症' }}<br />
-            {{ 'データまとめサイト[公式]' }}
+            {{ 'データまとめサイト[開発中]' }}
           </div>
         </app-link>
       </h1>

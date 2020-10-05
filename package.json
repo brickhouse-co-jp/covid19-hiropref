@@ -1,7 +1,7 @@
 {
   "name": "covid19",
   "version": "1.0.0",
-  "description": "広島県 新型コロナウイルス感染症データまとめサイト[公式]",
+  "description": "広島県 新型コロナウイルス感染症データまとめサイト[開発中]",
   "author": "広島県",
   "private": true,
   "engines": {
