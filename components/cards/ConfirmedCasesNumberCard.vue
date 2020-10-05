@@ -23,13 +23,13 @@
           </app-link>
         </template> -->
         <template v-slot:additionalDescription>
-          <div class="Description-ExternalLink">
+          <!-- <div class="Description-ExternalLink">
             <app-link
               to="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/todokedehcyouseisya.html"
             >
               {{ '届出保健所別の内訳' }}
             </app-link>
-          </div>
+          </div> -->
           <span>{{ '（注）' }}</span>
           <ul>
             <li>
@@ -49,7 +49,7 @@
 </template>
 
 <script>
-import AppLink from '@/components/AppLink.vue'
+// import AppLink from '@/components/AppLink.vue'
 import TimeBarChartCumulative from '@/components/TimeBarChartCumulative.vue'
 import Data from '@/data/data.json'
 import formatGraph from '@/utils/formatGraph'
@@ -57,7 +57,7 @@ import formatGraph from '@/utils/formatGraph'
 export default {
   components: {
     TimeBarChartCumulative,
-    AppLink,
+    // AppLink,
   },
   data() {
     // 感染者数グラフ
