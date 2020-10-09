@@ -154,10 +154,12 @@
 
 <script lang="ts">
 // import AppLink from '@/components/AppLink.vue'
-import PageHeader from '@/components/PageHeader.vue'
-import CovidIcon from '@/static/covid.svg'
 // import IconBed from '@/static/flow/bed.svg'
 // import IconPhone from '@/static/flow/phone.svg'
+import { MetaInfo } from 'vue-meta'
+
+import PageHeader from '@/components/PageHeader.vue'
+import CovidIcon from '@/static/covid.svg'
 
 export default {
   components: {
@@ -166,6 +168,11 @@ export default {
     // AppLink,
     // IconPhone,
     // IconBed,
+  },
+  head(): MetaInfo {
+    return {
+      title: '新型コロナウイルス感染症が心配なときに' as string,
+    }
   },
 }
 </script>

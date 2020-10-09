@@ -27,6 +27,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import { MetaInfo } from 'vue-meta'
 
 import CardsMonitoring from '@/components/CardsMonitoring.vue'
 import CardsReference from '@/components/CardsReference.vue'
@@ -48,11 +49,17 @@ export default Vue.extend({
   //     ],
   //   }
   // },
-//   methods: {
-//     change() {
-//       EventBus.$emit(TOGGLE_EVENT)
-//     },
-//   },
+  //   methods: {
+  //     change() {
+  //       EventBus.$emit(TOGGLE_EVENT)
+  //     },
+  //   },
+
+  head(): MetaInfo {
+    return {
+      title: '新型コロナウイルス感染症が心配なときに' as string,
+    }
+  },
 })
 </script>
 
