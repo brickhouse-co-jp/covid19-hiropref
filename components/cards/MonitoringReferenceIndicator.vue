@@ -10,12 +10,53 @@
           <span>{{ '（注）' }}</span>
           <ul>
             <li>
-              {{ '広島県の指標' }}
+              {{ '広島県における感染動向を評価する指標。' }}
             </li>
             <li>
-              {{ 'これを参考にしてますよ' }}
+              {{
+                '病床ひっ迫具合は、入院病床数及び宿泊療養施設の室数の合計に占める入院等人数の割合を表す。'
+              }}
+            </li>
+            <li>
+              {{
+                '各指標でステージ1～4に該当する数値を設定し、指標ごとの状況を総合的に判断して、県におけるステージの評価を行っている。'
+              }}
+            </li>
+            <li>
+              {{ '各指標とステージの判断基準は次のとおり。' }}
             </li>
           </ul>
+          <table>
+            <thead>
+              <tr>
+                <th>&nbsp;</th>
+                <th>ステージ3</th>
+                <th>ステージ4</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>病床のひっ迫具合</td>
+                <td>25％</td>
+                <td>50％</td>
+              </tr>
+              <tr>
+                <td>全療養者数</td>
+                <td>15人</td>
+                <td>25人</td>
+              </tr>
+              <tr>
+                <td>ＰＣＲ陽性率</td>
+                <td>10%</td>
+                <td>10%</td>
+              </tr>
+              <tr>
+                <td>新規報告数</td>
+                <td>15人</td>
+                <td>25人</td>
+              </tr>
+            </tbody>
+          </table>
         </template>
         <section>
           <h4>{{ '本県の現状' }}</h4>
@@ -88,5 +129,14 @@ section {
 dfn {
   font-style: normal;
   font-weight: bold;
+}
+
+table {
+  margin-top: 10px;
+}
+th,
+td {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 </style>

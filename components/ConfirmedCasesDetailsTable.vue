@@ -85,7 +85,7 @@
         </li>
         <li :class="[$style.box]">
           <div :class="$style.content">
-            <span>{{ '退院等（新基準含む）' }}</span>
+            <span>{{ '陰性確認済(退院等。新基準含む。)' }}</span>
             <span>
               <strong>{{ 退院.toLocaleString() }}</strong>
               <span :class="$style.unit">{{ '人' }}</span>

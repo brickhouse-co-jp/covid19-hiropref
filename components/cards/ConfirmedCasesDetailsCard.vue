@@ -2,7 +2,7 @@
   <v-col cols="12" md="6" class="DataCard">
     <client-only>
       <data-view
-        :title="'検査陽性者の累計'"
+        :title="'検査陽性者の状況'"
         :title-id="'details-of-confirmed-cases'"
         :date="date"
       >
@@ -10,21 +10,11 @@
           <span>{{ '（注）' }}</span>
           <ul>
             <li>
-              {{ 'チャーター機帰国者、クルーズ船乗客等は含まれていない' }}
+              {{ '検疫所等における陽性者数は含まれていない。' }}
             </li>
             <li>
               {{
-                '「重症」は、人工呼吸器管理（ECMOを含む）が必要な患者数を計上。'
-              }}
-              <app-link
-                to="https://www.bousai.metro.tokyo.lg.jp/_res/projects/default_project/_page_/001/011/435/7kai/202008207.pdf"
-              >
-                {{ '重症基準の考え方はこちら' }}
-              </app-link>
-            </li>
-            <li>
-              {{
-                '退院者数の把握には一定の期間を要しており、確認次第数値を更新している'
+                '各数値は最新のものを掲載しているが，追って修正される可能性がある。'
               }}
             </li>
           </ul>
@@ -41,7 +31,7 @@
 <script>
 import dayjs from 'dayjs'
 
-import AppLink from '@/components/AppLink.vue'
+// import AppLink from '@/components/AppLink.vue'
 import ConfirmedCasesDetailsTable from '@/components/ConfirmedCasesDetailsTable.vue'
 import DataView from '@/components/DataView.vue'
 import Data from '@/data/data.json'
@@ -51,7 +41,7 @@ export default {
   components: {
     DataView,
     ConfirmedCasesDetailsTable,
-    AppLink,
+    // AppLink,
   },
   data() {
     const mainSummary = Data.main_summary

@@ -3,7 +3,7 @@
     <client-only>
       <untracked-rate-mixed-chart
         :title-id="'untracked-rate'"
-        :info-titles="['新規陽性者における接触歴等不明者数', '増加比']"
+        :info-titles="['新規陽性者における感染経路不明者数']"
         :chart-id="'untracked-rate-chart'"
         :chart-data="graphData"
         :get-formatter="getFormatter"
@@ -60,29 +60,29 @@ export default {
     const reportedCount = data.map((d) => d.reported_count)
     const missingCount = data.map((d) => d.missing_count)
     const untrackedRate = data.map((d) => d.weekly_average_untracked_count)
-    const untrackedIncreseRate = data.map(
-      (d) => d.weekly_average_untracked_increse_percent
-    )
+    // const untrackedIncreseRate = data.map(
+    //   (d) => d.weekly_average_untracked_increse_percent
+    // )
     const dateList = data.map((d) => d.diagnosed_date)
     const updated = Data.date
     const graphData = [
       reportedCount,
       missingCount,
       untrackedRate,
-      untrackedIncreseRate,
+      // untrackedIncreseRate,
     ]
 
     const dataLabels = [
       '接触歴等判明者数',
       '接触歴等不明者数',
-      '接触歴等不明者数（５日間移動平均）',
-      '増加比',
+      '接触歴等不明者数(5日間移動平均)',
+      // '増加比',
     ]
     const tableLabels = [
       '接触歴等判明者数',
       '接触歴等不明者数',
-      '接触歴等不明者数（５日間移動平均）',
-      '増加比',
+      '接触歴等不明者数(5日間移動平均)',
+      // '増加比',
     ]
 
     const getFormatter = (columnIndex) => {

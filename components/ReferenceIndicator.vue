@@ -4,7 +4,7 @@
       <li :class="[$style.boxBigger]">
         <div :class="$style.content">
           <span>
-            {{ '病床逼迫具合' }}
+            {{ '病床ひっ迫具合' }}
           </span>
           <monitoring-items-overview-table-value-with-translatable-unit
             :value="items['病床逼迫具合'].value"
@@ -15,7 +15,7 @@
       <li :class="[$style.boxBigger]">
         <div :class="$style.content">
           <span>
-            {{ '療養者数' }}
+            {{ '療養者数(10万人当たり)' }}
           </span>
           <monitoring-items-overview-table-value-with-translatable-unit
             :value="items['療養者数'].value"
@@ -26,7 +26,7 @@
       <li :class="[$style.boxBigger]">
         <div :class="$style.content">
           <span>
-            {{ 'PCR陽性率' }}
+            {{ 'PCR陽性率(直近5日移動平均)' }}
           </span>
           <monitoring-items-overview-table-value-with-translatable-unit
             :value="items['PCR陽性率'].value"
@@ -37,7 +37,7 @@
       <li :class="[$style.boxBigger]">
         <div :class="$style.content">
           <span>
-            {{ '新規報告者数' }}
+            {{ '新規報告者数(直近1週間の10万人当たり)' }}
           </span>
           <monitoring-items-overview-table-value-with-translatable-unit
             :value="items['新規報告者数'].value"
@@ -56,7 +56,7 @@
         <ul :class="$style.group">
           <li :class="[$style.box]">
             <div :class="$style.content">
-              <span>{{ '直近1週間の先週比較(今週)' }}</span>
+              <span>{{ '今週' }}</span>
               <monitoring-items-overview-table-value-with-translatable-unit
                 :value="items['直近1週間の先週比較(今週)'].value"
                 :unit="items['直近1週間の先週比較(今週)'].unit"
@@ -65,7 +65,7 @@
           </li>
           <li :class="[$style.box]">
             <div :class="$style.content">
-              <span>{{ '直近1週間の先週比較(先週)' }}</span>
+              <span>{{ '先週' }}</span>
               <monitoring-items-overview-table-value-with-translatable-unit
                 :value="items['直近1週間の先週比較(先週)'].value"
                 :unit="items['直近1週間の先週比較(先週)'].unit"

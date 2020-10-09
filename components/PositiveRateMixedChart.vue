@@ -15,16 +15,16 @@
         @click="onClickLegend(i)"
       >
         <button>
-          <div
+          <!-- <div
             v-if="i === 2"
             :style="{
               background: `repeating-linear-gradient(90deg, ${colors[4].fillColor}, ${colors[4].fillColor} 2px, #fff 2px, #fff 4px)`,
               border: 0,
               height: '3px',
             }"
-          />
+          /> -->
           <div
-            v-else-if="i === 3"
+            v-if="i === 2"
             :style="{
               backgroundColor: colors[4].fillColor,
               border: 0,
@@ -90,13 +90,13 @@
         :s-text-under="displayInfo[0].sTextUnder"
         :unit="displayInfo[0].unit"
       />
-      <data-view-data-set-panel
+      <!-- <data-view-data-set-panel
         :title="infoTitles[1]"
         :l-text="displayInfo[1].lText"
         :s-text="displayInfo[1].sText"
         :s-text-under="displayInfo[1].sTextUnder"
         :unit="displayInfo[1].unit"
-      />
+      /> -->
     </template>
   </data-view>
 </template>
@@ -255,7 +255,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
     },
   },
   data: () => ({
-    displayLegends: [true, true, true, true],
+    displayLegends: [true, true, true],
     colors: [...getGraphSeriesStyle(4), getGraphSeriesColor('E')],
     canvas: true,
   }),
@@ -263,7 +263,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
     displayInfo() {
       const { lastDay, lastDayData, dayBeforeRatio } = calcDayBeforeRatio({
         displayData: this.displayData,
-        dataIndex: 3,
+        dataIndex: 2,
         digit: 1,
       })
       const {
@@ -272,7 +272,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
         dayBeforeRatio: dayBeforeRatio4,
       } = calcDayBeforeRatio({
         displayData: this.displayData,
-        dataIndex: 2,
+        dataIndex: 1,
         digit: 1,
       })
 
@@ -281,7 +281,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
           lText: lastDayData,
           sText: `${this.$t('{date} の数値', {
             date: lastDay,
-          })}（${'５日間移動平均値をもとに算出'}）`,
+          })}（${'5日間移動平均値をもとに算出'}）`,
           sTextUnder: `（${this.$t('前日比')}: ${dayBeforeRatio} ${
             this.unit
           }）`,
@@ -291,7 +291,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
           lText: lastDayData4,
           sText: `${this.$t('{date} の数値', {
             date: lastDay4,
-          })}（${'５日間移動平均'}）`,
+          })}（${'5日間移動平均'}）`,
           sTextUnder: `（${this.$t('前日比')}: ${dayBeforeRatio4} ${
             this.optionUnit
           }）`,
@@ -344,24 +344,24 @@ const options: ThisTypedComponentOptionsWithRecordProps<
           //   borderWidth: 1,
           //   order: 4,
           // },
-          {
-            type: 'line',
-            yAxisID: 'y-axis-1',
-            label: this.dataLabels[2],
-            data: this.chartData[2],
-            pointBackgroundColor: 'rgba(0,0,0,0)',
-            pointBorderColor: 'rgba(0,0,0,0)',
-            borderColor: graphSeries[4].strokeColor,
-            borderWidth: 3,
-            fill: false,
-            order: 0,
-            borderDash: [4, 4],
-          },
+          // {
+          //   type: 'line',
+          //   yAxisID: 'y-axis-1',
+          //   label: this.dataLabels[2],
+          //   data: this.chartData[2],
+          //   pointBackgroundColor: 'rgba(0,0,0,0)',
+          //   pointBorderColor: 'rgba(0,0,0,0)',
+          //   borderColor: graphSeries[4].strokeColor,
+          //   borderWidth: 3,
+          //   fill: false,
+          //   order: 0,
+          //   borderDash: [4, 4],
+          // },
           {
             type: 'line',
             yAxisID: 'y-axis-2',
-            label: this.dataLabels[3],
-            data: this.chartData[3],
+            label: this.dataLabels[2],
+            data: this.chartData[2],
             pointBackgroundColor: 'rgba(0,0,0,0)',
             pointBorderColor: 'rgba(0,0,0,0)',
             borderColor: graphSeries[4].strokeColor,
@@ -415,7 +415,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
               let label = `${
                 this.dataLabels[tooltipItem.datasetIndex!]
               } : ${cases} ${this.$t('人')}`
-              if (tooltipItem.datasetIndex! >= 5) {
+              if (tooltipItem.datasetIndex! >= 2) {
                 label = `${
                   this.dataLabels[tooltipItem.datasetIndex!]
                 } : ${cases} ${unit}`
@@ -523,8 +523,8 @@ const options: ThisTypedComponentOptionsWithRecordProps<
       const sums = Array.from(this.displayData.datasets[0].data.keys()).map(
         (i) =>
           this.displayData.datasets[0].data[i] +
-          this.displayData.datasets[1].data[i]
-        // this.displayData.datasets[2].data[i] +
+          this.displayData.datasets[1].data[i] +
+          this.displayData.datasets[2].data[i]
         // this.displayData.datasets[3].data[i]
       )
       const max = sums.reduce((a, b) => Math.max(a, b), 0)
@@ -556,14 +556,14 @@ const options: ThisTypedComponentOptionsWithRecordProps<
           //   yAxisID: 'y-axis-1',
           //   borderWidth: 0,
           // },
+          // {
+          //   data: [0],
+          //   backgroundColor: 'transparent',
+          //   yAxisID: 'y-axis-1',
+          //   borderWidth: 0,
+          // },
           {
-            data: [0],
-            backgroundColor: 'transparent',
-            yAxisID: 'y-axis-1',
-            borderWidth: 0,
-          },
-          {
-            data: [this.displayData.datasets[3].data[n]],
+            data: [this.displayData.datasets[2].data[n]],
             backgroundColor: 'transparent',
             yAxisID: 'y-axis-2',
             borderWidth: 0,
@@ -672,7 +672,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
         .reduce((a, b) => Math.max(a, b), 0)
     },
     scaledTicksYAxisMaxRight() {
-      return this.chartData[3].reduce((a, b) => Math.max(a, b), 0)
+      return this.chartData[2].reduce((a, b) => Math.max(a, b), 0)
     },
   },
   methods: {

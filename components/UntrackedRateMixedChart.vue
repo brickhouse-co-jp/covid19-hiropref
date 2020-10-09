@@ -26,14 +26,14 @@
               height: '3px',
             }"
           />
-          <div
+          <!-- <div
             v-else-if="i === 3"
             :style="{
               backgroundColor: colors[i].fillColor,
               border: 0,
               height: '3px',
             }"
-          />
+          /> -->
           <div
             v-else
             :style="{
@@ -93,13 +93,13 @@
         :s-text-under="displayInfo[0].sTextUnder"
         :unit="displayInfo[0].unit"
       />
-      <data-view-data-set-panel
+      <!-- <data-view-data-set-panel
         :title="infoTitles[1]"
         :l-text="displayInfo[1].lText"
         :s-text="displayInfo[1].sText"
         :s-text-under="displayInfo[1].sTextUnder"
         :unit="displayInfo[1].unit"
-      />
+      /> -->
     </template>
   </data-view>
 </template>
@@ -248,12 +248,12 @@ const options: ThisTypedComponentOptionsWithRecordProps<
     },
   },
   data: () => ({
-    displayLegends: [true, true, true, true],
+    displayLegends: [true, true, true],
     colors: [
       getGraphSeriesColor('A'),
       getGraphSeriesColor('C'),
       getGraphSeriesColor('E'),
-      getGraphSeriesColor('E'),
+      // getGraphSeriesColor('E'),
     ],
     canvas: true,
   }),
@@ -264,36 +264,36 @@ const options: ThisTypedComponentOptionsWithRecordProps<
         dataIndex: 1,
         digit: 0,
       })
-      const {
-        lastDay: lastDay3,
-        lastDayData: lastDayData3,
-        dayBeforeRatio: dayBeforeRatio3,
-      } = calcDayBeforeRatio({
-        displayData: this.displayData,
-        dataIndex: 3,
-        digit: 1,
-      })
+      // const {
+      //   lastDay: lastDay3,
+      //   lastDayData: lastDayData3,
+      //   dayBeforeRatio: dayBeforeRatio3,
+      // } = calcDayBeforeRatio({
+      //   displayData: this.displayData,
+      //   dataIndex: 3,
+      //   digit: 1,
+      // })
       return [
         {
           lText: lastDayData,
           sText: `${this.$t('{date} の数値', {
             date: lastDay,
-          })}（${'５日間移動平均'}）`,
+          })}（${'5日間移動平均'}）`,
           sTextUnder: `（${this.$t('前日比')}: ${dayBeforeRatio} ${
             this.unit[0]
           }）`,
           unit: this.unit[0],
         },
-        {
-          lText: lastDayData3,
-          sText: `${this.$t('{date} の数値', {
-            date: lastDay3,
-          })}（${'５日間移動平均値をもとに算出'}）`,
-          sTextUnder: `（${this.$t('前日比')}: ${dayBeforeRatio3} ${
-            this.unit[1]
-          }）`,
-          unit: this.unit[1],
-        },
+        // {
+        //   lText: lastDayData3,
+        //   sText: `${this.$t('{date} の数値', {
+        //     date: lastDay3,
+        //   })}（${'５日間移動平均値をもとに算出'}）`,
+        //   sTextUnder: `（${this.$t('前日比')}: ${dayBeforeRatio3} ${
+        //     this.unit[1]
+        //   }）`,
+        //   unit: this.unit[1],
+        // },
       ]
     },
     displayData() {
@@ -301,7 +301,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
         getGraphSeriesColor('A'),
         getGraphSeriesColor('C'),
         getGraphSeriesColor('E'),
-        getGraphSeriesColor('E'),
+        // getGraphSeriesColor('E'),
       ]
       return {
         labels: this.labels,
@@ -340,19 +340,19 @@ const options: ThisTypedComponentOptionsWithRecordProps<
             order: 2,
             lineTension: 0,
           },
-          {
-            type: 'line',
-            yAxisID: 'y-axis-2',
-            label: this.dataLabels[3],
-            data: this.chartData[3],
-            pointBackgroundColor: 'rgba(0,0,0,0)',
-            pointBorderColor: 'rgba(0,0,0,0)',
-            borderColor: graphSeries[3].strokeColor,
-            borderWidth: 3,
-            fill: false,
-            order: 1,
-            lineTension: 0,
-          },
+          // {
+          //   type: 'line',
+          //   yAxisID: 'y-axis-2',
+          //   label: this.dataLabels[3],
+          //   data: this.chartData[3],
+          //   pointBackgroundColor: 'rgba(0,0,0,0)',
+          //   pointBorderColor: 'rgba(0,0,0,0)',
+          //   borderColor: graphSeries[3].strokeColor,
+          //   borderWidth: 3,
+          //   fill: false,
+          //   order: 1,
+          //   lineTension: 0,
+          // },
         ],
       }
     },
@@ -534,12 +534,12 @@ const options: ThisTypedComponentOptionsWithRecordProps<
             yAxisID: 'y-axis-2',
             borderWidth: 0,
           },
-          {
-            data: [this.displayData.datasets[3].data[n]],
-            backgroundColor: 'transparent',
-            yAxisID: 'y-axis-2',
-            borderWidth: 0,
-          },
+          // {
+          //   data: [this.displayData.datasets[3].data[n]],
+          //   backgroundColor: 'transparent',
+          //   yAxisID: 'y-axis-2',
+          //   borderWidth: 0,
+          // },
         ],
       }
     },
@@ -640,7 +640,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
       return this.chartData[2].reduce((a, b) => Math.max(a, b), max)
     },
     scaledTicksYAxisMaxRight() {
-      return this.chartData[3].reduce((a, b) => Math.max(a, b), 0)
+      return this.chartData[2].reduce((a, b) => Math.max(a, b), 0)
     },
   },
   methods: {
