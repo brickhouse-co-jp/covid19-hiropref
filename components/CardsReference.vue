@@ -15,7 +15,7 @@
     <card-row class="DataBlock">
       <!-- 受診相談窓口における相談件数 -->
       <!-- <monitoring-consultation-desk-reports-number-card /> -->
-      <!-- 新型コロナコールセンター相談件数 -->
+      <!-- 新型コロナウイルス感染症に係る相談窓口及相談状況について -->
       <telephone-advisory-reports-number-card />
     </card-row>
     <card-row class="DataBlock">
@@ -44,7 +44,7 @@ import ConfirmedCasesByMunicipalitiesCard from '@/components/cards/ConfirmedCase
 // import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
 // 受診相談窓口における相談件数
 // import MonitoringConsultationDeskReportsNumberCard from '@/components/cards/MonitoringConsultationDeskReportsNumberCard.vue'
-// 新型コロナコールセンター相談件数
+// 新型コロナウイルス感染症に係る相談窓口及相談状況について
 import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
 // 都営地下鉄の利用者数の推移
 // import MetroCard from '@/components/cards/MetroCard.vue'
