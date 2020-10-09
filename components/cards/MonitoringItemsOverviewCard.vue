@@ -17,21 +17,42 @@
           </ul>
         </template>
         <section>
-          <h4>{{ '感染状況' }}</h4>
+          <h4>
+            {{ '感染状況'
+            }}<time :class="$style.mlTime"
+              ><span :class="$style.pTime">[</span>{{ infectionStatus
+              }}<span :class="$style.mlUpdate">更新</span
+              ><span :class="$style.pTime">]</span></time
+            >
+          </h4>
           <monitoring-items-overview-table-infection-status
             :aria-label="'感染状況'"
             :items="monitoringItems"
           />
         </section>
         <section>
-          <h4>{{ '検査体制' }}</h4>
+          <h4>
+            {{ '検査体制'
+            }}<time :class="$style.mlTime"
+              ><span :class="$style.pTime">[</span>{{ medicalSystem
+              }}<span :class="$style.mlUpdate">更新</span
+              ><span :class="$style.pTime">]</span></time
+            >
+          </h4>
           <monitoring-items-overview-table-medical-test
             :aria-label="'検査体制'"
             :items="monitoringItems"
           />
         </section>
         <section>
-          <h4>{{ '医療提供体制' }}</h4>
+          <h4>
+            {{ '医療提供体制'
+            }}<time :class="$style.mlTime"
+              ><span :class="$style.pTime">[</span>{{ medicalTests
+              }}<span :class="$style.mlUpdate">更新</span
+              ><span :class="$style.pTime">]</span></time
+            >
+          </h4>
           <monitoring-items-overview-table-medical-system
             :aria-label="'医療提供体制'"
             :items="monitoringItems"
@@ -50,13 +71,14 @@
   </v-col>
 </template>
 
-<script>
+<script lang="ts">
 // import AppLink from '@/components/AppLink.vue'
 import DataView from '@/components/DataView.vue'
 import MonitoringItemsOverviewTableInfectionStatus from '@/components/MonitoringItemsOverviewTableInfectionStatus.vue'
 import MonitoringItemsOverviewTableMedicalSystem from '@/components/MonitoringItemsOverviewTableMedicalSystem.vue'
 import MonitoringItemsOverviewTableMedicalTest from '@/components/MonitoringItemsOverviewTableMedicalTest.vue'
 import monitoringItemsData from '@/data/monitoring_items.json'
+import { convertDateToSimpleFormat } from '@/utils/formatDate'
 import formatMonitoringItems from '@/utils/formatMonitoringItems'
 
 export default {
@@ -69,11 +91,25 @@ export default {
   },
   data() {
     const monitoringItems = formatMonitoringItems(monitoringItemsData.data)
+    const infectionStatus = convertDateToSimpleFormat(
+      monitoringItemsData.data.感染状況更新日付
+    )
+    const medicalSystem = convertDateToSimpleFormat(
+      monitoringItemsData.data.検査体制更新日付
+    )
+    const medicalTests = convertDateToSimpleFormat(
+      monitoringItemsData.data.医療提供体制更新日付
+    )
     return {
       monitoringItemsData,
       monitoringItems,
+      infectionStatus,
+      medicalSystem,
+      medicalTests,
     }
   },
+  // computed: {
+  // }
 }
 </script>
 
@@ -105,5 +141,16 @@ section {
 dfn {
   font-style: normal;
   font-weight: bold;
+}
+
+.mlTime {
+  margin-left: 10px;
+}
+.pTime {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.mlUpdate {
+  margin-left: 3px;
 }
 </style>
