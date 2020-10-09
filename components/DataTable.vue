@@ -37,12 +37,14 @@
       </template>
     </v-data-table>
     <template v-slot:additionalDescription>
-      <ul class="ListStyleNone">
+      <ul>
         <li>
-          {{ $t('※退院は、保健所から報告があり、確認ができているものを反映') }}
+          {{
+            '数値は最新のものを掲載しているが，追って修正される可能性がある。'
+          }}
         </li>
         <li>
-          {{ $t('※死亡退院を含む') }}
+          {{ '公表資料をもとに作成。' }}
         </li>
       </ul>
     </template>

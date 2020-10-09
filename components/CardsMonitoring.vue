@@ -7,21 +7,21 @@
       <confirmed-cases-details-card />
       <!-- 報告日別による陽性者数の累計 -->
       <confirmed-cases-number-card />
-      <!-- モニタリング項目 -->
+      <!-- 感染・検査・医療提供の最新情報 -->
       <monitoring-items-overview-card />
-      <!-- モニタリング項目(1)新規陽性者数 -->
+      <!-- 新規陽性者数 -->
       <monitoring-confirmed-cases-number-card />
-      <!-- モニタリング項目(2)#7119における発熱等相談件数 -->
+      <!-- #7119における発熱等相談件数 -->
       <!-- <consultation-about-fever-number-card /> -->
-      <!-- モニタリング項目(3)新規陽性者における接触歴等不明者数 -->
+      <!-- 新規陽性者における感染経路等不明者数 -->
       <untracked-rate-card />
-      <!-- モニタリング項目(4)検査の陽性率-->
+      <!-- 検査の陽性率-->
       <positive-rate-card />
-      <!-- モニタリング項目(5)救急医療の東京ルールの適用件数 -->
+      <!-- 救急医療の東京ルールの適用件数 -->
       <!-- <tokyo-rules-application-number-card /> -->
-      <!-- モニタリング項目(6)入院患者数 -->
+      <!-- 入院患者数 -->
       <hospitalized-number-card />
-      <!-- モニタリング項目(7)重症患者数 -->
+      <!-- 重症患者数 -->
       <!-- <severe-case-card /> -->
     </card-row>
   </div>
@@ -38,21 +38,21 @@ import MonitoringReferenceIndicator from '@/components/cards/MonitoringReference
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 // 報告日別による陽性者数の累計
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
-// モニタリング項目
+// 感染・検査・医療提供の最新情報
 import MonitoringItemsOverviewCard from '@/components/cards/MonitoringItemsOverviewCard.vue'
-// モニタリング項目(1)新規陽性者数
+// 新規陽性者数
 import MonitoringConfirmedCasesNumberCard from '@/components/cards/MonitoringConfirmedCasesNumberCard.vue'
-// モニタリング項目(2)#7119における発熱等相談件数
+// #7119における発熱等相談件数
 // import ConsultationAboutFeverNumberCard from '@/components/cards/ConsultationAboutFeverNumberCard.vue'
-// モニタリング項目(3)新規陽性者における接触歴等不明者数
+// 新規陽性者における感染経路等不明者数
 import UntrackedRateCard from '@/components/cards/UntrackedRateCard.vue'
-// モニタリング項目(4)検査の陽性率
+// 検査の陽性率
 import PositiveRateCard from '@/components/cards/PositiveRateCard.vue'
-// モニタリング項目(5)救急医療の東京ルールの適用件数
+// 救急医療の東京ルールの適用件数
 // import TokyoRulesApplicationNumberCard from '@/components/cards/TokyoRulesApplicationNumberCard.vue'
-// モニタリング項目(6)入院患者数
+// 入院患者数
 import HospitalizedNumberCard from '@/components/cards/HospitalizedNumberCard.vue'
-// モニタリング項目(7)重症患者数
+// 重症患者数
 // import SevereCaseCard from '@/components/cards/SevereCaseCard.vue'
 /* eslint-enable simple-import-sort/sort */
 
