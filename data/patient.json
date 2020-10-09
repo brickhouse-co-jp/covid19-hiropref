@@ -182,22 +182,15 @@
                 "code": 340006,
                 "area": "-",
                 "label": "非公表",
-                "ruby": "",
+                "ruby": "-",
                 "count": 1
             },
             {
                 "code": 340006,
                 "area": "-",
                 "label": "広島県外",
-                "ruby": "",
+                "ruby": "-",
                 "count": 2
-            },
-            {
-                "code": 340006,
-                "area": "-",
-                "label": "調査中",
-                "ruby": "",
-                "count": 3
             },
             {
                 "code": null,
