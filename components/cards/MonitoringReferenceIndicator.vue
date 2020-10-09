@@ -138,5 +138,18 @@ th,
 td {
   padding-left: 10px;
   padding-right: 10px;
+
+  @include largerThan($small) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  @include largerThan($medium) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  @include largerThan($large) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 </style>
