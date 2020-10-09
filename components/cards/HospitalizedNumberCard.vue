@@ -9,7 +9,7 @@
         :date="positiveStatus.date"
         :unit="'人'"
         :dashed-rectangle-range="'2020-05-11'"
-        :added-value="200"
+        :added-value="50"
         :table-labels="tableLabels"
       >
         <template v-slot:additionalDescription>
