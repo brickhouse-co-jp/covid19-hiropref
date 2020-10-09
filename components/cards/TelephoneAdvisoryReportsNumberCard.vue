@@ -2,9 +2,7 @@
   <v-col cols="12" md="6" class="DataCard">
     <client-only>
       <time-bar-chart
-        :title="
-          $t('新型コロナウイルス感染症に係る相談窓口及び相談状況について')
-        "
+        :title="$t('相談窓口への相談件数')"
         :title-id="'number-of-reports-to-covid19-telephone-advisory-center'"
         :chart-id="'time-bar-chart-contacts'"
         :chart-data="contactsGraph"
