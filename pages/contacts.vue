@@ -5,7 +5,7 @@
     aria-describedby="contactsCardTable"
   >
     <page-header id="pageHeader" class="mb-3">
-      {{ $t('お問い合わせ先一覧') }}
+      {{ 'お問い合わせ先一覧' }}
     </page-header>
     <div class="Contacts-Card">
       <table
@@ -17,79 +17,77 @@
         <thead>
           <tr>
             <th class="text-center" scope="col">
-              {{ $t('新型コロナウイルス感染症に関する相談窓口') }}
+              {{ '新型コロナウイルス感染症に関する相談窓口' }}
             </th>
             <th class="text-center" scope="col">
-              {{ $t('新型コロナウイルスコールセンター') }}
+              {{ '新型コロナウイルスコールセンター' }}
             </th>
-            <th class="text-center tel" scope="col">{{ $t('電話番号') }}</th>
+            <th class="text-center tel" scope="col">{{ '電話番号' }}</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td class="content importantContact" v-bind="headingAttrs">
-              {{ $t('広島市･呉市･福山市以外の市町') }}
+              {{ '広島市･呉市･福山市以外の市町' }}
             </td>
             <td class="bureau importantContact">
-              {{ $t('広島県各保健所') }}
+              {{ '広島県各保健所' }}
             </td>
             <td class="tel">
               <a href="tel:0825132567" class="importantContact">082-513-2567</a
               ><br />
               <p class="caution">
-                {{ $t(`24時間対応`) }}
+                {{ `24時間対応` }}
               </p>
               <p class="caution">
                 {{
-                  $t(
-                    `電話のおかけ間違いが多くなっております。発信の際は今一度電話番号をお確かめの上、お間違えのないようお願いいたします。`
-                  )
+                  `電話のおかけ間違いが多くなっております。発信の際は今一度電話番号をお確かめの上、お間違えのないようお願いいたします。`
                 }}
               </p>
             </td>
           </tr>
           <tr>
             <td class="content importantContact" v-bind="headingAttrs">
-              {{ $t('広島市') }}
+              {{ '広島市' }}
             </td>
             <td class="bureau importantContact">
-              {{ $t('広島市各保健センター') }}
+              {{ '広島市各保健センター' }}
             </td>
             <td class="tel">
               <a href="tel:0822414566" class="importantContact">082-241-4566</a
               ><br />
               <p class="caution">
-                {{ $t('24時間対応') }}
+                {{ '24時間対応' }}
               </p>
             </td>
           </tr>
           <tr>
             <td class="content importantContact" v-bind="headingAttrs">
-              {{ $t('呉市') }}
+              {{ '呉市' }}
             </td>
             <td class="bureau importantContact">
-              {{ $t('呉市保健所') }}
+              {{ '呉市保健所' }}
             </td>
             <td class="tel">
               <a href="tel:0823225858" class="importantContact">0823-22-5858</a
               ><br />
               <p class="caution">
-                {{ $t('24時間対応') }}
+                {{ '24時間対応' }}
               </p>
             </td>
           </tr>
           <tr>
             <td class="content importantContact" v-bind="headingAttrs">
-              {{ $t('福山市') }}
+              {{ '福山市' }}
             </td>
             <td class="bureau importantContact">
-              {{ $t('福山市保健所') }}
+              {{ '福山市保健所' }}
             </td>
             <td class="tel">
               <a href="tel:0849281350" class="importantContact">084-928-1350</a
               ><br />
               <p class="caution">
-                {{ $t('24時間対応') }}
+                {{ '24時間対応' }}
               </p>
             </td>
           </tr>
@@ -106,29 +104,40 @@
         <thead>
           <tr>
             <th class="text-center" scope="col">
-              {{ $t('お問い合わせ内容') }}
+              {{ 'お問い合わせ内容' }}
             </th>
             <th class="text-center" scope="col">
-              {{ $t('名前') }}
+              {{ '名前' }}
             </th>
-            <th class="text-center tel" scope="col">{{ $t('電話番号') }}</th>
+            <th class="text-center tel" scope="col">{{ '電話番号' }}</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td class="content" v-bind="headingAttrs">
-              {{ $t('本サイトの管理・運営に関すること') }}
+              {{ '本サイトの管理・運営に関すること' }}
             </td>
             <td class="bureau">
-              {{ $t('ブランド・コミュニケーション戦略チーム') }}
+              {{ 'ブランド・コミュニケーション戦略チーム' }}
             </td>
             <td class="tel"><a href="tel:0825132378">082-513-2378</a></td>
           </tr>
           <tr>
             <td class="content" v-bind="headingAttrs">
-              {{ $t('新型コロナウイルス感染症対応資金') }}
+              {{ '本サイトのデータ・内容に関すること' }}
             </td>
-            <td class="bureau">{{ $t('経営革新課') }}</td>
+            <td class="bureau">
+              {{ '新型コロナウイルス感染症情報分析センター' }}
+            </td>
+            <td class="tel">
+              <a href="tel:082-513-2844">082-513-2844</a>
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">
+              {{ '新型コロナウイルス感染症対応資金' }}
+            </td>
+            <td class="bureau">{{ '経営革新課' }}</td>
             <td class="tel">
               <a href="tel:082-513-3321">
                 082-513-3321
@@ -137,10 +146,10 @@
           </tr>
           <tr>
             <td class="content" v-bind="headingAttrs">
-              {{ $t('広島コロナお知らせQR') }}
+              {{ '広島コロナお知らせQR' }}
             </td>
             <td class="bureau">
-              {{ $t('広島コロナお知らせQRサポートセンター') }}
+              {{ '広島コロナお知らせQRサポートセンター' }}
             </td>
             <td class="tel">
               <a href="tel:082-513-2845">082-513-2845</a>
@@ -148,9 +157,9 @@
           </tr>
           <tr>
             <td class="content" v-bind="headingAttrs">
-              {{ $t('新型コロナウイルス感染症対策取組宣言店') }}
+              {{ '新型コロナウイルス感染症対策取組宣言店' }}
             </td>
-            <td class="bureau">{{ $t('サポートセンター') }}</td>
+            <td class="bureau">{{ 'サポートセンター' }}</td>
             <td class="tel">
               <a href="tel:082-513-2845">082-513-2845</a>
             </td>
@@ -202,7 +211,7 @@ export default Vue.extend({
   },
   head(): MetaInfo {
     return {
-      title: this.$t('お問い合わせ先一覧') as string,
+      title: 'お問い合わせ先一覧' as string,
     }
   },
 })

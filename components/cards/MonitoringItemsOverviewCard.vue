@@ -21,7 +21,7 @@
             {{ '感染状況'
             }}<time :class="$style.mlTime"
               ><span :class="$style.pTime">[</span>{{ infectionStatus
-              }}<span :class="$style.mlUpdate">更新</span
+              }}<span :class="$style.mlUpdate">時点</span
               ><span :class="$style.pTime">]</span></time
             >
           </h4>
@@ -35,7 +35,7 @@
             {{ '検査体制'
             }}<time :class="$style.mlTime"
               ><span :class="$style.pTime">[</span>{{ medicalSystem
-              }}<span :class="$style.mlUpdate">更新</span
+              }}<span :class="$style.mlUpdate">時点</span
               ><span :class="$style.pTime">]</span></time
             >
           </h4>
@@ -49,7 +49,7 @@
             {{ '医療提供体制'
             }}<time :class="$style.mlTime"
               ><span :class="$style.pTime">[</span>{{ medicalTests
-              }}<span :class="$style.mlUpdate">更新</span
+              }}<span :class="$style.mlUpdate">時点</span
               ><span :class="$style.pTime">]</span></time
             >
           </h4>
