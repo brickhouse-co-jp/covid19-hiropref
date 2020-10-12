@@ -50,6 +50,10 @@ const config: NuxtConfig = {
         property: 'note:card',
         content: 'summary_large_image',
       },
+      {
+        name: 'google-site-verification',
+        content: '4tnafbGY5phZRfIK7tH0dXD4BDwvd4oNnuEHv4ZErCY',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
