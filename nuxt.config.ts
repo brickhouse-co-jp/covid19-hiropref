@@ -168,7 +168,7 @@ const config: NuxtConfig = {
     splash_pages: null,
   },
   generate: {
-    // fallback: true,
+    fallback: true,
     // routes() {
     //   const locales = ['en', 'zh-cn', 'zh-tw', 'ko', 'ja-basic']
     //   const pages = [
