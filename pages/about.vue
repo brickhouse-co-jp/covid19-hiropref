@@ -186,7 +186,7 @@
         }}
       </p>
     </static-card>
-    <static-card>
+    <!-- <static-card>
       <h3>{{ $t('データについて') }}</h3>
       <i18n
         tag="p"
@@ -201,7 +201,7 @@
           </app-link>
         </template>
       </i18n>
-    </static-card>
+    </static-card> -->
     <!-- <static-card>
       <h3>{{ $t('ソースコードについて') }}</h3>
       <p>
