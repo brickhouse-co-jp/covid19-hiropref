@@ -102,3 +102,6 @@ ogp/*
 
 # VS Code
 launch.json
+
+#lang.jsonをコミットするとエラーになるので除外
+assets/locale
