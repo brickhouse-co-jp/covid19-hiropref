@@ -70,7 +70,7 @@ export default {
     }
 
     // データをソート
-    const areaOrder = ['県管轄', '広島市', '呉市', '福山市', '-', null]
+    const areaOrder = ['県管轄', '広島市', '呉市', '福山市', '-', '', null]
     datasets.data
       .sort((a, b) => {
         // 全体をふりがなでソート
