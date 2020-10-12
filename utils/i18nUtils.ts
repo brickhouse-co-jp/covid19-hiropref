@@ -10,9 +10,9 @@ export const getLinksLanguageAlternative = (
   const getFullPathWihLocale = (locale: string) => {
     const pathLocale = locale === 'ja' ? '' : `/${locale}`
     if (routeBaseName === 'index') {
-      return `https://zealous-jackson-54e21f.netlify.app${pathLocale}`
+      return `https://hiroshima.stopcovid19.jp/${pathLocale}`
     } else {
-      return `https://zealous-jackson-54e21f.netlify.app${pathLocale}/${routeBaseName}`
+      return `https://hiroshima.stopcovid19.jp/${pathLocale}/${routeBaseName}`
     }
   }
 

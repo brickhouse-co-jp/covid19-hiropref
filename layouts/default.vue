@@ -118,7 +118,7 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://zealous-jackson-54e21f.netlify.app${this.$route.path}`,
+          href: `https://hiroshima.stopcovid19.jp/${this.$route.path}`,
         },
         ...linksAlternate,
       ],
@@ -150,7 +150,7 @@ export default Vue.extend({
         {
           hid: 'og:url',
           property: 'og:url',
-          content: `https://zealous-jackson-54e21f.netlify.app${this.$route.path}`,
+          content: `https://hiroshima.stopcovid19.jp/${this.$route.path}`,
         },
         ogLocale,
         {

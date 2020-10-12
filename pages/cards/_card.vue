@@ -169,7 +169,7 @@ export default {
     }
   },
   head() {
-    const url = 'https://zealous-jackson-54e21f.netlify.app'
+    const url = 'https://hiroshima.stopcovid19.jp/'
     const timestamp = new Date().getTime()
     const ogpImage =
       this.$i18n.locale === 'ja'

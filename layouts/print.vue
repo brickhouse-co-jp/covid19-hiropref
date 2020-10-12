@@ -25,7 +25,7 @@
               {{ $t('※最新の情報はWebページをご覧ください') }}
             </p>
             <p class="PrintMeta-Link">
-              https://zealous-jackson-54e21f.netlify.app/
+              https://hiroshima.stopcovid19.jp//
             </p>
           </div>
         </div>
@@ -72,7 +72,7 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://zealous-jackson-54e21f.netlify.app${this.$route.path}`,
+          href: `https://hiroshima.stopcovid19.jp/${this.$route.path}`,
         },
       ],
     }

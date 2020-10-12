@@ -1,7 +1,7 @@
 <template>
   <div v-if="isDevelopmentMode" class="DevelopmentModeMark">
     開発中（development mode）
-    <app-link to="https://zealous-jackson-54e21f.netlify.app/">
+    <app-link to="https://hiroshima.stopcovid19.jp//">
       公開サイトへ
     </app-link>
   </div>

@@ -23,7 +23,7 @@ const config: NuxtConfig = {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://zealous-jackson-54e21f.netlify.app',
+        content: 'https://hiroshima.stopcovid19.jp/',
       },
       {
         hid: 'twitter:card',
