@@ -21,6 +21,16 @@ const config: NuxtConfig = {
       { name: 'robots', content: 'noindex,nofollow' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
+        hid: 'og:title',
+        property: 'og:title',
+        content: '広島県 新型コロナウイルス感染症データまとめサイト[開発中]',
+      },
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: '広島県 新型コロナウイルス感染症データまとめサイト[開発中]',
+      },
+      {
         hid: 'og:url',
         property: 'og:url',
         content: 'https://hiroshima.stopcovid19.jp/',
@@ -30,16 +40,16 @@ const config: NuxtConfig = {
         name: 'twitter:card',
         content: 'summary_large_image',
       },
-      // {
-      //   hid: 'twitter:site',
-      //   name: 'twitter:site',
-      //   content: '@tokyo_bousai',
-      // },
-      // {
-      //   hid: 'twitter:creator',
-      //   name: 'twitter:creator',
-      //   content: '@tokyo_bousai',
-      // },
+      {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: '@hiroshima_pref',
+      },
+      {
+        hid: 'twitter:creator',
+        name: 'twitter:creator',
+        content: '@hiroshima_pref',
+      },
       // {
       //   hid: 'fb:app_id',
       //   property: 'fb:app_id',
@@ -56,7 +66,7 @@ const config: NuxtConfig = {
       },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' },
       { rel: 'apple-touch-icon', href: '/apple-touch-icon-precomposed.png' },
     ],
   },
