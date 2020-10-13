@@ -46,7 +46,9 @@
           </li>
         </ul>
       </div>
-      <h4 class="pt-5" :class="$style.sxnHeading">電話相談窓口一覧</h4>
+      <h4 :class="[$style.fzTelWindow, $style.mtTelWindow]">
+        電話相談窓口一覧
+      </h4>
       <v-row class="d-flex flex-row">
         <v-col cols="12" md="6">
           <v-card class="p-3" height="100%">
@@ -262,6 +264,12 @@ $margin: 20;
 }
 .h100 {
   height: 100%;
+}
+.mtTelWindow {
+  margin-top: $margin * 1px;
+}
+.fzTelWindow {
+  @include font-size($fzHeadingL);
 }
 
 .list {
@@ -727,6 +735,9 @@ $margin: 20;
   @return $px / $vw * 100vw;
 }
 @include lessThan($small) {
+  .fzTelWindow {
+    font-size: px2vw($fzHeadingL);
+  }
   .title {
     margin-bottom: px2vw($margin);
   }
