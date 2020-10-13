@@ -5,6 +5,7 @@
       <page-header :class="$style.text">
         新型コロナウイルス感染症が心配なときに
       </page-header>
+      <printer-button :wrapper-class="$style.printerButton" to="/print/flow" />
     </div>
     <div :class="$style.container">
       <h3 :class="$style.conHeading">
@@ -45,55 +46,99 @@
           </li>
         </ul>
       </div>
-      <div id="contact" :class="$style.sectionNoBorder">
-        <table width="100%" :class="$style.table">
-          <caption :class="$style.caption">
-            <p>電話相談窓口一覧</p>
-          </caption>
-          <thead>
-            <tr>
-              <th scope="col" :class="$style.th">
-                お住まいの区域
-              </th>
-              <th scope="col" :class="$style.th">
-                連絡先(24時間対応)
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td :class="$style.td">
-                広島市、呉市、福山市以外の市町
-              </td>
-              <td :class="$style.td">
-                <p>広島県各保健所</p>
-                <a href="tel:0825132567">082-513-2567</a>
-              </td>
-            </tr>
-            <tr>
-              <td :class="$style.td">広島市</td>
-              <td :class="$style.td">
-                <p>広島市各保健センター</p>
-                <a href="tel:0822414566">082-241-4566</a>
-              </td>
-            </tr>
-            <tr>
-              <td :class="$style.td">呉市</td>
-              <td :class="$style.td">
-                <p>呉市保健所</p>
-                <a href="tel:0823225858">0823-22-5858</a>
-              </td>
-            </tr>
-            <tr>
-              <td :class="$style.td">福山市</td>
-              <td :class="$style.td">
-                <p>福山市保健所</p>
-                <a href="tel:0849281350">084-928-1350</a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <h4 class="pt-5" :class="$style.sxnHeading">電話相談窓口一覧</h4>
+      <v-row class="d-flex flex-row">
+        <v-col cols="12" md="6">
+          <v-card class="p-3" height="100%">
+            <v-card-title>
+              <h5 :class="$style.fzCardTitle">
+                広島市､呉市､福山市以外の市町にお住まいの方
+              </h5>
+            </v-card-title>
+            <v-card-text :class="$style.p0">
+              <v-card-subtitle :class="$style.fzCardSubTitle"
+                >広島県各保健所</v-card-subtitle
+              >
+              <v-card-actions>
+                <v-btn color="orange lighten-2" text class="pl-2">
+                  <a href="tel:0825132567" :class="$style.fzCardBtn"
+                    >082-513-2567</a
+                  >
+                </v-btn>
+              </v-card-actions>
+            </v-card-text>
+          </v-card>
+        </v-col>
+        <v-col cols="12" md="6">
+          <v-card class="p-3" height="100%">
+            <v-card-title>
+              <h5 :class="$style.fzCardTitle">
+                広島市にお住まいの方
+              </h5>
+            </v-card-title>
+            <v-card-text :class="$style.p0">
+              <v-card-subtitle :class="$style.fzCardSubTitle">
+                広島市各保健センター</v-card-subtitle
+              >
+              <v-card-actions>
+                <v-btn color="orange lighten-2" text class="pl-2">
+                  <a
+                    href="tel:082-241-4566"
+                    :class="[$style.fzCardBtn, $style.mtTel]"
+                    >082-241-4566</a
+                  >
+                </v-btn>
+              </v-card-actions>
+            </v-card-text>
+          </v-card>
+        </v-col>
+        <v-col cols="12" md="6">
+          <v-card class="p-3" height="100%">
+            <v-card-title>
+              <h5 :class="$style.fzCardTitle">
+                呉市にお住まいの方
+              </h5>
+            </v-card-title>
+            <v-card-text :class="$style.p0">
+              <v-card-subtitle :class="$style.fzCardSubTitle">
+                呉市保健所</v-card-subtitle
+              >
+              <v-card-actions>
+                <v-btn color="orange lighten-2" text class="pl-2">
+                  <a
+                    href="tel:0823-22-5858"
+                    :class="[$style.fzCardBtn, $style.mtTel]"
+                    >0823-22-5858</a
+                  >
+                </v-btn>
+              </v-card-actions>
+            </v-card-text>
+          </v-card>
+        </v-col>
+        <v-col cols="12" md="6">
+          <v-card class="p-3" height="100%">
+            <v-card-title>
+              <h5 :class="$style.fzCardTitle">
+                福山市にお住まいの方
+              </h5>
+            </v-card-title>
+            <v-card-text :class="$style.p0">
+              <v-card-subtitle :class="$style.fzCardSubTitle">
+                福山市保健所</v-card-subtitle
+              >
+              <v-card-actions>
+                <v-btn color="orange lighten-2" text class="pl-2">
+                  <a
+                    href="tel:084-928-1350"
+                    :class="[$style.fzCardBtn, $style.mtTel]"
+                    >084-928-1350</a
+                  >
+                </v-btn>
+              </v-card-actions>
+            </v-card-text>
+          </v-card>
+        </v-col>
+      </v-row>
       <div :class="$style.sectionNoBorder">
         <h4 :class="$style.sxnHeading">
           医療機関にかかるときのお願い
@@ -158,12 +203,14 @@
 import { MetaInfo } from 'vue-meta'
 
 import PageHeader from '@/components/PageHeader.vue'
+import PrinterButton from '@/components/PrinterButton.vue'
 import CovidIcon from '@/static/covid.svg'
 
 export default {
   components: {
     CovidIcon,
     PageHeader,
+    PrinterButton,
     // AppLink,
     // IconPhone,
     // IconBed,
@@ -175,6 +222,14 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.v-card__subtitle {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  font-size: 14px !important;
+}
+</style>
 
 <style lang="scss" module>
 /* stylelint-disable no-descending-specificity */
@@ -192,6 +247,21 @@ $margin: 20;
 
 .fontAttention {
   font-size: $fzRegular * 1px;
+}
+.fzCardTitle {
+  font-size: $fzSmall * 1px;
+}
+.fzCardSubTitle {
+  font-size: $fzSmall * 1.3px;
+}
+.fzCardBtn {
+  font-size: $fzSmall * 1px;
+}
+.p0 {
+  padding: 0 !important;
+}
+.h100 {
+  height: 100%;
 }
 
 .list {

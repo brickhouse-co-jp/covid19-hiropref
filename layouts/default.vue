@@ -118,7 +118,7 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://hiroshima.stopcovid19.jp/${this.$route.path}`,
+          href: `https://hiroshima.stopcovid19.jp${this.$route.path}`,
         },
         ...linksAlternate,
       ],

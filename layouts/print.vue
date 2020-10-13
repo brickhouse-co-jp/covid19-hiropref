@@ -25,7 +25,7 @@
               {{ $t('※最新の情報はWebページをご覧ください') }}
             </p>
             <p class="PrintMeta-Link">
-              https://hiroshima.stopcovid19.jp//
+              https://hiroshima.stopcovid19.jp/
             </p>
           </div>
         </div>
@@ -72,7 +72,7 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://hiroshima.stopcovid19.jp/${this.$route.path}`,
+          href: `https://hiroshima.stopcovid19.jp${this.$route.path}`,
         },
       ],
     }
