@@ -135,17 +135,6 @@
           </tr>
           <tr>
             <td class="content" v-bind="headingAttrs">
-              {{ '新型コロナウイルス感染症対応資金' }}
-            </td>
-            <td class="bureau">{{ '経営革新課' }}</td>
-            <td class="tel">
-              <a href="tel:082-513-3321">
-                082-513-3321
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td class="content" v-bind="headingAttrs">
               {{ '広島コロナお知らせQR' }}
             </td>
             <td class="bureau">
