@@ -17,7 +17,7 @@
           />
           <div class="SideNavigation-HeaderText">
             {{ '新型コロナウイルス感染症' }}<br />
-            {{ 'データまとめサイト[開発中]' }}
+            {{ 'データサイト[開発中]' }}
           </div>
         </app-link>
       </h1>
@@ -152,7 +152,7 @@ export default Vue.extend({
           divider: true,
         },
         {
-          title: '広島県 新型コロナウイルス感染症 まとめサイト',
+          title: '広島県 新型コロナウイルス感染症 サイト',
           link: 'https://www.pref.hiroshima.lg.jp/site/2019-ncov/',
         },
         {

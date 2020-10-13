@@ -190,7 +190,7 @@ export default Vue.extend({
       const url = `https://twitter.com/intent/tweet?text=${
         this.title
       } / ${this.$t('広島県')}${this.$t('新型コロナウイルス感染症')}${this.$t(
-        'データまとめサイト[開発中]'
+        'データサイト[開発中]'
       )}&url=${this.permalink(true)}&hashtags=StopCovid19JP`
       window.open(url)
     },
