@@ -133,7 +133,7 @@
               <a href="tel:082-513-2844">082-513-2844</a>
             </td>
           </tr>
-          <tr>
+          <!-- <tr>
             <td class="content" v-bind="headingAttrs">
               {{ '広島コロナお知らせQR' }}
             </td>
@@ -143,8 +143,8 @@
             <td class="tel">
               <a href="tel:082-513-2845">082-513-2845</a>
             </td>
-          </tr>
-          <tr>
+          </tr> -->
+          <!-- <tr>
             <td class="content" v-bind="headingAttrs">
               {{ '新型コロナウイルス感染症対策取組宣言店' }}
             </td>
@@ -152,7 +152,7 @@
             <td class="tel">
               <a href="tel:082-513-2845">082-513-2845</a>
             </td>
-          </tr>
+          </tr> -->
         </tbody>
       </table>
     </div>
