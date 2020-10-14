@@ -50,16 +50,6 @@
       <footer class="SideNavigation-Footer">
         <div class="SideNavigation-Social">
           <app-link
-            to="https://page.line.me/hiroshima_pref"
-            :show-icon="false"
-            class="SideNavigation-SocialLink"
-          >
-            <picture>
-              <source srcset="/line.webp" type="image/webp" />
-              <img src="/line.png" alt="LINE" />
-            </picture>
-          </app-link>
-          <app-link
             to="http://twitter.com/hiroshima_pref"
             :show-icon="false"
             class="SideNavigation-SocialLink"
@@ -77,6 +67,16 @@
             <picture>
               <source srcset="/facebook.webp" type="image/webp" />
               <img src="/facebook.png" alt="Facebook" />
+            </picture>
+          </app-link>
+          <app-link
+            to="https://page.line.me/hiroshima_pref"
+            :show-icon="false"
+            class="SideNavigation-SocialLink"
+          >
+            <picture>
+              <source srcset="/line.webp" type="image/webp" />
+              <img src="/line.png" alt="LINE" />
             </picture>
           </app-link>
           <app-link
@@ -163,6 +163,11 @@ export default Vue.extend({
           title: 'よくあるご質問(厚生労働省HPへ)',
           link:
             'https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/dengue_fever_qa_00001.html',
+        },
+        {
+          title: '広島積極ガード店',
+          link:
+            'https://www.pref.hiroshima.lg.jp/soshiki/58/inshokusekkyoku.html',
         },
         {
           title: '広島コロナお知らせQR',
