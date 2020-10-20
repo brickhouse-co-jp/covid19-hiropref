@@ -9,12 +9,14 @@
 import MonitoringReferenceIndicator from '@/components/cards/MonitoringReferenceIndicator.vue'
 // 検査陽性者の状況
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
-// 報告日別による陽性者数の推移
+// 報告日別による陽性者数の累計
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
 // 感染･検査･医療提供の最新情報
 import MonitoringItemsOverviewCard from '@/components/cards/MonitoringItemsOverviewCard.vue'
-// モニタリング項目(1)新規陽性者数
+// 新規陽性者数(報告日別)
 import MonitoringConfirmedCasesNumberCard from '@/components/cards/MonitoringConfirmedCasesNumberCard.vue'
+// 新規陽性者数(発症日別)
+import OnsetNumberCard from '@/components/cards/OnsetNumberCard.vue'
 // モニタリング項目(2)#7119における発熱等相談件数
 // import ConsultationAboutFeverNumberCard from '@/components/cards/ConsultationAboutFeverNumberCard.vue'
 // モニタリング項目(3)新規陽性者における接触歴等不明者数
@@ -30,7 +32,7 @@ import HospitalizedNumberCard from '@/components/cards/HospitalizedNumberCard.vu
 // ---- その他 参考指標
 // 陽性者の属性
 import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
-// 陽性者数（区市町村別）
+// 陽性者数（市町別）
 import ConfirmedCasesByMunicipalitiesCard from '@/components/cards/ConfirmedCasesByMunicipalitiesCard.vue'
 // 発症日別による陽性者数の推移
 // import PositiveNumberByDevelopedDateCard from '@/components/cards/PositiveNumberByDevelopedDateCard.vue'
@@ -40,7 +42,7 @@ import ConfirmedCasesByMunicipalitiesCard from '@/components/cards/ConfirmedCase
 // import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
 // 受診相談窓口における相談件数
 // import MonitoringConsultationDeskReportsNumberCard from '@/components/cards/MonitoringConsultationDeskReportsNumberCard.vue'
-// 新型コロナコールセンター相談件数
+// 新型コロナウイルス感染症に係る相談窓口及相談状況について
 import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
 // 都営地下鉄の利用者数の推移
 // import MetroCard from '@/components/cards/MetroCard.vue'
@@ -56,6 +58,7 @@ export default {
     MonitoringReferenceIndicator,
     ConfirmedCasesDetailsCard,
     ConfirmedCasesNumberCard,
+    OnsetNumberCard,
     MonitoringItemsOverviewCard,
     MonitoringConfirmedCasesNumberCard,
     // ConsultationAboutFeverNumberCard,
@@ -95,6 +98,10 @@ export default {
       // モニタリング項目
       case 'monitoring-items-overview':
         cardComponent = 'monitoring-items-overview-card'
+        break
+      // 新規陽性者数(発症日別)
+      case 'onset-number-card':
+        cardComponent = 'onset-number-card'
         break
       // モニタリング項目(1)新規陽性者数
       case 'monitoring-number-of-confirmed-cases':
