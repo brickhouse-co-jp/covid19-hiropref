@@ -5,7 +5,11 @@
       <page-header :class="$style.text">
         新型コロナウイルス感染症が心配なときに
       </page-header>
-      <printer-button :wrapper-class="$style.printerButton" to="/print/flow" />
+      <printer-button
+        :wrapper-class="$style.printerButton"
+        :class="$style.dPrint"
+        to="/print/flow"
+      />
     </div>
     <div :class="$style.container">
       <h3 :class="$style.conHeading">
@@ -271,7 +275,9 @@ $margin: 20;
 .fzTelWindow {
   @include font-size($fzHeadingL);
 }
-
+.dPrint {
+  display: inline-block;
+}
 .list {
   li {
     margin-left: $margin * 1.2px;
@@ -708,6 +714,9 @@ $margin: 20;
 
 // 960
 @include lessThan(960) {
+  .dPrint {
+    display: none;
+  }
   .anchor {
     padding-top: 2px;
     .anchorLink {
