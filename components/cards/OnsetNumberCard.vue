@@ -3,7 +3,7 @@
     <client-only>
       <monitoring-confirmed-cases-chart
         title-id="monitoring-number-of-confirmed-cases"
-        :info-titles="['新規陽性者数(公表日別)']"
+        :info-titles="['新規陽性者数(発症日別)']"
         chart-id="monitoring-confirmed-cases-chart"
         :chart-data="chartData"
         :get-formatter="getFormatter"
@@ -39,7 +39,7 @@
 
 <script>
 import MonitoringConfirmedCasesChart from '@/components/MonitoringConfirmedCasesChart.vue'
-import Data from '@/data/daily_positive_detail.json'
+import Data from '@/data/daily_positive_detail-onset.json'
 import {
   getNumberToFixedFunction,
   getNumberToLocaleStringFunction,

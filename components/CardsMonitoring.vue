@@ -9,8 +9,10 @@
       <confirmed-cases-number-card />
       <!-- 感染・検査・医療提供の最新情報 -->
       <monitoring-items-overview-card />
-      <!-- 新規陽性者数 -->
+      <!-- 新規陽性者数(公表日別) -->
       <monitoring-confirmed-cases-number-card />
+      <!-- 新規陽性者数(公表日別) -->
+      <onset-number-card />
       <!-- #7119における発熱等相談件数 -->
       <!-- <consultation-about-fever-number-card /> -->
       <!-- 新規陽性者における感染経路等不明者数 -->
@@ -40,8 +42,10 @@ import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsC
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
 // 感染・検査・医療提供の最新情報
 import MonitoringItemsOverviewCard from '@/components/cards/MonitoringItemsOverviewCard.vue'
-// 新規陽性者数
+// 新規陽性者数(報告日別)
 import MonitoringConfirmedCasesNumberCard from '@/components/cards/MonitoringConfirmedCasesNumberCard.vue'
+// 新規陽性者数(発症日別)
+import OnsetNumberCard from '@/components/cards/OnsetNumberCard.vue'
 // #7119における発熱等相談件数
 // import ConsultationAboutFeverNumberCard from '@/components/cards/ConsultationAboutFeverNumberCard.vue'
 // 新規陽性者における感染経路等不明者数
@@ -62,6 +66,7 @@ export default Vue.extend({
     MonitoringReferenceIndicator,
     ConfirmedCasesDetailsCard,
     ConfirmedCasesNumberCard,
+    OnsetNumberCard,
     MonitoringItemsOverviewCard,
     MonitoringConfirmedCasesNumberCard,
     // ConsultationAboutFeverNumberCard,

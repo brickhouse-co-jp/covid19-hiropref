@@ -11,7 +11,7 @@ import MonitoringReferenceIndicator from '@/components/cards/MonitoringReference
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 // 報告日別による陽性者数の推移
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
-// モニタリング項目
+// 感染･検査･医療提供の最新情報
 import MonitoringItemsOverviewCard from '@/components/cards/MonitoringItemsOverviewCard.vue'
 // モニタリング項目(1)新規陽性者数
 import MonitoringConfirmedCasesNumberCard from '@/components/cards/MonitoringConfirmedCasesNumberCard.vue'
