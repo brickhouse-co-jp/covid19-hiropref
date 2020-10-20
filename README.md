@@ -1,6 +1,6 @@
 # 広島県 新型コロナウイルス感染症データサイト
 
-[![広島県 新型コロナウイルス感染症データサイト](https://github.com/[brickhouse-co-jp]/[covid19-hiropref]/blob/[master]/static/ogp.jpg?raw=true)](https://hiroshima.stopcovid19.jp//)
+[![広島県 新型コロナウイルス感染症データサイト](https://github.com/brickhouse-co-jp/covid19-hiropref/blob/master/static/ogp.jpg?raw=true)](https://hiroshima.stopcovid19.jp//)
 
 
 ## ライセンス
