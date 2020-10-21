@@ -88,6 +88,31 @@
             </li>
           </ul>
         </li>
+        <li :class="[$style.box, $style.parent]">
+          <div :class="$style.content">
+            <span>{{ '医療機関実施分' }}</span>
+          </div>
+          <ul :class="$style.group">
+            <li :class="[$style.box]">
+              <div :class="$style.content">
+                <span>{{ '検査件数' }}</span>
+                <monitoring-items-overview-table-value-with-translatable-unit
+                  :value="items['検査件数(医療機関実施分)'].value"
+                  :unit="items['検査件数(医療機関実施分)'].unit"
+                />
+              </div>
+            </li>
+            <li :class="[$style.box]">
+              <div :class="$style.content">
+                <span>{{ '陽性率' }}</span>
+                <monitoring-items-overview-table-value-with-translatable-unit
+                  :value="items['陽性率(医療機関実施分)'].value"
+                  :unit="items['陽性率(医療機関実施分)'].unit"
+                />
+              </div>
+            </li>
+          </ul>
+        </li>
       </ul>
     </li>
     <li class="list-style-none">

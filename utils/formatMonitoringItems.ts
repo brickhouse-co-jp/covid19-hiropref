@@ -12,6 +12,8 @@ type DataKey =
   | '検査件数(福山市)'
   | '陽性率(県管轄)'
   | '検査件数(県管轄)'
+  | '陽性率(医療機関実施分)'
+  | '検査件数(医療機関実施分)'
   | '入院患者数'
   | '入院患者確保病床数'
   | '宿泊療養施設療養者数'
@@ -38,6 +40,8 @@ type RawData = {
   '検査件数(福山市)': number
   '陽性率(県管轄)': number
   '検査件数(県管轄)': number
+  '陽性率(医療機関実施分)': number
+  '検査件数(医療機関実施分)': number
   入院患者数: number
   入院患者確保病床数: number
   宿泊療養施設療養者数: number
@@ -124,6 +128,14 @@ export default (rawDataObj: RawData): MonitoringItems => {
     },
     '陽性率(県管轄)': {
       value: toNumberIn10thPlace(rawDataObj['陽性率(県管轄)']),
+      unit: unitPercentage,
+    },
+    '検査件数(医療機関実施分)': {
+      value: toInteger(rawDataObj['検査件数(医療機関実施分)']),
+      unit: unitReports,
+    },
+    '陽性率(医療機関実施分)': {
+      value: toNumberIn10thPlace(rawDataObj['陽性率(医療機関実施分)']),
       unit: unitPercentage,
     },
     入院患者数: {
