@@ -2,7 +2,7 @@
   <v-col cols="12" md="6" class="DataCard">
     <client-only>
       <data-view
-        :title="'感染･検査･医療提供の最新情報'"
+        :title="'感染状況･検査体制･医療提供体制の最新情報'"
         title-id="monitoring-items-overview"
         :date="monitoringItemsData.date"
       >
@@ -12,6 +12,11 @@
             <li>
               {{
                 '各数値は最新のものを掲載しているが、追って修正される可能性がある。'
+              }}
+            </li>
+            <li>
+              {{
+                '特に検査件数については、後日件数が確定することも多いため、追って修正される可能性が高い。'
               }}
             </li>
           </ul>
@@ -35,7 +40,7 @@
             {{ '検査体制'
             }}<time :class="$style.mlTime"
               ><span :class="$style.pTime">[</span>{{ medicalSystem
-              }}<span :class="$style.mlUpdate">時点</span
+              }}<span :class="$style.mlUpdate">結果判明分</span
               ><span :class="$style.pTime">]</span></time
             >
           </h4>
