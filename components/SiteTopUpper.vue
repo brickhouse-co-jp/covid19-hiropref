@@ -54,7 +54,7 @@ export default Vue.extend({
       // TokyoAlert,
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
-        title: '県内の最新感染動向',
+        title: '県内の感染動向',
       },
       lastUpdate,
       newsItems: News.newsItems,
@@ -70,7 +70,7 @@ export default Vue.extend({
   },
   head(): MetaInfo {
     return {
-      title: '県内の最新感染動向' as string,
+      title: '県内の感染動向' as string,
     }
   },
 })
