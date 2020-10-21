@@ -61,9 +61,9 @@
           <slot name="footer" />
           <div>
             <!-- <app-link class="Permalink" :to="permalink"> -->
-            <time :datetime="formattedDate">
+            <!-- <time :datetime="formattedDate">
               {{ $t('{date} 更新', { date: formattedDateForDisplay }) }}
-            </time>
+            </time> -->
             <!-- </app-link> -->
           </div>
         </div>
