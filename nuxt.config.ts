@@ -62,7 +62,7 @@ const config: NuxtConfig = {
       },
       {
         name: 'google-site-verification',
-        content: '4tnafbGY5phZRfIK7tH0dXD4BDwvd4oNnuEHv4ZErCY',
+        content: 'HnunNu3UD29uY4GHr2zsUEZWNdnDJ8VzrDNZn-OJU28',
       },
     ],
     link: [
