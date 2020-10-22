@@ -1,14 +1,14 @@
 {
-    "date": "2020\/10\/22 16:16",
+    "date": "2020\/10\/23 8:46",
     "datasets": {
-        "date": "2020\/10\/15",
+        "date": "2020\/10\/21",
         "data": [
             {
                 "code": 340006,
                 "area": "広島市",
                 "label": "広島市",
                 "ruby": "ひろしまし",
-                "count": 336
+                "count": 343
             },
             {
                 "code": 340006,
@@ -22,14 +22,14 @@
                 "area": "福山市",
                 "label": "福山市",
                 "ruby": "ふくやまし",
-                "count": 79
+                "count": 75
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "府中町",
                 "ruby": "ふちゅうちょう",
-                "count": 9
+                "count": 10
             },
             {
                 "code": 340006,
@@ -113,7 +113,7 @@
                 "area": "県管轄",
                 "label": "坂町",
                 "ruby": "さかちょう",
-                "count": 1
+                "count": 2
             },
             {
                 "code": 340006,
@@ -125,15 +125,15 @@
             {
                 "code": 340006,
                 "area": "県管轄",
-                "label": "竹原市",
-                "ruby": "たけはらし",
-                "count": 0
+                "label": "大竹市",
+                "ruby": "おおたけし",
+                "count": 1
             },
             {
                 "code": 340006,
                 "area": "県管轄",
-                "label": "大竹市",
-                "ruby": "おおたけし",
+                "label": "竹原市",
+                "ruby": "たけはらし",
                 "count": 0
             },
             {
@@ -169,21 +169,21 @@
                 "area": "-",
                 "label": "広島県外",
                 "ruby": "-",
-                "count": 2
+                "count": 3
             },
             {
                 "code": 340006,
                 "area": "-",
                 "label": "非公表",
                 "ruby": "-",
-                "count": 11
+                "count": 15
             },
             {
                 "code": null,
                 "area": null,
                 "label": "小計",
                 "ruby": null,
-                "count": 641
+                "count": 652
             }
         ]
     }
