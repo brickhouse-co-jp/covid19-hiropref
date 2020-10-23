@@ -1,32 +1,32 @@
 {
-    "date": "2020\/10\/23 8:46",
+    "date": "2020\/10\/23 10:58",
     "data": [
         {
             "diagnosed_date": "2020-01-30",
             "positive_count": 0,
             "negative_count": 2,
-            "positive_rate": null,
+            "positive_rate": 0,
             "weekly_average_diagnosed_count": null
         },
         {
             "diagnosed_date": "2020-01-31",
             "positive_count": 0,
             "negative_count": 1,
-            "positive_rate": null,
+            "positive_rate": 0,
             "weekly_average_diagnosed_count": null
         },
         {
             "diagnosed_date": "2020-02-01",
             "positive_count": 0,
             "negative_count": 0,
-            "positive_rate": null,
+            "positive_rate": 0,
             "weekly_average_diagnosed_count": null
         },
         {
             "diagnosed_date": "2020-02-02",
             "positive_count": 0,
             "negative_count": 0,
-            "positive_rate": null,
+            "positive_rate": 0,
             "weekly_average_diagnosed_count": null
         },
         {
@@ -47,49 +47,49 @@
             "diagnosed_date": "2020-02-05",
             "positive_count": 0,
             "negative_count": 0,
-            "positive_rate": null,
+            "positive_rate": 0,
             "weekly_average_diagnosed_count": 0
         },
         {
             "diagnosed_date": "2020-02-06",
             "positive_count": 0,
             "negative_count": 0,
-            "positive_rate": null,
+            "positive_rate": 0,
             "weekly_average_diagnosed_count": 0
         },
         {
             "diagnosed_date": "2020-02-07",
             "positive_count": 0,
             "negative_count": 0,
-            "positive_rate": null,
+            "positive_rate": 0,
             "weekly_average_diagnosed_count": 0
         },
         {
             "diagnosed_date": "2020-02-08",
             "positive_count": 0,
             "negative_count": 0,
-            "positive_rate": null,
+            "positive_rate": 0,
             "weekly_average_diagnosed_count": 0
         },
         {
             "diagnosed_date": "2020-02-09",
             "positive_count": 0,
             "negative_count": 0,
-            "positive_rate": null,
+            "positive_rate": 0,
             "weekly_average_diagnosed_count": 0
         },
         {
             "diagnosed_date": "2020-02-10",
             "positive_count": 0,
             "negative_count": 0,
-            "positive_rate": null,
+            "positive_rate": 0,
             "weekly_average_diagnosed_count": 0
         },
         {
             "diagnosed_date": "2020-02-11",
             "positive_count": 0,
             "negative_count": 0,
-            "positive_rate": null,
+            "positive_rate": 0,
             "weekly_average_diagnosed_count": 0
         },
         {
