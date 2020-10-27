@@ -240,6 +240,7 @@ export default {
 <style lang="scss" module>
 /* stylelint-disable no-descending-specificity */
 
+$fzXs: 10;
 $fzSmall: 14;
 $fzRegular: 16;
 $fzMedium: 18;
@@ -247,6 +248,8 @@ $fzLarge: 20;
 $fzHuge: 22;
 $fzHeading: 24;
 $fzHeadingL: 26;
+$fzHeadingXl: 28;
+$fzHeading2xl: 30;
 
 $padding: 20;
 $margin: 20;
@@ -339,7 +342,7 @@ $margin: 20;
   @include font-size($fzRegular);
 
   > .conHeading {
-    @include font-size($fzHeading);
+    @include font-size($fzHeadingL);
   }
   > .anchorLead {
     margin-top: $margin * 1.5px;
@@ -472,7 +475,7 @@ $margin: 20;
   > .sxnHeading {
     text-align: center;
     font-weight: bold;
-    @include font-size($fzHeadingL);
+    @include font-size($fzHeadingXl);
   }
   > .sxnHeadingSmall {
     text-align: center;
@@ -527,7 +530,7 @@ $margin: 20;
     border-top: 1px solid $gray-2;
   }
   .fontSubtitle {
-    font-weight: bold;
+    // font-weight: bold;
     font-size: $fzSmall * 1px;
   }
   li {
@@ -737,6 +740,52 @@ $margin: 20;
   .boxes > .box {
     width: auto;
   }
+  .fzTelWindow {
+    @include font-size($fzHuge);
+  }
+  .sectionNoBorder {
+    margin-top: $margin * 0.8px;
+    padding-top: $padding * 0.8px;
+    padding-bottom: $padding * 1px;
+    background-color: $white;
+    &.yellow {
+      border-width: 4px;
+      border-color: $emergency;
+    }
+    > * {
+      line-height: 1.5;
+      &:not(.box):not(.boxes):not(:first-child) {
+        margin-top: $margin * 1px;
+      }
+    }
+    > .sxnHeading {
+      font-weight: bold;
+      @include font-size($fzHuge);
+    }
+    > .sxnHeadingSmall {
+      text-align: center;
+      font-weight: bold;
+      @include font-size($fzHuge);
+    }
+    > .sxnText {
+      margin-top: 20px;
+      text-align: center;
+      font-weight: bold;
+      @include font-size($fzMedium);
+    }
+    > .hr {
+      margin-top: $margin * 1px;
+      padding-top: $margin * 1.5px;
+      border-top: 1px solid $gray-2;
+    }
+    .fontSubtitle {
+      font-weight: normal;
+      font-size: $fzSmall * 1px;
+    }
+    li {
+      font-size: $fzSmall * 1px;
+    }
+  }
 }
 
 // 600
@@ -754,7 +803,7 @@ $margin: 20;
     padding: px2vw($padding);
     font-size: px2vw($fzRegular);
     > .conHeading {
-      font-size: px2vw($fzHeading);
+      font-size: px2vw($fzHeadingL);
     }
     > .anchorLead {
       margin-top: px2vw($margin * 1.5);
