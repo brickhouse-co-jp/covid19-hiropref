@@ -13,17 +13,32 @@
     </div>
     <ul class="WhatsNew-list">
       <li v-for="(item, i) in items" :key="i" class="WhatsNew-list-item">
-        <app-link :to="item.url" class="WhatsNew-list-item-anchor">
-          <time
-            class="WhatsNew-list-item-anchor-time px-2"
-            :datetime="formattedDate(item.date)"
-          >
-            {{ formattedDateForDisplay(item.date) }}
-          </time>
-          <span class="WhatsNew-list-item-anchor-link">
-            {{ item.text }}
-          </span>
-        </app-link>
+        <template v-if="i === 0">
+          <app-link :to="item.url" class="WhatsNew-list-item-anchor">
+            <time
+              class="WhatsNew-list-item-anchor-time px-2"
+              :datetime="formattedDate(item.date)"
+            >
+              {{ formattedDateForDisplay(item.date) }}
+            </time>
+            <span class="WhatsNew-list-item-anchor-link">
+              {{ item.text }}
+            </span>
+          </app-link>
+        </template>
+        <template v-else>
+          <nuxt-link :to="item.url" class="WhatsNew-list-item-anchor">
+            <time
+              class="WhatsNew-list-item-anchor-time px-2"
+              :datetime="formattedDate(item.date)"
+            >
+              {{ formattedDateForDisplay(item.date) }}
+            </time>
+            <span class="WhatsNew-list-item-anchor-link">
+              {{ item.text }}
+            </span>
+          </nuxt-link>
+        </template>
       </li>
     </ul>
   </div>
