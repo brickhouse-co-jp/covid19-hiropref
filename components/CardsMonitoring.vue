@@ -1,7 +1,7 @@
 <template>
   <div>
     <card-row class="DataBlock">
-      <!-- 6指標 -->
+      <!-- 参考指標 -->
       <monitoring-reference-indicator />
       <!-- 検査陽性者の状況 -->
       <confirmed-cases-details-card />
@@ -34,7 +34,7 @@
 import Vue from 'vue'
 import CardRow from '@/components/cards/CardRow.vue'
 
-// 6指標
+// 参考指標
 import MonitoringReferenceIndicator from '@/components/cards/MonitoringReferenceIndicator.vue'
 // 検査陽性者の状況
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'

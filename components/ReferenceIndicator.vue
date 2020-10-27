@@ -92,7 +92,7 @@
           </li>
           <li :class="[$style.box]">
             <div :class="$style.content">
-              <span>{{ '6/30からの累計' }}</span>
+              <span>{{ '感染経路不明割合' }}</span>
               <monitoring-items-overview-table-value-with-translatable-unit
                 :value="items['感染経路不明割合(累計)'].value"
                 :unit="items['感染経路不明割合(累計)'].unit"
