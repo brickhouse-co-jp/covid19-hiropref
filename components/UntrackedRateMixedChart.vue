@@ -480,24 +480,24 @@ const options: ThisTypedComponentOptionsWithRecordProps<
                 suggestedMax: this.scaledTicksYAxisMax,
               },
             },
-            {
-              id: 'y-axis-2',
-              position: 'right',
-              gridLines: {
-                display: true,
-                drawOnChartArea: false,
-                color: '#E5E5E5', // #E5E5E5
-              },
-              ticks: {
-                suggestedMin: 0,
-                maxTicksLimit: 8,
-                fontColor: '#808080', // #808080
-                suggestedMax: this.scaledTicksYAxisMaxRight,
-                callback(value) {
-                  return `${value}%`
-                },
-              },
-            },
+            // {
+            //   id: 'y-axis-2',
+            //   position: 'right',
+            //   gridLines: {
+            //     display: true,
+            //     drawOnChartArea: false,
+            //     color: '#E5E5E5', // #E5E5E5
+            //   },
+            //   ticks: {
+            //     suggestedMin: 0,
+            //     maxTicksLimit: 8,
+            //     fontColor: '#808080', // #808080
+            //     suggestedMax: this.scaledTicksYAxisMaxRight,
+            //     callback(value) {
+            //       return `${value}%`
+            //     },
+            //   },
+            // },
           ],
         },
       }
@@ -531,7 +531,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
           {
             data: [this.displayData.datasets[2].data[n]],
             backgroundColor: 'transparent',
-            yAxisID: 'y-axis-2',
+            yAxisID: 'y-axis-1',
             borderWidth: 0,
           },
           // {
@@ -608,25 +608,25 @@ const options: ThisTypedComponentOptionsWithRecordProps<
                 suggestedMax: this.scaledTicksYAxisMax,
               },
             },
-            {
-              id: 'y-axis-2',
-              type: 'linear',
-              position: 'right',
-              gridLines: {
-                display: true,
-                drawOnChartArea: false,
-                color: '#E5E5E5', // #E5E5E5
-              },
-              ticks: {
-                suggestedMin: 0,
-                maxTicksLimit: 8,
-                fontColor: '#808080', // #808080
-                suggestedMax: this.scaledTicksYAxisMaxRight,
-                callback(value) {
-                  return `${value}%`
-                },
-              },
-            },
+            // {
+            //   id: 'y-axis-2',
+            //   type: 'linear',
+            //   position: 'right',
+            //   gridLines: {
+            //     display: true,
+            //     drawOnChartArea: false,
+            //     color: '#E5E5E5', // #E5E5E5
+            //   },
+            //   ticks: {
+            //     suggestedMin: 0,
+            //     maxTicksLimit: 8,
+            //     fontColor: '#808080', // #808080
+            //     suggestedMax: this.scaledTicksYAxisMaxRight,
+            //     callback(value) {
+            //       return `${value}%`
+            //     },
+            //   },
+            // },
           ],
         },
         animation: { duration: 0 },
