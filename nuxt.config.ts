@@ -23,12 +23,12 @@ const config: NuxtConfig = {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: '広島県 新型コロナウイルス感染症データサイト[開発中]',
+        content: '広島県 新型コロナウイルス感染症データサイト[公式]',
       },
       {
         hid: 'og:site_name',
         property: 'og:site_name',
-        content: '広島県 新型コロナウイルス感染症データサイト[開発中]',
+        content: '広島県 新型コロナウイルス感染症データサイト[公式]',
       },
       {
         hid: 'og:url',
@@ -169,7 +169,7 @@ const config: NuxtConfig = {
     // hardSource: process.env.NODE_ENV === 'development'
   },
   manifest: {
-    name: '広島県 新型コロナウイルス感染症データサイト[開発中]',
+    name: '広島県 新型コロナウイルス感染症データサイト[公式]',
     theme_color: '#992F3B',
     background_color: '#ffffff',
     display: 'standalone',

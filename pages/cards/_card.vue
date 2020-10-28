@@ -187,7 +187,7 @@ export default {
     )}`
     const defaultTitle = `${this.$t('広島県')} ${this.$t(
       '新型コロナウイルス感染症'
-    )}${this.$t('データサイト[開発中]')}`
+    )}${this.$t('データサイト[公式]')}`
 
     return {
       titleTemplate: (title) => `${this.title || title} | ${defaultTitle}`,
