@@ -3,12 +3,12 @@
     <card-row class="DataBlock">
       <!-- 参考指標 -->
       <monitoring-reference-indicator />
+      <!-- 感染・検査・医療提供の最新情報 -->
+      <monitoring-items-overview-card />
       <!-- 検査陽性者の状況 -->
       <confirmed-cases-details-card />
       <!-- 報告日別による陽性者数の累計 -->
       <confirmed-cases-number-card />
-      <!-- 感染・検査・医療提供の最新情報 -->
-      <monitoring-items-overview-card />
       <!-- 新規陽性者数(公表日別) -->
       <monitoring-confirmed-cases-number-card />
       <!-- 新規陽性者数(公表日別) -->
@@ -36,12 +36,12 @@ import CardRow from '@/components/cards/CardRow.vue'
 
 // 参考指標
 import MonitoringReferenceIndicator from '@/components/cards/MonitoringReferenceIndicator.vue'
+// 感染・検査・医療提供の最新情報
+import MonitoringItemsOverviewCard from '@/components/cards/MonitoringItemsOverviewCard.vue'
 // 検査陽性者の状況
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 // 報告日別による陽性者数の累計
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
-// 感染・検査・医療提供の最新情報
-import MonitoringItemsOverviewCard from '@/components/cards/MonitoringItemsOverviewCard.vue'
 // 新規陽性者数(報告日別)
 import MonitoringConfirmedCasesNumberCard from '@/components/cards/MonitoringConfirmedCasesNumberCard.vue'
 // 新規陽性者数(発症日別)
