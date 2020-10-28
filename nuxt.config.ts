@@ -128,7 +128,7 @@ const config: NuxtConfig = {
     },
   },
   googleAnalytics: {
-    id: process.env.GOOGLE_ANALYTICS_ID, // .env.production などに設定してください。
+    id: process.env.GOOGLE_ANALYTICS_ID, // .env に設定してください。
   },
   /*
    * nuxt-i18n による自動リダイレクトを停止したためコメントアウト

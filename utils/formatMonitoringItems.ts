@@ -27,7 +27,7 @@ type DataKey =
   | '新規報告者数'
   | '直近1週間の先週比較(今週)'
   | '直近1週間の先週比較(先週)'
-  | '感染経路不明割合(5日)'
+  | '感染経路不明割合(7日)'
   | '感染経路不明割合(累計)'
 
 type RawData = {
@@ -55,7 +55,7 @@ type RawData = {
   新規報告者数: number
   '直近1週間の先週比較(今週)': number
   '直近1週間の先週比較(先週)': number
-  '感染経路不明割合(5日)': number
+  '感染経路不明割合(7日)': number
   '感染経路不明割合(累計)': number
 }
 
@@ -190,8 +190,8 @@ export default (rawDataObj: RawData): MonitoringItems => {
       value: toInteger(rawDataObj['直近1週間の先週比較(先週)']),
       unit: unitPerson,
     },
-    '感染経路不明割合(5日)': {
-      value: toNumberIn10thPlace(rawDataObj['感染経路不明割合(5日)']),
+    '感染経路不明割合(7日)': {
+      value: toNumberIn10thPlace(rawDataObj['感染経路不明割合(7日)']),
       unit: unitPercentage,
     },
     '感染経路不明割合(累計)': {

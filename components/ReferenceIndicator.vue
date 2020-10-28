@@ -26,7 +26,7 @@
       <li :class="[$style.boxBigger]">
         <div :class="$style.content">
           <span>
-            {{ 'PCR陽性率(直近5日移動平均)' }}
+            {{ 'PCR陽性率(直近7日移動平均)' }}
           </span>
           <monitoring-items-overview-table-value-with-translatable-unit
             :value="items['PCR陽性率'].value"
@@ -83,10 +83,10 @@
         <ul :class="$style.group">
           <li :class="[$style.box]">
             <div :class="$style.content">
-              <span>{{ '直近5日移動平均' }}</span>
+              <span>{{ '直近7日移動平均' }}</span>
               <monitoring-items-overview-table-value-with-translatable-unit
-                :value="items['感染経路不明割合(5日)'].value"
-                :unit="items['感染経路不明割合(5日)'].unit"
+                :value="items['感染経路不明割合(7日)'].value"
+                :unit="items['感染経路不明割合(7日)'].unit"
               />
             </div>
           </li>
