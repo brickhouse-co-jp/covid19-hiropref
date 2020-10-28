@@ -60,7 +60,7 @@ export default {
   },
   data() {
     const data = Data.data.filter(
-      (d) => new Date(d.diagnosed_date) >= new Date('2020-03-27')
+      (d) => new Date(d.diagnosed_date) >= new Date('2020-03-6')
     )
     const reportedCount = data.map((d) => d.reported_count)
     const missingCount = data.map((d) => d.missing_count)
