@@ -1,5 +1,5 @@
 {
-    "date": "2020\/10\/31 8:10",
+    "date": "2020\/11\/1 8:32",
     "data": [
         {
             "diagnosed_date": "2020-03-17",
@@ -1803,10 +1803,10 @@
         },
         {
             "diagnosed_date": "2020-10-28",
-            "count": 0,
+            "count": 1,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 0.3,
+            "weekly_average_count": 0.4,
             "weekly_average_untracked_count": null
         },
         {
@@ -1814,11 +1814,19 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 0.1,
+            "weekly_average_count": 0.3,
             "weekly_average_untracked_count": null
         },
         {
             "diagnosed_date": "2020-10-30",
+            "count": 0,
+            "missing_count": null,
+            "reported_count": null,
+            "weekly_average_count": 0.3,
+            "weekly_average_untracked_count": null
+        },
+        {
+            "diagnosed_date": "2020-10-31",
             "count": 0,
             "missing_count": null,
             "reported_count": null,
