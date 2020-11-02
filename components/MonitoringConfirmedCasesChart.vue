@@ -240,9 +240,12 @@ const options: ThisTypedComponentOptionsWithRecordProps<
       return [
         {
           lText: lastDayData,
+          // sText: `${this.$t('{date} の数値', {
+          //   date: lastDay,
+          // })}（${'7日間移動平均'}）`,
           sText: `${this.$t('{date} の数値', {
             date: lastDay,
-          })}（${'7日間移動平均'}）`,
+          })}`,
           sTextUnder: `（${this.$t('前日比')}: ${dayBeforeRatio} ${
             this.unit
           }）`,
