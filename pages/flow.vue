@@ -255,7 +255,7 @@ $padding: 20;
 $margin: 20;
 
 .fzTitle {
-  font-size: $fzHuge * 1px;
+  font-size: $fzHeadingXl * 1px;
 }
 .fontAttention {
   font-size: $fzRegular * 1px;
@@ -796,6 +796,9 @@ $margin: 20;
   @return $px / $vw * 100vw;
 }
 @include lessThan($small) {
+  .fzTitle {
+    font-size: $fzHuge * 1px;
+  }
   .fzTelWindow {
     font-size: px2vw($fzHeadingL);
   }
