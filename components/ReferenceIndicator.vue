@@ -4,7 +4,7 @@
       <li :class="[$style.boxBigger]">
         <div :class="$style.content">
           <span>
-            {{ '病床ひっ迫具合' }}
+            {{ '病床のひっ迫具合' }}
           </span>
           <monitoring-items-overview-table-value-with-translatable-unit
             :value="items['病床逼迫具合'].value"
@@ -37,7 +37,7 @@
       <li :class="[$style.boxBigger]">
         <div :class="$style.content">
           <span>
-            {{ '新規報告者数(直近1週間の10万人当たり)' }}
+            {{ '新規報告数(直近1週間の10万人当たり)' }}
           </span>
           <monitoring-items-overview-table-value-with-translatable-unit
             :value="items['新規報告者数'].value"

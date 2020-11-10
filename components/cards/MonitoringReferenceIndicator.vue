@@ -14,11 +14,6 @@
             </li>
             <li>
               {{
-                '病床ひっ迫具合は、入院病床数及び宿泊療養施設の室数の合計に占める入院等人数の割合を表す。'
-              }}
-            </li>
-            <li>
-              {{
                 '各指標でステージ1～4に該当する数値を設定し、指標ごとの状況を総合的に判断して、県におけるステージの評価を行っている。'
               }}
             </li>
@@ -36,24 +31,34 @@
             </thead>
             <tbody>
               <tr>
-                <td>病床のひっ迫具合</td>
-                <td>25％</td>
+                <th>病床のひっ迫具合</th>
+                <td>25％ ※1</td>
                 <td>50％</td>
               </tr>
               <tr>
-                <td>全療養者数</td>
+                <th>療養者数</th>
                 <td>15人</td>
                 <td>25人</td>
               </tr>
               <tr>
-                <td>ＰＣＲ陽性率</td>
+                <th>ＰＣＲ陽性率</th>
                 <td>10%</td>
                 <td>10%</td>
               </tr>
               <tr>
-                <td>新規報告数</td>
+                <th>新規報告数 ※2</th>
                 <td>15人</td>
                 <td>25人</td>
+              </tr>
+              <tr>
+                <th>直近1週間の感染者数</th>
+                <td>先週1週間より多い</td>
+                <td>先週1週間より多い</td>
+              </tr>
+              <tr>
+                <th>感染経路不明割合</th>
+                <td>50%</td>
+                <td>50%</td>
               </tr>
             </tbody>
           </table>
@@ -150,7 +155,12 @@ dfn {
 table {
   margin-top: 10px;
 }
-th,
+thead > tr > th {
+  text-align: center;
+}
+tbody > tr > th {
+  text-align: start;
+}
 td {
   padding-left: 10px;
   padding-right: 10px;
@@ -164,8 +174,14 @@ td {
     padding-right: 10px;
   }
   @include largerThan($large) {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
+}
+.mtUl {
+  margin-top: 2rem;
+}
+.listStyleNone {
+  list-style: none;
 }
 </style>
