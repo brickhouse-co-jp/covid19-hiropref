@@ -87,6 +87,10 @@ export default {
       case 'monitoring-reference-indicator':
         cardComponent = 'monitoring-reference-indicator'
         break
+      // モニタリング項目
+      case 'monitoring-items-overview':
+        cardComponent = 'monitoring-items-overview-card'
+        break
       // 検査陽性者の状況
       case 'details-of-confirmed-cases':
         cardComponent = 'confirmed-cases-details-card'
@@ -95,17 +99,13 @@ export default {
       case 'number-of-confirmed-cases':
         cardComponent = 'confirmed-cases-number-card'
         break
-      // モニタリング項目
-      case 'monitoring-items-overview':
-        cardComponent = 'monitoring-items-overview-card'
+      // 新規陽性者数(公表日別)
+      case 'monitoring-number-of-confirmed-cases':
+        cardComponent = 'monitoring-confirmed-cases-number-card'
         break
       // 新規陽性者数(発症日別)
       case 'onset-number-card':
         cardComponent = 'onset-number-card'
-        break
-      // モニタリング項目(1)新規陽性者数
-      case 'monitoring-number-of-confirmed-cases':
-        cardComponent = 'monitoring-confirmed-cases-number-card'
         break
       // モニタリング項目(2)#7119における発熱等相談件数
       // case 'number-of-reports-to-consultations-about-fever-in-7119':
