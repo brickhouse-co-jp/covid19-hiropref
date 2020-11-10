@@ -93,7 +93,7 @@ export default (rawDataObj: RawData): MonitoringItems => {
   const toNumberIn10thPlace = getCommaSeparatedNumberToFixedFunction(1)
   const toNumberInHundredthsPlace = getCommaSeparatedNumberToFixedFunction(2)
 
-  return {
+  const retVal = {
     新規陽性者数: {
       value: toInteger(rawDataObj['新規陽性者数']),
       unit: unitPerson,
@@ -199,4 +199,25 @@ export default (rawDataObj: RawData): MonitoringItems => {
       unit: unitPercentage,
     },
   }
+
+  if (retVal['検査件数(広島市)'].value === '0') {
+    retVal['陽性率(広島市)'].value = '-'
+  }
+  if (retVal['検査件数(呉市)'].value === '0') {
+    retVal['陽性率(呉市)'].value = '-'
+  }
+  if (retVal['検査件数(福山市)'].value === '0') {
+    retVal['陽性率(福山市)'].value = '-'
+  }
+  if (retVal['検査件数(県管轄)'].value === '0') {
+    retVal['陽性率(県管轄)'].value = '-'
+  }
+  if (retVal['検査件数(医療機関実施分)'].value === '0') {
+    retVal['陽性率(医療機関実施分)'].value = '-'
+  }
+  if (retVal['検査件数(合計)'].value === '0') {
+    retVal['陽性率(合計)'].value = '-'
+  }
+
+  return retVal
 }

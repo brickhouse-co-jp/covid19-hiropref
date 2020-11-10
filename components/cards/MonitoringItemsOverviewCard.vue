@@ -113,8 +113,6 @@ export default {
       medicalTests,
     }
   },
-  // computed: {
-  // }
 }
 </script>
 
