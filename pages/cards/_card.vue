@@ -83,11 +83,11 @@ export default {
     switch (this.$route.params.card) {
       // NOTE: 以下，ブラウザでの表示順に合わせて条件分岐を行う
       // ---- モニタリング項目
-      // 6指標
+      // 参考指標
       case 'monitoring-reference-indicator':
         cardComponent = 'monitoring-reference-indicator'
         break
-      // モニタリング項目
+      // 感染状況･検査体制･医療提供体制の最新情報
       case 'monitoring-items-overview':
         cardComponent = 'monitoring-items-overview-card'
         break
@@ -95,7 +95,7 @@ export default {
       case 'details-of-confirmed-cases':
         cardComponent = 'confirmed-cases-details-card'
         break
-      // 報告日別による陽性者数の推移
+      // 報告日別による陽性者数の累積
       case 'number-of-confirmed-cases':
         cardComponent = 'confirmed-cases-number-card'
         break
@@ -111,11 +111,11 @@ export default {
       // case 'number-of-reports-to-consultations-about-fever-in-7119':
       //   cardComponent = 'consultation-about-fever-number-card'
       //   break
-      // モニタリング項目(3)新規陽性者における接触歴等不明者数
+      // 新規陽性者における感染経路不明者数(公表日別)
       case 'untracked-rate':
         cardComponent = 'untracked-rate-card'
         break
-      // モニタリング項目(4)検査の陽性率
+      // 検査の陽性率
       case 'positive-rate':
         cardComponent = 'positive-rate-card'
         break
@@ -123,7 +123,7 @@ export default {
       // case 'number-of-tokyo-rules-applied':
       //   cardComponent = 'tokyo-rules-application-number-card'
       //   break
-      // モニタリング項目(6)入院患者数
+      // 入院患者数
       case 'number-of-hospitalized':
         cardComponent = 'hospitalized-number-card'
         break
@@ -156,7 +156,7 @@ export default {
       // case 'monitoring-number-of-reports-to-covid19-consultation-desk':
       //   cardComponent = 'monitoring-consultation-desk-reports-number-card'
       //   break
-      // 新型コロナコールセンター相談件数
+      // 相談窓口への相談件数
       case 'number-of-reports-to-covid19-telephone-advisory-center':
         cardComponent = 'telephone-advisory-reports-number-card'
         break
