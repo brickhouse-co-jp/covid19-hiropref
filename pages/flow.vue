@@ -12,25 +12,9 @@
       />
     </div>
     <div :class="$style.container">
-      <h3 :class="$style.conHeading">
-        新型コロナウイルス感染症にかかる相談窓口について
+      <h3 :class="$style.fzTitle">
+        電話相談窓口について
       </h3>
-      <div :class="$style.sectionNoBorder">
-        <h4 :class="$style.sxnHeading">
-          相談・受診の前に心がけていただきたいこと
-        </h4>
-        <ul :class="$style.list">
-          <li>
-            発熱等の風邪症状が見られるときは、学校や会社を休み外出を控える。
-          </li>
-          <li>
-            発熱等の風邪症状が見られたら、毎日、体温を測定して記録しておく。
-          </li>
-          <li>
-            基礎疾患（持病）をお持ちの方で症状に変化がある方、新型コロナウイルス感染症以外の病気が心配な方は、まずは、かかりつけ医等に電話で御相談ください。
-          </li>
-        </ul>
-      </div>
       <div :class="$style.sectionNoBorder">
         <h4 :class="$style.sxnHeading">
           相談窓口に御相談いただく目安
@@ -147,6 +131,22 @@
       </v-row>
       <div :class="$style.sectionNoBorder">
         <h4 :class="$style.sxnHeading">
+          相談･受診の前に心がけていただきたいこと
+        </h4>
+        <ul :class="$style.list">
+          <li>
+            発熱等の風邪症状が見られるときは、学校や会社を休み外出を控える。
+          </li>
+          <li>
+            発熱等の風邪症状が見られたら、毎日、体温を測定して記録しておく。
+          </li>
+          <li>
+            基礎疾患（持病）をお持ちの方で症状に変化がある方、新型コロナウイルス感染症以外の病気が心配な方は、まずは、かかりつけ医等に電話で御相談ください。
+          </li>
+        </ul>
+      </div>
+      <div :class="$style.sectionNoBorder">
+        <h4 :class="$style.sxnHeading">
           医療機関にかかるときのお願い
         </h4>
         <ul :class="$style.list">
@@ -254,6 +254,9 @@ $fzHeading2xl: 30;
 $padding: 20;
 $margin: 20;
 
+.fzTitle {
+  font-size: $fzHuge * 1px;
+}
 .fontAttention {
   font-size: $fzRegular * 1px;
 }
