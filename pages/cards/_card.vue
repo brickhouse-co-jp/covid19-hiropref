@@ -44,6 +44,8 @@ import ConfirmedCasesByMunicipalitiesCard from '@/components/cards/ConfirmedCase
 // import MonitoringConsultationDeskReportsNumberCard from '@/components/cards/MonitoringConsultationDeskReportsNumberCard.vue'
 // 新型コロナウイルス感染症に係る相談窓口及相談状況について
 import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
+// 広島コロナお知らせQR登録数
+import QrReportsNumberCard from '@/components/cards/QrReportsNumberCard.vue'
 // 都営地下鉄の利用者数の推移
 // import MetroCard from '@/components/cards/MetroCard.vue'
 // 都庁来庁者数の推移
@@ -75,6 +77,7 @@ export default {
     // TestedNumberCard,
     // MonitoringConsultationDeskReportsNumberCard,
     TelephoneAdvisoryReportsNumberCard,
+    QrReportsNumberCard,
     // MetroCard,
     // AgencyCard,
   },
@@ -159,6 +162,10 @@ export default {
       // 相談窓口への相談件数
       case 'number-of-reports-to-covid19-telephone-advisory-center':
         cardComponent = 'telephone-advisory-reports-number-card'
+        break
+      // 広島コロナお知らせQR登録数
+      case 'qr-reports-number-card':
+        cardComponent = 'qr-reports-number-card'
         break
       // 都営地下鉄の利用者数の推移
       // case 'predicted-number-of-toei-subway-passengers':
