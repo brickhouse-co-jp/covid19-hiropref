@@ -1,5 +1,5 @@
 {
-    "date": "2020\/11\/16 10:47",
+    "date": "2020\/11\/17 9:18",
     "data": [
         {
             "date": "2020-02-01",
@@ -1147,15 +1147,19 @@
         },
         {
             "date": "2020-11-13",
-            "hospitalized": 25
+            "hospitalized": 23
         },
         {
             "date": "2020-11-14",
-            "hospitalized": 31
+            "hospitalized": 29
         },
         {
             "date": "2020-11-15",
-            "hospitalized": 38
+            "hospitalized": 36
+        },
+        {
+            "date": "2020-11-16",
+            "hospitalized": 33
         }
     ]
 }
