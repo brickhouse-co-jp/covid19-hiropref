@@ -17,6 +17,7 @@
       <!-- <monitoring-consultation-desk-reports-number-card /> -->
       <!-- 新型コロナウイルス感染症に係る相談窓口及相談状況について -->
       <telephone-advisory-reports-number-card />
+      <qr-reports-number-card />
     </card-row>
     <card-row class="DataBlock">
       <!-- 都営地下鉄の利用者数の推移 -->
@@ -46,6 +47,8 @@ import ConfirmedCasesByMunicipalitiesCard from '@/components/cards/ConfirmedCase
 // import MonitoringConsultationDeskReportsNumberCard from '@/components/cards/MonitoringConsultationDeskReportsNumberCard.vue'
 // 新型コロナウイルス感染症に係る相談窓口及相談状況について
 import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
+// QRコードの読み込み件数
+import QrReportsNumberCard from '@/components/cards/QrReportsNumberCard.vue'
 // 都営地下鉄の利用者数の推移
 // import MetroCard from '@/components/cards/MetroCard.vue'
 // 都庁来庁者数の推移
@@ -62,6 +65,7 @@ export default Vue.extend({
     // TestedNumberCard,
     // MonitoringConsultationDeskReportsNumberCard,
     TelephoneAdvisoryReportsNumberCard,
+    QrReportsNumberCard,
     // MetroCard,
     // AgencyCard,
   },
