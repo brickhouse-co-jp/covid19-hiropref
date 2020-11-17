@@ -1,5 +1,5 @@
 {
-    "date": "2020\/11\/17 9:18",
+    "date": "2020\/11\/17 22:35",
     "data": [
         {
             "diagnosed_date": "2020-01-30",
@@ -1999,44 +1999,51 @@
         {
             "diagnosed_date": "2020-11-10",
             "positive_count": 2,
-            "negative_count": 234,
+            "negative_count": 233,
             "positive_rate": 1.5,
-            "weekly_average_diagnosed_count": 160.3
+            "weekly_average_diagnosed_count": 160.1
         },
         {
             "diagnosed_date": "2020-11-11",
             "positive_count": 2,
             "negative_count": 176,
             "positive_rate": 1.5,
-            "weekly_average_diagnosed_count": 168
+            "weekly_average_diagnosed_count": 167.9
         },
         {
             "diagnosed_date": "2020-11-12",
             "positive_count": 3,
             "negative_count": 179,
             "positive_rate": 1.4,
-            "weekly_average_diagnosed_count": 170.6
+            "weekly_average_diagnosed_count": 170.4
         },
         {
             "diagnosed_date": "2020-11-13",
             "positive_count": 5,
             "negative_count": 184,
             "positive_rate": 1.7,
-            "weekly_average_diagnosed_count": 169.9
+            "weekly_average_diagnosed_count": 169.7
         },
         {
             "diagnosed_date": "2020-11-14",
             "positive_count": 8,
             "negative_count": 189,
             "positive_rate": 2,
-            "weekly_average_diagnosed_count": 175.3
+            "weekly_average_diagnosed_count": 175.1
         },
         {
             "diagnosed_date": "2020-11-15",
             "positive_count": 6,
             "negative_count": 107,
             "positive_rate": 2.2,
-            "weekly_average_diagnosed_count": 180.7
+            "weekly_average_diagnosed_count": 180.6
+        },
+        {
+            "diagnosed_date": "2020-11-16",
+            "positive_count": 1,
+            "negative_count": 368,
+            "positive_rate": 1.8,
+            "weekly_average_diagnosed_count": 209
         }
     ]
 }
