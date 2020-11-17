@@ -50,7 +50,7 @@
       <li :class="[$style.box, $style.parent]">
         <div :class="$style.content">
           <span>
-            {{ '直近1週間の先週比較' }}
+            {{ '直近1週間の感染者数' }}
           </span>
         </div>
         <ul :class="$style.group">
@@ -92,7 +92,7 @@
           </li>
           <li :class="[$style.box]">
             <div :class="$style.content">
-              <span>{{ '感染経路不明割合' }}</span>
+              <span>{{ 'これまでの全感染者' }}</span>
               <monitoring-items-overview-table-value-with-translatable-unit
                 :value="items['感染経路不明割合(累計)'].value"
                 :unit="items['感染経路不明割合(累計)'].unit"
