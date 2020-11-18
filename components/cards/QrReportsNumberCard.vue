@@ -2,7 +2,7 @@
   <v-col cols="12" md="6" class="DataCard">
     <client-only>
       <time-bar-chart
-        :title="$t('広島コロナお知らせQR登録数')"
+        :title="$t('広島コロナお知らせQR読み込み数')"
         :title-id="'number-of-reports-to-covid19-telephone-advisory-center'"
         :chart-id="'time-bar-chart-contacts'"
         :chart-data="contactsGraph"
