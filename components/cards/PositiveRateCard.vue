@@ -15,7 +15,6 @@
         :table-labels="positiveRateTableLabels"
       >
         <template v-slot:additionalDescription>
-          <span>{{ '（注）' }}</span>
           <ul>
             <li>
               {{ '医療機関実施の検査件数を含む。' }}

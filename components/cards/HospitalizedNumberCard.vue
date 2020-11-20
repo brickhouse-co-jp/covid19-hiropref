@@ -13,7 +13,6 @@
         :table-labels="tableLabels"
       >
         <template v-slot:additionalDescription>
-          <span>{{ '（注）' }}</span>
           <ul>
             <li>
               {{

@@ -39,3 +39,9 @@ img {
   display: block !important;
   visibility: visible !important;
 }
+
+// css hack
+.fzExpansion{font-size: 1.4rem !important;}
+.v-expansion-panel-header__icon > .mdi-chevron-down {
+  margin-left: .6rem;
+}

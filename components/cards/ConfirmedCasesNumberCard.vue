@@ -30,7 +30,6 @@
               {{ '届出保健所別の内訳' }}
             </app-link>
           </div> -->
-          <span>{{ '（注）' }}</span>
           <ul>
             <li>
               {{
@@ -78,5 +77,8 @@ export default {
 }
 .Description-ExternalLink {
   margin-bottom: 10px;
+}
+.mt1rem {
+  margin-top: 1.4rem;
 }
 </style>

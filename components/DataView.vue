@@ -43,9 +43,16 @@
         <slot />
       </div>
 
-      <div class="DataView-Description DataView-Description--Additional">
+      <!-- <div class="DataView-Description DataView-Description--Additional">
         <slot name="additionalDescription" />
-      </div>
+      </div> -->
+
+      <attention-expantion-panel
+        v-if="this.$slots.additionalDescription"
+        class="DataView-Description DataView-Description--Additional mt1rem"
+      >
+        <slot name="additionalDescription" />
+      </attention-expantion-panel>
 
       <data-view-expantion-panel
         v-if="this.$slots.dataTable"
@@ -83,6 +90,7 @@
 import Vue from 'vue'
 import { MetaInfo } from 'vue-meta'
 
+import attentionExpantionPanel from '@/components/AttentionExpantionPanel.vue'
 // import AppLink from '@/components/AppLink.vue'
 import DataViewExpantionPanel from '@/components/DataViewExpantionPanel.vue'
 // import DataViewShare from '@/components/DataViewShare.vue'
@@ -91,6 +99,7 @@ import { convertDatetimeToISO8601Format } from '@/utils/formatDate'
 export default Vue.extend({
   components: {
     DataViewExpantionPanel,
+    attentionExpantionPanel,
     // DataViewShare,
     // AppLink
   },
@@ -149,6 +158,9 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
+.mt1rem {
+  margin-top: 1rem;
+}
 .DataView {
   height: 100%;
   @include card-container();
@@ -217,7 +229,7 @@ export default Vue.extend({
   }
 
   &-Content {
-    margin: 16px 0;
+    margin: 16px 0 0;
   }
 
   &-Space {
@@ -225,7 +237,7 @@ export default Vue.extend({
   }
 
   &-Description {
-    margin-top: 10px;
+    // margin-top: 10px;
     color: $gray-3;
     @include font-size(12);
 

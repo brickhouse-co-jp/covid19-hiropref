@@ -75,6 +75,18 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
+.v-expansion-panel::before {
+  box-shadow: none !important;
+}
+table {
+  padding-bottom: 2rem;
+}
+.fzStageExplain {
+  @include font-size(12);
+}
+.mtStageExplain {
+  padding-top: 1.5rem;
+}
 .MonitoringComment {
   @include card-container();
 

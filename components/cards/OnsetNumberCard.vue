@@ -15,7 +15,6 @@
         url="https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068"
       >
         <template v-slot:additionalDescription>
-          <span>{{ '（注）' }}</span>
           <ul>
             <li>
               {{

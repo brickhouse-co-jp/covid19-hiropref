@@ -7,7 +7,6 @@
         :date="date"
       >
         <template v-slot:additionalDescription>
-          <span>{{ '（注）' }}</span>
           <ul>
             <li>
               {{ '検疫所等における陽性者数は含まれていない。' }}
@@ -57,3 +56,9 @@ export default {
   },
 }
 </script>
+
+<style module>
+.mt1rem {
+  margin-top: 1.4rem;
+}
+</style>

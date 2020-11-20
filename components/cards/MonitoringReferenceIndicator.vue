@@ -7,7 +7,6 @@
         :date="monitoringItemsData.date"
       >
         <template v-slot:additionalDescription>
-          <span>{{ '（注）' }}</span>
           <ul>
             <li>
               {{ '広島県における感染動向を評価する指標。' }}

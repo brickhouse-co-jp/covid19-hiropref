@@ -7,7 +7,6 @@
         :date="monitoringItemsData.date"
       >
         <template v-slot:additionalDescription>
-          <span>{{ '（注）' }}</span>
           <ul>
             <li>
               {{
