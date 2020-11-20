@@ -10,7 +10,7 @@
           <div class="v-expansion-panel-header__icon">
             <v-icon left size="2.4rem">mdi-chevron-right</v-icon>
           </div>
-          <span class="expansion-panel-text">注意</span>
+          <span class="expansion-panel-text">※注意</span>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
           <slot />
