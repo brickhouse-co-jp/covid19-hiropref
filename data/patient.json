@@ -1,28 +1,28 @@
 {
-    "date": "2020\/11\/24 9:10",
+    "date": "2020\/11\/25 9:46",
     "datasets": {
-        "date": "2020\/11\/23",
+        "date": "2020\/11\/24",
         "data": [
             {
                 "code": 340006,
                 "area": "広島市",
                 "label": "広島市",
                 "ruby": "ひろしまし",
-                "count": 431
+                "count": 437
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "尾道市",
                 "ruby": "おのみちし",
-                "count": 6
+                "count": 7
             },
             {
                 "code": 340006,
                 "area": "福山市",
                 "label": "福山市",
                 "ruby": "ふくやまし",
-                "count": 78
+                "count": 79
             },
             {
                 "code": 340006,
@@ -183,7 +183,7 @@
                 "area": null,
                 "label": "小計",
                 "ruby": null,
-                "count": 762
+                "count": 770
             }
         ]
     }
