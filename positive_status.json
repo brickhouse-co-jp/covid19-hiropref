@@ -1,0 +1,1221 @@
+{
+    "date": "2020\/12\/1 15:22",
+    "data": [
+        {
+            "date": "2020-02-01",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-02",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-03",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-04",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-05",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-06",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-07",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-08",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-09",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-10",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-11",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-12",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-13",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-14",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-15",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-16",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-17",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-18",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-19",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-20",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-21",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-22",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-23",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-24",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-25",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-26",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-27",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-28",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-02-29",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-03-01",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-03-02",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-03-03",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-03-04",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-03-05",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-03-06",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-03-07",
+            "hospitalized": 1
+        },
+        {
+            "date": "2020-03-08",
+            "hospitalized": 1
+        },
+        {
+            "date": "2020-03-09",
+            "hospitalized": 1
+        },
+        {
+            "date": "2020-03-10",
+            "hospitalized": 1
+        },
+        {
+            "date": "2020-03-11",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-03-12",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-03-13",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-03-14",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-03-15",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-03-16",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-03-17",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-03-18",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-03-19",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-03-20",
+            "hospitalized": 1
+        },
+        {
+            "date": "2020-03-21",
+            "hospitalized": 2
+        },
+        {
+            "date": "2020-03-22",
+            "hospitalized": 2
+        },
+        {
+            "date": "2020-03-23",
+            "hospitalized": 2
+        },
+        {
+            "date": "2020-03-24",
+            "hospitalized": 2
+        },
+        {
+            "date": "2020-03-25",
+            "hospitalized": 3
+        },
+        {
+            "date": "2020-03-26",
+            "hospitalized": 3
+        },
+        {
+            "date": "2020-03-27",
+            "hospitalized": 3
+        },
+        {
+            "date": "2020-03-28",
+            "hospitalized": 3
+        },
+        {
+            "date": "2020-03-29",
+            "hospitalized": 5
+        },
+        {
+            "date": "2020-03-30",
+            "hospitalized": 5
+        },
+        {
+            "date": "2020-03-31",
+            "hospitalized": 5
+        },
+        {
+            "date": "2020-04-01",
+            "hospitalized": 5
+        },
+        {
+            "date": "2020-04-02",
+            "hospitalized": 10
+        },
+        {
+            "date": "2020-04-03",
+            "hospitalized": 12
+        },
+        {
+            "date": "2020-04-04",
+            "hospitalized": 14
+        },
+        {
+            "date": "2020-04-05",
+            "hospitalized": 14
+        },
+        {
+            "date": "2020-04-06",
+            "hospitalized": 14
+        },
+        {
+            "date": "2020-04-07",
+            "hospitalized": 16
+        },
+        {
+            "date": "2020-04-08",
+            "hospitalized": 21
+        },
+        {
+            "date": "2020-04-09",
+            "hospitalized": 22
+        },
+        {
+            "date": "2020-04-10",
+            "hospitalized": 26
+        },
+        {
+            "date": "2020-04-11",
+            "hospitalized": 31
+        },
+        {
+            "date": "2020-04-12",
+            "hospitalized": 37
+        },
+        {
+            "date": "2020-04-13",
+            "hospitalized": 50
+        },
+        {
+            "date": "2020-04-14",
+            "hospitalized": 88
+        },
+        {
+            "date": "2020-04-15",
+            "hospitalized": 102
+        },
+        {
+            "date": "2020-04-16",
+            "hospitalized": 105
+        },
+        {
+            "date": "2020-04-17",
+            "hospitalized": 109
+        },
+        {
+            "date": "2020-04-18",
+            "hospitalized": 111
+        },
+        {
+            "date": "2020-04-19",
+            "hospitalized": 117
+        },
+        {
+            "date": "2020-04-20",
+            "hospitalized": 126
+        },
+        {
+            "date": "2020-04-21",
+            "hospitalized": 123
+        },
+        {
+            "date": "2020-04-22",
+            "hospitalized": 121
+        },
+        {
+            "date": "2020-04-23",
+            "hospitalized": 124
+        },
+        {
+            "date": "2020-04-24",
+            "hospitalized": 123
+        },
+        {
+            "date": "2020-04-25",
+            "hospitalized": 123
+        },
+        {
+            "date": "2020-04-26",
+            "hospitalized": 123
+        },
+        {
+            "date": "2020-04-27",
+            "hospitalized": 122
+        },
+        {
+            "date": "2020-04-28",
+            "hospitalized": 123
+        },
+        {
+            "date": "2020-04-29",
+            "hospitalized": 120
+        },
+        {
+            "date": "2020-04-30",
+            "hospitalized": 117
+        },
+        {
+            "date": "2020-05-01",
+            "hospitalized": 118
+        },
+        {
+            "date": "2020-05-02",
+            "hospitalized": 117
+        },
+        {
+            "date": "2020-05-03",
+            "hospitalized": 107
+        },
+        {
+            "date": "2020-05-04",
+            "hospitalized": 109
+        },
+        {
+            "date": "2020-05-05",
+            "hospitalized": 105
+        },
+        {
+            "date": "2020-05-06",
+            "hospitalized": 105
+        },
+        {
+            "date": "2020-05-07",
+            "hospitalized": 102
+        },
+        {
+            "date": "2020-05-08",
+            "hospitalized": 89
+        },
+        {
+            "date": "2020-05-09",
+            "hospitalized": 81
+        },
+        {
+            "date": "2020-05-10",
+            "hospitalized": 78
+        },
+        {
+            "date": "2020-05-11",
+            "hospitalized": 74
+        },
+        {
+            "date": "2020-05-12",
+            "hospitalized": 71
+        },
+        {
+            "date": "2020-05-13",
+            "hospitalized": 56
+        },
+        {
+            "date": "2020-05-14",
+            "hospitalized": 52
+        },
+        {
+            "date": "2020-05-15",
+            "hospitalized": 50
+        },
+        {
+            "date": "2020-05-16",
+            "hospitalized": 50
+        },
+        {
+            "date": "2020-05-17",
+            "hospitalized": 50
+        },
+        {
+            "date": "2020-05-18",
+            "hospitalized": 47
+        },
+        {
+            "date": "2020-05-19",
+            "hospitalized": 43
+        },
+        {
+            "date": "2020-05-20",
+            "hospitalized": 26
+        },
+        {
+            "date": "2020-05-21",
+            "hospitalized": 24
+        },
+        {
+            "date": "2020-05-22",
+            "hospitalized": 23
+        },
+        {
+            "date": "2020-05-23",
+            "hospitalized": 19
+        },
+        {
+            "date": "2020-05-24",
+            "hospitalized": 19
+        },
+        {
+            "date": "2020-05-25",
+            "hospitalized": 19
+        },
+        {
+            "date": "2020-05-26",
+            "hospitalized": 18
+        },
+        {
+            "date": "2020-05-27",
+            "hospitalized": 13
+        },
+        {
+            "date": "2020-05-28",
+            "hospitalized": 13
+        },
+        {
+            "date": "2020-05-29",
+            "hospitalized": 13
+        },
+        {
+            "date": "2020-05-30",
+            "hospitalized": 11
+        },
+        {
+            "date": "2020-05-31",
+            "hospitalized": 11
+        },
+        {
+            "date": "2020-06-01",
+            "hospitalized": 7
+        },
+        {
+            "date": "2020-06-02",
+            "hospitalized": 7
+        },
+        {
+            "date": "2020-06-03",
+            "hospitalized": 7
+        },
+        {
+            "date": "2020-06-04",
+            "hospitalized": 8
+        },
+        {
+            "date": "2020-06-05",
+            "hospitalized": 4
+        },
+        {
+            "date": "2020-06-06",
+            "hospitalized": 3
+        },
+        {
+            "date": "2020-06-07",
+            "hospitalized": 3
+        },
+        {
+            "date": "2020-06-08",
+            "hospitalized": 2
+        },
+        {
+            "date": "2020-06-09",
+            "hospitalized": 2
+        },
+        {
+            "date": "2020-06-10",
+            "hospitalized": 2
+        },
+        {
+            "date": "2020-06-11",
+            "hospitalized": 1
+        },
+        {
+            "date": "2020-06-12",
+            "hospitalized": 1
+        },
+        {
+            "date": "2020-06-13",
+            "hospitalized": 1
+        },
+        {
+            "date": "2020-06-14",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-06-15",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-06-16",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-06-17",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-06-18",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-06-19",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-06-20",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-06-21",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-06-22",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-06-23",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-06-24",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-06-25",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-06-26",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-06-27",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-06-28",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-06-29",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-06-30",
+            "hospitalized": 0
+        },
+        {
+            "date": "2020-07-01",
+            "hospitalized": 1
+        },
+        {
+            "date": "2020-07-02",
+            "hospitalized": 1
+        },
+        {
+            "date": "2020-07-03",
+            "hospitalized": 1
+        },
+        {
+            "date": "2020-07-04",
+            "hospitalized": 1
+        },
+        {
+            "date": "2020-07-05",
+            "hospitalized": 1
+        },
+        {
+            "date": "2020-07-06",
+            "hospitalized": 3
+        },
+        {
+            "date": "2020-07-07",
+            "hospitalized": 4
+        },
+        {
+            "date": "2020-07-08",
+            "hospitalized": 4
+        },
+        {
+            "date": "2020-07-09",
+            "hospitalized": 5
+        },
+        {
+            "date": "2020-07-10",
+            "hospitalized": 9
+        },
+        {
+            "date": "2020-07-11",
+            "hospitalized": 10
+        },
+        {
+            "date": "2020-07-12",
+            "hospitalized": 11
+        },
+        {
+            "date": "2020-07-13",
+            "hospitalized": 13
+        },
+        {
+            "date": "2020-07-14",
+            "hospitalized": 14
+        },
+        {
+            "date": "2020-07-15",
+            "hospitalized": 25
+        },
+        {
+            "date": "2020-07-16",
+            "hospitalized": 25
+        },
+        {
+            "date": "2020-07-17",
+            "hospitalized": 36
+        },
+        {
+            "date": "2020-07-18",
+            "hospitalized": 35
+        },
+        {
+            "date": "2020-07-19",
+            "hospitalized": 32
+        },
+        {
+            "date": "2020-07-20",
+            "hospitalized": 33
+        },
+        {
+            "date": "2020-07-21",
+            "hospitalized": 45
+        },
+        {
+            "date": "2020-07-22",
+            "hospitalized": 40
+        },
+        {
+            "date": "2020-07-23",
+            "hospitalized": 52
+        },
+        {
+            "date": "2020-07-24",
+            "hospitalized": 54
+        },
+        {
+            "date": "2020-07-25",
+            "hospitalized": 60
+        },
+        {
+            "date": "2020-07-26",
+            "hospitalized": 65
+        },
+        {
+            "date": "2020-07-27",
+            "hospitalized": 55
+        },
+        {
+            "date": "2020-07-28",
+            "hospitalized": 66
+        },
+        {
+            "date": "2020-07-29",
+            "hospitalized": 77
+        },
+        {
+            "date": "2020-07-30",
+            "hospitalized": 93
+        },
+        {
+            "date": "2020-07-31",
+            "hospitalized": 114
+        },
+        {
+            "date": "2020-08-01",
+            "hospitalized": 113
+        },
+        {
+            "date": "2020-08-02",
+            "hospitalized": 121
+        },
+        {
+            "date": "2020-08-03",
+            "hospitalized": 117
+        },
+        {
+            "date": "2020-08-04",
+            "hospitalized": 119
+        },
+        {
+            "date": "2020-08-05",
+            "hospitalized": 109
+        },
+        {
+            "date": "2020-08-06",
+            "hospitalized": 114
+        },
+        {
+            "date": "2020-08-07",
+            "hospitalized": 104
+        },
+        {
+            "date": "2020-08-08",
+            "hospitalized": 90
+        },
+        {
+            "date": "2020-08-09",
+            "hospitalized": 95
+        },
+        {
+            "date": "2020-08-10",
+            "hospitalized": 87
+        },
+        {
+            "date": "2020-08-11",
+            "hospitalized": 89
+        },
+        {
+            "date": "2020-08-12",
+            "hospitalized": 77
+        },
+        {
+            "date": "2020-08-13",
+            "hospitalized": 77
+        },
+        {
+            "date": "2020-08-14",
+            "hospitalized": 71
+        },
+        {
+            "date": "2020-08-15",
+            "hospitalized": 73
+        },
+        {
+            "date": "2020-08-16",
+            "hospitalized": 73
+        },
+        {
+            "date": "2020-08-17",
+            "hospitalized": 37
+        },
+        {
+            "date": "2020-08-18",
+            "hospitalized": 32
+        },
+        {
+            "date": "2020-08-19",
+            "hospitalized": 33
+        },
+        {
+            "date": "2020-08-20",
+            "hospitalized": 34
+        },
+        {
+            "date": "2020-08-21",
+            "hospitalized": 27
+        },
+        {
+            "date": "2020-08-22",
+            "hospitalized": 28
+        },
+        {
+            "date": "2020-08-23",
+            "hospitalized": 28
+        },
+        {
+            "date": "2020-08-24",
+            "hospitalized": 26
+        },
+        {
+            "date": "2020-08-25",
+            "hospitalized": 22
+        },
+        {
+            "date": "2020-08-26",
+            "hospitalized": 20
+        },
+        {
+            "date": "2020-08-27",
+            "hospitalized": 20
+        },
+        {
+            "date": "2020-08-28",
+            "hospitalized": 18
+        },
+        {
+            "date": "2020-08-29",
+            "hospitalized": 16
+        },
+        {
+            "date": "2020-08-30",
+            "hospitalized": 16
+        },
+        {
+            "date": "2020-08-31",
+            "hospitalized": 14
+        },
+        {
+            "date": "2020-09-01",
+            "hospitalized": 13
+        },
+        {
+            "date": "2020-09-02",
+            "hospitalized": 14
+        },
+        {
+            "date": "2020-09-03",
+            "hospitalized": 13
+        },
+        {
+            "date": "2020-09-04",
+            "hospitalized": 11
+        },
+        {
+            "date": "2020-09-05",
+            "hospitalized": 9
+        },
+        {
+            "date": "2020-09-06",
+            "hospitalized": 9
+        },
+        {
+            "date": "2020-09-07",
+            "hospitalized": 10
+        },
+        {
+            "date": "2020-09-08",
+            "hospitalized": 12
+        },
+        {
+            "date": "2020-09-09",
+            "hospitalized": 12
+        },
+        {
+            "date": "2020-09-10",
+            "hospitalized": 11
+        },
+        {
+            "date": "2020-09-11",
+            "hospitalized": 9
+        },
+        {
+            "date": "2020-09-12",
+            "hospitalized": 7
+        },
+        {
+            "date": "2020-09-13",
+            "hospitalized": 9
+        },
+        {
+            "date": "2020-09-14",
+            "hospitalized": 13
+        },
+        {
+            "date": "2020-09-15",
+            "hospitalized": 12
+        },
+        {
+            "date": "2020-09-16",
+            "hospitalized": 10
+        },
+        {
+            "date": "2020-09-17",
+            "hospitalized": 10
+        },
+        {
+            "date": "2020-09-18",
+            "hospitalized": 9
+        },
+        {
+            "date": "2020-09-19",
+            "hospitalized": 9
+        },
+        {
+            "date": "2020-09-20",
+            "hospitalized": 10
+        },
+        {
+            "date": "2020-09-21",
+            "hospitalized": 12
+        },
+        {
+            "date": "2020-09-22",
+            "hospitalized": 20
+        },
+        {
+            "date": "2020-09-23",
+            "hospitalized": 22
+        },
+        {
+            "date": "2020-09-24",
+            "hospitalized": 23
+        },
+        {
+            "date": "2020-09-25",
+            "hospitalized": 26
+        },
+        {
+            "date": "2020-09-26",
+            "hospitalized": 37
+        },
+        {
+            "date": "2020-09-27",
+            "hospitalized": 47
+        },
+        {
+            "date": "2020-09-28",
+            "hospitalized": 61
+        },
+        {
+            "date": "2020-09-29",
+            "hospitalized": 76
+        },
+        {
+            "date": "2020-09-30",
+            "hospitalized": 85
+        },
+        {
+            "date": "2020-10-01",
+            "hospitalized": 94
+        },
+        {
+            "date": "2020-10-02",
+            "hospitalized": 97
+        },
+        {
+            "date": "2020-10-03",
+            "hospitalized": 106
+        },
+        {
+            "date": "2020-10-04",
+            "hospitalized": 105
+        },
+        {
+            "date": "2020-10-05",
+            "hospitalized": 88
+        },
+        {
+            "date": "2020-10-06",
+            "hospitalized": 83
+        },
+        {
+            "date": "2020-10-07",
+            "hospitalized": 80
+        },
+        {
+            "date": "2020-10-08",
+            "hospitalized": 65
+        },
+        {
+            "date": "2020-10-09",
+            "hospitalized": 57
+        },
+        {
+            "date": "2020-10-10",
+            "hospitalized": 55
+        },
+        {
+            "date": "2020-10-11",
+            "hospitalized": 57
+        },
+        {
+            "date": "2020-10-12",
+            "hospitalized": 60
+        },
+        {
+            "date": "2020-10-13",
+            "hospitalized": 45
+        },
+        {
+            "date": "2020-10-14",
+            "hospitalized": 42
+        },
+        {
+            "date": "2020-10-15",
+            "hospitalized": 44
+        },
+        {
+            "date": "2020-10-16",
+            "hospitalized": 40
+        },
+        {
+            "date": "2020-10-17",
+            "hospitalized": 39
+        },
+        {
+            "date": "2020-10-18",
+            "hospitalized": 40
+        },
+        {
+            "date": "2020-10-19",
+            "hospitalized": 33
+        },
+        {
+            "date": "2020-10-20",
+            "hospitalized": 30
+        },
+        {
+            "date": "2020-10-21",
+            "hospitalized": 25
+        },
+        {
+            "date": "2020-10-22",
+            "hospitalized": 24
+        },
+        {
+            "date": "2020-10-23",
+            "hospitalized": 19
+        },
+        {
+            "date": "2020-10-24",
+            "hospitalized": 18
+        },
+        {
+            "date": "2020-10-25",
+            "hospitalized": 19
+        },
+        {
+            "date": "2020-10-26",
+            "hospitalized": 15
+        },
+        {
+            "date": "2020-10-27",
+            "hospitalized": 12
+        },
+        {
+            "date": "2020-10-28",
+            "hospitalized": 11
+        },
+        {
+            "date": "2020-10-29",
+            "hospitalized": 11
+        },
+        {
+            "date": "2020-10-30",
+            "hospitalized": 11
+        },
+        {
+            "date": "2020-10-31",
+            "hospitalized": 14
+        },
+        {
+            "date": "2020-11-01",
+            "hospitalized": 14
+        },
+        {
+            "date": "2020-11-02",
+            "hospitalized": 11
+        },
+        {
+            "date": "2020-11-03",
+            "hospitalized": 11
+        },
+        {
+            "date": "2020-11-04",
+            "hospitalized": 13
+        },
+        {
+            "date": "2020-11-05",
+            "hospitalized": 14
+        },
+        {
+            "date": "2020-11-06",
+            "hospitalized": 17
+        },
+        {
+            "date": "2020-11-07",
+            "hospitalized": 18
+        },
+        {
+            "date": "2020-11-08",
+            "hospitalized": 23
+        },
+        {
+            "date": "2020-11-09",
+            "hospitalized": 23
+        },
+        {
+            "date": "2020-11-10",
+            "hospitalized": 23
+        },
+        {
+            "date": "2020-11-11",
+            "hospitalized": 22
+        },
+        {
+            "date": "2020-11-12",
+            "hospitalized": 24
+        },
+        {
+            "date": "2020-11-13",
+            "hospitalized": 23
+        },
+        {
+            "date": "2020-11-14",
+            "hospitalized": 29
+        },
+        {
+            "date": "2020-11-15",
+            "hospitalized": 36
+        },
+        {
+            "date": "2020-11-16",
+            "hospitalized": 33
+        },
+        {
+            "date": "2020-11-17",
+            "hospitalized": 34
+        },
+        {
+            "date": "2020-11-18",
+            "hospitalized": 45
+        },
+        {
+            "date": "2020-11-19",
+            "hospitalized": 43
+        },
+        {
+            "date": "2020-11-20",
+            "hospitalized": 48
+        },
+        {
+            "date": "2020-11-21",
+            "hospitalized": 51
+        },
+        {
+            "date": "2020-11-22",
+            "hospitalized": 59
+        },
+        {
+            "date": "2020-11-23",
+            "hospitalized": 67
+        },
+        {
+            "date": "2020-11-24",
+            "hospitalized": 62
+        },
+        {
+            "date": "2020-11-25",
+            "hospitalized": 57
+        },
+        {
+            "date": "2020-11-26",
+            "hospitalized": 62
+        },
+        {
+            "date": "2020-11-27",
+            "hospitalized": 72
+        },
+        {
+            "date": "2020-11-28",
+            "hospitalized": 89
+        },
+        {
+            "date": "2020-11-29",
+            "hospitalized": 101
+        },
+        {
+            "date": "2020-11-30",
+            "hospitalized": 96
+        }
+    ]
+}
