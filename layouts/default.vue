@@ -42,6 +42,7 @@ import SideNavigation from '@/components/SideNavigation.vue'
 import Data from '@/data/data.json'
 import { convertDateToSimpleFormat } from '@/utils/formatDate'
 import { getLinksLanguageAlternative } from '@/utils/i18nUtils'
+import { SetMetaDiscription } from '@/utils/makeMetaDiscription'
 
 type LocalData = {
   hasNavigation: boolean
@@ -134,11 +135,14 @@ export default Vue.extend({
         {
           hid: 'description',
           name: 'description',
+          // content: `${this.$t('{date} 更新', {
+          //   date: convertDateToSimpleFormat(lastUpdate),
+          // })}: ${this.$tc(
+          //   '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、広島県が開設したものです。'
+          // )}`,
           content: `${this.$t('{date} 更新', {
             date: convertDateToSimpleFormat(lastUpdate),
-          })}: ${this.$tc(
-            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、広島県が開設したものです。'
-          )}`,
+          })}: ${this.$tc(SetMetaDiscription())}`,
         },
         {
           hid: 'og:site_name',
