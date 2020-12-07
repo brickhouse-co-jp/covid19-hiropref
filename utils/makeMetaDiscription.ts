@@ -1,56 +1,46 @@
-// import Data from '@/data/data.json'
+import Data from '@/data/data.json'
 import MonitoringItems from '@/data/monitoring_items.json'
 
-// const cities: string[] = [
-//   '広島市',
-//   '呉市',
-//   '福山市',
-//   '安芸太田町',
-//   '安芸高田市',
-//   '江田島市',
-//   '大崎上島町',
-//   '大竹市',
-//   '尾道市',
-//   '海田町',
-//   '北広島町',
-//   '熊野町',
-//   '坂町',
-//   '庄原市',
-//   '神石高原町',
-//   '世羅町',
-//   '竹原市',
-//   '廿日市市',
-//   '東広島市',
-//   '府中市',
-//   '府中町',
-//   '三原市',
-//   '三次市',
-//   '広島県外',
-//   '非公表',
-// ]
+const patients = Data.patients.data
+const LatestDate = patients.slice(-1)[0].date
 
-// const patients = Data.patients.data
-// const LatestDate = patients.slice(-1)[0].date
+// 最新日付のオブジェクトを取得
+const LatestPatientsData = patients.filter(filterDate)
+function filterDate(item: any) {
+  if (item.date >= LatestDate) {
+    return true
+  }
+}
+// 最新日付のオブジェクトから居住地のみを取得
+const arrayCity = LatestPatientsData.map((obj) => obj['居住地'])
+// 居住地ごとの件数を確認してオブジェクト化
+const countCity: any = {}
+for (let i = 0; i < arrayCity.length; i++) {
+  const elm = arrayCity[i]
+  countCity[elm] = (countCity[elm] || 0) + 1
+}
+// 居住地ごとの件数でソート(降順)
+const objCountCity = Object.entries(countCity)
+objCountCity.sort(function (p1: any, p2: any) {
+  const key = p1[1]
+  const val = p2[1]
+  return val - key
+})
+// ソートした配列をオブジェクトに変換
+const sortCountCity = Object.fromEntries(objCountCity)
+// 市町名を抽出
+const cityName = Object.keys(sortCountCity)
+// 市町の感染者数を抽出
+const cityInfectedCount = Object.values(sortCountCity)
+// 市町:~人の形にフォーマット
+const cityCntDiscription: any = []
+for (const cn in cityName) {
+  cityCntDiscription.push(cityName[cn] + ':' + cityInfectedCount[cn] + '人')
+}
 
-// function filterDate(item) {
-//   if (item.date >= LatestDate) {
-//     return true
-//   }
-// }
-
-// const LatestPatientsData = patients.filter(filterDate)
-
-// console.log(LatestPatientsData)
-
-// for (const data in LatestPatientsData) {
-//   for (const city in cities) {
-//     if (city === data['居住地']) {
-//       console.log('sefasdfsefafsefasdfasdfasdfse')
-//     }
-//   }
-// }
-
+// metadiscription用文言作成
 export const SetMetaDiscription = (): string => {
+  const cityCnt = cityCntDiscription
   const DailyNewCases = MonitoringItems.data['新規陽性者数']
   const InfectionStatusChangeDate = MonitoringItems.data[
     '感染状況更新日付'
@@ -60,6 +50,7 @@ export const SetMetaDiscription = (): string => {
     'の県内の感染者数は' +
     DailyNewCases +
     '人です。' +
-    '当サイトは新型コロナウイルス感染症に関する最新情報を提供するために、広島県が開設したものです。'
+    cityCnt +
+    ' 当サイトは新型コロナウイルス感染症に関する最新情報を提供するために、広島県が開設したものです。'
   return discription
 }
