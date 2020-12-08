@@ -2,7 +2,7 @@
   <v-col cols="12" md="6" class="DataCard">
     <client-only>
       <confirmed-cases-by-municipalities-table
-        :title="'陽性者数（市町別）'"
+        :title="'陽性者数の累計（市町別）'"
         :title-id="'number-of-confirmed-cases-by-municipalities'"
         :chart-data="municipalitiesTable"
         :date="date"
@@ -56,8 +56,8 @@ export default {
     if (this.$i18n.locale === 'ja') {
       municipalitiesTable.headers = [
         { text: '管轄', value: 'area' },
-        { text: 'ふりがな', value: 'ruby' },
         { text: '市町', value: 'label' },
+        { text: 'ふりがな', value: 'ruby' },
         { text: '陽性者数', value: 'count', align: 'end' },
       ]
     } else {
