@@ -147,18 +147,18 @@ export const formatCityInfectedNumber = (): any => {
     countCity[elm] = (countCity[elm] || 0) + 1
   }
   // 居住地ごとの件数を配列にしてソート(降順)
-  const objCountCity = Object.entries(countCity)
-  objCountCity.sort(function (p1: any, p2: any) {
+  const arrayCountCity = Object.entries(countCity)
+  arrayCountCity.sort(function (p1: any, p2: any) {
     const key = p1[1]
     const val = p2[1]
     return val - key
   })
   // ソートした配列をオブジェクトに変換
-  const sortCountCity: any = Object.fromEntries(objCountCity)
+  const objSortedCity: any = Object.fromEntries(arrayCountCity)
   // 市町ごとの感染者数を抽出
-  const cityInfectedCount: any = Object.values(sortCountCity)
+  const cityInfectedCount: any = Object.values(objSortedCity)
   // 市町名の配列を抽出
-  const cityName = Object.keys(sortCountCity)
+  const cityName = Object.keys(objSortedCity)
   // // RubyLabelの市町名の配列を抽出
   const arrayRubyLabel = RubyLabel.map((obj: { area: any }) => obj.area)
   for (const rn in arrayRubyLabel) {
