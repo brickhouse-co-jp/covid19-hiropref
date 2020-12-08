@@ -1,5 +1,5 @@
 {
-    "date": "2020\/12\/7 10:55",
+    "date": "2020\/12\/8 10:31",
     "data": [
         {
             "diagnosed_date": "2020-01-30",
@@ -2153,9 +2153,23 @@
         {
             "diagnosed_date": "2020-12-02",
             "positive_count": 46,
-            "negative_count": 564,
+            "negative_count": 574,
             "positive_rate": 4.9,
-            "weekly_average_diagnosed_count": 464.1
+            "weekly_average_diagnosed_count": 465.6
+        },
+        {
+            "diagnosed_date": "2020-12-03",
+            "positive_count": 45,
+            "negative_count": 885,
+            "positive_rate": 5.1,
+            "weekly_average_diagnosed_count": 539.7
+        },
+        {
+            "diagnosed_date": "2020-12-04",
+            "positive_count": 37,
+            "negative_count": 944,
+            "positive_rate": 4.9,
+            "weekly_average_diagnosed_count": 612.6
         }
     ]
 }
