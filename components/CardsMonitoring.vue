@@ -25,6 +25,17 @@
       <hospitalized-number-card />
       <!-- 重症患者数 -->
       <!-- <severe-case-card /> -->
+      <!-- 陽性者の属性 -->
+      <confirmed-cases-attributes-card />
+      <!-- 市町ごとの感染者数 -->
+      <city-infected-number-card />
+      <!-- <severe-case-card /> -->
+      <!-- 陽性者数の累計（区市町村別） -->
+      <confirmed-cases-by-municipalities-card />
+      <!-- 新型コロナウイルス感染症に係る相談窓口及相談状況について -->
+      <telephone-advisory-reports-number-card />
+      <!-- 広島コロナお知らせQR読み込み数 -->
+      <qr-reports-number-card />
     </card-row>
   </div>
 </template>
@@ -58,6 +69,17 @@ import PositiveRateCard from '@/components/cards/PositiveRateCard.vue'
 import HospitalizedNumberCard from '@/components/cards/HospitalizedNumberCard.vue'
 // 重症患者数
 // import SevereCaseCard from '@/components/cards/SevereCaseCard.vue'
+
+// 市町ごとの感染者数
+import CityInfectedNumberCard from '@/components/cards/CityInfectedNumberCard.vue'
+// 陽性者の属性
+import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
+// 陽性者数の累計（市町別）
+import ConfirmedCasesByMunicipalitiesCard from '@/components/cards/ConfirmedCasesByMunicipalitiesCard.vue'
+// 新型コロナウイルス感染症に係る相談窓口及相談状況について
+import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
+// QRコードの読み込み件数
+import QrReportsNumberCard from '@/components/cards/QrReportsNumberCard.vue'
 /* eslint-enable simple-import-sort/sort */
 
 export default Vue.extend({
@@ -75,6 +97,11 @@ export default Vue.extend({
     // TokyoRulesApplicationNumberCard,
     HospitalizedNumberCard,
     // SevereCaseCard,
+    CityInfectedNumberCard,
+    ConfirmedCasesAttributesCard,
+    ConfirmedCasesByMunicipalitiesCard,
+    TelephoneAdvisoryReportsNumberCard,
+    QrReportsNumberCard,
   },
 })
 </script>
