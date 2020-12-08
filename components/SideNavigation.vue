@@ -177,6 +177,11 @@ export default Vue.extend({
           title: '新型コロナウイルス感染症対策取組宣言店',
           link:
             'https://www.pref.hiroshima.lg.jp/soshiki/58/inshokusengenten.html',
+        },
+        {
+          title: 'オープンデータを入手する(オープンデータライブラリ)',
+          link:
+            'https://www.pref.hiroshima.lg.jp/soshiki/19/opendata-covid19.html',
           divider: true,
         },
         {
