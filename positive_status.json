@@ -1,5 +1,5 @@
 {
-    "date": "2020\/12\/1 15:22",
+    "date": "2020\/12\/9 10:44",
     "data": [
         {
             "date": "2020-02-01",
@@ -1119,11 +1119,11 @@
         },
         {
             "date": "2020-11-06",
-            "hospitalized": 17
+            "hospitalized": 16
         },
         {
             "date": "2020-11-07",
-            "hospitalized": 18
+            "hospitalized": 17
         },
         {
             "date": "2020-11-08",
@@ -1215,7 +1215,39 @@
         },
         {
             "date": "2020-11-30",
-            "hospitalized": 96
+            "hospitalized": 101
+        },
+        {
+            "date": "2020-12-01",
+            "hospitalized": 111
+        },
+        {
+            "date": "2020-12-02",
+            "hospitalized": 124
+        },
+        {
+            "date": "2020-12-03",
+            "hospitalized": 162
+        },
+        {
+            "date": "2020-12-04",
+            "hospitalized": 193
+        },
+        {
+            "date": "2020-12-05",
+            "hospitalized": 203
+        },
+        {
+            "date": "2020-12-06",
+            "hospitalized": 214
+        },
+        {
+            "date": "2020-12-07",
+            "hospitalized": 225
+        },
+        {
+            "date": "2020-12-08",
+            "hospitalized": 243
         }
     ]
 }
