@@ -1,35 +1,35 @@
 {
-    "date": "2020\/12\/9 10:44",
+    "date": "2020\/12\/11 8:46",
     "datasets": {
-        "date": "2020\/12\/8",
+        "date": "2020\/12\/10",
         "data": [
             {
                 "code": 340006,
                 "area": "広島市",
                 "label": "広島市",
                 "ruby": "ひろしまし",
-                "count": 723
+                "count": 836
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "尾道市",
                 "ruby": "おのみちし",
-                "count": 10
+                "count": 11
             },
             {
                 "code": 340006,
                 "area": "福山市",
                 "label": "福山市",
                 "ruby": "ふくやまし",
-                "count": 128
+                "count": 135
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "府中町",
                 "ruby": "ふちゅうちょう",
-                "count": 15
+                "count": 23
             },
             {
                 "code": 340006,
@@ -43,49 +43,49 @@
                 "area": "県管轄",
                 "label": "東広島市",
                 "ruby": "ひがしひろしまし",
-                "count": 28
+                "count": 33
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "三次市",
                 "ruby": "みよしし",
-                "count": 44
+                "count": 45
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "廿日市市",
                 "ruby": "はつかいちし",
-                "count": 20
+                "count": 21
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "三原市",
                 "ruby": "みはらし",
-                "count": 8
+                "count": 9
             },
             {
                 "code": 340006,
                 "area": "呉市",
                 "label": "呉市",
                 "ruby": "くれし",
-                "count": 134
+                "count": 137
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "海田町",
                 "ruby": "かいたちょう",
-                "count": 13
+                "count": 14
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "府中市",
                 "ruby": "ふちゅうし",
-                "count": 14
+                "count": 15
             },
             {
                 "code": 340006,
@@ -106,14 +106,14 @@
                 "area": "県管轄",
                 "label": "庄原市",
                 "ruby": "しょうばらし",
-                "count": 4
+                "count": 5
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "坂町",
                 "ruby": "さかちょう",
-                "count": 2
+                "count": 3
             },
             {
                 "code": 340006,
@@ -148,7 +148,7 @@
                 "area": "県管轄",
                 "label": "竹原市",
                 "ruby": "たけはらし",
-                "count": 0
+                "count": 2
             },
             {
                 "code": 340006,
@@ -183,7 +183,7 @@
                 "area": null,
                 "label": "小計",
                 "ruby": null,
-                "count": 1176
+                "count": 1322
             }
         ]
     }
