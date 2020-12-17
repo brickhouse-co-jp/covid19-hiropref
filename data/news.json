@@ -1,19 +1,19 @@
 {
     "newsItems": [
         {
-            "date": "2020\/12\/16",
+            "date": "2020\/12\/17",
             "url": "https:\/\/www.pref.hiroshima.lg.jp\/site\/2019-ncov\/#status",
             "text": "当日公表情報はコチラ"
         },
         {
-            "date": "2020\/12\/16",
+            "date": "2020\/12\/17",
             "url": "cards\/monitoring-items-overview",
-            "text": "【12\/15時点】新規陽性者74人"
+            "text": "【12\/16時点】新規陽性者88人"
         },
         {
-            "date": "2020\/12\/16",
+            "date": "2020\/12\/17",
             "url": "cards\/details-of-confirmed-cases",
-            "text": "【12\/15時点】入院者数196人、死者2人(累計11人)"
+            "text": "【12\/16時点】入院者数199人、死者1人(累計12人)"
         }
     ]
 }
