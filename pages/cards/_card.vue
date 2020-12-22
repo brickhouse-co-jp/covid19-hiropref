@@ -32,7 +32,9 @@ import HospitalizedNumberCard from '@/components/cards/HospitalizedNumberCard.vu
 // ---- その他 参考指標
 // 陽性者の属性
 import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
-// 陽性者数（市町別）
+// 最新の陽性者数（市町別）
+import CityInfectedNumberCard from '@/components/cards/CityInfectedNumberCard.vue'
+// 陽性者数累計（市町別）
 import ConfirmedCasesByMunicipalitiesCard from '@/components/cards/ConfirmedCasesByMunicipalitiesCard.vue'
 // 発症日別による陽性者数の推移
 // import PositiveNumberByDevelopedDateCard from '@/components/cards/PositiveNumberByDevelopedDateCard.vue'
@@ -72,6 +74,7 @@ export default {
     // ---- その他 参考指標
     ConfirmedCasesAttributesCard,
     ConfirmedCasesByMunicipalitiesCard,
+    CityInfectedNumberCard,
     // PositiveNumberByDevelopedDateCard,
     // PositiveNumberByDiagnosedDateCard,
     // TestedNumberCard,
@@ -138,6 +141,10 @@ export default {
       // 陽性者の属性
       case 'attributes-of-confirmed-cases':
         cardComponent = 'confirmed-cases-attributes-card'
+        break
+      // 陽性者数（区市町村別）
+      case 'city-infected-number-card':
+        cardComponent = 'city-infected-number-card'
         break
       // 陽性者数（区市町村別）
       case 'number-of-confirmed-cases-by-municipalities':
