@@ -1,5 +1,5 @@
 {
-    "date": "2020\/12\/22 17:29",
+    "date": "2020\/12\/23 16:17",
     "data": [
         {
             "diagnosed_date": "2020-02-01",
@@ -2600,6 +2600,14 @@
             "reported_count": 51,
             "weekly_average_count": 93.6,
             "weekly_average_untracked_count": 45.4
+        },
+        {
+            "diagnosed_date": "2020-12-22",
+            "count": 76,
+            "missing_count": 41,
+            "reported_count": 35,
+            "weekly_average_count": 93.9,
+            "weekly_average_untracked_count": 46.7
         }
     ]
 }
