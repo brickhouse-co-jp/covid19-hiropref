@@ -28,7 +28,8 @@
       <!-- 陽性者の属性 -->
       <confirmed-cases-attributes-card />
       <!-- 市町ごとの感染者数 -->
-      <city-infected-number-card />
+      <!-- <city-infected-number-card />
+       -->
       <!-- <severe-case-card /> -->
       <!-- 陽性者数の累計（区市町村別） -->
       <confirmed-cases-by-municipalities-card />
@@ -71,7 +72,7 @@ import HospitalizedNumberCard from '@/components/cards/HospitalizedNumberCard.vu
 // import SevereCaseCard from '@/components/cards/SevereCaseCard.vue'
 
 // 市町ごとの感染者数
-import CityInfectedNumberCard from '@/components/cards/CityInfectedNumberCard.vue'
+// import CityInfectedNumberCard from '@/components/cards/CityInfectedNumberCard.vue'
 // 陽性者の属性
 import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
 // 陽性者数の累計（市町別）
@@ -97,7 +98,7 @@ export default Vue.extend({
     // TokyoRulesApplicationNumberCard,
     HospitalizedNumberCard,
     // SevereCaseCard,
-    CityInfectedNumberCard,
+    // CityInfectedNumberCard,
     ConfirmedCasesAttributesCard,
     ConfirmedCasesByMunicipalitiesCard,
     TelephoneAdvisoryReportsNumberCard,
