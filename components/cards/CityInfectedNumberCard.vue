@@ -76,7 +76,7 @@ export default {
       sText: this.$t('{date}の数値', {
         date: this.$d(new Date(latestDate), 'dateWithoutYear'),
       }),
-      lText: latestInfectionNumber,
+      lText: String(latestInfectionNumber),
       unit: '人',
     }
 

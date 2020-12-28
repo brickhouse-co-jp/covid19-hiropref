@@ -1,4 +1,7 @@
+import dayjs from 'dayjs'
+
 import Data from '@/data/data.json'
+
 export const formatCityInfectedNumber = (): any => {
   const RubyLabel: any = [
     {
@@ -128,22 +131,29 @@ export const formatCityInfectedNumber = (): any => {
     },
   ]
 
+  function formatDate(dateString: string) {
+    return dayjs(dateString).format('YYYYMMDD')
+  }
+
   const patients = Data.patients.data
-  const LatestDate = patients.slice(-1)[0].date
+  const LatestDate = formatDate(patients.slice(-1)[0].date)
 
   // 最新日付のオブジェクトを取得
-  const LatestPatientsData = patients.filter(filterDate)
-  function filterDate(item: any) {
-    if (item.date >= LatestDate) {
+  function filterDate(item: { date: string }) {
+    const dataDate = formatDate(item.date)
+    if (dataDate === LatestDate) {
       return true
     }
   }
+  const LatestPatientsData = patients.filter(filterDate)
+
   // 最新日付のオブジェクトから居住地のみを取得
   const arrayCity = LatestPatientsData.map((obj) => obj['居住地'])
   // 居住地ごとの件数を確認してオブジェクト化
   const countCity: any = {}
   for (let i = 0; i < arrayCity.length; i++) {
     const elm = arrayCity[i]
+    // 0じゃなければ+1
     countCity[elm] = (countCity[elm] || 0) + 1
   }
   // 居住地ごとの件数を配列にしてソート(降順)
@@ -154,9 +164,9 @@ export const formatCityInfectedNumber = (): any => {
     return val - key
   })
   // ソートした配列をオブジェクトに変換
-  const objSortedCity: any = Object.fromEntries(arrayCountCity)
+  const objSortedCity = Object.fromEntries(arrayCountCity)
   // 市町ごとの感染者数を抽出
-  const cityInfectedCount: any = Object.values(objSortedCity)
+  const cityInfectedCount = Object.values(objSortedCity)
   // 市町名の配列を抽出
   const cityName = Object.keys(objSortedCity)
   // // RubyLabelの市町名の配列を抽出

@@ -53,8 +53,7 @@ export default {
 
     // 陽性者の属性 ヘッダー翻訳
     for (const header of patientsTable.headers) {
-      header.text =
-        header.value === '退院' ? this.$t('退院※') : this.$t(header.value)
+      header.text = header.value === '退院' ? '退院※' : header.value
     }
     // 陽性者の属性 中身の翻訳
     for (const row of patientsTable.datasets) {
@@ -94,13 +93,13 @@ export default {
         return value
       }
 
-      return this.$t(value)
+      return value
     },
     customSort(items, index, isDesc) {
-      const lt10 = this.$t('10歳未満').toString()
-      const lt100 = this.$t('100歳以上').toString()
-      const unknown = this.$t('不明').toString()
-      const investigating = this.$t('調査中').toString()
+      const lt10 = '10歳未満'.toString()
+      const lt100 = '100歳以上'.toString()
+      const unknown = '不明'.toString()
+      const investigating = '調査中'.toString()
       items.sort((a, b) => {
         // 両者が等しい場合は 0 を返す
         if (a[index[0]] === b[index[0]]) {
