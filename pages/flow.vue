@@ -17,25 +17,22 @@
       </h3>
       <div :class="$style.sectionNoBorder">
         <h4 :class="$style.sxnHeading">
-          相談窓口に御相談いただく目安
+          ｢風邪かな？｣と感じたら、まず電話でご相談をお願いいたします。
         </h4>
-        <h5 :class="$style.fontSubtitle">
+        <!-- <h5 :class="$style.fontSubtitle">
           少なくとも以下のいずれかに該当する場合には、すぐに御相談ください。(これらに該当しない場合の相談も可能です。)
-        </h5>
+        </h5> -->
         <ul :class="$style.list">
           <li>
-            息苦しさ(呼吸困難)、強いだるさ(倦怠感)、高熱等の強い症状のいずれかがある場合。
+            発熱等の症状がある方は、感染症が疑われる場合がありますので、必ず事前の電話連絡の上、受診してください。
           </li>
           <li>
-            重症化しやすい方(高齢者、糖尿病、心不全、呼吸器疾患(COPD等)の基礎疾患がある方や透析を受けている方、免疫抑制剤や抗がん剤等を用いている方)で、発熱や咳などの比較的軽い風邪の症状がある場合。
-          </li>
-          <li>
-            上記以外の方で発熱や咳など比較的軽い風邪の症状が続く場合(症状が4日以上続く場合、強い症状と思う場合、解熱剤などを飲み続けなければならない方は、すぐに相談)
+            かかりつけ医を持たない場合や相談先に迷うときは受診・相談センター（積極ガードダイヤル）へお電話ください。
           </li>
         </ul>
       </div>
       <h4 :class="[$style.fzTelWindow, $style.mtTelWindow]">
-        電話相談窓口一覧
+        受診･相談センター(積極ガードダイヤル)
       </h4>
       <v-row class="d-flex flex-row">
         <v-col cols="12" md="6">
@@ -160,22 +157,6 @@
       </div>
       <div :class="$style.sectionAttention">
         <h4 :class="$style.fontAttention">
-          妊娠中の方へ
-        </h4>
-        <p :class="$style.pAt">
-          念のため、重症化しやすい方と同様に、早めに相談窓口に御相談ください。
-        </p>
-      </div>
-      <div :class="$style.sectionAttention">
-        <h4 :class="$style.fontAttention">
-          お子様をお持ちの方へ
-        </h4>
-        <p :class="$style.pAt">
-          小児については、小児科医による診察が望ましく、かかりつけ小児医療機関に電話で御相談ください。
-        </p>
-      </div>
-      <div :class="$style.sectionAttention">
-        <h4 :class="$style.fontAttention">
           障害のある方へ
         </h4>
         <p :class="$style.pAt">
@@ -279,7 +260,7 @@ $margin: 20;
   margin-top: $margin * 1px;
 }
 .fzTelWindow {
-  @include font-size($fzHeadingL);
+  @include font-size($fzHuge);
 }
 .dPrint {
   display: inline-block;
@@ -478,7 +459,7 @@ $margin: 20;
   > .sxnHeading {
     text-align: center;
     font-weight: bold;
-    @include font-size($fzHeadingXl);
+    @include font-size($fzHeading);
   }
   > .sxnHeadingSmall {
     text-align: center;
@@ -509,12 +490,12 @@ $margin: 20;
   > * {
     line-height: 1.5;
     &:not(.box):not(.boxes):not(:first-child) {
-      margin-top: $margin * 1px;
+      margin-top: $margin * 0.4px;
     }
   }
   > .sxnHeading {
     font-weight: bold;
-    @include font-size($fzHeadingL);
+    @include font-size($fzHuge);
   }
   > .sxnHeadingSmall {
     text-align: center;
