@@ -28,7 +28,7 @@
   </v-col>
 </template>
 
-<script lang="ts">
+<script>
 import dayjs from 'dayjs'
 
 import Data from '@/data/data.json'
@@ -46,37 +46,27 @@ export default {
   },
   data() {
     const { date } = patientsData
-    const datasets: Object[] = formatCityInfectedNumber(Data.patients.data)
+    const datasets = formatCityInfectedNumber(Data.patients.data)
     const formattedDate = dayjs(date).format('YYYY/MM/DD HH:mm')
     const latestInfectionNumber = monitoringItems.data['新規陽性者数']
     const latestDate = monitoringItems.data['感染状況更新日付']
     // 区市町村ごとの陽性者数
-    const municipalitiesTable: { headers: object[]; datasets: Object[] } = {
+    const municipalitiesTable = {
       headers: [],
       datasets: [],
     }
 
-    // ヘッダーを設定
-    if (this.$i18n.locale === 'ja') {
-      municipalitiesTable.headers = [
-        { text: '市町', value: 'area' },
-        { text: 'ふりがな', value: 'ruby' },
-        { text: '陽性者数', value: 'count', align: 'end' },
-      ]
-    } else {
-      municipalitiesTable.headers = [
-        { text: '市町', value: 'area' },
-        { text: '陽性者数', value: 'count', align: 'end' },
-      ]
-    }
+    municipalitiesTable.headers = [
+      { text: '市町', value: 'area' },
+      { text: 'ふりがな', value: 'ruby' },
+      { text: '陽性者数', value: 'count', align: 'end' },
+    ]
 
     // データを追加
     municipalitiesTable.datasets = datasets
 
     const info = {
-      sText: this.$t('{date}の数値', {
-        date: this.$d(new Date(latestDate), 'dateWithoutYear'),
-      }),
+      sText: this.$d(new Date(latestDate), 'dateWithoutYear') + 'の数値',
       lText: String(latestInfectionNumber),
       unit: '人',
     }
