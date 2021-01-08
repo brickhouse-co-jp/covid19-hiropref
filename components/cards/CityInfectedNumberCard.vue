@@ -28,11 +28,12 @@
   </v-col>
 </template>
 
-<script>
+<script lang="ts">
 import dayjs from 'dayjs'
 
+import Data from '@/data/data.json'
 import monitoringItems from '@/data/monitoring_items.json'
-import Data from '@/data/patient.json'
+import patientsData from '@/data/patient.json'
 import CityInfectionTable from '~/components/CityInfectionTable.vue'
 import { formatCityInfectedNumber } from '~/utils/formatCityInfectedNumber'
 // import { getCommaSeparatedNumberToFixedFunction } from '~/utils/monitoringStatusValueFormatters'
@@ -44,13 +45,13 @@ export default {
     CityInfectionTable,
   },
   data() {
-    const { date } = Data
-    const datasets = formatCityInfectedNumber()
+    const { date } = patientsData
+    const datasets: Object[] = formatCityInfectedNumber(Data.patients.data)
     const formattedDate = dayjs(date).format('YYYY/MM/DD HH:mm')
     const latestInfectionNumber = monitoringItems.data['新規陽性者数']
     const latestDate = monitoringItems.data['感染状況更新日付']
     // 区市町村ごとの陽性者数
-    const municipalitiesTable = {
+    const municipalitiesTable: { headers: object[]; datasets: Object[] } = {
       headers: [],
       datasets: [],
     }

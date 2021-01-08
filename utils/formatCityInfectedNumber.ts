@@ -1,9 +1,11 @@
 import dayjs from 'dayjs'
 
-import Data from '@/data/data.json'
+// import Data from '@/data/data.json'
 
-export const formatCityInfectedNumber = (): any => {
-  const RubyLabel: any = [
+export const formatCityInfectedNumber = (
+  Data: { 居住地: string; 年代: string; date: string }[]
+): Object[] => {
+  const RubyLabel: { area: string; ruby: string; count: number }[] = [
     {
       area: '広島市',
       ruby: 'ひろしまし',
@@ -131,52 +133,104 @@ export const formatCityInfectedNumber = (): any => {
     },
   ]
 
+  // 日付フォーマット関数
   function formatDate(dateString: string) {
     return dayjs(dateString).format('YYYYMMDD')
   }
 
-  const patients = Data.patients.data
-  const LatestDate = formatDate(patients.slice(-1)[0].date)
-
-  // 最新日付のオブジェクトを取得
+  // 最新日付とオブジェクトの日付比較関数
   function filterDate(item: { date: string }) {
     const dataDate = formatDate(item.date)
     if (dataDate === LatestDate) {
       return true
     }
   }
+  const patients = Data
+  // 最終行のオブジェクトから最新日付を取得
+  const LatestDate: string = formatDate(patients.slice(-1)[0].date)
+  // 最新日付と一致するdateを持つオブジェクトを抽出
   const LatestPatientsData = patients.filter(filterDate)
-
   // 最新日付のオブジェクトから居住地のみを取得
   const arrayCity = LatestPatientsData.map((obj) => obj['居住地'])
-  // 居住地ごとの件数を確認してオブジェクト化
-  const countCity: any = {}
-  for (let i = 0; i < arrayCity.length; i++) {
-    const elm = arrayCity[i]
-    // 0じゃなければ+1
-    countCity[elm] = (countCity[elm] || 0) + 1
-  }
-  // 居住地ごとの件数を配列にしてソート(降順)
-  const arrayCountCity = Object.entries(countCity)
-  arrayCountCity.sort(function (p1: any, p2: any) {
-    const key = p1[1]
-    const val = p2[1]
-    return val - key
-  })
-  // ソートした配列をオブジェクトに変換
-  const objSortedCity = Object.fromEntries(arrayCountCity)
-  // 市町ごとの感染者数を抽出
-  const cityInfectedCount = Object.values(objSortedCity)
-  // 市町名の配列を抽出
-  const cityName = Object.keys(objSortedCity)
-  // // RubyLabelの市町名の配列を抽出
-  const arrayRubyLabel = RubyLabel.map((obj: { area: any }) => obj.area)
-  for (const rn in arrayRubyLabel) {
-    for (const cn in cityName) {
-      if (cityName[cn] === arrayRubyLabel[rn]) {
-        RubyLabel[rn].count = cityInfectedCount[cn]
-      }
+
+  arrayCity.forEach((Element) => {
+    switch (Element) {
+      case '広島市':
+        RubyLabel[0].count = RubyLabel[0].count + 1
+        break
+      case '呉市':
+        RubyLabel[1].count = RubyLabel[1].count + 1
+        break
+      case '福山市':
+        RubyLabel[2].count = RubyLabel[2].count + 1
+        break
+      case '安芸太田町':
+        RubyLabel[3].count = RubyLabel[3].count + 1
+        break
+      case '安芸高田市':
+        RubyLabel[4].count = RubyLabel[4].count + 1
+        break
+      case '江田島市':
+        RubyLabel[5].count = RubyLabel[5].count + 1
+        break
+      case '大崎上島町':
+        RubyLabel[6].count = RubyLabel[6].count + 1
+        break
+      case '大竹市':
+        RubyLabel[7].count = RubyLabel[7].count + 1
+        break
+      case '尾道市':
+        RubyLabel[8].count = RubyLabel[8].count + 1
+        break
+      case '海田町':
+        RubyLabel[9].count = RubyLabel[9].count + 1
+        break
+      case '北広島町':
+        RubyLabel[10].count = RubyLabel[10].count + 1
+        break
+      case '熊野町':
+        RubyLabel[11].count = RubyLabel[11].count + 1
+        break
+      case '坂町':
+        RubyLabel[12].count = RubyLabel[12].count + 1
+        break
+      case '庄原市':
+        RubyLabel[13].count = RubyLabel[13].count + 1
+        break
+      case '神石高原町':
+        RubyLabel[14].count = RubyLabel[14].count + 1
+        break
+      case '世羅町':
+        RubyLabel[15].count = RubyLabel[15].count + 1
+        break
+      case '竹原市':
+        RubyLabel[16].count = RubyLabel[16].count + 1
+        break
+      case '廿日市市':
+        RubyLabel[17].count = RubyLabel[17].count + 1
+        break
+      case '東広島市':
+        RubyLabel[18].count = RubyLabel[18].count + 1
+        break
+      case '府中市':
+        RubyLabel[19].count = RubyLabel[19].count + 1
+        break
+      case '府中町':
+        RubyLabel[20].count = RubyLabel[20].count + 1
+        break
+      case '三原市':
+        RubyLabel[21].count = RubyLabel[21].count + 1
+        break
+      case '三次市':
+        RubyLabel[22].count = RubyLabel[22].count + 1
+        break
+      case '広島県外':
+        RubyLabel[23].count = RubyLabel[23].count + 1
+        break
+      case '非公表':
+        RubyLabel[24].count = RubyLabel[24].count + 1
+        break
     }
-  }
+  })
   return RubyLabel
 }
