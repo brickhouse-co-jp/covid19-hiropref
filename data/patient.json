@@ -1,14 +1,14 @@
 {
-    "date": "2021\/1\/8 10:51",
+    "date": "2021\/1\/9 9:59",
     "datasets": {
-        "date": "2021\/1\/7",
+        "date": "2021\/1\/8",
         "data": [
             {
                 "code": 340006,
                 "area": "広島市",
                 "label": "広島市",
                 "ruby": "ひろしまし",
-                "count": 2616
+                "count": 2696
             },
             {
                 "code": 340006,
@@ -22,14 +22,14 @@
                 "area": "福山市",
                 "label": "福山市",
                 "ruby": "ふくやまし",
-                "count": 375
+                "count": 385
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "府中町",
                 "ruby": "ふちゅうちょう",
-                "count": 89
+                "count": 91
             },
             {
                 "code": 340006,
@@ -43,35 +43,35 @@
                 "area": "県管轄",
                 "label": "東広島市",
                 "ruby": "ひがしひろしまし",
-                "count": 121
+                "count": 124
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "三次市",
                 "ruby": "みよしし",
-                "count": 66
+                "count": 73
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "廿日市市",
                 "ruby": "はつかいちし",
-                "count": 102
+                "count": 108
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "三原市",
                 "ruby": "みはらし",
-                "count": 15
+                "count": 18
             },
             {
                 "code": 340006,
                 "area": "呉市",
                 "label": "呉市",
                 "ruby": "くれし",
-                "count": 246
+                "count": 251
             },
             {
                 "code": 340006,
@@ -106,7 +106,7 @@
                 "area": "県管轄",
                 "label": "庄原市",
                 "ruby": "しょうばらし",
-                "count": 7
+                "count": 11
             },
             {
                 "code": 340006,
@@ -190,7 +190,7 @@
                 "area": null,
                 "label": "小計",
                 "ruby": null,
-                "count": 3833
+                "count": 3953
             }
         ]
     }
