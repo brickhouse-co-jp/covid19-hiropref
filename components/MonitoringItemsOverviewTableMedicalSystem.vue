@@ -24,8 +24,8 @@
             <monitoring-items-overview-table-value-with-translatable-unit
               :value="
                 retInpatientRatio(
-                  items.入院患者数.value,
-                  items.入院患者確保病床数.value
+                  monitoringData.入院患者数,
+                  monitoringData.入院患者確保病床数
                 ).value
               "
               :unit="unit"
@@ -58,8 +58,8 @@
             <monitoring-items-overview-table-value-with-translatable-unit
               :value="
                 retInpatientRatio(
-                  items.宿泊療養施設療養者数.value,
-                  items.宿泊療養施設確保室数.value
+                  monitoringData.宿泊療養施設療養者数,
+                  monitoringData.宿泊療養施設確保室数
                 ).value
               "
               :unit="unit"
@@ -75,6 +75,7 @@
 import Vue, { PropType } from 'vue'
 
 import MonitoringItemsOverviewTableValueWithTranslatableUnit from '@/components/MonitoringItemsOverviewTableValueWithTranslatableUnit.vue'
+import MoniItem from '@/data/monitoring_items.json'
 import { MonitoringItems } from '@/utils/formatMonitoringItems'
 import { getCommaSeparatedNumberToFixedFunction } from '@/utils/monitoringStatusValueFormatters'
 
@@ -90,18 +91,18 @@ export default Vue.extend({
   },
   data() {
     return {
+      monitoringData: MoniItem.data,
       unit: { text: '%', translatable: false },
     }
   },
   methods: {
-    retInpatientRatio(item1: string, item2: string) {
-      // const data = this.items
-      const patients: number = parseInt(item1, 10)
-      const bedNum: number = parseInt(item2, 10)
+    retInpatientRatio(item1: number, item2: number) {
+      const parentNum: number = item1
+      const childNum: number = item2
       const toNumberInHundredthsPlace = getCommaSeparatedNumberToFixedFunction(
         1
       )
-      const calc = (patients / bedNum) * 100
+      const calc = (parentNum / childNum) * 100
       const retVal: object = {
         value: toNumberInHundredthsPlace(calc),
       }
