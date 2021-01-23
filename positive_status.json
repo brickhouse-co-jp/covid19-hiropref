@@ -1,5 +1,5 @@
 {
-    "date": "2021\/1\/4 10:46",
+    "date": "2021\/1\/24 8:00",
     "data": [
         {
             "date": "2020-02-01",
@@ -1352,6 +1352,86 @@
         {
             "date": "2021-01-03",
             "hospitalized": 714
+        },
+        {
+            "date": "2021-01-04",
+            "hospitalized": 702
+        },
+        {
+            "date": "2021-01-05",
+            "hospitalized": 677
+        },
+        {
+            "date": "2021-01-06",
+            "hospitalized": 703
+        },
+        {
+            "date": "2021-01-07",
+            "hospitalized": 723
+        },
+        {
+            "date": "2021-01-08",
+            "hospitalized": 736
+        },
+        {
+            "date": "2021-01-09",
+            "hospitalized": 762
+        },
+        {
+            "date": "2021-01-10",
+            "hospitalized": 726
+        },
+        {
+            "date": "2021-01-11",
+            "hospitalized": 687
+        },
+        {
+            "date": "2021-01-12",
+            "hospitalized": 649
+        },
+        {
+            "date": "2021-01-13",
+            "hospitalized": 599
+        },
+        {
+            "date": "2021-01-14",
+            "hospitalized": 593
+        },
+        {
+            "date": "2021-01-15",
+            "hospitalized": 568
+        },
+        {
+            "date": "2021-01-16",
+            "hospitalized": 543
+        },
+        {
+            "date": "2021-01-17",
+            "hospitalized": 527
+        },
+        {
+            "date": "2021-01-18",
+            "hospitalized": 488
+        },
+        {
+            "date": "2021-01-19",
+            "hospitalized": 430
+        },
+        {
+            "date": "2021-01-20",
+            "hospitalized": 450
+        },
+        {
+            "date": "2021-01-21",
+            "hospitalized": 439
+        },
+        {
+            "date": "2021-01-22",
+            "hospitalized": 406
+        },
+        {
+            "date": "2021-01-23",
+            "hospitalized": 379
         }
     ]
 }
