@@ -1,5 +1,5 @@
 {
-    "date": "2021\/2\/1 10:56",
+    "date": "2021\/2\/2 9:24",
     "data": [
         {
             "diagnosed_date": "2020-02-01",
@@ -2876,10 +2876,10 @@
         {
             "diagnosed_date": "2021-01-25",
             "count": 25,
-            "missing_count": 6,
-            "reported_count": 19,
+            "missing_count": 0,
+            "reported_count": 25,
             "weekly_average_count": 32.1,
-            "weekly_average_untracked_count": 11.9
+            "weekly_average_untracked_count": 11
         },
         {
             "diagnosed_date": "2021-01-26",
@@ -2887,7 +2887,7 @@
             "missing_count": 6,
             "reported_count": 11,
             "weekly_average_count": 31.1,
-            "weekly_average_untracked_count": 11
+            "weekly_average_untracked_count": 10.1
         },
         {
             "diagnosed_date": "2021-01-27",
@@ -2895,7 +2895,7 @@
             "missing_count": 7,
             "reported_count": 29,
             "weekly_average_count": 28.1,
-            "weekly_average_untracked_count": 10
+            "weekly_average_untracked_count": 9.1
         },
         {
             "diagnosed_date": "2021-01-28",
@@ -2903,7 +2903,7 @@
             "missing_count": 9,
             "reported_count": 17,
             "weekly_average_count": 27.9,
-            "weekly_average_untracked_count": 9.1
+            "weekly_average_untracked_count": 8.3
         },
         {
             "diagnosed_date": "2021-01-29",
@@ -2911,15 +2911,15 @@
             "missing_count": 10,
             "reported_count": 27,
             "weekly_average_count": 26.7,
-            "weekly_average_untracked_count": 8.6
+            "weekly_average_untracked_count": 7.7
         },
         {
             "diagnosed_date": "2021-01-30",
             "count": 38,
-            "missing_count": 9,
-            "reported_count": 29,
+            "missing_count": 6,
+            "reported_count": 32,
             "weekly_average_count": 28.9,
-            "weekly_average_untracked_count": 8.3
+            "weekly_average_untracked_count": 7
         },
         {
             "diagnosed_date": "2021-01-31",
@@ -2927,7 +2927,15 @@
             "missing_count": 5,
             "reported_count": 9,
             "weekly_average_count": 27.6,
-            "weekly_average_untracked_count": 7.4
+            "weekly_average_untracked_count": 6.1
+        },
+        {
+            "diagnosed_date": "2021-02-01",
+            "count": 12,
+            "missing_count": 2,
+            "reported_count": 10,
+            "weekly_average_count": 25.7,
+            "weekly_average_untracked_count": 6.4
         }
     ]
 }
