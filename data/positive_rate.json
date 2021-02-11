@@ -1,5 +1,5 @@
 {
-    "date": "2021\/2\/10 9:07",
+    "date": "2021\/2\/11 11:24",
     "data": [
         {
             "diagnosed_date": "2020-01-30",
@@ -2632,6 +2632,13 @@
             "negative_count": 1530,
             "positive_rate": 0.9,
             "weekly_average_diagnosed_count": 1071.4
+        },
+        {
+            "diagnosed_date": "2021-02-09",
+            "positive_count": 6,
+            "negative_count": 1235,
+            "positive_rate": 0.8,
+            "weekly_average_diagnosed_count": 1078.1
         }
     ]
 }
