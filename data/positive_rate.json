@@ -1,5 +1,5 @@
 {
-    "date": "2021\/2\/17 10:13",
+    "date": "2021\/2\/18 9:19",
     "data": [
         {
             "diagnosed_date": "2020-01-30",
@@ -2363,324 +2363,324 @@
         {
             "diagnosed_date": "2021-01-01",
             "positive_count": 73,
-            "negative_count": 651,
+            "negative_count": 665,
             "positive_rate": 5.5,
-            "weekly_average_diagnosed_count": 1454
+            "weekly_average_diagnosed_count": 1456
         },
         {
             "diagnosed_date": "2021-01-02",
             "positive_count": 70,
-            "negative_count": 1130,
+            "negative_count": 1158,
             "positive_rate": 5.5,
-            "weekly_average_diagnosed_count": 1393.7
+            "weekly_average_diagnosed_count": 1399.7
         },
         {
             "diagnosed_date": "2021-01-03",
             "positive_count": 49,
-            "negative_count": 1192,
+            "negative_count": 1225,
             "positive_rate": 5.6,
-            "weekly_average_diagnosed_count": 1362.1
+            "weekly_average_diagnosed_count": 1372.9
         },
         {
             "diagnosed_date": "2021-01-04",
             "positive_count": 75,
-            "negative_count": 1506,
-            "positive_rate": 6,
-            "weekly_average_diagnosed_count": 1249.1
+            "negative_count": 1546,
+            "positive_rate": 5.9,
+            "weekly_average_diagnosed_count": 1265.6
         },
         {
             "diagnosed_date": "2021-01-05",
             "positive_count": 80,
-            "negative_count": 1466,
-            "positive_rate": 5.9,
-            "weekly_average_diagnosed_count": 1227.4
+            "negative_count": 1455,
+            "positive_rate": 5.8,
+            "weekly_average_diagnosed_count": 1242.3
         },
         {
             "diagnosed_date": "2021-01-06",
             "positive_count": 91,
-            "negative_count": 1605,
-            "positive_rate": 5.8,
-            "weekly_average_diagnosed_count": 1270.3
+            "negative_count": 1648,
+            "positive_rate": 5.7,
+            "weekly_average_diagnosed_count": 1291.3
         },
         {
             "diagnosed_date": "2021-01-07",
             "positive_count": 119,
-            "negative_count": 1395,
-            "positive_rate": 5.9,
-            "weekly_average_diagnosed_count": 1357.4
+            "negative_count": 1425,
+            "positive_rate": 5.8,
+            "weekly_average_diagnosed_count": 1382.7
         },
         {
             "diagnosed_date": "2021-01-08",
             "positive_count": 60,
-            "negative_count": 1738,
+            "negative_count": 1770,
             "positive_rate": 5.1,
-            "weekly_average_diagnosed_count": 1510.9
+            "weekly_average_diagnosed_count": 1538.7
         },
         {
             "diagnosed_date": "2021-01-09",
             "positive_count": 56,
-            "negative_count": 1801,
-            "positive_rate": 4.7,
-            "weekly_average_diagnosed_count": 1604.7
+            "negative_count": 1901,
+            "positive_rate": 4.6,
+            "weekly_average_diagnosed_count": 1642.9
         },
         {
             "diagnosed_date": "2021-01-10",
             "positive_count": 60,
-            "negative_count": 1516,
-            "positive_rate": 4.7,
-            "weekly_average_diagnosed_count": 1652.6
+            "negative_count": 1543,
+            "positive_rate": 4.6,
+            "weekly_average_diagnosed_count": 1689.9
         },
         {
             "diagnosed_date": "2021-01-11",
             "positive_count": 42,
-            "negative_count": 980,
-            "positive_rate": 4.6,
-            "weekly_average_diagnosed_count": 1572.7
+            "negative_count": 1128,
+            "positive_rate": 4.5,
+            "weekly_average_diagnosed_count": 1625.4
         },
         {
             "diagnosed_date": "2021-01-12",
             "positive_count": 51,
-            "negative_count": 2279,
-            "positive_rate": 4.1,
-            "weekly_average_diagnosed_count": 1684.7
+            "negative_count": 2854,
+            "positive_rate": 3.8,
+            "weekly_average_diagnosed_count": 1821.1
         },
         {
             "diagnosed_date": "2021-01-13",
             "positive_count": 50,
-            "negative_count": 1966,
-            "positive_rate": 3.6,
-            "weekly_average_diagnosed_count": 1730.4
+            "negative_count": 2281,
+            "positive_rate": 3.3,
+            "weekly_average_diagnosed_count": 1905.7
         },
         {
             "diagnosed_date": "2021-01-14",
             "positive_count": 34,
-            "negative_count": 1921,
-            "positive_rate": 2.8,
-            "weekly_average_diagnosed_count": 1793.4
+            "negative_count": 2030,
+            "positive_rate": 2.5,
+            "weekly_average_diagnosed_count": 1980
         },
         {
             "diagnosed_date": "2021-01-15",
             "positive_count": 53,
-            "negative_count": 2108,
-            "positive_rate": 2.7,
-            "weekly_average_diagnosed_count": 1845.3
+            "negative_count": 2217,
+            "positive_rate": 2.4,
+            "weekly_average_diagnosed_count": 2042.9
         },
         {
             "diagnosed_date": "2021-01-16",
             "positive_count": 38,
-            "negative_count": 1878,
-            "positive_rate": 2.5,
-            "weekly_average_diagnosed_count": 1853.7
+            "negative_count": 1942,
+            "positive_rate": 2.3,
+            "weekly_average_diagnosed_count": 2046.1
         },
         {
             "diagnosed_date": "2021-01-17",
             "positive_count": 28,
-            "negative_count": 1204,
-            "positive_rate": 2.3,
-            "weekly_average_diagnosed_count": 1804.6
+            "negative_count": 1268,
+            "positive_rate": 2.1,
+            "weekly_average_diagnosed_count": 2002.3
         },
         {
             "diagnosed_date": "2021-01-18",
             "positive_count": 24,
-            "negative_count": 1913,
-            "positive_rate": 2.1,
-            "weekly_average_diagnosed_count": 1935.3
+            "negative_count": 1985,
+            "positive_rate": 1.9,
+            "weekly_average_diagnosed_count": 2122.1
         },
         {
             "diagnosed_date": "2021-01-19",
             "positive_count": 57,
-            "negative_count": 1594,
-            "positive_rate": 2.2,
-            "weekly_average_diagnosed_count": 1838.3
+            "negative_count": 1649,
+            "positive_rate": 2.1,
+            "weekly_average_diagnosed_count": 1950.9
         },
         {
             "diagnosed_date": "2021-01-20",
             "positive_count": 28,
-            "negative_count": 1623,
-            "positive_rate": 2.1,
-            "weekly_average_diagnosed_count": 1786.1
+            "negative_count": 1704,
+            "positive_rate": 2,
+            "weekly_average_diagnosed_count": 1865.3
         },
         {
             "diagnosed_date": "2021-01-21",
             "positive_count": 44,
-            "negative_count": 1851,
-            "positive_rate": 2.2,
-            "weekly_average_diagnosed_count": 1777.6
+            "negative_count": 1878,
+            "positive_rate": 2.1,
+            "weekly_average_diagnosed_count": 1845
         },
         {
             "diagnosed_date": "2021-01-22",
             "positive_count": 23,
-            "negative_count": 1572,
+            "negative_count": 1631,
             "positive_rate": 2,
-            "weekly_average_diagnosed_count": 1696.7
+            "weekly_average_diagnosed_count": 1757
         },
         {
             "diagnosed_date": "2021-01-23",
             "positive_count": 23,
-            "negative_count": 1468,
-            "positive_rate": 2,
-            "weekly_average_diagnosed_count": 1636
+            "negative_count": 1564,
+            "positive_rate": 1.9,
+            "weekly_average_diagnosed_count": 1700.9
         },
         {
             "diagnosed_date": "2021-01-24",
             "positive_count": 25,
-            "negative_count": 1035,
-            "positive_rate": 2,
-            "weekly_average_diagnosed_count": 1611.4
+            "negative_count": 1120,
+            "positive_rate": 1.9,
+            "weekly_average_diagnosed_count": 1679.3
         },
         {
             "diagnosed_date": "2021-01-25",
             "positive_count": 20,
-            "negative_count": 1797,
-            "positive_rate": 2,
-            "weekly_average_diagnosed_count": 1594.3
+            "negative_count": 2010,
+            "positive_rate": 1.9,
+            "weekly_average_diagnosed_count": 1682.3
         },
         {
             "diagnosed_date": "2021-01-26",
             "positive_count": 31,
-            "negative_count": 1584,
-            "positive_rate": 1.7,
-            "weekly_average_diagnosed_count": 1589.1
+            "negative_count": 1893,
+            "positive_rate": 1.6,
+            "weekly_average_diagnosed_count": 1713.4
         },
         {
             "diagnosed_date": "2021-01-27",
             "positive_count": 30,
-            "negative_count": 1595,
-            "positive_rate": 1.8,
-            "weekly_average_diagnosed_count": 1585.4
+            "negative_count": 1630,
+            "positive_rate": 1.6,
+            "weekly_average_diagnosed_count": 1703.1
         },
         {
             "diagnosed_date": "2021-01-28",
             "positive_count": 34,
-            "negative_count": 1336,
-            "positive_rate": 1.8,
-            "weekly_average_diagnosed_count": 1510.4
+            "negative_count": 1476,
+            "positive_rate": 1.6,
+            "weekly_average_diagnosed_count": 1644.3
         },
         {
             "diagnosed_date": "2021-01-29",
             "positive_count": 36,
-            "negative_count": 1608,
-            "positive_rate": 1.9,
-            "weekly_average_diagnosed_count": 1517.4
+            "negative_count": 1625,
+            "positive_rate": 1.7,
+            "weekly_average_diagnosed_count": 1645.3
         },
         {
             "diagnosed_date": "2021-01-30",
             "positive_count": 13,
-            "negative_count": 1211,
-            "positive_rate": 1.8,
-            "weekly_average_diagnosed_count": 1479.3
+            "negative_count": 1235,
+            "positive_rate": 1.7,
+            "weekly_average_diagnosed_count": 1596.9
         },
         {
             "diagnosed_date": "2021-01-31",
             "positive_count": 11,
-            "negative_count": 811,
-            "positive_rate": 1.7,
-            "weekly_average_diagnosed_count": 1445.3
+            "negative_count": 821,
+            "positive_rate": 1.6,
+            "weekly_average_diagnosed_count": 1552.1
         },
         {
             "diagnosed_date": "2021-02-01",
             "positive_count": 14,
-            "negative_count": 1363,
-            "positive_rate": 1.7,
-            "weekly_average_diagnosed_count": 1382.4
+            "negative_count": 1557,
+            "positive_rate": 1.6,
+            "weekly_average_diagnosed_count": 1486.6
         },
         {
             "diagnosed_date": "2021-02-02",
             "positive_count": 15,
-            "negative_count": 1179,
-            "positive_rate": 1.7,
-            "weekly_average_diagnosed_count": 1322.3
+            "negative_count": 1265,
+            "positive_rate": 1.6,
+            "weekly_average_diagnosed_count": 1394.6
         },
         {
             "diagnosed_date": "2021-02-03",
             "positive_count": 7,
-            "negative_count": 1175,
-            "positive_rate": 1.5,
-            "weekly_average_diagnosed_count": 1259
+            "negative_count": 1293,
+            "positive_rate": 1.4,
+            "weekly_average_diagnosed_count": 1343.1
         },
         {
             "diagnosed_date": "2021-02-04",
             "positive_count": 9,
-            "negative_count": 954,
+            "negative_count": 1001,
             "positive_rate": 1.2,
-            "weekly_average_diagnosed_count": 1200.9
+            "weekly_average_diagnosed_count": 1271.7
         },
         {
             "diagnosed_date": "2021-02-05",
             "positive_count": 7,
-            "negative_count": 1153,
-            "positive_rate": 1,
-            "weekly_average_diagnosed_count": 1131.7
+            "negative_count": 1203,
+            "positive_rate": 0.9,
+            "weekly_average_diagnosed_count": 1207.3
         },
         {
             "diagnosed_date": "2021-02-06",
             "positive_count": 11,
-            "negative_count": 871,
-            "positive_rate": 1,
-            "weekly_average_diagnosed_count": 1082.9
+            "negative_count": 927,
+            "positive_rate": 0.9,
+            "weekly_average_diagnosed_count": 1163
         },
         {
             "diagnosed_date": "2021-02-07",
             "positive_count": 9,
-            "negative_count": 569,
-            "positive_rate": 1,
-            "weekly_average_diagnosed_count": 1048
+            "negative_count": 602,
+            "positive_rate": 0.9,
+            "weekly_average_diagnosed_count": 1131.4
         },
         {
             "diagnosed_date": "2021-02-08",
             "positive_count": 11,
             "negative_count": 930,
-            "positive_rate": 1,
-            "weekly_average_diagnosed_count": 985.7
+            "positive_rate": 0.9,
+            "weekly_average_diagnosed_count": 1041.4
         },
         {
             "diagnosed_date": "2021-02-09",
             "positive_count": 6,
             "negative_count": 1235,
-            "positive_rate": 0.9,
-            "weekly_average_diagnosed_count": 992.4
+            "positive_rate": 0.8,
+            "weekly_average_diagnosed_count": 1035.9
         },
         {
             "diagnosed_date": "2021-02-10",
             "positive_count": 7,
             "negative_count": 926,
             "positive_rate": 0.9,
-            "weekly_average_diagnosed_count": 956.9
+            "weekly_average_diagnosed_count": 983.4
         },
         {
             "diagnosed_date": "2021-02-11",
             "positive_count": 6,
             "negative_count": 389,
             "positive_rate": 0.9,
-            "weekly_average_diagnosed_count": 875.7
+            "weekly_average_diagnosed_count": 895.6
         },
         {
             "diagnosed_date": "2021-02-12",
-            "positive_count": 8,
-            "negative_count": 955,
-            "positive_rate": 1,
-            "weekly_average_diagnosed_count": 847.6
+            "positive_count": 7,
+            "negative_count": 956,
+            "positive_rate": 0.9,
+            "weekly_average_diagnosed_count": 860.3
         },
         {
             "diagnosed_date": "2021-02-13",
             "positive_count": 10,
-            "negative_count": 653,
+            "negative_count": 656,
             "positive_rate": 1,
-            "weekly_average_diagnosed_count": 816.3
+            "weekly_average_diagnosed_count": 821.4
         },
         {
             "diagnosed_date": "2021-02-14",
             "positive_count": 10,
             "negative_count": 538,
             "positive_rate": 1,
-            "weekly_average_diagnosed_count": 812
+            "weekly_average_diagnosed_count": 812.4
         },
         {
             "diagnosed_date": "2021-02-15",
             "positive_count": 15,
             "negative_count": 1374,
             "positive_rate": 1,
-            "weekly_average_diagnosed_count": 876
+            "weekly_average_diagnosed_count": 876.4
         }
     ]
 }
