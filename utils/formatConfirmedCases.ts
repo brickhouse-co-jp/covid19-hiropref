@@ -37,6 +37,14 @@ type DataType = {
         {
           attr: 'その他'
           value: number
+        },
+        {
+          attr: '重症者数'
+          value: number
+        },
+        {
+          attr: '中等症者数'
+          value: number
         }
         // {
         //   attr: '調査中'
@@ -58,6 +66,8 @@ type ConfirmedCasesType = {
   // 調査中: number
   死亡: number
   退院: number
+  重症者数: number
+  中等症者数: number
 }
 
 interface ChildData {
@@ -110,5 +120,7 @@ export default (data: DataType) => {
     // 調査中: getSelectedItem(data, '調査中'),
     死亡: getSelectedItem(data, '死亡'),
     退院: getSelectedItem(data, '退院'),
+    重症者数: getSelectedItem(data, '重症者数'),
+    中等症者数: getSelectedItem(data, '中等症者数'),
   } as ConfirmedCasesType
 }
