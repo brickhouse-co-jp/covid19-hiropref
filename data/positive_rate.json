@@ -1,5 +1,5 @@
 {
-    "date": "2021\/3\/24 8:45",
+    "date": "2021\/3\/25 9:09",
     "data": [
         {
             "diagnosed_date": "2020-01-30",
@@ -2867,51 +2867,51 @@
         {
             "diagnosed_date": "2021-03-14",
             "positive_count": 2,
-            "negative_count": 216,
+            "negative_count": 226,
             "positive_rate": 0.5,
-            "weekly_average_diagnosed_count": 526.4
+            "weekly_average_diagnosed_count": 527.9
         },
         {
             "diagnosed_date": "2021-03-15",
             "positive_count": 1,
             "negative_count": 964,
             "positive_rate": 0.3,
-            "weekly_average_diagnosed_count": 561.1
+            "weekly_average_diagnosed_count": 562.6
         },
         {
             "diagnosed_date": "2021-03-16",
             "positive_count": 0,
             "negative_count": 751,
             "positive_rate": 0.3,
-            "weekly_average_diagnosed_count": 583
+            "weekly_average_diagnosed_count": 584.4
         },
         {
             "diagnosed_date": "2021-03-17",
             "positive_count": 0,
             "negative_count": 878,
             "positive_rate": 0.3,
-            "weekly_average_diagnosed_count": 626
+            "weekly_average_diagnosed_count": 627.4
         },
         {
             "diagnosed_date": "2021-03-18",
             "positive_count": 0,
             "negative_count": 776,
             "positive_rate": 0.2,
-            "weekly_average_diagnosed_count": 650.1
+            "weekly_average_diagnosed_count": 651.6
         },
         {
             "diagnosed_date": "2021-03-19",
             "positive_count": 6,
             "negative_count": 791,
             "positive_rate": 0.2,
-            "weekly_average_diagnosed_count": 686
+            "weekly_average_diagnosed_count": 687.4
         },
         {
             "diagnosed_date": "2021-03-20",
             "positive_count": 7,
             "negative_count": 349,
             "positive_rate": 0.3,
-            "weekly_average_diagnosed_count": 677.3
+            "weekly_average_diagnosed_count": 678.7
         },
         {
             "diagnosed_date": "2021-03-21",
@@ -2926,6 +2926,13 @@
             "negative_count": 1150,
             "positive_rate": 0.3,
             "weekly_average_diagnosed_count": 719.7
+        },
+        {
+            "diagnosed_date": "2021-03-23",
+            "positive_count": 5,
+            "negative_count": 864,
+            "positive_rate": 0.4,
+            "weekly_average_diagnosed_count": 736.6
         }
     ]
 }
