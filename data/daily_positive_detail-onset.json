@@ -1,5 +1,5 @@
 {
-    "date": "2021\/3\/25 9:09",
+    "date": "2021\/3\/26 9:01",
     "data": [
         {
             "diagnosed_date": "2020-03-05",
@@ -3059,18 +3059,18 @@
         },
         {
             "diagnosed_date": "2021-03-22",
-            "count": 1,
+            "count": 3,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 2,
+            "weekly_average_count": 2.3,
             "weekly_average_untracked_count": null
         },
         {
             "diagnosed_date": "2021-03-23",
-            "count": 0,
+            "count": 3,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 1.7,
+            "weekly_average_count": 2.4,
             "weekly_average_untracked_count": null
         },
         {
@@ -3078,7 +3078,15 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 1.6,
+            "weekly_average_count": 2.3,
+            "weekly_average_untracked_count": null
+        },
+        {
+            "diagnosed_date": "2021-03-25",
+            "count": 0,
+            "missing_count": null,
+            "reported_count": null,
+            "weekly_average_count": 1.9,
             "weekly_average_untracked_count": null
         }
     ]
