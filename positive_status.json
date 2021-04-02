@@ -1,5 +1,5 @@
 {
-    "date": "2021\/3\/19 9:38",
+    "date": "2021\/4\/2 11:01",
     "data": [
         {
             "date": "2020-02-01",
@@ -1648,6 +1648,62 @@
         {
             "date": "2021-03-18",
             "hospitalized": 35
+        },
+        {
+            "date": "2021-03-19",
+            "hospitalized": 29
+        },
+        {
+            "date": "2021-03-20",
+            "hospitalized": 33
+        },
+        {
+            "date": "2021-03-21",
+            "hospitalized": 41
+        },
+        {
+            "date": "2021-03-22",
+            "hospitalized": 39
+        },
+        {
+            "date": "2021-03-23",
+            "hospitalized": 36
+        },
+        {
+            "date": "2021-03-24",
+            "hospitalized": 34
+        },
+        {
+            "date": "2021-03-25",
+            "hospitalized": 36
+        },
+        {
+            "date": "2021-03-26",
+            "hospitalized": 40
+        },
+        {
+            "date": "2021-03-27",
+            "hospitalized": 44
+        },
+        {
+            "date": "2021-03-28",
+            "hospitalized": 54
+        },
+        {
+            "date": "2021-03-29",
+            "hospitalized": 69
+        },
+        {
+            "date": "2021-03-30",
+            "hospitalized": 74
+        },
+        {
+            "date": "2021-03-31",
+            "hospitalized": 83
+        },
+        {
+            "date": "2021-04-01",
+            "hospitalized": 88
         }
     ]
 }
