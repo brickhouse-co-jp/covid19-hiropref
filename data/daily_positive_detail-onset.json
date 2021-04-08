@@ -1,5 +1,5 @@
 {
-    "date": "2021\/4\/7 9:03",
+    "date": "2021\/4\/8 10:10",
     "data": [
         {
             "diagnosed_date": "2020-03-05",
@@ -3147,10 +3147,10 @@
         },
         {
             "diagnosed_date": "2021-04-02",
-            "count": 5,
+            "count": 7,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 7.6,
+            "weekly_average_count": 7.9,
             "weekly_average_untracked_count": null
         },
         {
@@ -3158,11 +3158,19 @@
             "count": 3,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 6.6,
+            "weekly_average_count": 6.9,
             "weekly_average_untracked_count": null
         },
         {
             "diagnosed_date": "2021-04-04",
+            "count": 5,
+            "missing_count": null,
+            "reported_count": null,
+            "weekly_average_count": 5.3,
+            "weekly_average_untracked_count": null
+        },
+        {
+            "diagnosed_date": "2021-04-05",
             "count": 3,
             "missing_count": null,
             "reported_count": null,
@@ -3170,19 +3178,19 @@
             "weekly_average_untracked_count": null
         },
         {
-            "diagnosed_date": "2021-04-05",
-            "count": 0,
-            "missing_count": null,
-            "reported_count": null,
-            "weekly_average_count": 3.7,
-            "weekly_average_untracked_count": null
-        },
-        {
             "diagnosed_date": "2021-04-06",
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 3,
+            "weekly_average_count": 4,
+            "weekly_average_untracked_count": null
+        },
+        {
+            "diagnosed_date": "2021-04-07",
+            "count": 0,
+            "missing_count": null,
+            "reported_count": null,
+            "weekly_average_count": 3.3,
             "weekly_average_untracked_count": null
         }
     ]
