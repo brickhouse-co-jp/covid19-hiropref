@@ -1,5 +1,5 @@
 {
-    "date": "2021\/4\/15 8:55",
+    "date": "2021\/4\/16 9:48",
     "data": [
         {
             "diagnosed_date": "2020-03-05",
@@ -3203,50 +3203,58 @@
         },
         {
             "diagnosed_date": "2021-04-09",
-            "count": 13,
-            "missing_count": null,
-            "reported_count": null,
-            "weekly_average_count": 9.4,
-            "weekly_average_untracked_count": null
-        },
-        {
-            "diagnosed_date": "2021-04-10",
-            "count": 8,
+            "count": 15,
             "missing_count": null,
             "reported_count": null,
             "weekly_average_count": 9.7,
             "weekly_average_untracked_count": null
         },
         {
-            "diagnosed_date": "2021-04-11",
-            "count": 5,
+            "diagnosed_date": "2021-04-10",
+            "count": 11,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 9.3,
+            "weekly_average_count": 10.4,
+            "weekly_average_untracked_count": null
+        },
+        {
+            "diagnosed_date": "2021-04-11",
+            "count": 8,
+            "missing_count": null,
+            "reported_count": null,
+            "weekly_average_count": 10.4,
             "weekly_average_untracked_count": null
         },
         {
             "diagnosed_date": "2021-04-12",
-            "count": 3,
+            "count": 8,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 8,
+            "weekly_average_count": 9.9,
             "weekly_average_untracked_count": null
         },
         {
             "diagnosed_date": "2021-04-13",
-            "count": 3,
+            "count": 6,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 7.6,
+            "weekly_average_count": 9.9,
             "weekly_average_untracked_count": null
         },
         {
             "diagnosed_date": "2021-04-14",
+            "count": 1,
+            "missing_count": null,
+            "reported_count": null,
+            "weekly_average_count": 8.4,
+            "weekly_average_untracked_count": null
+        },
+        {
+            "diagnosed_date": "2021-04-15",
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 6,
+            "weekly_average_count": 7,
             "weekly_average_untracked_count": null
         }
     ]
