@@ -39,18 +39,18 @@ for (const cn in cityName) {
 }
 
 // metadiscription用文言作成
-export const SetMetaDiscription = (): string => {
+export const SetMetaDescription = (): string => {
   const cityCnt = cityCntDiscription
   const DailyNewCases = MonitoringItems.data['新規陽性者数']
   const InfectionStatusChangeDate = MonitoringItems.data[
     '感染状況更新日付'
   ].replace('2020/', '')
-  const discription =
+  const discriptionText =
     InfectionStatusChangeDate +
     'の県内の感染者数は' +
     DailyNewCases +
     '人です。' +
     cityCnt +
     ' 当サイトは新型コロナウイルス感染症に関する最新情報を提供するために、広島県が開設したものです。'
-  return discription
+  return discriptionText
 }

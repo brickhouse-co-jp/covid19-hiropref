@@ -42,7 +42,7 @@ import SideNavigation from '@/components/SideNavigation.vue'
 import Data from '@/data/data.json'
 import { convertDateToSimpleFormat } from '@/utils/formatDate'
 import { getLinksLanguageAlternative } from '@/utils/i18nUtils'
-import { SetMetaDiscription } from '@/utils/makeMetaDiscription'
+import { SetMetaDescription } from '@/utils/makeMetaDescription'
 
 type LocalData = {
   hasNavigation: boolean
@@ -142,7 +142,7 @@ export default Vue.extend({
           // )}`,
           content: `${this.$t('{date} 更新', {
             date: convertDateToSimpleFormat(lastUpdate),
-          })}: ${this.$tc(SetMetaDiscription())}`,
+          })}: ${this.$tc(SetMetaDescription())}`,
         },
         {
           hid: 'og:site_name',
