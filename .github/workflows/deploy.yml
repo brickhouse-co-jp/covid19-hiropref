@@ -43,7 +43,7 @@ jobs:
           GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
 
       - name: Deploy
-        uses: netlify/actions/cli@master
+      - run: npx netlify-cli deploy --dir=./dist
         with:
           args: deploy --dir=dist --prod
         env:
