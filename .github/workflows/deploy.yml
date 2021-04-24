@@ -45,7 +45,7 @@ jobs:
       - name: Deploy
         uses: nwtgck/actions-netlify@v1.1.13
         with:
-          publish-dir: '/dist'
+          publish-dir: './dist'
           production-branch: master
           github-token: ${{ secrets.GIT_TOKEN_COVID19 }}
         env:
