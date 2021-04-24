@@ -43,9 +43,9 @@ jobs:
           GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
 
       - name: Deploy
-        uses: nwtgck/actions-netlify@v1.0
+        uses: nwtgck/actions-netlify
         with:
-          publish-dir: './dist'
+          publish-dir: '/dist'
           production-branch: master
           github-token: ${{ secrets.GIT_TOKEN_COVID19 }}
         env:
