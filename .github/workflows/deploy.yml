@@ -43,7 +43,7 @@ jobs:
           GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
 
       - name: Deploy
-        uses: nwtgck/actions-netlify
+        uses: nwtgck/actions-netlify@v1.1.13
         with:
           publish-dir: '/dist'
           production-branch: master
