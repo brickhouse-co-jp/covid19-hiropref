@@ -1,28 +1,28 @@
 {
-    "date": "2021\/4\/30 2:26",
+    "date": "2021\/5\/1 9:10",
     "datasets": {
-        "date": "2021\/4\/29",
+        "date": "2021\/4\/30",
         "data": [
             {
                 "code": 340006,
                 "area": "広島市",
                 "label": "広島市",
                 "ruby": "ひろしまし",
-                "count": 3799
+                "count": 3879
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "尾道市",
                 "ruby": "おのみちし",
-                "count": 44
+                "count": 45
             },
             {
                 "code": 340006,
                 "area": "福山市",
                 "label": "福山市",
                 "ruby": "ふくやまし",
-                "count": 705
+                "count": 714
             },
             {
                 "code": 340006,
@@ -43,28 +43,28 @@
                 "area": "県管轄",
                 "label": "東広島市",
                 "ruby": "ひがしひろしまし",
-                "count": 217
+                "count": 218
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "三次市",
                 "ruby": "みよしし",
-                "count": 101
+                "count": 102
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "廿日市市",
                 "ruby": "はつかいちし",
-                "count": 170
+                "count": 172
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "三原市",
                 "ruby": "みはらし",
-                "count": 68
+                "count": 72
             },
             {
                 "code": 340006,
@@ -99,7 +99,7 @@
                 "area": "県管轄",
                 "label": "熊野町",
                 "ruby": "くまのちょう",
-                "count": 22
+                "count": 24
             },
             {
                 "code": 340006,
@@ -113,7 +113,7 @@
                 "area": "県管轄",
                 "label": "坂町",
                 "ruby": "さかちょう",
-                "count": 23
+                "count": 25
             },
             {
                 "code": 340006,
@@ -190,7 +190,7 @@
                 "area": null,
                 "label": "小計",
                 "ruby": null,
-                "count": 5916
+                "count": 6018
             }
         ]
     }
