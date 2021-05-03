@@ -1,35 +1,35 @@
 {
-    "date": "2021\/5\/2 8:58",
+    "date": "2021\/5\/3 9:33",
     "datasets": {
-        "date": "2021\/5\/1",
+        "date": "2021\/5\/2",
         "data": [
             {
                 "code": 340006,
                 "area": "広島市",
                 "label": "広島市",
                 "ruby": "ひろしまし",
-                "count": 3919
+                "count": 3962
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "尾道市",
                 "ruby": "おのみちし",
-                "count": 46
+                "count": 48
             },
             {
                 "code": 340006,
                 "area": "福山市",
                 "label": "福山市",
                 "ruby": "ふくやまし",
-                "count": 721
+                "count": 731
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "府中町",
                 "ruby": "ふちゅうちょう",
-                "count": 156
+                "count": 157
             },
             {
                 "code": 340006,
@@ -43,7 +43,7 @@
                 "area": "県管轄",
                 "label": "東広島市",
                 "ruby": "ひがしひろしまし",
-                "count": 220
+                "count": 229
             },
             {
                 "code": 340006,
@@ -57,21 +57,21 @@
                 "area": "県管轄",
                 "label": "廿日市市",
                 "ruby": "はつかいちし",
-                "count": 173
+                "count": 174
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "三原市",
                 "ruby": "みはらし",
-                "count": 77
+                "count": 92
             },
             {
                 "code": 340006,
                 "area": "呉市",
                 "label": "呉市",
                 "ruby": "くれし",
-                "count": 340
+                "count": 344
             },
             {
                 "code": 340006,
@@ -127,7 +127,7 @@
                 "area": "県管轄",
                 "label": "大竹市",
                 "ruby": "おおたけし",
-                "count": 17
+                "count": 19
             },
             {
                 "code": 340006,
@@ -190,7 +190,7 @@
                 "area": null,
                 "label": "小計",
                 "ruby": null,
-                "count": 6083
+                "count": 6170
             }
         ]
     }
