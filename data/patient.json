@@ -1,35 +1,35 @@
 {
-    "date": "2021\/5\/8 9:36",
+    "date": "2021\/5\/9 6:28",
     "datasets": {
-        "date": "2021\/5\/7",
+        "date": "2021\/5\/8",
         "data": [
             {
                 "code": 340006,
                 "area": "広島市",
                 "label": "広島市",
                 "ruby": "ひろしまし",
-                "count": 4216
+                "count": 4326
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "尾道市",
                 "ruby": "おのみちし",
-                "count": 50
+                "count": 51
             },
             {
                 "code": 340006,
                 "area": "福山市",
                 "label": "福山市",
                 "ruby": "ふくやまし",
-                "count": 795
+                "count": 806
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "府中町",
                 "ruby": "ふちゅうちょう",
-                "count": 161
+                "count": 166
             },
             {
                 "code": 340006,
@@ -43,7 +43,7 @@
                 "area": "県管轄",
                 "label": "東広島市",
                 "ruby": "ひがしひろしまし",
-                "count": 246
+                "count": 259
             },
             {
                 "code": 340006,
@@ -57,21 +57,21 @@
                 "area": "県管轄",
                 "label": "廿日市市",
                 "ruby": "はつかいちし",
-                "count": 179
+                "count": 183
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "三原市",
                 "ruby": "みはらし",
-                "count": 116
+                "count": 124
             },
             {
                 "code": 340006,
                 "area": "呉市",
                 "label": "呉市",
                 "ruby": "くれし",
-                "count": 355
+                "count": 361
             },
             {
                 "code": 340006,
@@ -85,7 +85,7 @@
                 "area": "県管轄",
                 "label": "府中市",
                 "ruby": "ふちゅうし",
-                "count": 65
+                "count": 66
             },
             {
                 "code": 340006,
@@ -99,21 +99,21 @@
                 "area": "県管轄",
                 "label": "熊野町",
                 "ruby": "くまのちょう",
-                "count": 28
+                "count": 30
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "庄原市",
                 "ruby": "しょうばらし",
-                "count": 15
+                "count": 18
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "坂町",
                 "ruby": "さかちょう",
-                "count": 27
+                "count": 28
             },
             {
                 "code": 340006,
@@ -127,21 +127,21 @@
                 "area": "県管轄",
                 "label": "大竹市",
                 "ruby": "おおたけし",
-                "count": 25
+                "count": 32
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "安芸高田市",
                 "ruby": "あきたかたし",
-                "count": 6
+                "count": 7
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "北広島町",
                 "ruby": "きたひろしまちょう",
-                "count": 27
+                "count": 30
             },
             {
                 "code": 340006,
@@ -176,7 +176,7 @@
                 "area": "-",
                 "label": "広島県外",
                 "ruby": "-",
-                "count": 26
+                "count": 32
             },
             {
                 "code": 340006,
@@ -190,7 +190,7 @@
                 "area": null,
                 "label": "小計",
                 "ruby": null,
-                "count": 6581
+                "count": 6763
             }
         ]
     }
