@@ -1,5 +1,5 @@
 {
-    "date": "2021\/5\/16 9:56",
+    "date": "2021\/5\/17 11:12",
     "data": [
         {
             "diagnosed_date": "2020-03-05",
@@ -3411,90 +3411,98 @@
         },
         {
             "diagnosed_date": "2021-05-05",
-            "count": 124,
+            "count": 128,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 91.4,
+            "weekly_average_count": 92,
             "weekly_average_untracked_count": null
         },
         {
             "diagnosed_date": "2021-05-06",
-            "count": 177,
+            "count": 180,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 106.4,
+            "weekly_average_count": 107.4,
             "weekly_average_untracked_count": null
         },
         {
             "diagnosed_date": "2021-05-07",
-            "count": 184,
+            "count": 190,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 123.6,
+            "weekly_average_count": 125.4,
             "weekly_average_untracked_count": null
         },
         {
             "diagnosed_date": "2021-05-08",
-            "count": 157,
+            "count": 167,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 134.3,
+            "weekly_average_count": 137.6,
             "weekly_average_untracked_count": null
         },
         {
             "diagnosed_date": "2021-05-09",
-            "count": 141,
+            "count": 153,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 141.3,
+            "weekly_average_count": 146.3,
             "weekly_average_untracked_count": null
         },
         {
             "diagnosed_date": "2021-05-10",
-            "count": 119,
+            "count": 135,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 145.4,
+            "weekly_average_count": 152.7,
             "weekly_average_untracked_count": null
         },
         {
             "diagnosed_date": "2021-05-11",
-            "count": 104,
+            "count": 128,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 143.7,
+            "weekly_average_count": 154.4,
             "weekly_average_untracked_count": null
         },
         {
             "diagnosed_date": "2021-05-12",
-            "count": 77,
+            "count": 121,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 137,
+            "weekly_average_count": 153.4,
             "weekly_average_untracked_count": null
         },
         {
             "diagnosed_date": "2021-05-13",
-            "count": 29,
+            "count": 60,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 115.9,
+            "weekly_average_count": 136.3,
             "weekly_average_untracked_count": null
         },
         {
             "diagnosed_date": "2021-05-14",
-            "count": 9,
+            "count": 34,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 90.9,
+            "weekly_average_count": 114,
             "weekly_average_untracked_count": null
         },
         {
             "diagnosed_date": "2021-05-15",
+            "count": 3,
+            "missing_count": null,
+            "reported_count": null,
+            "weekly_average_count": 90.6,
+            "weekly_average_untracked_count": null
+        },
+        {
+            "diagnosed_date": "2021-05-16",
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 68.4,
+            "weekly_average_count": 68.7,
             "weekly_average_untracked_count": null
         }
     ]
