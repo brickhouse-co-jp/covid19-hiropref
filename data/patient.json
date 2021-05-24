@@ -1,35 +1,35 @@
 {
-    "date": "2021\/5\/23 10:41",
+    "date": "2021\/5\/24 9:13",
     "datasets": {
-        "date": "2021\/5\/22",
+        "date": "2021\/5\/23",
         "data": [
             {
                 "code": 340006,
                 "area": "広島市",
                 "label": "広島市",
                 "ruby": "ひろしまし",
-                "count": 6325
+                "count": 6445
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "尾道市",
                 "ruby": "おのみちし",
-                "count": 94
+                "count": 96
             },
             {
                 "code": 340006,
                 "area": "福山市",
                 "label": "福山市",
                 "ruby": "ふくやまし",
-                "count": 969
+                "count": 974
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "府中町",
                 "ruby": "ふちゅうちょう",
-                "count": 225
+                "count": 228
             },
             {
                 "code": 340006,
@@ -43,7 +43,7 @@
                 "area": "県管轄",
                 "label": "東広島市",
                 "ruby": "ひがしひろしまし",
-                "count": 398
+                "count": 405
             },
             {
                 "code": 340006,
@@ -57,21 +57,21 @@
                 "area": "県管轄",
                 "label": "廿日市市",
                 "ruby": "はつかいちし",
-                "count": 256
+                "count": 260
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "三原市",
                 "ruby": "みはらし",
-                "count": 157
+                "count": 158
             },
             {
                 "code": 340006,
                 "area": "呉市",
                 "label": "呉市",
                 "ruby": "くれし",
-                "count": 454
+                "count": 455
             },
             {
                 "code": 340006,
@@ -85,7 +85,7 @@
                 "area": "県管轄",
                 "label": "府中市",
                 "ruby": "ふちゅうし",
-                "count": 90
+                "count": 91
             },
             {
                 "code": 340006,
@@ -99,14 +99,14 @@
                 "area": "県管轄",
                 "label": "熊野町",
                 "ruby": "くまのちょう",
-                "count": 45
+                "count": 46
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "庄原市",
                 "ruby": "しょうばらし",
-                "count": 77
+                "count": 78
             },
             {
                 "code": 340006,
@@ -120,35 +120,35 @@
                 "area": "県管轄",
                 "label": "世羅町",
                 "ruby": "せらちょう",
-                "count": 15
+                "count": 18
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "大竹市",
                 "ruby": "おおたけし",
-                "count": 80
+                "count": 81
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "安芸高田市",
                 "ruby": "あきたかたし",
-                "count": 18
+                "count": 19
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "北広島町",
                 "ruby": "きたひろしまちょう",
-                "count": 39
+                "count": 40
             },
             {
                 "code": 340006,
                 "area": "県管轄",
                 "label": "竹原市",
                 "ruby": "たけはらし",
-                "count": 31
+                "count": 38
             },
             {
                 "code": 340006,
@@ -169,7 +169,7 @@
                 "area": "県管轄",
                 "label": "神石高原町",
                 "ruby": "じんせきこうげんちょう",
-                "count": 1
+                "count": 2
             },
             {
                 "code": 340006,
@@ -190,7 +190,7 @@
                 "area": null,
                 "label": "小計",
                 "ruby": null,
-                "count": 9611
+                "count": 9771
             }
         ]
     }
