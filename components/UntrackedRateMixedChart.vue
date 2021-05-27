@@ -487,7 +487,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
             //   id: 'y-axis-2',
             //   position: 'right',
             //   gridLines: {
-            //     display: true,
+            //     display: false,
             //     drawOnChartArea: false,
             //     color: '#E5E5E5', // #E5E5E5
             //   },
@@ -496,9 +496,9 @@ const options: ThisTypedComponentOptionsWithRecordProps<
             //     maxTicksLimit: 8,
             //     fontColor: '#808080', // #808080
             //     suggestedMax: this.scaledTicksYAxisMaxRight,
-            //     callback(value) {
-            //       return `${value}%`
-            //     },
+            //     // callback(value) {
+            //     //   return `${value}%`
+            //     // },
             //   },
             // },
           ],
@@ -598,7 +598,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
               id: 'y-axis-1',
               type: 'linear',
               position: 'left',
-              stacked: true,
+              stacked: false,
               gridLines: {
                 display: true,
                 drawOnChartArea: false,
@@ -616,7 +616,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
             //   type: 'linear',
             //   position: 'right',
             //   gridLines: {
-            //     display: true,
+            //     display: false,
             //     drawOnChartArea: false,
             //     color: '#E5E5E5', // #E5E5E5
             //   },
@@ -625,9 +625,9 @@ const options: ThisTypedComponentOptionsWithRecordProps<
             //     maxTicksLimit: 8,
             //     fontColor: '#808080', // #808080
             //     suggestedMax: this.scaledTicksYAxisMaxRight,
-            //     callback(value) {
-            //       return `${value}%`
-            //     },
+            //     // callback(value) {
+            //     //   return `${value}%`
+            //     // },
             //   },
             // },
           ],
