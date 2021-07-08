@@ -2,7 +2,7 @@
   <ul :class="$style.container">
     <li :class="[$style.box, $style.parent]">
       <div :class="$style.content">
-        <span>{{ '陽性者数' }}({{ '累計' }})</span>
+        <span>陽性者数(累計)</span>
         <span>
           <strong>{{ 陽性者数.toLocaleString() }}</strong>
           <span :class="$style.unit">{{ '人' }}</span>
@@ -44,7 +44,7 @@
         </li>
         <li :class="[$style.box]">
           <div :class="$style.content">
-            <span>{{ '宿泊療養' }}</span>
+            <span>宿泊療養</span>
             <span>
               <strong>{{ 宿泊療養.toLocaleString() }}</strong>
               <span :class="$style.unit">{{ '人' }}</span>
@@ -53,7 +53,7 @@
         </li>
         <li :class="[$style.box]">
           <div :class="$style.content">
-            <span>{{ '施設療養' }}</span>
+            <span>施設療養</span>
             <span>
               <strong>{{ 施設療養.toLocaleString() }}</strong>
               <span :class="$style.unit">{{ '人' }}</span>
@@ -62,7 +62,7 @@
         </li>
         <li :class="[$style.box]">
           <div :class="$style.content">
-            <span>{{ 'その他' }}</span>
+            <span>在宅療養･自宅療養</span>
             <span>
               <strong>{{ その他.toLocaleString() }}</strong>
               <span :class="$style.unit">{{ '人' }}</span>
@@ -71,7 +71,7 @@
         </li>
         <li :class="[$style.box]">
           <div :class="$style.content">
-            <span>{{ '死亡' }}</span>
+            <span>死亡</span>
             <span>
               <strong>{{ 死亡.toLocaleString() }}</strong>
               <span :class="$style.unit">{{ '人' }}</span>
@@ -80,7 +80,7 @@
         </li>
         <li :class="[$style.box]">
           <div :class="$style.content">
-            <span>{{ '陰性確認済(退院等。新基準含む。)' }}</span>
+            <span>陰性確認済(退院等。新基準含む。)</span>
             <span>
               <strong>{{ 退院.toLocaleString() }}</strong>
               <span :class="$style.unit">{{ '人' }}</span>
