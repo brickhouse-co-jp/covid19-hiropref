@@ -1,5 +1,5 @@
 {
-    "date": "2021\/7\/11 9:13",
+    "date": "2021\/7\/12 9:04",
     "data": [
         {
             "diagnosed_date": "2020-03-05",
@@ -3899,18 +3899,18 @@
         },
         {
             "diagnosed_date": "2021-07-05",
-            "count": 4,
+            "count": 5,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 4.3,
+            "weekly_average_count": 4.4,
             "weekly_average_untracked_count": null
         },
         {
             "diagnosed_date": "2021-07-06",
-            "count": 8,
+            "count": 9,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 4.4,
+            "weekly_average_count": 4.7,
             "weekly_average_untracked_count": null
         },
         {
@@ -3918,15 +3918,15 @@
             "count": 3,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 4.4,
+            "weekly_average_count": 4.7,
             "weekly_average_untracked_count": null
         },
         {
             "diagnosed_date": "2021-07-08",
-            "count": 4,
+            "count": 8,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 4.1,
+            "weekly_average_count": 5,
             "weekly_average_untracked_count": null
         },
         {
@@ -3934,15 +3934,23 @@
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 3.4,
+            "weekly_average_count": 4.3,
             "weekly_average_untracked_count": null
         },
         {
             "diagnosed_date": "2021-07-10",
+            "count": 1,
+            "missing_count": null,
+            "reported_count": null,
+            "weekly_average_count": 4.3,
+            "weekly_average_untracked_count": null
+        },
+        {
+            "diagnosed_date": "2021-07-11",
             "count": 0,
             "missing_count": null,
             "reported_count": null,
-            "weekly_average_count": 3.3,
+            "weekly_average_count": 3.7,
             "weekly_average_untracked_count": null
         }
     ]
