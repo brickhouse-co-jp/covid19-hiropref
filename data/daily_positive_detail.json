@@ -1,5 +1,5 @@
 {
-    "date": "2021\/7\/8 4:58",
+    "date": "2021\/7\/15 11:25",
     "data": [
         {
             "diagnosed_date": "2020-02-01",
@@ -4184,6 +4184,62 @@
             "reported_count": 5,
             "weekly_average_count": 7,
             "weekly_average_untracked_count": 3
+        },
+        {
+            "diagnosed_date": "2021-07-08",
+            "count": 9,
+            "missing_count": 2,
+            "reported_count": 7,
+            "weekly_average_count": 6.9,
+            "weekly_average_untracked_count": 3
+        },
+        {
+            "diagnosed_date": "2021-07-09",
+            "count": 10,
+            "missing_count": 4,
+            "reported_count": 6,
+            "weekly_average_count": 7.3,
+            "weekly_average_untracked_count": 2.7
+        },
+        {
+            "diagnosed_date": "2021-07-10",
+            "count": 5,
+            "missing_count": 3,
+            "reported_count": 2,
+            "weekly_average_count": 7,
+            "weekly_average_untracked_count": 2.4
+        },
+        {
+            "diagnosed_date": "2021-07-11",
+            "count": 8,
+            "missing_count": 4,
+            "reported_count": 4,
+            "weekly_average_count": 7.1,
+            "weekly_average_untracked_count": 2.7
+        },
+        {
+            "diagnosed_date": "2021-07-12",
+            "count": 9,
+            "missing_count": 1,
+            "reported_count": 8,
+            "weekly_average_count": 7.7,
+            "weekly_average_untracked_count": 2.6
+        },
+        {
+            "diagnosed_date": "2021-07-13",
+            "count": 5,
+            "missing_count": 3,
+            "reported_count": 2,
+            "weekly_average_count": 7.4,
+            "weekly_average_untracked_count": 2.6
+        },
+        {
+            "diagnosed_date": "2021-07-14",
+            "count": 15,
+            "missing_count": 10,
+            "reported_count": 5,
+            "weekly_average_count": 8.7,
+            "weekly_average_untracked_count": 3.9
         }
     ]
 }

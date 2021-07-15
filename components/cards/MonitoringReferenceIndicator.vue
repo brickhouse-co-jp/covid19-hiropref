@@ -9,18 +9,16 @@
         <template v-slot:additionalDescription>
           <ul>
             <li>
-              {{ '広島県における感染動向を評価する指標。' }}
+              広島県における感染動向を評価する指標。
             </li>
             <li>
-              {{
-                '各指標でステージ1～4に該当する数値を設定し、指標ごとの状況を総合的に判断して、県におけるステージの評価を行っている。'
-              }}
+              各指標でステージ3,4に該当する数値を設定し、指標ごとの状況を総合的に判断して、県におけるステージの評価を行っている。
             </li>
             <li>
-              {{ '各指標とステージの判断基準は次のとおり。' }}
+              各指標とステージの判断基準は次のとおり。
             </li>
           </ul>
-          <table>
+          <table border="1" :class="$style.bcc">
             <thead>
               <tr>
                 <th>&nbsp;</th>
@@ -30,56 +28,66 @@
             </thead>
             <tbody>
               <tr>
-                <th>病床のひっ迫具合</th>
-                <td>25％ ※1</td>
-                <td>50％</td>
+                <th :class="$style.p1">
+                  医療のひっ迫具合(確保病床※1使用率)
+                </th>
+                <td>20%以上</td>
+                <td>50％以上</td>
               </tr>
               <tr>
-                <th>療養者数</th>
-                <td>15人</td>
-                <td>25人</td>
+                <th :class="$style.p1">医療のひっ迫具合(入院率※2)</th>
+                <td>40％以下</td>
+                <td>25％以下</td>
               </tr>
               <tr>
-                <th>ＰＣＲ陽性率</th>
-                <td>10%</td>
-                <td>10%</td>
+                <th :class="$style.p1">医療のひっ迫具合(重症病床利用率)</th>
+                <td>20％以上</td>
+                <td>50％以上</td>
               </tr>
               <tr>
-                <th>新規報告数 ※2</th>
-                <td>15人</td>
-                <td>25人</td>
+                <th :class="$style.p1">療養者数※3</th>
+                <td>20人以上</td>
+                <td>30人以上</td>
               </tr>
               <tr>
-                <th>直近1週間の感染者数</th>
-                <td>先週1週間より多い</td>
-                <td>先週1週間より多い</td>
+                <th :class="$style.p1">PCR陽性率</th>
+                <td>5％以上</td>
+                <td>10％以上</td>
               </tr>
               <tr>
-                <th>感染経路不明割合</th>
-                <td>50%</td>
-                <td>50%</td>
+                <th :class="$style.p1">新規報告数※3</th>
+                <td>15人以上</td>
+                <td>25人以上</td>
+              </tr>
+              <tr>
+                <th :class="$style.p1">感染経路不明割合</th>
+                <td>50％以上</td>
+                <td>50％以上</td>
               </tr>
             </tbody>
           </table>
           <ul :class="$style.mtUl">
             <li :class="$style.listStyleNone">
-              ※1:その時点での確保病床数に占める割合(また､最大確保病床数に占める割合20％を指標として設定)。
+              ※1:その時点におけるフェーズで最終的に確保することとされている病床数
             </li>
             <li :class="$style.listStyleNone">
-              ※2:直近1週間の人口10万人当たりの感染者数を指す。
+              ※2:療養者数に占める入院患者の割合。ただし、療養者数が10人未満の場合は適用しない
+            </li>
+            <li :class="$style.listStyleNone">
+              ※3:直近１週間の人口10万人あたりの人数
             </li>
           </ul>
-          <ul :class="$style.mtUl">
+          <!-- <ul :class="$style.mtUl">
             <li>
               病床のひっ迫具合は、入院病床数及び宿泊療養施設の室数の合計に占める入院等人数の割合を表す。
             </li>
             <li>
               直近7日移動平均は、集団感染発生や曜日による数値のばらつきにより、日々の結果が変動するため、平準化し全体の傾向を見る目的で過去7日間の移動平均値を求めたもの。
             </li>
-          </ul>
+          </ul> -->
         </template>
         <section>
-          <h4>{{ '本県の現状' }}</h4>
+          <h4>本県の現状</h4>
           <reference-indicator
             :aria-label="'感染状況'"
             :items="monitoringItems"
@@ -122,6 +130,12 @@ export default {
 </script>
 
 <style lang="scss" module>
+.bcc {
+  border-collapse: collapse;
+}
+.p1 {
+  padding: 0.25rem;
+}
 section {
   margin: 0 0 20px;
 

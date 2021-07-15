@@ -62,7 +62,7 @@
         </li>
         <li :class="[$style.box]">
           <div :class="$style.content">
-            <span>在宅療養･自宅療養</span>
+            <span>在宅療養･自宅待機</span>
             <span>
               <strong>{{ その他.toLocaleString() }}</strong>
               <span :class="$style.unit">{{ '人' }}</span>
