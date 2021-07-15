@@ -1,8 +1,46 @@
 <template>
   <div>
+    <div :class="$style.container">
+      <div :class="[$style.box, $style.parent]">
+        <div :class="$style.content">
+          <span>
+            医療のひっ迫具合
+          </span>
+        </div>
+        <ul :class="$style.group">
+          <li :class="[$style.box]">
+            <div :class="$style.content">
+              <span>確保病床の使用率</span>
+              <monitoring-items-overview-table-value-with-translatable-unit
+                :value="items['確保病床の使用率'].value"
+                :unit="items['確保病床の使用率'].unit"
+              />
+            </div>
+          </li>
+          <li :class="[$style.box]">
+            <div :class="$style.content">
+              <span>入院率</span>
+              <monitoring-items-overview-table-value-with-translatable-unit
+                :value="items['入院率'].value"
+                :unit="items['入院率'].unit"
+              />
+            </div>
+          </li>
+          <li :class="[$style.box]">
+            <div :class="$style.content">
+              <span>重症病床における確保病床の使用率</span>
+              <monitoring-items-overview-table-value-with-translatable-unit
+                :value="items['重症病床における確保病床の使用率'].value"
+                :unit="items['重症病床における確保病床の使用率'].unit"
+              />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
     <ul :class="[$style.container]">
       <li :class="[$style.boxBigger]">
-        <div :class="$style.content">
+        <!-- <div :class="$style.content">
           <span>
             {{ '病床のひっ迫具合' }}
           </span>
@@ -10,7 +48,7 @@
             :value="items['病床逼迫具合'].value"
             :unit="items['病床逼迫具合'].unit"
           />
-        </div>
+        </div> -->
       </li>
       <li :class="[$style.boxBigger]">
         <div :class="$style.content">
@@ -47,7 +85,7 @@
       </li>
     </ul>
     <ul :class="$style.container">
-      <li :class="[$style.box, $style.parent]">
+      <!-- <li :class="[$style.box, $style.parent]">
         <div :class="$style.content">
           <span>
             {{ '直近1週間の感染者数' }}
@@ -73,7 +111,7 @@
             </div>
           </li>
         </ul>
-      </li>
+      </li> -->
       <li :class="[$style.box, $style.parent]">
         <div :class="$style.content">
           <span>

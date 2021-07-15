@@ -11,24 +11,28 @@
       <ul :class="$style.group">
         <li :class="[$style.box]">
           <div :class="$style.content">
-            <span>{{ '確保病床' }}</span>
+            <span>即応病床数</span>
             <monitoring-items-overview-table-value-with-translatable-unit
-              :value="items['入院患者確保病床数'].value"
-              :unit="items['入院患者確保病床数'].unit"
+              :value="items['即応病床数'].value"
+              :unit="items['即応病床数'].unit"
             />
           </div>
         </li>
         <li :class="[$style.box]">
           <div :class="$style.content">
-            <span>確保病床利用率</span>
+            <span>即応病床使用率</span>
             <monitoring-items-overview-table-value-with-translatable-unit
-              :value="
-                retInpatientRatio(
-                  monitoringData.入院患者数,
-                  monitoringData.入院患者確保病床数
-                ).value
-              "
-              :unit="unit"
+              :value="items['即応病床使用率'].value"
+              :unit="items['即応病床使用率'].unit"
+            />
+          </div>
+        </li>
+        <li :class="[$style.box]">
+          <div :class="$style.content">
+            <span>確保病床数</span>
+            <monitoring-items-overview-table-value-with-translatable-unit
+              :value="items['確保病床数(入院)'].value"
+              :unit="items['確保病床数(入院)'].unit"
             />
           </div>
         </li>

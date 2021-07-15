@@ -4,59 +4,55 @@ import { getCommaSeparatedNumberToFixedFunction } from '@/utils/monitoringStatus
 
 type DataKey =
   | '新規陽性者数'
-  | '陽性率(広島市)'
-  | '検査件数(広島市)'
-  | '陽性率(呉市)'
-  | '検査件数(呉市)'
-  | '陽性率(福山市)'
-  | '検査件数(福山市)'
-  | '陽性率(県管轄)'
-  | '検査件数(県管轄)'
-  | '陽性率(医療機関実施分)'
-  | '検査件数(医療機関実施分)'
   | '入院患者数'
   | '入院患者確保病床数'
   | '宿泊療養施設療養者数'
   | '宿泊療養施設確保室数'
   | '感染経路不明(公表時点)'
   | '検査件数(合計)'
-  | '陽性率(合計)'
+  | '陽性件数(合計)'
   | '病床逼迫具合'
   | '療養者数'
   | 'PCR陽性率'
   | '新規報告者数'
-  | '直近1週間の先週比較(今週)'
-  | '直近1週間の先週比較(先週)'
   | '感染経路不明割合(7日)'
   | '感染経路不明割合(累計)'
+  | '確保病床の使用率'
+  | '入院率'
+  | '重症病床における確保病床の使用率'
+  | '検査件数(行政検査)'
+  | '陽性件数(行政検査)'
+  | '検査件数(医療機関検査)'
+  | '陽性件数(医療機関検査)'
+  | '即応病床数'
+  | '即応病床使用率'
+  | '確保病床数(入院)'
 
 type RawData = {
   新規陽性者数: number
-  '陽性率(広島市)': number
-  '検査件数(広島市)': number
-  '陽性率(呉市)': number
-  '検査件数(呉市)': number
-  '陽性率(福山市)': number
-  '検査件数(福山市)': number
-  '陽性率(県管轄)': number
-  '検査件数(県管轄)': number
-  '陽性率(医療機関実施分)': number
-  '検査件数(医療機関実施分)': number
   入院患者数: number
   入院患者確保病床数: number
   宿泊療養施設療養者数: number
   宿泊療養施設確保室数: number
   '感染経路不明(公表時点)': number
   '検査件数(合計)': number
-  '陽性率(合計)': number
+  '陽性件数(合計)': number
   病床逼迫具合: number
   療養者数: number
   PCR陽性率: number
   新規報告者数: number
-  '直近1週間の先週比較(今週)': number
-  '直近1週間の先週比較(先週)': number
   '感染経路不明割合(7日)': number
   '感染経路不明割合(累計)': number
+  確保病床の使用率: number
+  入院率: number
+  重症病床における確保病床の使用率: number
+  '検査件数(行政検査)': number
+  '陽性件数(行政検査)': number
+  '検査件数(医療機関検査)': number
+  '陽性件数(医療機関検査)': number
+  即応病床数: number
+  即応病床使用率: number
+  '確保病床数(入院)': number
 }
 
 // -----------------------------------------
@@ -98,46 +94,6 @@ export default (rawDataObj: RawData): MonitoringItems => {
       value: toInteger(rawDataObj['新規陽性者数']),
       unit: unitPerson,
     },
-    '検査件数(広島市)': {
-      value: toInteger(rawDataObj['検査件数(広島市)']),
-      unit: unitReports,
-    },
-    '陽性率(広島市)': {
-      value: toNumberIn10thPlace(rawDataObj['陽性率(広島市)']),
-      unit: unitPercentage,
-    },
-    '検査件数(呉市)': {
-      value: toInteger(rawDataObj['検査件数(呉市)']),
-      unit: unitReports,
-    },
-    '陽性率(呉市)': {
-      value: toNumberIn10thPlace(rawDataObj['陽性率(呉市)']),
-      unit: unitPercentage,
-    },
-    '検査件数(福山市)': {
-      value: toInteger(rawDataObj['検査件数(福山市)']),
-      unit: unitReports,
-    },
-    '陽性率(福山市)': {
-      value: toNumberIn10thPlace(rawDataObj['陽性率(福山市)']),
-      unit: unitPercentage,
-    },
-    '検査件数(県管轄)': {
-      value: toInteger(rawDataObj['検査件数(県管轄)']),
-      unit: unitReports,
-    },
-    '陽性率(県管轄)': {
-      value: toNumberIn10thPlace(rawDataObj['陽性率(県管轄)']),
-      unit: unitPercentage,
-    },
-    '検査件数(医療機関実施分)': {
-      value: toInteger(rawDataObj['検査件数(医療機関実施分)']),
-      unit: unitReports,
-    },
-    '陽性率(医療機関実施分)': {
-      value: toNumberIn10thPlace(rawDataObj['陽性率(医療機関実施分)']),
-      unit: unitPercentage,
-    },
     入院患者数: {
       value: toInteger(rawDataObj['入院患者数']),
       unit: unitPerson,
@@ -162,9 +118,9 @@ export default (rawDataObj: RawData): MonitoringItems => {
       value: toInteger(rawDataObj['検査件数(合計)']),
       unit: unitReports,
     },
-    '陽性率(合計)': {
-      value: toNumberIn10thPlace(rawDataObj['陽性率(合計)']),
-      unit: unitPercentage,
+    '陽性件数(合計)': {
+      value: toInteger(rawDataObj['陽性件数(合計)']),
+      unit: unitReports,
     },
     病床逼迫具合: {
       value: toNumberIn10thPlace(rawDataObj['病床逼迫具合']),
@@ -182,14 +138,6 @@ export default (rawDataObj: RawData): MonitoringItems => {
       value: toNumberInHundredthsPlace(rawDataObj['新規報告者数']),
       unit: unitPerson,
     },
-    '直近1週間の先週比較(今週)': {
-      value: toInteger(rawDataObj['直近1週間の先週比較(今週)']),
-      unit: unitPerson,
-    },
-    '直近1週間の先週比較(先週)': {
-      value: toInteger(rawDataObj['直近1週間の先週比較(先週)']),
-      unit: unitPerson,
-    },
     '感染経路不明割合(7日)': {
       value: toNumberIn10thPlace(rawDataObj['感染経路不明割合(7日)']),
       unit: unitPercentage,
@@ -198,25 +146,58 @@ export default (rawDataObj: RawData): MonitoringItems => {
       value: toNumberIn10thPlace(rawDataObj['感染経路不明割合(累計)']),
       unit: unitPercentage,
     },
+    確保病床の使用率: {
+      value: toNumberIn10thPlace(rawDataObj['確保病床の使用率']),
+      unit: unitPercentage,
+    },
+    入院率: {
+      value: toNumberIn10thPlace(rawDataObj['入院率']),
+      unit: unitPercentage,
+    },
+    '検査件数(行政検査)': {
+      value: toInteger(rawDataObj['検査件数(行政検査)']),
+      unit: unitReports,
+    },
+    '陽性件数(行政検査)': {
+      value: toInteger(rawDataObj['陽性件数(行政検査)']),
+      unit: unitReports,
+    },
+    '検査件数(医療機関検査)': {
+      value: toInteger(rawDataObj['検査件数(医療機関検査)']),
+      unit: unitReports,
+    },
+    '陽性件数(医療機関検査)': {
+      value: toInteger(rawDataObj['陽性件数(医療機関検査)']),
+      unit: unitReports,
+    },
+    即応病床数: {
+      value: toInteger(rawDataObj['即応病床数']),
+      unit: unitBed,
+    },
+    '確保病床数(入院)': {
+      value: toInteger(rawDataObj['確保病床数(入院)']),
+      unit: unitBed,
+    },
+    即応病床使用率: {
+      value: toNumberIn10thPlace(rawDataObj['即応病床使用率']),
+      unit: unitPercentage,
+    },
+    重症病床における確保病床の使用率: {
+      value: toNumberIn10thPlace(
+        rawDataObj['重症病床における確保病床の使用率']
+      ),
+      unit: unitPercentage,
+    },
   }
 
-  if (retVal['検査件数(広島市)'].value === '0') {
-    retVal['陽性率(広島市)'].value = '-'
+  if (retVal['検査件数(行政検査)'].value === '0') {
+    retVal['陽性件数(行政検査)'].value = '-'
   }
-  if (retVal['検査件数(呉市)'].value === '0') {
-    retVal['陽性率(呉市)'].value = '-'
-  }
-  if (retVal['検査件数(福山市)'].value === '0') {
-    retVal['陽性率(福山市)'].value = '-'
-  }
-  if (retVal['検査件数(県管轄)'].value === '0') {
-    retVal['陽性率(県管轄)'].value = '-'
-  }
-  if (retVal['検査件数(医療機関実施分)'].value === '0') {
-    retVal['陽性率(医療機関実施分)'].value = '-'
+  if (retVal['検査件数(医療機関検査)'].value === '0') {
+    retVal['陽性件数(医療機関検査)'].value = '-'
   }
   if (retVal['検査件数(合計)'].value === '0') {
-    retVal['陽性率(合計)'].value = '-'
+    retVal['陽性件数(合計)'].value = '-'
   }
 
   return retVal

@@ -17,16 +17,25 @@
             <li>
               宿泊療養施設について：各フロアは性別に配慮した運用をしている。また、入所者の退所後に清掃及び消毒を行っているため、一定期間使用できない部屋がある。
             </li>
+            <li>
+              即応病床数とは、現時点で実際に利用可能な病床数を指す。
+            </li>
+            <li>
+              確保病床数とは、その時点におけるフェーズで最終的に確保することとされている病床数を指す。
+            </li>
+            <li>
+              行政検査における数値は、行政機関が実施する検査(県保健所、保健所設置市及びPCRセンター等における検査)の合計。
+            </li>
           </ul>
         </template>
         <section>
           <h4>
-            {{ '感染状況'
-            }}<time :class="$style.mlTime"
+            感染状況
+            <time :class="$style.mlTime"
               ><span :class="$style.pTime">[</span>{{ infectionStatus
               }}<span :class="$style.mlUpdate">時点</span
-              ><span :class="$style.pTime">]</span></time
-            >
+              ><span :class="$style.pTime">]</span>
+            </time>
           </h4>
           <monitoring-items-overview-table-infection-status
             :aria-label="'感染状況'"
@@ -35,8 +44,8 @@
         </section>
         <section>
           <h4>
-            {{ '検査体制'
-            }}<time :class="$style.mlTime"
+            検査体制
+            <time :class="$style.mlTime"
               ><span :class="$style.pTime">[</span>{{ medicalSystem
               }}<span :class="$style.mlUpdate">結果判明分</span
               ><span :class="$style.pTime">]</span></time
@@ -49,8 +58,8 @@
         </section>
         <section>
           <h4>
-            {{ '医療提供体制'
-            }}<time :class="$style.mlTime"
+            医療提供体制
+            <time :class="$style.mlTime"
               ><span :class="$style.pTime">[</span>{{ medicalTests
               }}<span :class="$style.mlUpdate">時点</span
               ><span :class="$style.pTime">]</span></time
